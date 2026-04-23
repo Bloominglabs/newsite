@@ -20,10 +20,38 @@ function escapeHtml(value) {
 }
 
 /**
+ * GitHub Pages repository sites are served beneath a repository-specific base
+ * path such as `/newsite`. Normalizing that prefix once keeps link generation
+ * consistent across local builds, project Pages URLs, and future custom-domain
+ * deployments where the base path becomes empty again.
+ */
+function normalizeBasePath(basePath = '') {
+  const trimmedPath = String(basePath).trim();
+
+  if (!trimmedPath || trimmedPath === '/') {
+    return '';
+  }
+
+  return `/${trimmedPath.replace(/^\/+|\/+$/g, '')}`;
+}
+
+/**
+ * Internal site links are rooted from `/`, while external URLs and non-HTTP
+ * schemes such as `mailto:` must pass through untouched.
+ */
+function toPublicHref(href, basePath) {
+  if (!href.startsWith('/')) {
+    return href;
+  }
+
+  return `${normalizeBasePath(basePath)}${href}`;
+}
+
+/**
  * The navigation is generated from a single definition so page changes remain
  * synchronized across the whole site.
  */
-function renderNavigation(currentPath) {
+function renderNavigation(currentPath, basePath) {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/visit/', label: 'Visit' },
@@ -37,7 +65,7 @@ function renderNavigation(currentPath) {
       ${links
         .map((link) => {
           const current = currentPath === link.href ? ' aria-current="page"' : '';
-          return `<a href="${link.href}"${current}>${escapeHtml(link.label)}</a>`;
+          return `<a href="${toPublicHref(link.href, basePath)}"${current}>${escapeHtml(link.label)}</a>`;
         })
         .join('')}
     </nav>
@@ -98,7 +126,7 @@ function renderSection(kicker, title, bodyHtml) {
  * The layout owns shared framing, while page functions provide the hero copy
  * and body content. This keeps changes localized and predictable.
  */
-function renderLayout(page) {
+function renderLayout(page, basePath) {
   const organization = siteContent.organization;
 
   return `<!doctype html>
@@ -108,17 +136,17 @@ function renderLayout(page) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${escapeHtml(page.title)} | ${escapeHtml(organization.name)}</title>
     <meta name="description" content="${escapeHtml(page.description)}">
-    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="${toPublicHref('/assets/site.css', basePath)}">
   </head>
   <body>
     <div class="site-shell">
       <header class="site-header">
         <div class="header-inner">
-          <a class="wordmark" href="/">
+          <a class="wordmark" href="${toPublicHref('/', basePath)}">
             <span class="wordmark-name">${escapeHtml(organization.name)}</span>
             <span class="wordmark-tagline">${escapeHtml(organization.tagline)}</span>
           </a>
-          ${renderNavigation(page.navPath)}
+          ${renderNavigation(page.navPath, basePath)}
         </div>
       </header>
       <section class="hero">
@@ -133,7 +161,7 @@ function renderLayout(page) {
                 ${page.actions
                   .map(
                     (action) => `
-                      <a class="button ${escapeHtml(action.variant)}" href="${action.href}">
+                      <a class="button ${escapeHtml(action.variant)}" href="${toPublicHref(action.href, basePath)}">
                         ${escapeHtml(action.label)}
                       </a>
                     `
@@ -178,7 +206,7 @@ function renderLayout(page) {
  * a generic schema too early. That makes the information architecture easier to
  * revise while the site is still being discovered.
  */
-function renderHomePage() {
+function renderHomePage(basePath) {
   const organization = siteContent.organization;
 
   return renderLayout({
@@ -242,10 +270,10 @@ function renderHomePage() {
         `
       ),
     ],
-  });
+  }, basePath);
 }
 
-function renderVisitPage() {
+function renderVisitPage(basePath) {
   const organization = siteContent.organization;
 
   return renderLayout({
@@ -294,16 +322,16 @@ function renderVisitPage() {
           ${renderList(siteContent.visit.contactRoutes, 'bullet')}
           <div class="callout">
             <h2>Key links</h2>
-            <p><a href="${organization.calendarUrl}">Calendar</a> for workshops and events.</p>
+            <p><a href="${toPublicHref(organization.calendarUrl, basePath)}">Calendar</a> for workshops and events.</p>
             <p><a href="${organization.wikiUrl}">Live wiki</a> for deeper operational details.</p>
           </div>
         `
       ),
     ],
-  });
+  }, basePath);
 }
 
-function renderMembershipPage() {
+function renderMembershipPage(basePath) {
   const organization = siteContent.organization;
 
   return renderLayout({
@@ -352,10 +380,10 @@ function renderMembershipPage() {
         `
       ),
     ],
-  });
+  }, basePath);
 }
 
-function renderSupportPage() {
+function renderSupportPage(basePath) {
   return renderLayout({
     title: 'Support Bloominglabs',
     description: 'Donation and support information for Bloominglabs.',
@@ -392,10 +420,10 @@ function renderSupportPage() {
         `
       ),
     ],
-  });
+  }, basePath);
 }
 
-function renderWikiPage() {
+function renderWikiPage(basePath) {
   const organization = siteContent.organization;
 
   return renderLayout({
@@ -434,27 +462,32 @@ function renderWikiPage() {
         `
           <p>${escapeHtml(siteContent.wiki.archiveNote)}</p>
           <p>
-            The current snapshot is exposed as <a href="/wiki-archive/latest/manifest.json">/wiki-archive/latest/manifest.json</a>.
+            The current snapshot is exposed as <a href="${toPublicHref('/wiki-archive/latest/manifest.json', basePath)}">${escapeHtml(
+              toPublicHref('/wiki-archive/latest/manifest.json', basePath)
+            )}</a>.
             Each archived page is stored as structured JSON so later migration tooling can consume it without scraping HTML.
           </p>
         `
       ),
     ],
-  });
+  }, basePath);
 }
 
 /**
  * All generated files are described as in-memory records first. That makes the
  * output easy to test and keeps disk writes as a small final step.
  */
-function buildSiteFiles() {
+function buildSiteFiles(options = {}) {
+  const { basePath = '' } = options;
+  const normalizedBasePath = normalizeBasePath(basePath);
+
   return [
     { path: 'assets/site.css', contents: siteStyles },
-    { path: 'index.html', contents: renderHomePage() },
-    { path: 'visit/index.html', contents: renderVisitPage() },
-    { path: 'membership/index.html', contents: renderMembershipPage() },
-    { path: 'support/index.html', contents: renderSupportPage() },
-    { path: 'wiki/index.html', contents: renderWikiPage() },
+    { path: 'index.html', contents: renderHomePage(normalizedBasePath) },
+    { path: 'visit/index.html', contents: renderVisitPage(normalizedBasePath) },
+    { path: 'membership/index.html', contents: renderMembershipPage(normalizedBasePath) },
+    { path: 'support/index.html', contents: renderSupportPage(normalizedBasePath) },
+    { path: 'wiki/index.html', contents: renderWikiPage(normalizedBasePath) },
   ];
 }
 
@@ -465,8 +498,8 @@ function buildSiteFiles() {
  * the public site's archive links stay valid after publication.
  */
 async function writeSite(outputRoot, options = {}) {
-  const { archiveRoot } = options;
-  const files = buildSiteFiles();
+  const { archiveRoot, basePath = '' } = options;
+  const files = buildSiteFiles({ basePath });
 
   await Promise.all(
     files.map(async (file) => {
@@ -492,5 +525,6 @@ async function writeSite(outputRoot, options = {}) {
 
 module.exports = {
   buildSiteFiles,
+  normalizeBasePath,
   writeSite,
 };

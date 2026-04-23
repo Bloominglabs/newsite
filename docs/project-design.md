@@ -36,9 +36,10 @@ The wiki preservation copy will be stored separately from the public site output
 ## ADR Roadmap
 
 1. ADR 0001: Zero-dependency static site foundation and textual wiki snapshot.
-2. ADR 0002: Public content ownership model and editorial workflow.
-3. ADR 0003: Wiki media and attachment preservation strategy.
-4. ADR 0004: Event publishing and external service integration.
+2. ADR 0002: GitHub Pages deployment and base-path-aware static output.
+3. ADR 0003: Public content ownership model and editorial workflow.
+4. ADR 0004: Wiki media and attachment preservation strategy.
+5. ADR 0005: Event publishing and external service integration.
 
 ## Quality Requirements
 
