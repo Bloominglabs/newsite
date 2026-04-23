@@ -1,0 +1,14 @@
+{
+  "title": "KitsForSale",
+  "pageId": 222,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/KitsForSale",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1328,
+    "timestamp": "2013-03-26T04:00:33Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== '''Electronics Kits At Bloominglabs''' ==\n\nBloominglabs is a reseller of adafruit products. We have the following kits available for purchase while supplies last. We will carry other kits according to demand. Let us know what kits you'd like to see. See [http://adafruit.com adafruit] for the complete catalog.\n\n===TV-B-Gone===\nThe famous TV-B-Gone allows you to turn off any TV anywhere. \n$20 + sales tax\n\n===Minty Boost===\nThe Minty Boost is a popular USB charger, named for the Altoids (or, in our case, Penguin Mints) case. \n$20 + sales tax\n\n===Boarduino===\nIf you'd like to give the Arduino a try, this Arduino-compatible kit is breadboard friendly and programmable via a USB cable. You don't need a special programmer, and the Arduino IDE really helps with the learning curve of getting started programming microcontrollers and using them in projects.\n$25 + sales tax\n\n===Blinky Grid===\nA fun programmable LED matrix. Programmable, so you can make it display scrolling messages or animations. To program it, instead of connecting it directly to your computer using old fashioned 'wires' - the board is held up directly to your computer screen, and an easy-to-use web page will 'blink' in the text or image you want. $25 + sales tax\n\n==Instructions==\nVery complete and easy to follow instructions are available on the [http://adafruit.com adafruit] web site. You can also bring the kits to Bloominglabs public meetings to work on – if you have questions or need help there's usually somebody there who can lend a hand.\n\nWe accept cash, checks, paypal (to treasurer@bloominglabs.org) and credit cards. $1.50 will be added to credit card purchases to cover the fee charged by Square.\n\n[[Category: Support]]"
+  }
+}

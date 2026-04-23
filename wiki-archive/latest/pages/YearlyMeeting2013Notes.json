@@ -1,0 +1,14 @@
+{
+  "title": "YearlyMeeting2013Notes",
+  "pageId": 284,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/YearlyMeeting2013Notes",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1316,
+    "timestamp": "2013-03-25T22:16:09Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Attendees: Nathan, Steve, Jenett, Jay, Dan, Zach, Mitchell, Barry, Adam, Nick, Owen\n\n== RFI for the firehouse ==\n* Code changes\n** ADA bathrooms\n** Change the swing of the front door\n** Put a platform on the back door\n** Get the ceiling up to a 2 hour fire rating (may already be that way, but probably not)\n* City will review the responses and get back to us\n* Probably won't do anything with the firehouse until 2014\n\n== Fundraising ==\n* Fund raising at Makevention\n* $1200 grant opportunity through the city for art projects\n\n== Non-Profit Status ==\n* Bloominglabs LLC is no more!\n* Bloominglabs Incorporated is born!\n* All donations for tax credit purposes needs to go through the School Factory\n\n== Laser cutter ==\n* 100W laser would be awesome, but expensive\n* Need to have some fund raisers for this\n\n== Officers ==\n* Current officers\n** Nathan, president\n** Steve, secretary\n** Jenett, treasurer\n* The current officers were voted to continue their terms for 2013.\n\n== Fab Lab ==\n* Nicole Jacquard, prof in Fine Arts, wants to relocate her 3D printers from IU at Bloominglabs\n\n== Physical Security ==\n* We should get some better cameras and motion detectors\n* Possibly get insurance for the tools\n* Maybe create a security group \n\n== New Digital Infrastructure ==\n* Google calendar\n* New WordPress site\n** http://bloominglabs.org/wp\n** This will be our fancy front page and the wiki will be for internal stuff\n* Asset Trackers\n** https://bloominglabs.org/assets\n** Nathan will add asset value\n** Yearly review of our assets\n* Dues/Invoicing system\n** https://bloominglabs.org/dues\n** Will send members invoices when dues are due\n* CRM\n** Customer Relation Manager\n** https://bloominglabs.org/crm\n* Web interface for the RFID system\n** http://{pogolinux}:8000/wsgi-scripts/admin/\n* LDAP server\n** Working towards a single-signon system\n** Jenett will get information on the wiki for how to create accounts\n\n\n== Wonderlab summer camps ideas==\n* throwies\n* led push button lights\n* kylie peppler's group\n* conductive playdough\n* makey-makey\n\n== Workshops Ideas ==\n* We need em!\n* Nick will hold a solar panel workshop\n* Corey will hold a HAM radio workshop\n* Jay has the stuff to do a Raspberry Pi workshop\n\n[[Category: Operations]]\n[[Category: Meetings]]"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Useless machine",
+  "pageId": 590,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Useless_machine",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2774,
+    "timestamp": "2016-06-05T18:51:18Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is a page about the useless machine workshop. \nI will provide some feedback for the useless machine workshop in May of 2016 and we can use it to structure it further. \n\nWhat is a useless machine? \n\nThe [https://en.wikipedia.org/wiki/Useless_machine wikipedia article] does this more justice than I ever will, but let me summarize. \nThe useless machine was proposed by Marvin Minsky (the AI guy)and first built by Claude Shannon (the information theory guy).\nAs a machine that has the '''sole purpose of turning itself off''' this is an elementary example of control which is related to [https://en.wikipedia.org/wiki/Cybernetics cybernetics]. \nIn that sense, we are cheating by using an overpowered microcontroller to perform such a simple task, but we can perceive this as a modern take, meant to demonstrate not only control but also modern digital fabrication methods. \n\nThe useless machine workshop we had in 2016 was an exercise on laser cutting, 3d printing and arduino programming, more than it was a true useless machine. \nAlthough the design we were implementing had fundamental flaws, it was very successful as such an excercise. \n\nWhat we did : \n* laser cut the box \n** laser cutting basics \n** box design in inkscape\n* 3d print actuators\n** 3d printing basics\n** cad 'basics'\n*** program whose name I forgot\n*** scad\n*** some js based cad thing \n* program arduino based microcontroller for operation\n** switch reading\n** stepper control\n\n\nminor flaws :\n* two steppers overcomplicated the project\n** one would be enough \n* steppers were not strong enough to flick the switch\n** or the switch was too stiff\n** or the power supply was weak\n* programming was very simple\n** did not get the time to play around with the program\n\n\nfundamental flaws : \n* machine '''does not''' turn itself off, ever. \n** should have at least used interrupts\n** there exists a [http://makezine.com/projects/the-most-useless-machine/ no-electronics-whatsoever version]"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Wintermute",
+  "pageId": 297,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Wintermute",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4451,
+    "timestamp": "2021-04-09T23:34:06Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is our friendly hackerspace AI. It greets people over the audio network when someone uses RFID to connect. It tells users of the space over the scrolling LED sign. It also does various other things.\n\n== Inputs == \nWintermute currently can sense these conditions:\n* RFID access\n* Motion events in two rooms\n* WiFi (and hardware) devices connecting to our network\n\n==== Proposed or experimental inputs ====\n* sense light (currently testing with a webcam)\n* sense temp\n\n== Outputs ==\n* [[Audio Network]]\n* Scrolling LED Sign\n\n==== Proposed outputs ====\n* Control of the thermostat based on whether the space is occupied or not\n* Control of X10 devices based on space occupancy (automatic power off of X10-powered devices like the LED Sign when space is unoccupied)\n\n== Notifications ==\nWintermute announces various events to occupants of the space.\n\n* RFID access\n* WiFi/Ethernet devices joining the network\n* Members can customize how the space greets them by getting an account on [[Pogo]] and customizing a .wintermute file in their home directory.\n\n\n[[Category:Group projects]] [[Category:StevesProjects]] [[Category:Dosman projects]]\n[[Category: Hackerspace systems]]"
+  }
+}

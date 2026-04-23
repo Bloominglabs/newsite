@@ -1,0 +1,14 @@
+{
+  "title": "On the Topic of Resistor Precision",
+  "pageId": 602,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/On_the_Topic_of_Resistor_Precision",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2825,
+    "timestamp": "2016-08-26T20:31:41Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "On August 26th, 2016, I was making a \n[https://en.wikipedia.orgwiki/Resistor_ladder resistor ladder DAC] \nfor an arduino. I needed a lot of resistors with nearly identical values. The only resistors which I had more than enough of were 1/4 watt, 470 ohm, 5% precision. I had a bag of 200 of these. To get a smaller number (about 40) of nearly identical resistance, I measured the resistance of every single one.\n\nI measured with a $20 [https://amzn.com/B000JQ4O2U Mastech MS8268], which is not a particularly precise multimeter, but it produces reasonably repeatable values.\n\nI am writing this to record some useful observations of the precision of these \"5%\" resistors. Namely, that out of 200 resistors, all were within 2.5%, about half were within 1%, and all but one were below the rated 470 ohms.\n\n* The minimum value resistor was 459 ohms.\n* A roughly equal number of resistors were 5-10 ohms low, 4 ohms low, and 3 ohms low.\n* Roughly half as many resistors were 2 ohms low as were 3 ohms low.\n* Roughly half as many resistors were 1-0 ohms low as were 2 ohms low.\n* The maximum value resistor was 472 ohms. It was the only resistor over 470 ohms.\n\nI was expecting a normal distribution of resistances, centered on 470 ohms, with a small number of resistors close to being off by as much as 5% (23.5 ohms too high or low). However, the actual distribution is much better than that. For many hobbyist projects, it may be worthwhile to not purchase 1% resistors, and to instead purchase 5% resistors and assume that they are 2.5% resistors, or even that they are 1% precision resistors with an average value 99% of the rated resistance."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "AVR Class",
+  "pageId": 47,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/AVR_Class",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1240,
+    "timestamp": "2013-03-25T19:33:08Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== Bloominglabs AVR Class ==\n\nYou, programming a microprocessor? Yes, my friend. We’ll show you the basics of programming using the AVR \nATMega8 microprocessor in this painless, tears-free workshop. Not only that, but you will gain experience \n“breadboarding” – building prototype circuits. You will upload your program to the microprocessors \nto tell it what to do – the first step in harnessing the power of this pervasive technology. \n\n<big>'''Handouts'''</big>\n* AVR pinout worksheet [[http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf]]\n* AVR RGB LED+button schematic [[http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf]]\n* AVR workshop questionnaire [[http://irc.bloominglabs.org/images/9/95/Questionnaire-AVR_workshops.pdf]]\n\n<big>'''Data Sheets'''</big>\n* [http://www.datasheetcatalog.org/datasheet2/9/0p4t1g1lw0spoo5ukh2s1uxchzky.pdf 7805 Voltage Regulator]\n\n<big>'''Outline:'''</big>\n*AVR examples, Makefile, and avrdude.conf files in gzip format[[http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz]]\n*Avr examples, Makefile, and avrdude.conf files in zip format [[http://bloominglabs.org/index.php/Image:Avr2.zip Avr2.zip]]\n*[http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf AVR atmega8 datasheet]\n\n\n<big>'''Links:'''</big>\n*[http://www.obdev.at/products/crosspack/index.html CrossPack AVR for Mac OS X] \n*[http://winavr.sourceforge.net/ WinAVR for Microsoft Windows] \n*[http://www.avrfreaks.net/wiki/index.php/Documentation:AVR_GCC AVR for Linux] (mine just came with Fedora)\n*To find cool AVR projects and info check out [http://www.avrfreaks.net/ AVR Freaks].\n\n[[Category: Workshops]]"
+  }
+}

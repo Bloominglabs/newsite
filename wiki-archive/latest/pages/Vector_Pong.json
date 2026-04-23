@@ -1,0 +1,14 @@
+{
+  "title": "Vector Pong",
+  "pageId": 607,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Vector_Pong",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3389,
+    "timestamp": "2017-08-26T02:57:51Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Vector Pong is a simple Pong clone built from an Arduino and a 1960's Heathkit oscilloscope. The first version was built in a single night on Friday-Saturday, August 26-27 2016.\n\nFor input, the Arduino reads two potentiometers with two of its analog inputs. The potentiometers are built into the simplest \"controller\" I could build: they are screwed into tongue depressors.\n\nInternally, the Arduino keeps track of where the two paddles are, where the ball is, how fast the ball is moving in the X direction and in the Y direction, and the players' scores. Roughly 60 times per second, the Arduino recalculates the locations and velocities, and generates an array of dots, stored as [X,Y] coordinates. During the intermediate time, the Arduino outputs these [X,Y] pairs sequentially, drawing dots to the screen.\n\nFor output, I built two 6-bit [https://en.wikipedia.org/wiki/Resistor_ladder resistor ladders] and attached them to 12 of the Arduino's 14 GPIO pins. These resistor ladders allow the Arduino to produce analog voltage values corresponding to the X and Y coordinates of a dot. The oscilloscope is placed in [X,Y] mode, and its inputs are attached to the resistor ladders' outputs.\n\nOriginally, I tried using the Arduino's PWM to generate analog voltages without additional hardware or software. Unfortunately, the Arduino's PWM runs at about 460 Hz, which the oscilloscope is easily able to display. I then tried to implement my own output, with [https://en.wikipedia.org/wiki/Pulse-density_modulation Pulse-Density Modulation] in a tight loop. Unfortunately, recalculating the densities of the pulses took long enough that the display would stutter. In the end, I spent a couple of hours carefully glueing and wiring resistors to 0.1\" headers.\n\nThe 6-bit ADCs allow for a \"resolution\" of 64x64 dots. By putting the oscilloscope out of focus, the image appears fairly smooth.\n\nWhile building the resistor ladders, I learned a little bit [[On the Topic of Resistor Precision | on the topic of resistor precision]].\n\n---\n\nOn the night of March 30-31, 2017, I built pong 2.0\nHaving lost all of the original code (and the controllers), I build everything except the DAC over again.\nThis time, the code as been uploaded as [[File:Pong-v2.zip]].\n\n---\n\nOn the night of 25 August 2017, the night before Makevention, I improved the code some more.\nThe new code is at [[File:Pong-v3.zip]]."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Laser Interferometer",
+  "pageId": 28,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Laser_Interferometer",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1296,
+    "timestamp": "2013-03-25T21:15:24Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "[http://spie.org/x34353.xml More information about what this is and what it's used for.] \n\nWill brought his interferometer rig to the 11/10/09 meeting, he needed a more powerful laser to test with so we used a 5mW green laser pointer and got respectable results. Below are images and video from our tests. Apparently what you want to see are good dark and light bands, this indicates the two laser paths are meeting up correctly at the target. When the distance between the two paths changes the bands appear to ripple as the cancelation area between them changes locations. Brushing your finger on the board where the optics were sitting was enough to cause the bands to ripple. When this rig was working at it's best we could just talk near the rig and see our voices causing the bands to vibrate.\n\n==== Photos ====\n<gallery>\nImage:interferometer01b.jpg|the rig\nImage:interferometer02b.jpg|better shot of the laser\nImage:interferometer03b.jpg|interference pattern\nImage:Interferometer04.mov|Movie of ripples moving in the interference pattern\n</gallery>\n\n\n==== Next steps ====\nBuild a detector so we can measure the frequency of change between the laser paths (the ripples) so distance measurements and other experiments can take place.\n\n[[Category:Laser_Interferometer]]\n[[Category: Projects]]"
+  }
+}

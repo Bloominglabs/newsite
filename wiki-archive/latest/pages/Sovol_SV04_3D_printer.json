@@ -1,0 +1,14 @@
+{
+  "title": "Sovol SV04 3D printer",
+  "pageId": 962,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Sovol_SV04_3D_printer",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5024,
+    "timestamp": "2024-07-17T14:37:16Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "In early 2024 several members purchased a Sovol SV04 printer for the space. This page provides documentation for this printer.\n\n\n== Sovol SV04 information ==\nhttps://wiki.sovol3d.com/en/QUICKSTART\n\n\n[[Category:3D Printers]] [[Category:Tools]]"
+  }
+}

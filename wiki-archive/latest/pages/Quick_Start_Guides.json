@@ -1,0 +1,14 @@
+{
+  "title": "Quick Start Guides",
+  "pageId": 758,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Quick_Start_Guides",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4865,
+    "timestamp": "2022-04-24T04:17:35Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is a collection of Quick Start Guides to be posted by various tools at Bloominglabs. The intent is to create posters and laminated tags which attach to various tools in our space. These do not negate proper training on equipment, but in a pinch can get someone started using a piece of gear if they haven't used it in a year or so. Also, we tend to have equipment that needs some splaining, and if the owner or knowledgeable folks are not around for new people to meet, then that doesn't do anyone any good. This is an attempt to facilitate self-help where possible.\n\nWhen writing a Quick Start Guide, assume the user knows almost nothing about the device in question. They probably have read about the subject since they want to use said device, but it'd also be good to assume they have never done this before.\n\n== 3D Printers ==\n* [[Makerfarm_12-Inch_Pegasus_3D_Printer#Steps_for_printing]]\n* [[PrintrBot Simple Quick Start]] - needs to be written\n* [[PrintrBot Play Quick Start]] - needs to be written\n\n\n== Shop Equipment ==\n* [[File:Quick Start - Combined Metal+Gas Tags-v5.doc]] - Laminated tags for the welders, lathes, mill, horizontal bandsaw, plasma cutter, and acetylene torch outfit\n* [[File:Howto-Mill.doc]] - More howto infor for the mill\n* [[File:Quick_Start_-_Car_Lift.doc]]\n\n== Electronics and Radio ==\n* [[File:Radio_QA.doc]]\n\n\n\n[[Category:Documents]] [[Category:Quick Start Guides]] [[Category:Training]]"
+  }
+}

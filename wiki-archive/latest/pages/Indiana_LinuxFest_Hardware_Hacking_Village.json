@@ -1,0 +1,14 @@
+{
+  "title": "Indiana LinuxFest Hardware Hacking Village",
+  "pageId": 106,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Indiana_LinuxFest_Hardware_Hacking_Village",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1292,
+    "timestamp": "2013-03-25T21:13:07Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "The ILF hardware hacking village was a great success, we had a lot of fun and met a lot of great people. Below is information we had used to help organize ourselves for the event.\n\n\n== Old info ==\nWe've been invited to host the hardware hacking village at the first [http://www.indianalinux.org Indiana LinuxFest]. The event is March 25th through the 27th at the Wyndam Indianapolis West Hotel.\n\n== ToDo ==\n* Which days are we doing (Friday, Saturday, Sunday) - if not enough people are available for Friday we can bow out for this day\n** Who is going to be there for which days\n**\n**\n\n* Have a Bloominglabs banner printed to hang up\n* AVR Programmers\n* Arduino clones\n* Soldering kits?\n* Other kits to tell?\n\n[[Category: Events]]"
+  }
+}

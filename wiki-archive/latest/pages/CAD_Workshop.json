@@ -1,0 +1,14 @@
+{
+  "title": "CAD Workshop",
+  "pageId": 1031,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/CAD_Workshop",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5264,
+    "timestamp": "2026-03-10T09:53:16Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This workshop took place as scheduled. Three people (all Bloominglabs members) attended. Perhaps more people would have attended if the workshop had been advertised outside Bloominglabs at all. I consider this workshop to have been a success, and will probably run it again in the future.\n\n<blockquote>Date: Sunday, 1 March 2026\n\nTime: 2PM to 5 PM\n\nLocation: [[Location|Bloominglabs]] lounge\n\nSuggested to bring a laptop with Windows, Linux, or MacOS, and a mouse with a left button, right button, and scroll wheel.\n\nPrice: $20 for members of Bloominglabs, $40 for everyone else\n\n<html>\n<!--\n<div>\n  <style>.pp-F8W7EWDGDPPN2{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:\"Helvetica Neue\",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>\n  <form action=\"https://www.paypal.com/ncp/payment/F8W7EWDGDPPN2\" method=\"post\" target=\"_blank\" style=\"display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;\">\n    <input class=\"pp-F8W7EWDGDPPN2\" type=\"submit\" value=\"Pay and Register\" />\n  </form>\n</div>\n-->\n</html>\n\nCapacity: eight. Registration upon payment.\n\n</blockquote>\n\nSome computers and mice will be available.</blockquote>Computer-Aided Design is an invaluable tool for planning many sorts of DIY projects, and unlocks the full capability of computer-controlled maker tools like 3D printers and laser cutters. This workshop will teach the principles used in most engineering CAD programs --  sketching, constraining, extruding, revolving, mirroring, patterning, and assembling -- to design functional 3D objects.\n\nIn this workshop, we will use the fast and free CAD program [https://solvespace.com/index.pl SolveSpace]. This program has a minimal approach to CAD, making it faster to use and easier to learn than most others.\n\nFor people who are interested in using more powerful design tools, skills learned in SolveSpace will transfer to most other engineering CAD programs, like Autodesk Inventor and Dassault SolidWorks. Some that are available for zero cost to hobbyists are FreeCAD, Autodesk Fusion 360, PTC OnShape, and Siemens Solid Edge."
+  }
+}

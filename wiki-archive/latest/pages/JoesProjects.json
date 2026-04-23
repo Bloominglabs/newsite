@@ -1,0 +1,14 @@
+{
+  "title": "JoesProjects",
+  "pageId": 54,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/JoesProjects",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1293,
+    "timestamp": "2013-03-25T21:13:42Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "==Audio Electronics==\n\n----\nBSIAB2 -Overdrive Guitar effect from [https://www.generalguitargadgets.com/ General Guitar Gadgets]\n\nRuby - 386 9V Amplifier by [http://runoffgroove.com/ruby.html RunOffGroove]\n\nFuzz Face - Guitar effect, using lay-out from [https://www.generalguitargadgets.com/ General Guitar Gadgets] \nCheck on the progress [http://www.flickr.com/photos/30653390@N00/sets/72157625016122787/ here]\n\n==Workshop Series-Audio Electronics==\n\n----\nThis is still in the brainstorming process, but I'm thinking 4-part series. \n\n* CigarBox Guitar\n* Building a Guitar pick-up \n* Building a 1-Watt Amplifier\n* Building a Fuzz Box\n\n\n==Tools for BloomingLabs==\n\n----\n\nPrototyping Board(heres a vid of [http://www.youtube.com/watch?v=PczY-g5cMCI mine])\n* plank o' wood w/mounted breadboard, terminal strips, battery box and angle-aluminum pre-drilled for pots/led/power/IO jacks/switches.\n* designed for use with audio projects, but might be useful in other areas.\n* the benefits of a protoboard is sturdiness and efficiency... no dangling jacks/pots/switches/batteries, allowing a more robust test of yr new circuit. yay!\n\n[[Category: Projects]]"
+  }
+}

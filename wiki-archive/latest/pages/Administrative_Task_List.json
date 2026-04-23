@@ -1,0 +1,14 @@
+{
+  "title": "Administrative Task List",
+  "pageId": 505,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Administrative_Task_List",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4855,
+    "timestamp": "2022-04-24T03:23:45Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "These are tasks for the officers to keep track of. FWIW, this page has gotten pretty old and may not be useful at this point.\n\n* Fire extinguisher testing\n**Koorsens does this and we've used them before\n* <s>Need a UPS for the RFID system</s>\n* RFID system refresh with more doors supported?\n\n* Integrate our CRM system into our new-member page so that we can have the membership applications stored digitally\n**Currently we have the open source version of SugarCRM deployed for managing contacts. I have it configured to allow storing our active member list along with all of the info on the membership application. The down side is that the free version of SugarCRM does not support an API interface. Some day I'd like to have the new-member page update this with their info.\n\n\n\n\n\n\n\n\n[[Category:Operations]]"
+  }
+}

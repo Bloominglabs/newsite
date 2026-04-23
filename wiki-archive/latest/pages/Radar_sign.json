@@ -1,0 +1,14 @@
+{
+  "title": "Radar sign",
+  "pageId": 275,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Radar_sign",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1041,
+    "timestamp": "2012-12-13T06:15:11Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "A few years ago I picked up a K55 dash-mount radar unit at a local hamfest. It's a fun device for a host of reasons. The remote that came with this system got me thinking early on about the possibility of capturing the speed data somehow. Fast-forward a few years and now I think I can pull this off with some help from other members of Bloominglabs. Now I live on a road where cars and motorcycles seem to love to race up my road. There are also dozens of car wrecks on the steep hill immediately past my house; according to public records my road is the most dangerous in the county. While talking to one of my neighbors he mentioned he had requested a radar speed-sign from the city but got blown off. I found myself thinking I could build one using my radar. I do find these signs somewhat annoying, but being a little older now I appreciate what they try to do.\n\nI have two ideas in mind for this project. First, I'd just like to silently log speed data of vehicles on my road. After that, I would be interested in adding a large-format display of some kind.\n\n\n{|\n| [[Image:K55.jpg|none|thumb|300px|K55 with 1 antenna and remote]]\n| [[Image:K55-front.jpg|none|thumb|300px|K55 front panel]]\n| [[Image:K55-rear.jpg|none|thumb|300px|K55 rear]]\n|}\n\n\n== Research and Preliminary look inside ==\nDoing some googling I found [http://juliepalooza.8m.com/sl/k55radar.htm one guy] who had managed to read out speed data from an early model of this same unit with an AVR chip and send out RS-232 data. When we opened up my unit we found similar IC's inside as described by the previous link. Apparently the unit sends out BCD data to seven-segment display drivers so binary data can be siphoned off the board.\n\n\n{|\n| [[Image:K55-underside.jpg|none|thumb|300px|K55 underside]]\n| [[Image:K55-cb01.jpg|none|thumb|300px|PCB silk screen]]\n|}\n\n\n\nWhile I'm fine with adding a board to the main unit, I'd rather tap into the remote. If I could just make a module which plugs into the remote port and adds USB/serial out I would be very happy.\n\n{|\n| [[Image:K55-remote-insides.jpg|none|thumb|300px|Remote internals]]\n| [[Image:K55-remote-pinout.jpg|none|thumb|300px|Remote PCB silk screen]]\n|}\n\n\n== Build & Code ==\nThe remote control port appears to be a 24 pin Centronics connector (male). Places you can order this part:\n* [http://cablesandconnectors.com/09800-09.HTM Cables and Connectors]\n* [http://www.pacificcable.com/Picture_Page.asp?DataName=C24MS Pacific Cable]\n\nMore to come.\n\n\n[[Category:dosman projects]] [[Category:Arduino]]"
+  }
+}

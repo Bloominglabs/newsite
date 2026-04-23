@@ -1,0 +1,14 @@
+{
+  "title": "Poquito",
+  "pageId": 877,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Poquito",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4256,
+    "timestamp": "2020-09-11T05:23:17Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "poquito is an ancient (ca. 2011) Raspberry Pi Model B that runs part of the RFID software. Should poquito die, the tags which have been granted access are stored on the EEPROM of the ancient (Duemilanove a.k.a. 2012) Arduino that runs the firmware of the RFID system.\n\nThere's a web interface to a sqlite (yes) database on poquito, basically it's the Django admin interface. This database associates the binary RFID tags with actual members.\n\nAlso on poquito there is a 'server' connected to the serial port of the aforementioned Arduino. This allows potentially many clients to monitor and react to what is happening on the system (badging in, being rejected while attempting to badge in, etc., etc.) In retrospect sending those to an MQTT broker clients could subscribe to would make more sense.\n\n'doorbot' runs on poquito, and sends notifications to the IRC server (#blabs-bots channel), SignBot, and VOIP phones in the space so that people far from the door know when people arrive.\n\nIt would not be a terrible idea to update/upgrade poquito, as it is now in a bit of an 'it runs, don't touch it' state.\n\nThere is possibly more stuff on poquito, but checking it recently these are the things definitely running on there.\n\n[[Category: Hackerspace systems]]"
+  }
+}

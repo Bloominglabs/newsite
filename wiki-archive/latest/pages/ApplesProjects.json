@@ -1,0 +1,14 @@
+{
+  "title": "ApplesProjects",
+  "pageId": 480,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/ApplesProjects",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3278,
+    "timestamp": "2017-04-22T17:51:35Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "\n== Java programming for Android.\n == [http://www.android-ide.com/ Aide] has become my IDE of choice rather than Android Studio mainly because of the convenience it offers being on  my tablet.  \n----\n\nUpgrade ham radio general class license to extra class. Currently call sign is KC9SXB\n\nRepair my first computer, IMSAI 8080 and get it on the interwebs : )\n\n----\n[http://navspark.mybigcommerce.com/| NavSpark GPS stuff]\n\n[http://www.navspark.com.tw/  NavSpark Forum]\n\n----\n\n[http://wiki.iteadstudio.com/Serial_Port_Bluetooth_Module_%28Master/Slave%29_:_HC-05 HC-05 Bluetooth module]\n\n----\n[http://wiki.iteadstudio.com/SERIAL_PORT_BLE_MODULE_%28MASTER/SLAVE%29:_HM-10 HM-10 Bluetooth Ble module]\nSucceeded in downloading an example UART app by [https://github.com/NordicSemiconductor/Android-nRF-UART nRF] , modifying just three UUID's, and it talks to my cheap ($2.45) fake HM-10 module.\n  \n[https://github.com/applemuncy/Android-nRF-UART My Github fork] I just noticed that the original code was put up just 5 days ago  : )\n----\n[https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822 nRF51822 Bluetooth Ble module]\n\n----\n[[Welder's_Lock]] \n----\n\n[[Category:Projects]]"
+  }
+}

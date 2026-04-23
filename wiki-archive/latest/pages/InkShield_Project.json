@@ -1,0 +1,14 @@
+{
+  "title": "InkShield Project",
+  "pageId": 209,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/InkShield_Project",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 929,
+    "timestamp": "2012-09-25T14:54:21Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "I acquired an InkShield from this [http://www.kickstarter.com/projects/1908026860/inkshield-an-open-source-inkjet-shield-for-arduino Kickstarter]. My goal for this project is to have a smallish enclosure to contain the system and buttons on the top which allow different messages to be printed.\n[[Image:Inkshield001b.jpg|none|thumb|200px|InkShield PCB]]\n\n\n== Build ==\nSo this worked out pretty nice, the code reads 5 button values from the free analog input 5. Just holding the button down repeats the messages printed. You can see that different font widths can be achieved by moving the print head faster or slower.\n\n{|\n| [[Image:Inkshield002.jpg|none|thumb|200px|InkShield in enclosure]]\n| [[Image:Inkshield003.jpg|none|thumb|200px|InkShield underside]]\n| [[Image:Inkshield004.jpg|none|thumb|300px|Preset messages]]\n|}\n\n\n== Code ==\nI banged together the inkshield sample code with OneAnalogPin5switches code. To update the messages printed I update the sketch and re-burn to the arduino. One could write a serial menu interface to store messages in flash, but that is way down the road. [[Image:InkShield5Buttons_v.01.pde]] (Note: I just noticed that the debug mode does not work, but the code otherwise works fine. This may or may-not be resolved at some point.) \n\n\n== Other Notes ==\nAs the inventor of the InkShield states, it's wise to remove the ink cartridge from its holder before updating the sketch on the Arduino, I had it spew ink out during this process once. Fortunately my project was sitting on a plastic bag when this happened and not directly on the couch. Also I keep the unit in a cheap grocery-store plastic sack when not in use. The Ink cartridge will smear and wick onto anything it touches, watch your clothes and furniture. It's also a good idea to keep a kleenex on-hand, the printhead needs occasional cleaning.\n\n[[Category:dosman projects]] [[Category:arduino]]"
+  }
+}

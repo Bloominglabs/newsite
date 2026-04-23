@@ -1,0 +1,14 @@
+{
+  "title": "Telescope Solar Finder",
+  "pageId": 710,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Telescope_Solar_Finder",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4061,
+    "timestamp": "2019-06-04T15:04:17Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is a sun finder I designed for my telescope. I use a Telrad finder scope which has a base that mounts permenatly to the telescope. I designed this finder to fit the Telrad base plate. This was some work leading up to the 2017 solar eclipse. \n\n{|\n|-\n| [[Image:Sol_finder01.jpg|none|thumb|300px|Sol finder]]\n| [[Image:Sol_finder02.jpg|none|thumb|200px|Front end]]\n| [[Image:Sol_finder03.jpg|none|thumb|200px|Alignment target]]\n|}\n\nUsage is straightforward: align the finder until the target is covered by the shadow from the front side. Align the white dot to the center of the target and Bob's your uncle.\n\n\n== Safety ==\n[[Image:Sol_finder04.jpg|none|thumb|200px|Sol finder and sun filter]]\nReminder: never point your telescope at the sun without a sun filter over it. You can permenantly blind yourself if you don't use a proper sun filter. Also, the heat from sun's light can damage your telescope without a sun filter filter. Don't forget to remove or cover any other finder scopes.\n\n== Vector File ==\nVector file and directions are posted on Thingiverse: https://www.thingiverse.com/thing:2435397\n\n\n== Notes for use during solar eclipse totality ==\nOne minor note if you happen to find yourself using the Sol Finder DURING a total solar eclipse: you will still need an optical finder scope attached to your telescope during the totality if you need to find the sun again. The moment totality hits the Sol Finder becomes useless of course. I found this out the hard way, but since I had my binoculars already setup at that moment so I just walked over to those instead. With a lot of \"moving parts\" this can be dangerous though (your finder scope will need to remain covered outside of the totality, and you could easily forget to recover it in the precious few moments of the eclipse). So, be mindful of dangerous mistakes, and binoculars can save the day on events like this.\n\n[[Category:Dosman projects]] [[Category:Astronomy]] [[Category:Laser projects]]"
+  }
+}

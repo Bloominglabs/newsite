@@ -1,0 +1,14 @@
+{
+  "title": "ShapeOko 2 CNC",
+  "pageId": 719,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/ShapeOko_2_CNC",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3463,
+    "timestamp": "2017-11-20T17:52:46Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "The ShapeOko 2 is a [[Availablegear#Automated_Manufacturing|CNC machine]] that usually uses a dremel-style rotary tool as a mill.\nAt present, the shapeoko is still in \"project\" stage. It sort-of works, and has not yet been used for a serious project.\n\nHere is the [https://www.shapeoko.com/wiki/index.php/ShapeOko_2 official wiki page] describing it.\n\nHere is the [https://www.shapeoko.com/wiki/index.php/Materials official list of materials and cutting settings].\n\nHere is a [https://www.shapeoko.com/wiki/index.php/CAM list of known-working software].\n\n\n[[Category:Tools]]"
+  }
+}

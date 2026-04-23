@@ -1,0 +1,14 @@
+{
+  "title": "Vulcanus",
+  "pageId": 802,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Vulcanus",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4276,
+    "timestamp": "2020-10-22T10:41:11Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "'''This 3D Printer is no longer at Bloominglabs. Information below is for reference purposes only.'''\n\n----\n\nThis printer is owned by Josh Conway and kept at Bloominglabs for use by anyone.\n\n3D printing filament costs approximately 30 USD per roll (per kilogram). Please donate an amount proportionate to your usage, there is a box in front of Vulcanus to accept filament funds.\n\n== Using Vulcanus ==\n* Connect to its Octoprint server within our network at http://vulcanus:5000, with username and password \"bloomingcad\"\n** The ip is also 192.168.1.18:5000\n** From here you can see the current state of the printer, see the webcam, etc.\n* The bed is ginormous on this printer and takes 10-15 minutes or so to get up to temperature. You can start pre-warming the bed from Octoprint\n* Verify the filament material installed is what you want and/or change it over to the filament you want to run\n** There are several kinds of material that get used on this machine so verify this before every print (ABS, PLA, PET-G, etc)\n** This printer uses a Bowden tube extruder, if you are unsure how to change the filament get help\n\n=== Slicing - Generate g-code for Octoprint ===\nTo get models into Octoprint you will need to install a slicer program on your laptop to render the g-code.\n* Download and install https://slic3r.org or the slicing software of your choice\n* Download and install this [http://bloominglabs.org/index.php/File:Vulcanus_slic3r_config.ini.zip config file] for slic3r, it provides the settings for Vulcanus (or extract the printer settings for your slicing software)\n* Load your STL file of the model you wish to print\n* Double check which filament material you will be printing with and update your temp settings (even if using the provided config file), this will affect the g-code generated\n* Send the g-code to Vulcanus/Octoprint\n* Back over in Octoprint, find and load the model you sent to it and then start the print\n\n\n\n[[Image:Qrcode_vulcanus.png|none|thumb|120px|QR link to the latest version of this page]]\n\n[[Category:3D Printers]] [[Category:Tools]]"
+  }
+}

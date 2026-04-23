@@ -1,0 +1,14 @@
+{
+  "title": "Cherokee CBS1000 Mic adapter",
+  "pageId": 776,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Cherokee_CBS1000_Mic_adapter",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3791,
+    "timestamp": "2019-01-03T16:15:39Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "[[Image:20190103_cherokeecbs1000.jpg|none|thumb|300px|Cherokee CBS1000 base station]]\n\nI picked up one of these off of CL in the summer of 2018, but I did not have a chance to try it out for nearly 6 months or so. Apparently the mic it came with was not compatible (a Cobra 5-pin), while it allowed the radio to receive (most CB's don't even receive without the mic plugged in), no audio was transmitted when keying down. The rig would TX, but there was no modulation on the output. In AM mode there was the carrier noise but no audio. In sideband mode there was nothing at all which helped corroborate a mic wiring problem since sideband has no carrier, and no modulation means no output on the sideband.\n\n\n[[Image:20190103_cherokeecbs1000-micjack.jpg|none|thumb|200px|Cherokee 5 pin mic jack]]\n\nI found a single reference to the pinout for the CBS1000 mic jack online, but it only referenced the wire colors which is useless. This radio came with a schematic thankfully so it wasn't too hard to decode.\n\nI will post the pinout here when I the scrap of paper it was written on turns back up.\n\n\n[[Category:Dosman_projects]] [[Category:Radio]]"
+  }
+}

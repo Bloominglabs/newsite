@@ -1,0 +1,14 @@
+{
+  "title": "Vacuum forming table",
+  "pageId": 79,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Vacuum_forming_table",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 936,
+    "timestamp": "2012-09-25T14:57:05Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Bloominglabs has a 8\"x10\" vacuum forming table with built-in heating element.\n\n== Operation ==\nFirst you need to have a sheet of plastic prepared. It needs to be cut to 9\"x11\" in order for it to fit in the frame properly (the inside area of the frame is 8\"x10\" with a 1/2\" border to grasp the sheet on all sides). Secure the sheet between the aluminum frames with the black clips. Obviously the vacuum cleaner attaches to the pipe sticking out of the bottom of the box, hook that up (duct tape recommended). Use more clips to suspend the frame assembly just underneath the heater. Remove the frame (leaving the clips in place) and turn on the heater on. It should get very hot within 2-3 minutes. Once it's reasonably hot put the frame with your plastic sheet underneath it resting on the clips. It's advisable to wear gloves at this point as the frame could get very hot. Watch the plastic start to sag as it heats up, it should happen within 30 seconds or so. Turn on the vacuum cleaner about now. Once the plastic droops far enough in the middle (TBD) release the frame from the clips and lower it straight down to the vacuum table with your positive mold in place. Push down on the frame to make a good seal, once the plastic is formed properly turn off the vacuum and the heater. Let it cool and pry the plastic off the positive mold.\n\n== Build pictures ==\nWe started by building a basic vacuum table box that sucks air down from under the heated plastic sheet. An old broken 19\" rack-mount TV audio modulator was gutted so it could be used as an oven box. A charcoal heater was mounted inside. It has no thermostat which is ideal, but care should be taken to not leave it plugged in too long. The charcoal heater even had a flange used to prop the handle up which was perfect for mounting to the oven box. We drilled holes in it and the box and attached the two.\n{|\n|-\n| [[Image:Vacuum_table01.jpg|none|thumb|300px|Vacuum box]]\n| [[Image:Vacuum_table02.jpg|none|thumb|300px|Heater unit]]\n|}\n\n{|\n|-\n| [[Image:Vacuum_table03.jpg|none|thumb|300px|Vacuum box with heater supports]]\n| [[Image:Vacuum_table04.jpg|none|thumb|300px|Completed vacuum forming table with heater sitting on top]]\n|}\n\n[[Category:dosman projects]] [[Category:tools]]"
+  }
+}

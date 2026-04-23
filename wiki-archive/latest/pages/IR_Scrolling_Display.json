@@ -1,0 +1,14 @@
+{
+  "title": "IR Scrolling Display",
+  "pageId": 105,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/IR_Scrolling_Display",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1249,
+    "timestamp": "2013-03-25T20:00:06Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== Updates ==\n\nMarch 2, 2011\nNick clued us in to the handy MAXIM 6953 5x7 LED display driver. After some Googling which at times lead us to MAXIM magazine, Nick and Steve put in an order on MAXIM's site for 3 free samples, which should arrive at Steve's house soon.\n\nMarch 9, 2011\nSteve gave 2 of the 3 MAXIM 6953 chips to Nick and kept one to experiment with. Nick is gonna get some IR LEDs and make sure they actually are visible thru a digital camera outside during daylight so as to make sure it's worth it to buy all those LEDs.\n\nMarch 23, 2011\nNick has a board layout for the 5x7 array. Steve is going to buy some IR LEDs to look into the aforementioned testing.\n\nApril 13, 2011\nRex printed up some circuit boards for the 5x7 array. They look great. Steve obtained some sample IR LEDs. They don't seem to be too visible thru the iPhone camera, but through other cell-phone cameras they were. Steve handed this off to Nick to experiment w/ rubbing a file against the LEDs and using other techniques to make the light more diffuse, and to otherwise experiment to see which part no. works the best.\n\n== Design notes ==\n\n5x7 characters\nWill have 4 characters scrolling\n\nDriver chip: MAXIM 6953\nThis uses a pretty basic serial interface to drive the LEDs (I2C)\nThere is a character set defined in ROM. Users can define their own symbols or use the user defined characters to implement scrolling, but doing so requires a crudload of code.\n\nHere's a [http://www.youtube.com/watch?v=I-_PLhLF-1g nifty project somebody did]\n\nIR LEDS\nfront of box will be covered w/ lens, trashbag, something like that\n\n==Software==\nProgramming this is very easy via an Arduino. See\n*http://shieldstudio.com/press/downloads/\n*Much more thorough code example here: http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1285387425/6\n\n==Messages==\nURL\nBloominglabs\n'Tweet @BloomingLabs to get your message here.' (but we will need a moderator, make sure no dirty words get up there!)\n(add some, people)\n\n[[Category:Group projects]]"
+  }
+}

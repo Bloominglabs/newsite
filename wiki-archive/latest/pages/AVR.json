@@ -1,0 +1,14 @@
+{
+  "title": "AVR",
+  "pageId": 20,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/AVR",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 939,
+    "timestamp": "2012-09-25T15:03:27Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== AVR - ATMega code examples ==\n*AVR examples, Makefile, and avrdude.conf files[[http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz]]\n*AVR pinout worksheet [[http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf]]\n*AVR RGB LED+button schematic [[http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf]]\n\n[http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf AVR atmega8 datasheet]\n\n[http://www.obdev.at/products/crosspack/index.html CrossPack AVR for Mac OS X] \n\n[http://winavr.sourceforge.net/ WinAVR for Microsoft Windows] \n\n[http://www.avrfreaks.net/wiki/index.php/Documentation:AVR_GCC AVR for Linux] (mine just came with Fedora)\n\nTo find cool AVR projects and info check out [http://www.avrfreaks.net/ AVR Freaks].\n\n[[Category:Projects]] [[Category:arduino]]"
+  }
+}

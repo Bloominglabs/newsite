@@ -1,0 +1,14 @@
+{
+  "title": "Weather Station",
+  "pageId": 471,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Weather_Station",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5026,
+    "timestamp": "2024-07-18T01:55:42Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "As of July 17, 2024 Bloominglabs has a new weather station! It is a Weatherflow Tempest system on our roof and can be accessed at https://tempestwx.com/station/147126/grid.\n\nWe plan to integrate it with APRS and home-assistant soon.\n[[Category:Hackerspace_systems]] [[Category:Dosman_projects]]"
+  }
+}

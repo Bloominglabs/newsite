@@ -1,0 +1,14 @@
+{
+  "title": "BloomingLabs Bathroom Minder",
+  "pageId": 512,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/BloomingLabs_Bathroom_Minder",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2470,
+    "timestamp": "2015-11-06T18:25:15Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Project starter page to design and build a BloomingLabs IoT Bathroom Minder.\n\n[[Category:Projects]]\n\n== Sensors for occupancy detection ==\n\n*Light Sensor*\n*Motion Sensor*\n*Door Open/close sensor (reed switch)*\n*Flush sensor\n*Methane sensor (ew)*\n\n* already have these\n\n== Components that communicate and take action(s) based on occupancy state and transitions ==\n\n*'Occupied' signs (both at the door and in the workshop)\n*Green/red light\n*Talking skull head that communicates: 'Enter - if you dare', 'You may enter', 'None shall pass' when touched (capacitive sensor)\n*Wireless or other communication mechanism reports state that in turn is exposed by a web server via:\n*API for programs\n*Webpage for humans\n*Responds to texts\n*Atomizer can spray a more agreeable scent if methane threshold is triggered:\n\n== Materials ==\n\n*Atomizer: http://www.seeedstudio.com/depot/Grove-Water-Atomization-v10-p-2542.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=EDM1106\n*MCU: Photon, Arduino variant, other?\n\n== Additional fun 'overkill' aspects ==\n\n*Get in a 'queue' if bathroom is occupied, receive text when it's open and you're next in line\n\nTODO: learn enough wiki code to format this."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Pager Network",
+  "pageId": 560,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Pager_Network",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2787,
+    "timestamp": "2016-06-10T20:27:38Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Proposal to create a pager network emanating from Bloominglabs.\n\n==Useful Links==\n\n[http://www.braddye.com/pagsys/pagsys.html Detailed description of pager networks]\n\n[https://hackaday.io/project/2624-osomcom-pocsag Hackaday.io page for the OSOMCOM POCSAG project]\n\n[http://www.t4f.org/projects/osomcom-pocsag/ More information on OSOMCOM POCSAG]\n\n[http://www.qsl.net/n9zia/wireless/pager/ Ancient link detailing a very simple pager network setup with minimal components]\n\n[http://hackaday.com/2014/12/30/bringing-a-legacy-pager-network-back-to-life/ Hackaday article detailing an alternative modern pager network setup]\n\n[https://github.com/unsynchronized/gr-mixalot POCSAG encoder for GNU/Radio(many decoders exist for GNU/Radio and in general)]\n\n==Implementation==\n\n* Bloominglabs has two VHF ham radios sitting idle which could be used for the transmitter. Our Yaesu tri-band radio could be used for this too for UHV coverage. Also the newly donated pager repeater.\n\n*Purchased a lot of 12 Motorola Advisor Alpha pagers(http://www.radiomuseum.org/r/motorola_advisor_a05klb5162aa.html, POCSAG, 931.2375mhz) \n\n*The older Thinkpad has an RS232 port"
+  }
+}

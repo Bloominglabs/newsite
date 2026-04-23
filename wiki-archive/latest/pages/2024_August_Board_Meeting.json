@@ -1,0 +1,14 @@
+{
+  "title": "2024 August Board Meeting",
+  "pageId": 964,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/2024_August_Board_Meeting",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5030,
+    "timestamp": "2024-08-13T23:58:27Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "---\n\ntitle: Bloominglabs' Board Meeting  \n\ncreated: 2024-08-13  \n\nauthor: Kyle Dirrim  \n\n---\n\n<nowiki>##</nowiki> Start @ 1913\n\n<nowiki>##</nowiki> Roll Call\n\n-    Calob\n\n-    Nathan\n\n-    Apple\n\n-    Jimmy\n\n-    Kyle\n\n-    Kevin\n\n<nowiki>##</nowiki> Business\n\nI.    Gutters\n\n   A.    Gutter Screening party will be scheduled\n\nII.    Dumpster moving and bike rack\n\n   A.    Asked Mark about both, no answer yet\n\n   B.    Kevin says too many bikes in the space\n\n   C.    Ian has a bike rack to donate\n\n   D.    Can be installed at entrance to kitchen\n\n   E.    Dumpster is full at least a week before pickup\n\n   F.    Dumpster is picked up every other thursday\n\n   G.    Send a polite message to all members about being considerate about large items in dumpster\n\nIII.Access to passwords and slack channels\n\n   A.    Elliot should have access to the slack Board channel\n\n       1.    Forwarded by Kevin\n\n       2.    Seconded by Apple\n\n       3.    2 aye, 2 nay\n\n       4.    tied, default to not passing\n\n   B.    Kevin and Calob starting a new computer management system\n\n       1.    singal sign on, PXE boot, and new laptops\n\n<nowiki>##</nowiki> Adjournment @ 1945"
+  }
+}

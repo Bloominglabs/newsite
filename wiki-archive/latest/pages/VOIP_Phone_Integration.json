@@ -1,0 +1,14 @@
+{
+  "title": "VOIP Phone Integration",
+  "pageId": 878,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/VOIP_Phone_Integration",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4265,
+    "timestamp": "2020-09-11T19:58:17Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "When people successfully badge into the space, a tone plays and a message appears on the VOIP phones in the HAM/electronics room and elsewhere in the space to let people know somebody's arrived.\n\nThe first 2 phones are the Grandstream GXV3240 model: [[http://www.grandstream.com/products/ip-video-telephony/ip-video-phones-android/product/gxv3240]]\n\nThe software for this runs on [[poquito]] which is an ancient (ca. 2011?) Raspberry Pi. Some of the software packages and such on poquito are out of date, the upshot is efforts to update things like versions of Python etc can be 'shaky'. The only reason I mention this is because there is a Python module called python-ESL [[https://github.com/sangoma/python-ESL]] that seems especially nicely suited to handling SIP/phone stuff, but we could not install it via pip. In addition to python-ESL, Kevin discovered a command line tool, SIPPing [[https://github.com/pbertera/SIPPing]] that creates and sends SIP packets albeit in a less clean and ideal fashion.\n\nIt is worth noting that historically as we become aware of security issues that would affect poquito, we apply necessary patches. Not everything is latest and greatest, though.\n\nOn poquito, in /home/pi/Bloominglabs/bots, there are two files: sipping_template.txt and sipping_func.py. The first has the packet format, the second has a function that 'wraps' SIPPing.\n\nnet_doorbot.py (in the same directory) is 'doorbot', and dosman put some machinery in place that does checks to make sure it's running. As far as integrating SIPPing, just:\n\n'''import sipping_func'''\n\nwhich you can then call when you want to announce somebody has arrived:\n\n'''sipping_func.announce_arrival('test person')'''\n\n'import' working depends on /home/pi/Bloominglabs/bots being in PYTHONPATH. Or you can just do this:\n\n'''import sys'''\n\n'''sys.path.append('/home/pi/Bloominglabs/bots')'''\n\n[[Category: Hackerspace systems]]"
+  }
+}

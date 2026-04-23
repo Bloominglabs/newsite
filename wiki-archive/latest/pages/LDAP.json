@@ -1,0 +1,14 @@
+{
+  "title": "LDAP",
+  "pageId": 302,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/LDAP",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1294,
+    "timestamp": "2013-03-25T21:14:12Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "To create Bloominglabs accounts:\n\n* ssh to bloominglabs.org (ask dosman about the specifics)\n* /usr/local/bin/ldapadduser {username} {group} \"{gecos}\"\n** group can either be the group name or the gid\n** make sure to put gecos info in quotes if there is a space - like between their first and last name\n** you can add a uid at the end of the command if you want to set a particular uid\n** running ldapadduser without any parameters will give you usage info\n* Examples:\n** /usr/local/bin/ldapadduser pvenkman users \"Dr. Peter Venkman\"\n*** This will create the pvenkman account and assign it the next uid and the gid of the users group\n** /usr/local/bin/ldapadduser rstanz 100 \"Dr. Raymond Stanz\" 2408\n*** This will create the rstanz account and assign it the uid 2408 and the gid 100\n** /usr/local/bin/ldapadduser\n*** returns: Usage : ./ldapadduser <username> <groupname | gid> \"<gecos>\" [uid]\n* change the user's password: /usr/local/bin/ldapchangepasswd {username}\n\n[[Category: Operations]]"
+  }
+}

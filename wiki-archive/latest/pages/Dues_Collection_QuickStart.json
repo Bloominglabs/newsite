@@ -1,0 +1,14 @@
+{
+  "title": "Dues Collection QuickStart",
+  "pageId": 513,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Dues_Collection_QuickStart",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3677,
+    "timestamp": "2018-04-25T22:55:03Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "These directions are now out-dated as of 2017. We use a new invoicing system which does not require the hoop jumping we used to have to do.\n<hr>\n\n\nThis is a quick and dirty explanation of how the treasurer and/or accounts receivable person handles cash dues payments. These examples assume the member is a full-voting member paying $40 or more a month in dues. If the member you are processing pays a different amount, use that dues value instead. The prime rule of “never mark an invoice as being paid for more than the value of the invoice” must be followed.\n\nThe complete documentation for handling invoicing and special cases can be found under [[Dues Collection]].\n\n\n== Member pays cash for 1 month with 1 outstanding invoice ==\n* Issue a hardcopy receipt\n* Mark their invoice as paid\n* Update the Google spreadsheet for the month paid\n\n\n== Member pays cash for 2 months while being 1 month behind ==\nThey paid a single payment of $80 for two $40 inovices:\n\n* Issue a hardcopy receipt for $80\n* Mark each individual invoice as being paid for $40 each\n** Do NOT mark one invoice as being paid for $80 or leave one invoice unpaid\n* Update the Google spreadsheet for the months paid\n\n\n== Member pays cash for 1 month and pays ahead for 1 more month of dues ==\nThey paid a single payment of $80 covering one outstanding invoice for $40 and for next months invoice which does not exist yet:\n\n* Issue a hardcopy receipt for $80\n* Mark their current invoice as being paid for $40\n* Update the Google spreadsheet for the months paid\n\nDo NOT mark their single outstanding invoice as being paid for $80! Our invoicing system does not handle this properly when the invoice for the next month gets generated.\n\nAt the beginning of every month after new invoices are cut the accounts receivable person looks at the Google spreadsheet and marks invoices paid for members who have paid ahead. This is how this situation is reconciled.\n\n\n[[Category:Operations]]"
+  }
+}

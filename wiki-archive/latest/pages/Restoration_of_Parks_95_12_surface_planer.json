@@ -1,0 +1,14 @@
+{
+  "title": "Restoration of Parks 95 12\" surface planer",
+  "pageId": 562,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Restoration_of_Parks_95_12%22_surface_planer",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5138,
+    "timestamp": "2025-06-06T03:23:13Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Jesse brought in a Parks 95 12\" surface planer, on 03/16/2016.  This is a ~280 lb machine, probably manufactured in the 30s or 40s (we'll know more if we can clean up the plate with the serial #).  It is cosmetically in bad shape, and has one small operating problem that should be resolvable.\n\nIt's not yet been decided whether this tool will get a top-to-bottom overhaul or just be touched up for usability.  This page will be used to track resources with repair information, and to document the process of cleaning it up.\n\n\n== Photos ==\n'''Before restoration'''\n<gallery>\nImage:IMG 20160316 191012263.jpg|On arrival\nImage:IMG 20160316 205005456.jpg|Gearbox\nImage:IMG 20160316 205013924.jpg|The bed\n</gallery>\n\n\n== Usability ==\nThe planer is somewhat operational now.  However the pickup roller (infeed roller) is not successfully pulling boards through the cutter.  The fifth link below is for a thread where a similar problem with an identical planer is being discussed, and there are several suggestions we can try there without a full teardown.  Anybody is welcome to attempt work on this, if you'd like a working planer or you're just bored.  Things we can try (but haven't yet) include:\n* Confirm that the bed rollers are positioned high enough to support the board rather than having it rest entirely on the bed itself\n* Attempt to lower the position of the infeed roller itself - this would be a delicate process, since it's important that the roller height is not lower than the cutting height\n* Further clean the bed - using steel wool, then sandpaper up to 1000 grit\n* Once clean, apply a layer of non-silicone wax to the bed\n\n\n== Planned improvements ==\n* Build a replacement stand\n* Install a hinged motor mount for belt tensioning\n* Add a belt guard\n* Add a starter switch\n* Machine a replacement pickup roller on the lathe / mill\n\n\n== Restoration resources ==\n[http://wiki.vintagemachinery.org/restoring%20a%20parks%20planer.ashx Restoration worklog @ vintage machinery]\n\n[http://estrategy.net/bill/website/tools/restorations/parksrestoration/parksplanerrestoration.html Restoration worklog @ estrategy]\n\n[http://vintagemachinery.org/pubs/618/6157.pdf Owner's manual]\n\n[http://wiki.vintagemachinery.org/ParksPlanerPartsIndex.ashx Parts list with photos]\n\n[https://forum.canadianwoodworking.com/forum/tools/power-tools/48261-parks-planer Thread on pickup roller performace]\n\n[http://www.dcmorrison.com/ DC Morrison - last known parts supplier]\n[[Category:Projects]]\n[[Category:Former Tools]]"
+  }
+}

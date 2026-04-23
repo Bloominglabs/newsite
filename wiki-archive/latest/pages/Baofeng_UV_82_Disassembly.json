@@ -1,0 +1,14 @@
+{
+  "title": "Baofeng UV-82 Disassembly",
+  "pageId": 586,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Baofeng_UV-82_Disassembly",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3506,
+    "timestamp": "2017-12-05T15:15:56Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "[[File:1_whole_radio.jpg|200px|Baofeng UV-82]]\nBecause I could not find any instructions on the internet, here are instructions on how to disassemble the Baofeng UV-82 handheld transceiver.\n==Remove Belt Clip==\n[[File:2_remove_belt_clip.jpg|500px|2 small philps screws]]\n==Unclip Battery==\n[[File:3_unclip_battery.jpg|500px]]\n[[File:4_remove_battery.jpg|500px]]\n==Remove Antenna and Volume Knob==\n[[File:5_unscrew_antenna.jpg|500px]]\n[[File:6_remove_volume_knob.jpg|500px|It just pulls straight off.]]\n==Unscrew Retaining Rings==\n[[File:7_remove_antenna_retainer.jpg|500px]]\n[[File:8_remove_volume_retainer.jpg|500px]]\n==Pry Open Case==\n[[File:9_unpry_bottom_clips.jpg|500px]]\n[[File:10_bottom_popped_out.jpg|500px]]\n==Remove Rear Case and Circuit Board==\n[[File:11_remove_back.jpg|500px]]\n==Remove Rubber Pieces==\n[[File:12_rubber_jack_seal.jpg|500px]]\n[[File:13_keypad.jpg|500px]]\n==Disassembled==\n[[File:14_disassembled.jpg|500px]]\n\n[[Category:Guides]]"
+  }
+}

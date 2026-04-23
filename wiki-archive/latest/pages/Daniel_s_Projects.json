@@ -1,0 +1,14 @@
+{
+  "title": "Daniel's Projects",
+  "pageId": 307,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Daniel's_Projects",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1220,
+    "timestamp": "2013-03-25T18:37:03Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "{{DISPLAYTITLE:DAKMH's Projects}}\nProjects I've worked on at Bloominglabs:\n==Done/Reached Point of Satisfaction==\n*Buzzer system\n**Netduino and shift-register based\n**BrainBowl/Certamen-style buzzer system\n**Self-hosted web scoring/reset interface\n\n*Arduino Sonar Ruler\n**Basic range-finder with LED inch display\n**Mostly a test of using sonar range-finder for cubicle buddy\n\n*Steamer fix-up\n**Gunked-up home clothing steamer\n**Lesson learned: use distilled water\n\n*Halloween mask\n**Faceless kid from Pink Floyd: The Wall\n**Thermoplastic, acrylic paint, elastic band, black mesh fabric, foam marshmallows\n**Used vacuum former, heat gun, 5gal bucket with outline template\n\n*Lathe chisel cleanup\n*Lathe chisel/gouge sharpening jig\n**[http://www.instructables.com/id/Sharpening-jig-for-turning-chisels/ Based on a few tutorials/plans]\n\n*Whistle\n**Oak\n**Test turning on lathe\n**Drilled out using 7/8\" bit, cut notch on band saw, sanded down and flattened 1\" dowel, glued in place\n\n==Active/Impending==\n*Ripple/Vintnr\n**Google Wave replacement\n**v1 in use to small group of friends; working on v2\n\n*Rolling under-workbench storage\n**http://www.familyhandyman.com/DIY-Projects/Woodworking/Workbenches/diy-workbench-upgrades/Step-By-Step#step2\n\n*Cubicle buddy\n**Physical status indicator\n**Worker warning system\n**Integrated with messaging systems?\n\n==Planned==\n*Tons of laser cutting\n\n*Updates to asset management system\n\n[[Category:Projects]]"
+  }
+}

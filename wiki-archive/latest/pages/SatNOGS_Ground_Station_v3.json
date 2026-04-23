@@ -1,0 +1,14 @@
+{
+  "title": "SatNOGS Ground Station v3",
+  "pageId": 780,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/SatNOGS_Ground_Station_v3",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3895,
+    "timestamp": "2019-02-09T21:42:15Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "<h2>Satellite Networked Open Ground Station</h2>\n\nI'm currently working on getting two types of ground stations working. The first will be a stationary/no-rotator station which can pick up satellites as they pass overhead. The second station will be a rotator based station. This page will track my progress on both stations. \n\nInfo on the work I did on the v2 rotator ground station can be found here: [[SatNOGS_Ground_Station_v2]]\n\n== No-Rotator Station ==\nI have a UHF \"paralindy\" antenna I've built with cshields, we did some preliminary testing and found they work well enough to continue testing. I've also mostly completed a 2m Lindenblad that the paralindy was loosely based on, that seems to work too.\n\n\n\n== v3.1 Rotator Station ==\nPiecing together a complete build-of-materials for the latest version of the rotator is a little challenging. As of February 2019 a good summary can be found in this forum post: [https://community.libre.space/t/ground-station-hardaware-report/3235 https://community.libre.space/t/ground-station-hardaware-report/3235].\n\nWhen looking for documentation it's important to remember that information can live in 3 places: The wiki, the assembly guides, and in gitlab.\n\n====Build page for the hardware/mechanical parts====\n* \n* \n\n====Build page for the rotator controller (electronics)====\n* [https://wiki.satnogs.org/SatNOGS_Rotator_Controller https://wiki.satnogs.org/SatNOGS_Rotator_Controller]\n* BOM for above board: [https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator-controller/blob/v2.2/satnogs-rotator-controller-bom.ods https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator-controller/blob/v2.2/satnogs-rotator-controller-bom.ods]\n* The position encoder needed for DC motors is a separate project: [https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator-controller-encoderhttps://gitlab.com/librespacefoundation/satnogs/satnogs-rotator-controller-encoder]\n* \n\n==== ====\n*\n\n\n== Also See ==\n* [[SatNOGS_no-rotator_Ground_Station]]\n\n\n[[Category:Dosman projects]] [[Category:Radio]]"
+  }
+}

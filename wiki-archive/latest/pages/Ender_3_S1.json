@@ -1,0 +1,14 @@
+{
+  "title": "Ender-3 S1",
+  "pageId": 938,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Ender-3_S1",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4940,
+    "timestamp": "2024-01-10T18:26:15Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "The Ender-3 S1 was procured by a member faction interested in increasing project [https://en.wikipedia.org/wiki/Flux#Flux_as_flow_rate_per_unit_area flux] within the Digital Fabrication Lab at Bloominglabs. \n\nBy upgrading our equipment (as measured according to the metric of Low Cognitive and Maintenance Overhead to Use, rather than performance ''simpliciter''), it is hoped that more investment of attention and resources will be drawn to this sector of the space.\n\nOEM product listing: https://www.creality.com/products/creality-ender-3-s1-3d-printer\n\n[[Image:Ender3_20240109_160554.jpg|none|thumb|300px|Ender 3-S1]]\n\n== Printer Features ==\n\n220x220x270 mm build volume\n\nSingle nozzle extruder, 0.4 mm diameter, max temp 260 C\n\nHeated build platform, max temp 110 C, with removable magnetic surface sheet\n\nFilament sensor.\n\nSee \"Product Parameters\" on the OEM page above for further information.\n\nMechanical bed depth sensor: used by the printer to construct a map of variations in the build platform. \n\nNote that this printer does not auto-level: the z-offset, and build platform tensioning wheels, must be set manually. Full procedure available on the Creality FAQ page for the Ender-3 S1 (not Pro or Plus): https://www.creality.com/pages/faq\n\n== Usage Information ==\n\nPlease note any changes in printer functionality or settings (z-offset, manual re-levelling, firmware modification, cleaning, repairs, mechanical/electrical/software failures, etc.) in the Log below.\n\nPlease route all filament through the filament sensor, to avoid partial prints.\n\nKnown good filament:\n1.75 mm diameter\nPLA, ABS, TPU, PETG\n\n== Log ==\n\n[Please include a status report at the top of all Log entries.]\n\n20240109: \n\nStatus: Functional\n\nPrinter assembled, bed leveled, z-offset set to -3.15 mm, first test print.\n\n[[Category:3D Printers]] [[Category:Tools]]"
+  }
+}

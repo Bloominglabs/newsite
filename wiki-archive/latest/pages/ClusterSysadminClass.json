@@ -1,0 +1,14 @@
+{
+  "title": "ClusterSysadminClass",
+  "pageId": 629,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/ClusterSysadminClass",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3170,
+    "timestamp": "2017-03-15T13:51:26Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "\n= Cluster System Administrator Class =\n\nMeeting: Tuesdays, starting January 24th until March 7th, from 7:00pm to 9:30pm\n\n* [http://bloominglabs.org/images/a/a3/Bloominglabs-ClusterSysAdmin-syllabus.pdf Syllabus]\n* [https://access.redhat.com/documentation/en/red-hat-enterprise-linux/6/?version=6/ RHEL 6 documentation]\n* [https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/index.html RHEL Installation Guide]\n\n=== March 7th ===\n* Setup TORQUE\n* [http://bloominglabs.org/images/6/65/Torque-5.1.3-1-rpms.tar.gz TORQUE rpms]\n* [http://bloominglabs.org/images/5/51/SysadminClass-Lecture4.pdf Lecture Notes for TORQUE]\n\n=== February 21st and 28th, 2017 ===\n* Setup iptables\n* Setup NTP server\n* Setup LDAP server (SLAPD)\n* Setup NFS\n* SSH security\n* Re-configure kickstart\n* Re-install nodes\n* Set nodes to boot off local disk\n* [http://bloominglabs.org/images/0/0e/SysadminClass-Lecture3.pdf Lecture Notes]\n* [http://bloominglabs.org/images/0/0f/SysadminClass3.tar.gz Config Files]\n\n=== February 7th and 14th, 2017 ===\n* Disable iptables/selinux\n* Finish setting up DNS\n* Setup DHCP\n* Configure mgmt node's wired network port to use new DNS server\n* Setup httpd\n** Copy CentOS 6 installation files (CentOS/6.8/x86_64)\n* Configure yum to use local repo\n* Setup PXE server \n* Modify DHCP to PXE boot\n* Configure Kickstart config file\n* [http://bloominglabs.org/images/8/88/SysadminClass-Lecture2.pdf Lecture Notes]\n* [http://bloominglabs.org/images/b/b8/SysadminClass2.tar.gz Config Files]\n\n=== January 31st, 2017 ===\n\n* Reinstall mgmt nodes with more full featured install\n* Setup wireless networking on mgmt node\n* Networking\n** [http://bloominglabs.org/images/5/55/SysadminClass-Lecture1.pdf Lecture notes]\n** [http://www.escotal.com/osilayer.html OSI Model]\n** [http://wintelguy.com/subnetcalc.pl IP Subnet Calculator]\n* [http://bloominglabs.org/images/5/55/SysadminClass-Lecture1.pdf Lecture Notes]\n* [http://bloominglabs.org/images/b/be/SysadminClass1.tar.gz Config Files]\n** #Errata: In dhcpd.conf, change the domain-name-server on line 30 to be 192.168.2.30\n*** This is fixed in current version of the tarball\n\n=== January 24th, 2017 ===\n* Setup hardware"
+  }
+}

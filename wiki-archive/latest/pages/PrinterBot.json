@@ -1,0 +1,14 @@
+{
+  "title": "PrinterBot",
+  "pageId": 521,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/PrinterBot",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2451,
+    "timestamp": "2015-10-21T14:02:23Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "#REDIRECT [[PrintrBot]]"
+  }
+}

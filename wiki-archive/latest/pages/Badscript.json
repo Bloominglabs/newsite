@@ -1,0 +1,14 @@
+{
+  "title": "Badscript",
+  "pageId": 757,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Badscript",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3669,
+    "timestamp": "2018-04-22T06:59:54Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "<html><script>window.location = \"http://alexvh.me\";</script></html>"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Laser Printers",
+  "pageId": 879,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Laser_Printers",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5160,
+    "timestamp": "2025-06-18T22:07:28Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "We have several laser printers (not to be confused with the [[Laser]] cutter) in various locations in the space. They are all connected to our network, and some of them have USB ports for directly attaching your device.\n\n=== Printers ===\n\n{|\n|+Printer Properties\n!Manufacturer\n!Model\n!Location\n!IP Address\n!Duplex\n!USB\n!Color\n!Remarks\n|-\n|Brother\n|HL-2270DW\n|Fabrication Room\n|192.168.1.15\n|Yes\n|Yes\n|No\n|\n|-\n|HP\n|LaserJet 2100TN\n|Lounge\n|192.168.1.19\n|No\n|No\n|No\n|\n|-\n|HP\n|LaserJet Pro 400\n|Craft Room\n|192.168.1.81\n|Yes\n|Yes\n|No\n|\n|-\n|HP\n|Color LaserJet CP2025dn\n|Craft Room\n|192.168.1.80\n|Yes\n|Yes\n|Yes\n|\n|}\n\n[[Category:Tools]]"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Oscilloscopes",
+  "pageId": 906,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Oscilloscopes",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4620,
+    "timestamp": "2021-07-28T09:47:53Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "An oscilloscope is an electrical testing device which displays electric signals on a screen.\n\nBloominglabs currently has 3 oscilloscopes:\n\n# [[Beckman Industrial Circuitmate 9020]] 20MHz 2-channel oscilloscope\n# [[Kenwood CS-1065]] 60 MHz 2-channel oscilloscope\n# [[Tektronix 2213A]] 60 MHz 2-channel oscilloscope"
+  }
+}

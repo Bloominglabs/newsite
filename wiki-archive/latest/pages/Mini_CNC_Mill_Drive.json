@@ -1,0 +1,14 @@
+{
+  "title": "Mini CNC Mill Drive",
+  "pageId": 439,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Mini_CNC_Mill_Drive",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2004,
+    "timestamp": "2014-12-09T20:06:23Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is to get the ball rolling for the acquisition of a mini CNC mill/router for Bloominglabs.\n\n== What could we do with it? (The sales pitch) ==\nFirst, what are the realistic capabilities of a CNC mill we could afford, and how does it compare to the laser?\nLike the laser, it would be limited to fairly thin/soft materials.  However, it would add the ability to cut, deeply engrave, and shape aluminum and other soft metals to the list.  It would also do a much better job at 3D shaping than the laser.\n\nThe cost per minute to run a CNC mill is also potentially less than the laser, and the machinery is less fragile overall.\n\n== Environmental ==\nA CNC mill would require a dust/waste collection system.\n\n== What do we want? ==\nThere are a lot of DIY and kit CNCs around, and each has its own valid selling points.  The one I'm leaning toward is the [https://www.inventables.com/technologies/desktop-3d-carving-cnc-mill-kit-shapeoko-2 Shapeoko 2, in \"full kit\" form from Inventables].\n\nThis version of the Shapeoko 2 kit is $650.\n\n=== Why the Shapeoko? ===\nThis machine is:\n*affordable\n*intended for hobbyists\n*desktop-sized, but expandable\n*open-source hardware\n*upgradeable (with fairly large community support)\n\n=== Why not the Shapeoko? ===\nThis machine is not:\n*big\n*powerful\n*a Blackfoot, Shopbot, Tormach, etc.\n\n== Pledges ==\n\n* $100 Daniel\n* $150 Jay\n* $125 from Jay (from a reimbursement he wants to go to the laser) - will not be run through the School Factory\n* $50 Jenett - I also don't care about the tax break so I'll give my money directly\n\n=== Overflow == upgrades ===\nIf we get more money pledged than we need for the base purchase of the mill, we might be able to put that money toward buying tools (end mills, router bits, etc.) and motor upgrades (router rather than Dremel-style motor) for the kit.\n\n== Current Purchase Status==\n* Get pledges totaling our goal\nAnd here's where it went off the rails\n* Do not pass GO, buy immediately for $100 discount\n* Assemble\n* Collect pledges\n\n== Owners, Usage, and Safety ==\nBloominglabs will be the owner, donors receive a tax deduction. We are an awesome group and all play well together, I think we can craft usage guidelines as usage evolves.\n\n\n[[Category: Pledge]]\n[[Category: Tools]]\n[[Category: CNC Mill]]"
+  }
+}

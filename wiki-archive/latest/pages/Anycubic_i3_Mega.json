@@ -1,0 +1,14 @@
+{
+  "title": "Anycubic i3 Mega",
+  "pageId": 880,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Anycubic_i3_Mega",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4909,
+    "timestamp": "2023-08-23T22:46:49Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Our Anycubic I3 Mega was donated by Ian Douglass around 2018 or so. As of 11-2020 it is fully functional again. It has a SD card for computer-less driven printing as well as a USB port for slicer-driven printing. [https://ultimaker.com/software/ultimaker-cura/ Cura] has settings for this printer.\n\nPrinter manual, firmware updates, etc: [https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s]\n\n[[Image:Anycubic-I3-Mega.jpg|none|thumb|200px|Anycubic I3 Mega 3D printer]]\n\n\n== Printer status ==\nAs of 11-2020 this printer is fully functional. The firmware was updated to the latest available as of 11-2020. \n\n\n== Printer features ==\nThis printer has the following features:\n\n* Bowden extruder\n* Filament runout sensor\n* Heated bed\n* Anycubic Ultrabase print surface - try not to scratch it by scraping the surface, prints should pop off easily\n* Control panel and SDcard slot for computerless printing\n\n\n== Filament Runout Sensor ==\nThis printer has a filament runout sensor below the bowden extruder motor. It is a funky looking thing which is held in place with a ball-bearing magnet which allows the sensor to flop around from whichever direction the filament spool is located. Just make sure you run the filament through the sensor following the direction of the arrow.\n\n\n[[Image:Qrcode anycubic-i3-mega.png|none|thumb|150px|Link to this page on the wiki (Anycubic I3 Mega)]]\n\n[[Category:3D_Printers]] [[Category:Tools]]"
+  }
+}

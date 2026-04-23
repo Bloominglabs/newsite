@@ -1,0 +1,14 @@
+{
+  "title": "Monero",
+  "pageId": 773,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Monero",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4946,
+    "timestamp": "2024-01-24T23:16:43Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "We had to disable this host probably in early 2019 because it was eating too much bandwidth. Murat had indicated he had attempted to rate-limit the host when he had set it up but apparently that had failed. It would be great if this host could be brought back up some day (was living in the top of the network closet), but the rate limiting needs to be fixed first. At this point the box needs major patching as well, possibly a full reinstall upgrade.\n\n== Monero Host ==\n[https://getmonero.org/ monero] is a privacy oriented cryptocurrency. \n\nWe operate a full monero node on a jacked up [[AG150]] that sits at 192.168.1.17 in the internal network. \nIt is called blockmeister, has 2 gb of ram and 2x60gb ssds in raid0.\n\nIts 18080 and 18089 ports are exposed through bloominglabs.no-ip.org and available for mobile wallet use. \nIt should also be in the moneroworld.com lists.\nIt collects no logs. \n\nUpdated to 0.13.0.2 Beryllium Bullet as of 14.10.2018.\n\n\n[[Category:Hackerspace systems]]"
+  }
+}

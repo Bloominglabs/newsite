@@ -1,0 +1,14 @@
+{
+  "title": "Pocket NC V2-10",
+  "pageId": 966,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Pocket_NC_V2-10",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5050,
+    "timestamp": "2024-11-08T14:41:26Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is a miniature 5-axis CNC mill. It can carve complex parts out of plastic and metal.\n\n== External Links ==\n[https://www.pentamachine.com/all-products/p/pocket-nc-v2-10 Product listing]\n\n[https://www.pentamachine.com/post-processor Officially-supported CAM software]"
+  }
+}

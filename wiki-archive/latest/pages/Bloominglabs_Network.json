@@ -1,0 +1,14 @@
+{
+  "title": "Bloominglabs Network",
+  "pageId": 531,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Bloominglabs_Network",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4241,
+    "timestamp": "2020-05-01T15:52:17Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This is information pertaining to the physical network that resides inside Bloominglabs. If you want to make changes and improve our network that's great! If you want to do it without talking to anyone first, that's terrible! We ask that you communicate with the rest of the group before making significant changes. \n\nPlease note that some of the equipment in our network closest is shared with other tenants in the building, so please don't power anything off or move cables unless you are absolutely certain of what you are doing. \n\nOtherwise, please have fun!\n\n== DHCP ==\nBoth our WiFi and our hardwired ports have DHCP available. If you are placing a device on the network semi-long term, please consider configuring it with a static IP for both your convenience and ours. \n\n== Setting up a Static IP ==\nWe can assign a static IP or set up a DHCP reservation based on your device's MAC address.\n\nStatic IP addresses should be placed below 192.168.1.125. Use these settings:\n\n* Netmask 255.255.255.0\n* Gateway 192.168.1.1\n* DNS 192.168.1.1\n\n== NTP ==\nWe have an ntp server, add this to /etc/ntp.conf and restart your ntpd:\n<pre>\nserver 192.168.1.2\n</pre>\n\nYou may also wish to add this to your /etc/ntpd.conf to prevent abuse of your box:\n<pre>\n# Prevent participation in DDOS attacks.\ndisable monitor\n# noquery bans all status queries if needed\n# noquery\n</pre>\n\n== Switches ==\nWe have two 24-port managed switches in the network closet. There are several smaller unmanaged switches at various end-points in the space.\n\n== Extending the network ==\nWe have no issues with folks extending the wired network with switches and hubs. However if the device has an in-band management interface (has its own IP address) make sure it doesn't clobber anything currently existing. Please do not extend the WiFi network. \n\n== Wiring ==\nBe aware that there are several strands of CAT5 which are NOT ethernet running through the space supporting other wiring needs. If you find an unplugged RJ45 connector on a long run of CAT5, it may be worth asking what it is before plugging it in to a network device.\n\n== Link to this page online ==\nIf you are viewing hard-copy, check out the latest version of this page.\n\n[[Image:Qrcode_Bloominglabs_Network.png|thumb|100px|Link to latest version of this doc]]\n\n\n\n[[Category:Hackerspace systems]]"
+  }
+}

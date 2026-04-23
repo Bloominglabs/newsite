@@ -1,0 +1,14 @@
+{
+  "title": "Bloomington Meshtastic",
+  "pageId": 1027,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Bloomington_Meshtastic",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 5218,
+    "timestamp": "2026-01-01T19:51:19Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This page is for having a public resource for documenting Meshtastic activity in Bloomington.\n\n== What is Meshtastic? ==\n[https://meshtastic.org https://meshtastic.org]\n\n=== What does it do?===\n* Allows texting and GPS position reporting\n* Provides a low-speed telemetry communication channel (speeds vary, but 1kb/s is average)\n* Excellent for off-grid communication and emergency communication (texting, gps, weather data, other sensor data)\n\n=== What are the parts of the system?===\n* An open LoRA mesh protocol specification (in the US, primarily running in the 900MHz ISM band)\n* Low power means license free operation (part15 in US)\n* LoRA long distance radio - 1-2km at ground level\n \n* A collection of low-cost hardware devices by different vendors that implement the protocol\n* An app for Android and iPhone that communicates with the hardware\n\n=== Why is it interesting?===\n* Works in dead zones (wilderness, marine, etc) and works when cell networks are down\n* Low power and long distance - 1-2 miles at ground level, can go hundreds of miles with high elevation line-of-sight\n* Meshing capability means the more nodes that are in range of each other extends the overall range of the network in the local area\n\n\n== Bloomington Coverage ==\nThere are several nodes placed around Bloomington that provide good high-altitude wide-area coverage:\n* IMU\n* CIB\n* Bloominglabs\n\n\n== Building a Solar Node ==\n\n<pre> {{#widget:SolarCalculator}} </pre>"
+  }
+}

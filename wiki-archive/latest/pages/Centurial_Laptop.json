@@ -1,0 +1,14 @@
+{
+  "title": "Centurial Laptop",
+  "pageId": 477,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Centurial_Laptop",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2258,
+    "timestamp": "2015-06-11T06:40:49Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Development for this project takes place at http://hub.darcs.net/centurial_laptop/centurial_laptop"
+  }
+}

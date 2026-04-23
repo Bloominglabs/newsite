@@ -1,0 +1,14 @@
+{
+  "title": "Pogo",
+  "pageId": 282,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Pogo",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4194,
+    "timestamp": "2019-11-14T03:22:59Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "Decommissioned somewhere around 2016. This page is only here for reference purposes. The backups of the code and projects described here probably do exist in a few peoples hands.\n\nPogo is the name of the system we keep running for services in the space. Generally we try to keep it in a running state as much as possible.\n\n== Services Pogo provides ==\n* Internal webserver/fileserver\n* External webserver via dynamic dns\n* Shell accounts\n* RFID access management (RFID operates independently)\n* Gateway between RFID system and IRC via doorbot\n* Audio annunciation to people within the space\n* Controls scrolling LED sign, access from IRC via SignBot\n* X10 Firecracker (serial X10 device control)\n* LDAP (still experimental)\n* Minecraft server for a while (kept crashing)\n\n== FTDI - /dev/ttyUSBx ordering ==\nWe have a number of FTDI serial adapters connected to pogo. These allow access to X10 control, the scrolling LED sign, access to the RFID board, etc. To keep the tty devices ordered the same after each reboot some udev rules had to be created.\n\n* /etc/udev/rules.d/10-local.rules\n\n<pre>\n# Run this to find an FTDI adapters serial number:\n# udevadm info --name=/dev/ttyUSB1 --attribute-walk | grep -i serial\n# More info here: https://forum.sparkfun.com/viewtopic.php?f=14&t=34590\n\n# Definition for the X10 Firecracker on FTDI /dev/ttyUSB0\nSUBSYSTEMS==\"usb\", KERNEL==\"ttyUSB*\", ATTRS{serial}==\"FTCUSA8R\"\n\n# Definition for the RFID system (Arduino)\nSUBSYSTEMS==\"usb\", KERNEL==\"ttyUSB*\", ATTRS{serial}==\"A7006QeX\"\n\n# Definition for the serial USB interface to the scrolling LCD sign /dev/ttyUSB2\nSUBSYSTEMS==\"usb\", KERNEL==\"ttyUSB*\", ATTRS{serial}==\"FTCBW2W2\"\n</pre>\n\n\n== Notes on pulseaudio setup ==\nThere were some pulse audio notes here, but the final fix to get audio working again on pogo was to uninstall pulse-audio. That's it.\n\n= RIP pogo =\nPogo was retired when we moved to the new space. Poquito (RFID system) is still kicking for now.\n\n[[Category:Hackerspace systems]]"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Gas Cromatograph",
+  "pageId": 864,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Gas_Cromatograph",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 4195,
+    "timestamp": "2019-12-04T00:31:08Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "In 2018 a few of our members picked up a surplus Shimadzu Gas Cromatograph. It's mostly in working condition as far as we know. An optional control panel has been replaced on it to make usage easier once we get around to getting this working. \n\n== Usage ==\nThis machine is apparently a popular choice for college level science labs and a lot of curriculum has been designed around it and is available online.\n\n* [https://www.ssi.shimadzu.com/products/gas-chromatography-mass-spectrometry/fundamentals-of-gc-ms-intro.html https://www.ssi.shimadzu.com/products/gas-chromatography-mass-spectrometry/fundamentals-of-gc-ms-intro.html]\n\n\n== Support Equipment ==\nThis tool requires various compressed gasses among other items in order to operate. In order to get this tool operable it will need gas canisters, compatible metal tubing, and probably other equipment. Additionally, it would be useful to attach a modern data collection interface, however there is a compatible data printer with the machine at the very least.\n\n\n\n\n[[Category:Tools]]"
+  }
+}

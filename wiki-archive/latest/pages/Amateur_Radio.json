@@ -1,0 +1,14 @@
+{
+  "title": "Amateur Radio",
+  "pageId": 290,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Amateur_Radio",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 2264,
+    "timestamp": "2015-07-16T14:47:15Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "\n\n== Amateur Radio requires a valid FCC license to operate! ==\nPlease respect this.  '''Feel free to turn it on and tune in to any frequency and listen''', but if we start to hear of unlicensed transmissions this radio may need removed.  Anyone can get a license, there is a test to take and a $14 fee for taking the test. There are free and pay study guides available online and in print.  Google for “technician class study” to start. In fact, the entire question pool is openly available.    Testing sessions are typically held on the first Saturday of the month at noon in Bloomington. For more info see http://tinyurl.com/b5l3zkd\n\nhttp://www.bloomingtonradio.org/index.php/info/ve-testing\n\n\n== RadioShack HTX-212, 2m (144mhz) Amateur Radio ==\n(currently setup in the front room)\n\nAbout this radio:\n\nI’ve programmed the following local repeaters as memory channels.  To access memories briefly press MR:\n\n* Mem 1\t146.640-\tpl 136.5\tMonroe Co. Repeater Association\n* Mem 2\t146.940-\tpl 136.5\tIndiana University ARC\n* Mem 3\t147.240+\tpl 103.5\tGreene Co.\n* Mem 4\t146.985-\tpl 136.5\tOwen Co.\n* Mem 5\t147.060+\tpl 88.5\tMorgan Co.\n* Mem 6\t147.300+\tpl 136.5\tBrown Co.\n* Mem 7\t146.730-\tpl 107.2\tLawrence Co.\n\nTo scan all memories hold down MR until the display shows the frequencies changing.  Press MR briefly to stop scanning.\n\nI have set Low power (10w) on the local repeaters to reduce RFI on the mag-mount antenna.  This should be plenty to hit the local repeaters (first 2 in the list).  High power is 45W and is well within the capabilities of the antenna, but at the higher risk of RFI.  High power would be more appropriate for an outdoor antenna. \n\nThe receive end of this radio seems to have bouts of sensitivity that will open the squelch.  To get around this I’ve set the memories to only open squelch when the PL tone comes with the signal.  Note that these repeaters do not send the PL tone when they ID every 12 minutes, so you will not hear those.  Tune to the repeaters in VFO mode without T-SQL to listen to everything coming from it.\n\nAny questions please contact Corey (KB9JHU), cshields on irc\n\n[[Category: Group projects]] [[Category:Radio]]"
+  }
+}

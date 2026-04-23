@@ -1,0 +1,14 @@
+{
+  "title": "SparkBuildNight",
+  "pageId": 435,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/SparkBuildNight",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1982,
+    "timestamp": "2014-10-12T23:37:01Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== What it is ==\n\nA chance for us to build some projects using the Spark.io board. It is a small, inexpensive (free for us!) Arduino-like board w/ wireless built-in, and a 'cloud' development environment and API.\n\nInfo on the Build Night Here: [http://www.instructables.com/community/November-2014-Build-Night-with-Sparkio/ Build Night]\n\nWe are going to be sent:\n*(10) Spark Cores\n*(10) Spark Buttons: a new shield for Spark with LEDs, 4-way clicking like a game controller, acceleration and temperature sensing.\n\nNote: this is hosted by Instructables and they ask that we submit 2 Instructables about projects built at Build Night. Both Steve and Vic have volunteered to do write-ups, but the more the merrier.\n\n== When it is ==\nNeed to finalize this but how about Tuesday the 11th, Thu the 13th, or Friday the 14th (or some combo)?\n\n== Who we'd like to see there ==\n*Hardware Hackers\n*Software Hackers\n*Artists with creative ideas\n*Non-artists with creative ideas\n*Artists or non-artists with practical ideas\n*Somebody (or multiple somebodies) with cameras and camera skills to help document the projects\n\n== Project Ideas ==\n*Crawl Space Monitor\n*Bathroom Occupancy sign in the Workshop\n*Magic Wireless Neopixels people can interact w/ via the Web\n\n== Stuff we need ==\n(Make a 'wish list' of things you like to have there for building - hopefully we can pool resources amongst ourselves)"
+  }
+}

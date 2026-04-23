@@ -1,0 +1,14 @@
+{
+  "title": "Gavin's Projects",
+  "pageId": 730,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Gavin's_Projects",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 3515,
+    "timestamp": "2017-12-26T17:30:08Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "== Bloominglabs Youtube Videos ==\nThe idea is to get some introductory videos on our Youtube channel.\n\n== Bloominglabs CMS ==\nBuilding a simple website to keep track of Bloominglabs internal documents, such as liability waivers and membership forms.\n\n[[File:Bloominglabs_cms.png]]\n\n== Internal Street View of Bloominglabs ==\nOnce we move to the new space, I'm going to try and get some 360 degree photos of the interior to put on our Google maps listing."
+  }
+}

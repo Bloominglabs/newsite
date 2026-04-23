@@ -1,0 +1,14 @@
+{
+  "title": "Bloominglabs side-lit LED sign",
+  "pageId": 219,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Bloominglabs_side-lit_LED_sign",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1282,
+    "timestamp": "2013-03-25T20:53:23Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "A guy (Sam) with a very nice home built CNC stopped by a recent meeting asking if people had ideas for CNC projects. Bloominglabs doesn't have a nice sign outside our office space, so that is something we need to fix.\n\nThe current plan is to come up with a side-lit LED sign. There are numerous sites and projects on-line to look to for inspiration and information:\n\n=== Online Projects ===\n* [http://www.ehow.com/how_5094589_make-edgelit-led-signs.html EHow, how to make edge-lit signs]\n* [http://www.instructables.com/id/Edge-Lit-Mobile-Night-Light/step10/ENJOY/ You know, for the kids!]\n* [http://www.adafruit.com/blog/2009/09/22/making-an-edge-lit-acrylic-sign/ On Adafruit - gave us the idea]\n\n\n=== Materials ===\n* [http://www.mcmaster.com/#catalog/117/3540/=fr3qdh Machinable PETG (recommended for indoors)]\n* [http://www.mcmaster.com/#acrylic/=frlf1x Machinable acrylic]\n* LED tape (around $30, best would be RGB for multi-colored possibility)\n** http://www.amazon.com/Flexible-Color-Changing-Ribbon-16-4ft/dp/B006JIWM4Y\n** http://ledshoppe.com/Product/led/LE5045.htm\n** http://www.ebay.com/sch/LED-/58019/i.html?_armrs=1&_mdo=Consumer-Electronics&_mspp=&_pcats=58017%2C71536%2C60207%2C3270%2C293\n** http://www.creativelightings.com/LED-Flex-Strips-and-LED-Ribbon-Flexible-LED-Lighting-12v-s/39.htm\n* Aluminum for the case\n* Power Supply (12VDC)\n* Arduino or microcontroller to make the display do cool things.\n\n[[Category:Group projects]]\n[[Category: The Space]]"
+  }
+}

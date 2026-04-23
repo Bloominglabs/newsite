@@ -1,0 +1,14 @@
+{
+  "title": "Laser cut raspberry pi case",
+  "pageId": 391,
+  "namespace": 0,
+  "liveUrl": "https://www.bloominglabs.org/Laser_cut_raspberry_pi_case",
+  "archivedAt": "2026-04-23T07:28:04.701Z",
+  "revision": {
+    "id": 1619,
+    "timestamp": "2013-07-11T20:32:52Z",
+    "contentModel": "wikitext",
+    "contentFormat": "text/x-wiki",
+    "content": "This raspberry pi case is an instance of [http://www.thingiverse.com/thing:29456 this thingiverse project]. We set the laser to:\n* power: 90\n* speed: 10\n* current: 80\n* passes: 1\nAnd it worked great with just the 1 pass! Everything came out beautifully. I wrote about the experience on my blog [http://austintoombs.com/laser-cut-raspberry-pi-case/ here]. \n\n[[File:rpicase1.jpg|none|thumb]]\n[[File:rpicase2.jpg|none|thumb]]\n[[File:rpicase3.jpg|none|thumb]]\n[[File:rpicase4.jpg|none|thumb]]\n[[File:rpicase5.jpg|none|thumb]]\n[[File:rpicase6.jpg|none|thumb]]\n[[File:rpicase7.jpg|none|thumb]]\n\n[[Category: Austin's Projects]] [[Category: Laser]]"
+  }
+}
