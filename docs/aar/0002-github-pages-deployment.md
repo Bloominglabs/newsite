@@ -24,7 +24,7 @@ ADR 0002 succeeded.
 
 1. Enabling GitHub Pages after pushing the workflow was not sufficient by itself; the repository default branch still pointed at `adr-0001-static-site-foundation`, which caused environment protection mismatches.
 2. The automatically created `github-pages` environment inherited a stale branch allowlist and initially allowed only `adr-0001-static-site-foundation`. Explicitly allowing `master` was required before the deploy job could proceed.
-3. GitHub emitted a Node 20 deprecation warning for some Pages-related JavaScript actions, so the workflow now opts into Node 24 execution explicitly to reduce near-term platform churn.
+3. GitHub initially emitted Node 20 deprecation warnings for some Pages-related JavaScript actions, so the workflow was updated to the latest official Pages action majors available during rollout and also opts into Node 24 execution explicitly to reduce near-term platform churn.
 
 ## Follow-Up
 
