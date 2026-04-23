@@ -4,7 +4,7 @@ const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
 
-const { buildSiteFiles, writeSite } = require('../src/site/build.js');
+const { buildSiteFiles, normalizeBasePath, writeSite } = require('../src/site/build.js');
 
 test('buildSiteFiles returns the expected public page set', () => {
   const files = buildSiteFiles();
@@ -50,6 +50,29 @@ test('wiki page links both to the live wiki and to the local archive manifest', 
   assert.match(wiki.contents, /\/wiki-archive\/latest\/manifest\.json/);
 });
 
+test('normalizeBasePath canonicalizes empty and nested path prefixes', () => {
+  assert.equal(normalizeBasePath(), '');
+  assert.equal(normalizeBasePath('/'), '');
+  assert.equal(normalizeBasePath('newsite'), '/newsite');
+  assert.equal(normalizeBasePath('/newsite/'), '/newsite');
+  assert.equal(normalizeBasePath('org/newsite'), '/org/newsite');
+});
+
+test('buildSiteFiles prefixes internal links and assets for a GitHub Pages project path', () => {
+  const files = buildSiteFiles({ basePath: '/newsite' });
+  const home = files.find((file) => file.path === 'index.html');
+  const wiki = files.find((file) => file.path === 'wiki/index.html');
+
+  assert.ok(home);
+  assert.ok(wiki);
+  assert.match(home.contents, /href="\/newsite\/assets\/site\.css"/);
+  assert.match(home.contents, /href="\/newsite\/visit\/"/);
+  assert.match(home.contents, /href="\/newsite\/membership\/"/);
+  assert.match(home.contents, /href="\/newsite\/wiki\/"/);
+  assert.match(wiki.contents, /href="\/newsite\/wiki-archive\/latest\/manifest\.json"/);
+  assert.match(wiki.contents, /href="\/newsite\/"/);
+});
+
 test('writeSite materializes the generated files on disk', async () => {
   const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-'));
 
@@ -72,6 +95,23 @@ test('writeSite materializes the generated files on disk', async () => {
     assert.match(homeContents, /Bloominglabs/);
     assert.match(styleContents, /--color-rust:/);
     assert.match(styleContents, /font-family:\s*"Iowan Old Style"/);
+  } finally {
+    await fs.rm(tempRoot, { recursive: true, force: true });
+  }
+});
+
+test('writeSite renders pages with a provided base path', async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-base-path-'));
+
+  try {
+    await writeSite(tempRoot, { basePath: '/newsite' });
+
+    const homeContents = await fs.readFile(path.join(tempRoot, 'index.html'), 'utf8');
+    const wikiContents = await fs.readFile(path.join(tempRoot, 'wiki', 'index.html'), 'utf8');
+
+    assert.match(homeContents, /href="\/newsite\/assets\/site\.css"/);
+    assert.match(homeContents, /href="\/newsite\/visit\/"/);
+    assert.match(wikiContents, /href="\/newsite\/wiki-archive\/latest\/manifest\.json"/);
   } finally {
     await fs.rm(tempRoot, { recursive: true, force: true });
   }
