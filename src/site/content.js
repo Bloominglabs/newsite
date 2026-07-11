@@ -17,7 +17,7 @@ const siteContent = {
     mailingAddress: 'P.O. Box 2443, Bloomington, IN 47402',
     email: 'contact@bloominglabs.org',
     publicHours: 'Wednesdays, 7pm–10pm',
-    publicHoursDetail: 'Every Wednesday from 7pm until 10pm',
+    publicHoursDetail: 'every Wednesday from 7pm until 10pm',
     entranceNote: 'Entrance is around the back, next to the garage door.',
     wikiUrl: 'https://github.com/Bloominglabs/newsite/wiki',
     makeventionUrl: 'https://www.makevention.org/',
