@@ -1,0 +1,69 @@
+= Treasurer's Duties =
+
+== Ongoing Monthly Duties ==
+* Check our P.O. box (2443) for notifications from our creditors, checks to be deposited, etc.
+** Paid in July
+* Check our onsite mailbox for notifications
+* Check donations/dues boxes onsite for deposits
+* Deposit payments collected into Blabs' bank 
+* Pay Monthly Expenses
+** Rent
+** Electric bill
+** Gas bill
+** Internet
+** Garbage
+** Insurance
+** Freshbooks
+*** Note: All monthly expenses are paid automatically from our checking account
+* Poke people about past dues
+** Disable people's fobs if they are over 3 months over due
+** Realize that people may not know they are past due
+** These duties are often take on by other board members
+
+== Government Filings ==
+
+<strike>* By January 31st: File sales taxes for previous calendar year with the Indiana Department of Revenue
+** https://intime.dor.in.gov/</strike>
+* By Annual Meeting: Prepare annual treasurer's report for previous calendar year
+** IUCU bank account (expenses, dues)
+** PayPal (dues, workshop payments and expenses, large donations)
+** Square (onsite payments like snacks and laser time)
+** WePay (dues)
+** Freshbooks (dues credits for things like teaching a workshop or buying snacks)
+** Makevention report
+** Workshop report
+** Past dues report
+** Monthly expense report versus membership dues coming in
+*** Consider that somethings (like snacks) are being paid in dues credits which is essential an expense to Blabs
+** Banking Fees (PayPal, WePay, credit card, etc.)
+*** Help members understand that it's important to make it easy for people to give us money
+* By May 15th: File 990N with the IRS for previous calendar year
+** https://sa.www4.irs.gov/epostcard/
+* By May 15th: File NP-20, Nonprofit Organization's Annual Report, with the Indiana Department of Revenue
+** https://intime.dor.in.gov/
+* By May 15th: File Indiana Business Tangible Personal Property Taxes for previous calendar year
+** We don't pay any taxes on our property because we are exempt, but Indiana still requires us to file
+** Online: https://ppopin.in.gov/
+** Paper form will be sent when tax needs to be filed
+** Will come to our onsite mailbox
+** In 2021, Blabs' made a great effort to document our tangible business property. That will be useful for filing going forward.
+* By December 31st: Every other year file our Indiana Business Entity Report
+** Filing on the even numbered years (2018, 2020, etc)
+** https://access.in.gov/
+
+== Workshop Support ==
+
+* Create PayPal buttons for Workshops
+* Buy things for the workshop
+* Make sure people get reimbursed - protect you and the person you are giving money to - get receipts!
+* Try to make sure we bring in enough money to cover the costs of the workshop
+
+These are on-going duties throughout the year
+
+== Makevention Support As Needed ==
+
+* Makevention pretty much runs itself financially, but may need treasurer support
+* Makevention has all their own accounts for Square, Paypal, and an IUCU checking account
+* Make sure payments and expenses for Makevention go into the right accounts
+
+[[Category:Operations]]

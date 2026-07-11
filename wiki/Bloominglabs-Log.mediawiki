@@ -1,0 +1,406 @@
+== Historical Document ==
+This page is intended to document as much of our activities as possible so we can maintain a sense of history of what our group has done over time. It should be used for anything that happens outside of the [[Meeting-Minutes]] document.
+
+== July 2010 ==
+==== Bloominglabs is official! ====
+Moved out of Jenett's basement and into our room at [http://www.thecollaborationroom.org The Collaboration Room]. Picked a name for our space. Formed Bloominglabs LLC and signed our lease for the room. 
+
+==== Held these workshops which where open to the public ====
+* Soldering
+* AVR programming I
+* AVR programming II
+* Arduino + RF/wireless
+
+The Soldering workshop was our first and had 17 attendees (out of 6 RSVP's). The AVR workshops had 11 and 6 attendees respectively, and the Arduino RF workshop had 6 attendees. All went over extremely well and had very good feedback.
+
+==== External Publicity ====
+Local writer Kevin Makice wrote about The Collaboration Room and the Bloomington Hackerspace Initiative in his Wired blog [http://www.wired.com/geekdad/2010/07/the-collaboration-room-where-geeks-create-art/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+wiredgeekdad+(Blog+-+GeekDad) Geek Dad]. Member Joe Stone was at the Detroit Maker Faire the weekend of July 31st and sat on a panel about hackerspaces along with Mitch Altman.
+
+== August 2010 ==
+After the whirlwind that was July we relaxed and only held one workshop. Mitch Altman and Jimmy Rogers stopped by on August 19th to host a soldering workshop, it was another great success.
+
+== September 2010 ==
+* Obtained a drill press
+* Got prototype of RFID door-access system working based on [http://blog.shop.23b.org/2010/10/open-access-control-v100-board.html Open Access Control]
+* Installed shelves on main closet in space
+* Cleaned up front porch power tool area
+* Installed deadbolts on Matthew's and Arthur's doors
+* Aluminum casting mini-workshop with coffee can forge
+
+== October 2010 ==
+* More work on RFID system
+* Collaboween projects built with Matthew
+* Arduino shield build parties
+* [http://wiki.lvl1.org/Mini-Sumo_Competition_10/29/10 Sumobot throwdown] and halloween party at LVL1 in Louisville, KY
+* Started accumulating hardware for plastic vacuum-forming table
+
+== November 2010 ==
+* More work on RFID system
+* Prep for December soap-molding workshop
+* Prep for January bugbots with Wonderlabs
+* Built a plastic vacuum form machine for members to use
+
+== December 2010 ==
+* St. Nick's workshop (soap-molding/vacuum forming, hand-warmer sewing, hand-bag sewing, and card making)
+* Reporter from Indiana Daily Student came and documented the workshop
+
+== January 2011 ==
+* BugBot workshop with Wonderlab
+
+== February 2011 ==
+* Contact Microphone Building Workshop hosted by CMKT4 (held at warehouse Behind Russian Recording Studios)
+
+== March 2011 ==
+* Preparations for July 4th Parade entry
+* Electric wheel chair acquired for robotic platform hacking
+
+== April-June 2011 ==
+* Activity around TEDx Bloomington event - geocaching boxes started, but not enough time to finish these in time for TEDx
+* Preparations for July 4th Parade entry
+** smoke ring cannons
+** twinki launchers
+** IR LED message scroll-sign
+** Strand Beast (walking machine) design well under way
+** electric wheel chair platform hacking via CANUSB adapter
+* Reporter from Bloom Magazine interviewed several members and observed a meeting in June
+
+== July 2011 ==
+* Parade float in Bloomington July 4th parade!
+* Moved to our new space on Roll Avenue!!
+* Follow-up from Bloom Magazine to get photos of our new space
+* New RFID system acquired
+* Table-top sander now in the space
+* Dust collection system in the works
+* Open-house July 23rd
+* Lathe acquired
+* Electrolysis rust removal system built for the lathe and general use
+
+== August 2011 ==
+* New RFID system built and tested
+* Lathe cleanup on-going
+* August 13th BugBots workshop at Wonderlab
+* August 23rd Jay hosts an Arduino for Beginners workshop
+
+== September 2011 ==
+* Bloominglabs is featured is an article in Bloom magazine
+* Rex, Jay, Jonathan, and others represent Bloominglabs at a booth at the Indy Mini-Maker Faire
+
+== October 2011 ==
+* That old standard, the AVR workshop
+* dosman and FOOLS make [http://hackaday.com/2011/10/07/hackerspace-competition-combines-drinking-and-lock-picking-need-we-say-more/ hack-a-day] for their lockpicking game (Steve did some programming for the scoreboard). The site buckles under the load.
+
+== November 2011 ==
+*Catarina Mota from NYC Resistor and Open Materials visits and tells us about interesting materials for projects. This workshop attracted some artists, and we hope to see more artists in the future.
+
+== December 2011 ==
+* Second Annual Holiday Mini-Workshops. Again the vacuum molder was very popular. Buddha and cellphone molds were made.
+
+== January 2012 ==
+* Jenett's C programming course starts
+* Annual meeting. Members make big plans and then go eat some Bar-B-Q.
+
+== February 2012 ==
+* Soldering workshop. This one featured kits of dosman's 'Phasor', with nice etched boards
+* Theremin building workshops with Harmony School begin. These continue through March.
+
+== March 2012 ==
+* Second soldering workshop. This one covered SMT techniques (Thanks Nick!)
+* Bloominglabs holds its first Game Day
+
+== April 2012 ==
+* Bugbot workshop at Wonderlab
+* Bloominglabs hosts a 'hardware hacking village' at Indy Linux Fest in conjunction with FOOLS featuring the Rumble Challenge, Typing of the Dead, the 'Shoot the Windows Logo and Win Candy' game, Snap Circuits, and more. People really dug it.
+
+== May 2012 ==
+* The team prepares for the hack-a-thon.
+
+== June 2012 ==
+* Bloominglabs team attended the 1st ever LVL1 Boneyard Hack-a-thon
+* The lathe is fixed up to the point it is now operational
+
+== July 2012 ==
+* Lockers now available for rent
+* Bugbot workshop at the Wonderlab Kids Camp - held at University Elementary School
+
+== August 2012 ==
+* Mid-sized mill acquired
+* Monthly RasberryPi Meetups started on the first Tuesday each month
+* Bloominglabs "Circle stickers" available to members
+
+== September 2012 ==
+* Our yearly open house was a smashing success, covered in the local Hearald Times paper the following day
+** http://www.heraldtimesonline.com/stories/2012/09/09/news.hackers-find-home-where-they-can-create.sto
+* Circuit board etching workshop
+* Rube Goldberg day at WonderLab - Jenett, Mitchell, Jonathan, and others participated
+* Soldering workshop
+
+== October 2012 ==
+* Intro to Arduino workshop
+* Participated in LVL1's "Make Food Not War" Hackathon
+* Contacted by the Monroe County Library on having a makerspace within the Library, discussions ongoing
+* Had meeting with city about the TechPark they have established
+* Started Laser Etcher/cutter acquisition proposal for the space
+* 10 week programming class led by Jenett
+
+== November 2012 ==
+* Helped Russ's friend rewire electric winch controls for a dumb-waiter system in his house
+* Began discussions about holding a MakerFaire in Bloomington (to be named Makevention)
+* City invited us to submit a response to their Firehouse RFI, began coordination with Nicole Jacquard with the IU FabLab on this front
+* Contacted by Bray Entertainment Casting for a possibly spot in an upcoming reality TV show
+
+== December 2012 ==
+* St. Nicks workshop
+* Closed Bloominglabs LLC, formed Bloominglabs Incorporated as a non-profit as a project of the School Factory
+* Updated our install of MediaWiki for our front page, started work on a WordPress site as a formal front page
+* Collaborated with IU/Kylie Peppler on Indiana 2013-2014 Innovation Fund Grant (did not get however)
+
+== January 2013 ==
+* Multi-room speaker system installed ([[Audio-Network]])
+* Significant work put in on the Firehouse RFI submission, turned in on January 31st deadline
+* Automatic web-based invoicing system setup for membership dues
+* Asset tracking with asset tag printing capabilities for all objects in our physical space
+* Setup a CRM system for grant and opportunity tracking and coordination
+* Open Arena server setup inside the space
+* Scrolling LED sign setup and accessible from IRC
+* Auto-greeting system setup (festival text-to-speech greetings when badging in with RFID)
+* Acquired a wood lathe and gouges for the space
+
+== February 2013 ==
+* Installed multi-room [[CCTV-Network]] with 8 channel computer controlled video switcher and frequency agile RF generator
+** Facilitates presenters (and any other A/V media) which is present in the front room to be present in any other room in the space
+* Competed in the international Open Arena hackerspace competition
+* Received a MAME arcade cabinet into the space
+
+== March 2013 ==
+* Began fundraising for the laser cutter
+* Following the March Geek Dinner we provided free ice cream for everyone who came over to Bloominglabs afterwords
+* Corey setup the Bloominglabs Badge service [https://badges.bloominglabs.org https://badges.bloominglabs.org]
+* Jenett, Steve, and Nathan presented at the IU Makes lecture
+* A journalism student posted her [http://journalism.indiana.edu/classwork/j520_kellyjd_spring2013/build-it-yourself-at-bloominglabs/ coverage of Bloominglabs]. 
+* We did another Wonderlab bugbot workshop on March 30th
+* At the end of the month we reached our pledge goal for funding the laser cutter
+
+== April 2013 ==
+* Participated in the Creativity Week event, work still ongoing into May with the 4th street bridge
+* Placed the order for the laser cutter
+
+== May 2013 ==
+* Laser cutter arrived!!
+* Saturday fleamarket event
+* Setup video camera to watch the laser, connected to CCTV system
+* A new member donated blood to have cash for his first months dues - way to set the bar high! (Will Robot)
+
+== June 2013 ==
+* Blue barrel bonanza workshops (rain and compost barrels)
+* Machining workshops started
+* Squishy circuit kids workshop with Wonderlab June 19th & 20th
+* Geek camp with Kevin Makice June 26th (soldering, circuits, lock picking, etc.)
+* Stop motion kids workshop at Elletsville Library June 24th, Monroe library on the 25th
+* Space reallocation project in planning phases
+* Many amazing laser projects created this month
+
+== July 2013 ==
+* July 3rd: accepted our 30th and 31st members!
+* "Makey Makey" Wonderlab kids camp workshop - July 15th
+* Drawdio Wonderlab kids camp workshop - July 16th
+* Machining workshops for members
+
+== August 2013 == 
+* Makevention prep in full swing (held August 24th)
+* Time lapse of bike dome being built: [http://www.youtube.com/watch?v=UHxuAcvl6vc http://www.youtube.com/watch?v=UHxuAcvl6vc]
+* Laser cut wood and acrylic gear-wheel badges
+* Laser cut paper trebuchet badges
+* Continuation of machining workshops for members
+
+== September 2013 ==
+* Recovery from Makevention
+* Laser tube replaced after an early death of our tube
+* Continuation of machining workshops for members
+* Started investigating larger locations for Bloominglabs
+
+== October 2013 ==
+* Arduino workshops
+* Continuation of machining workshops for members
+
+== November 2013 ==
+* Started microcontroller nights every Thursday evening for members
+* As part of microcontroller night, created Arduino controlled thermostat for space (w/Ethershield and web interface)
+
+== December 2013 ==
+* Craftmania at St. Nick's Workshop with Discardia at MCPL
+* Continuation of machining workshops for members
+* Nitocris from IU shoot a video for a series of UITS Tech Tips at Bloominglabs
+
+== January 2014 ==
+* Annual meeting
+* Checked out a potentially bigger space for Bloominglabs (Adam Nahas)
+* 2nd laser tube busted due to incredibly cold temps coming in through exhaust vent and freezing water in the laser tube water jacket
+
+== February 2014 ==
+* Had a Saturday hackathon at Rex's
+* Checked out another potentially bigger space for Bloominglabs (Adam Nahas)
+
+== March 2014 ==
+* More discussions about Adam's latest warehouse for Blabs to sublet, passed on this one
+* Opportunity for a commercial space on Landmark Ave, 4th & Rogers, Fell Building
+* Toured facility at Alion Science and Technology at the Bloomington Airport for potential collaboration
+
+== April 2014 ==
+* [[Critical-Playshop-Perception]] - hosted by member Austin
+* Soldering Party (at Blabs) with SDC and Steve Backs to solder up Arduino shields for an upcoming MCPL workshop
+* Laser cutter back in action at 45W!! (now with backup laser tubes)
+
+== May 2014 ==
+* Spring Flea Market
+* Ctrl-Alt-Let's Eat! Pizza Hut Fund Raiser for Bloominglabs
+* Miah from the city approached us about a warehouse on S. Rogers Street (which we obtained in July!!)
+
+== June 2014 ==
+* Arduino workshops with Monroe County Public Library (MCPL)
+* Geek Camp hosted by Kevin Makice visits Bloominglabs for an afternoon (kids event)
+* Participated in the National Day of Making June 18th [http://newsletter.makezine.com/t/ViewEmail/r/AE9837DFB31E1DA52540EF23F30FEDED]
+* Wrote an RFP "About Us" document for the S. Rogers warehouse to be submitted with our bid
+* On June 24th the City Parks and Rec board approved our bid for the South Rogers warehouse!! (And Adam Nahas got his bid on the other warehouse on the same lot)
+
+== July 2014 ==
+* Obtained the S. Rogers warehouse (3100 square feet!), main move occurred on July 26th
+** Fundraised all money required to build dividing wall and do needed electrical and lighting expansion in 1 day once we were green-lighted by the city to move in
+** Built 50'x12' dividing wall
+** Installed and wired all lighting in workshop and office areas, wired new wall with outlets, and added outlets in workshop (120v+220v) and office
+* July 30th was our first public night at the new space
+
+== August 2014 ==
+* August 1st was the official start of our new lease at South Rogers!
+* Member Josh makes Hackaday with his 3dollar 3D scanner: http://hackaday.com/2014/07/31/a-3dollar-scanner/
+* Bloominglabs was official stop on the Hoosier-to-Hoosier sale next door, we had an out-door flea-market and open-house as well
+* Makevention 2014 was held on Aug 30th!
+* Aug 31st, Star Wars "The Faneditageddon" as a wind-down event after the move-in: Fan edits of episodes 1, 2, and 3
+
+== September 2014 ==
+* Membership count raised significantly this month
+* Wonderlab fundraiser held with Bloominglabs members participating - Jays Laser Maze and the FOOLS lock picking village were on-site
+* Bloominglabs partnered with Discardia for a bag-making workshop at MCPL on Sept. 13th: http://mcpl.info/event/bloominglabs-arduino-club-mcpl
+* Bloominglabs Arduino club at MCPL on Sept. 23rd, Python club on Sept. 30th: http://mcpl.info/event/bloominglabs-python-club-mcpl
+* A member brought in a second refrigerator and stocks it with eggs for members (a portion of each purchase goes to Bloominglabs)
+
+== October 2014 ==
+* Pinnacle fundraiser, graciously provided a table for Bloominglabs at this event
+* Membership drive week held Oct. 27th through the 31st, several activities held during this time through the week
+* Lock picking night Oct. 30th
+
+== November 2014 ==
+* Adam Nahas Halloween bash held next door, all members were welcome to attend
+* Bloominglabs selected to participate in Spark.io build night - they gave us 10 Spark.io boards and we held hackathons on Nov. 13th and Nov. 15th
+** Members writeup of their Spark.io projects: http://www.instructables.com/id/IoT-Bathroom-Vacancy-Indicator-For-Hackers/
+* Danny had a barn-raising of his tiny-house he was building at the space
+* Bloominglabs Python club at MCPL
+* Bloominglabs Arduino club at MCPL
+* Fundraiser started for desktop CNC Mill (Shapeoko 2) [[Mini-CNC-Mill-Drive]]
+
+== December 2014 ==
+* Shapeoko2 CNC Mill arrived!!
+* Bloominglabs participated in the Pinnacle Winter Fair fundraiser
+* We rose to our all-time high (as of this date) paying member count of 37!
+
+== January 2015 ==
+* Danny's tiny-house Build-a-Thon from Jan 2nd through the 9th
+* Lots of work on 501c3 application
+* Another bylaw amendment to support 501c3 application
+* Workshop planning
+* Yearly meeting
+
+== A lot happened during this time... ==
+
+== December 2017 ==
+* Move-out from the warehouse in full gear, city gave us notice July 1st to be out by December 31st (6 months as required in lease)
+* New building was not ready for us January 1st, most gear went into a storage unit the same landlord let us use for free
+* Buildout activity started at the new South Walnut space
+
+== January 2018 ==
+* Slow buildout activity at South Walnut space
+* Wednesday meetings only for members as no active lease meant no liability insurance
+
+== February 2018 ==
+* Feb 1st we took possession of the South Walnut location, still lots to do before really moving in
+* [[2018-Yearly-Meeting]]
+
+== March 2018 ==
+* Grand (Re-) Opening March 3rd!
+* Buildout kicks into higher gear, painting done, electrical still being done
+* Wood shop dust collection system assembled, shop layout discussed
+* First regular members meeting of 2018 held
+
+== April 2018 ==
+* More workshops planned and held this year than ever before!
+* Blender 3D Modeling and Animation - 9 week class
+* Sustainabarrels!
+* Needle Felting
+* Learn to Laser Cut - 2 weeks
+* Machining Fundamentals - 5 weeks
+* Retr0bright Day
+* Arduinos and Sensors! - paired with the MicroPython class
+* Learn to Solder!
+
+== June 2018 ==
+* Metal fab shop mostly completed with fume hood installed
+* Welding Day 2018 workshop
+
+== July 2018 ==
+* MicroPython, IoT, & Microcontrollers
+* Learn to Solder!
+
+== August 2018 ==
+* Bloominglabs participated at the Fix-it fair at MCPL
+* Makevention #6
+
+== October 2018 ==
+* Halloween Workshop: Freaky Felting
+
+== November 2018 ==
+* Make a Plant Tower
+* Two formal board meetings held (11-1 and 11-28)
+
+== December 2018 ==
+* Essential Oils Workshop
+* St. Nick's Workshop with Bloominglabs and Discardia at MCPL
+
+== January 2019 ==
+* It was a slow year
+* Some workshops probably happened
+
+== January 2020 ==
+* fire event, space open to members but closed to the public for a while
+
+== March  2020 ==
+* Global pandemic declared, start of social distancing and forced closure of public venues for the time being
+* Bloominglabs remains closed to the public. One-on-one visits by request still happening.
+
+== Feb 2021==
+* That pandemic thing still ongoing
+* Bloominglabs Yearly Meeting held
+* Bloominglabs is doing well despite the pandemic
+
+== Feb 2022==
+* We're still alive and doing awesome
+* Bloominglabs held a record number of workshops in 2021, all detailed in the 2021 Annual Report
+
+== 2023==
+* We're still alive and doing awesome
+* See the 2022 Annual Report for more details
+* Makevention held at Switchyard Park for first time
+* Ian holding one-off welding workshops throughout year
+* IU sends non-profit observers to observe public hours
+
+== Jan-Sept 2024==
+* We're still alive and doing awesome
+* See the 2023 Annual Report for more details
+* Two new 3D printers acquired for the FabLab in January
+* IU sends non-profit observers to observe public hours again this year
+* Makevention at Switchyard Park again, moved date from August to October for first time
+* Ian holding more one-off welding workshops throughout year
+* Much work has been done to reduce water intrusion events during storms through metal shop side of building
+* Much Meshtastic interest this year
+
+
+[[Category:History]]
+[[Category:Operations]]

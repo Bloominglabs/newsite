@@ -1,0 +1,45 @@
+name: Publish GitHub Wiki
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - wiki/**
+      - wiki-archive/**
+      - src/wiki/**
+      - scripts/migrate-github-wiki.js
+      - .github/workflows/publish-wiki.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  publish-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Run test suite
+        run: npm test
+
+      - name: Regenerate wiki export
+        run: npm run migrate:github-wiki
+
+      - name: Publish wiki directory to GitHub wiki
+        uses: Andrew-Chen-Wang/github-wiki-action@v4
+        with:
+          path: wiki
+          strategy: init

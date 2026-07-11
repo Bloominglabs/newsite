@@ -1,0 +1,109 @@
+[[2018-Yearly-Meeting-Notes|Notes from the meeting]]
+
+= Boominglabs 2018 Yearly Meeting Agenda =
+
+== Financial Preamble ==
+* 2017 Treasurer's Report
+**Accounts Payable
+<pre>
+Amount		Item
+-----------     ---------------
+$11,581.50	Rent
+$2,674.85	Duke
+$782.64		Internet
+$457.96		Garbage
+$415.60		Gas
+$857.00		Insurance
+		
+$322.97		Paypal Fees
+$71.63		Square Fees
+		
+$54.00		P.O. Box Rental
+$52.96		Dotster
+$50.00		Event Fee
+$34.89		Donation Box
+		
+$1,150.00	Furniture
+$455.00		3D printer
+-----------		
+$18,961.00	TOTAL
+</pre>
+* New Space! (…and how that affects the budget)
+** Rent
+** Insurance
+** Other costs
+* Donations
+* Annual review of sales tax exemption purchase process
+** Build-out a perfect example - save that sales tax!
+
+== 2017 year in review ==
+* Member survey results
+* Member exit survey results
+* Who have we collaborated with?
+** MCPL
+*** Hack Days, Hour of Code
+** Wonderlab
+*** Flip Lights Workshop, Radio Days
+** Project School
+*** Popup cards
+* What workshops did we have?
+** Soldering 
+** 3D Printing
+** Welding Day
+** Plant Tower
+** Cluster System Admin Class
+* Nation of Makers
+* Indiana Makers
+* Makevention
+** 2017 (Year 5!) - how did it go?
+***Financial Report
+<pre>
+$3,065.00	Convention Center
+$208.97		Party, Water, Office Supplies
+$118.16		Advertising
+$145.00		Badges
+$109.92		Prizes
+$86.00		Printing
+-----------
+$3,733.05	Total Fees
+		
+$1,000.00	PTI/IU
+$1,000.00	Ivy Tech
+$750.00		IU School of Education
+$250.00		Pinnacle
+$410.00		Exhibitor Fees
+-----------
+$3,410.00	Total Income
+		
+$2,987.75	Checking Account Balance
+</pre>
+** 2018 - we're doing it again!
+* Trebuchet
+** 2nd Year
+** Went to Fowler's Pumpkin Patch for testing
+** 2nd Place Accuracy
+* Fundraising, donations, and attempts
+** Member Donations
+** GoFundMe
+** Makevention
+** TIG Welder
+** Navy Surplus Robots
+** Grants
+* The Move!
+** New space
+** Junk Divestiture
+
+== Officer elections ==
+
+== 2018 Goals and things to discuss ==
+* Space Timeline
+** Buildout status & what's next
+** Room completion
+* Workshops, Workshops, Workshops!
+* Impact metrics for future grant submissions?
+* Techniques to deal with clutter
+
+* Anything else?
+
+
+[[Category:Meetings]]

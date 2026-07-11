@@ -1,0 +1,31 @@
+==Audio Electronics==
+
+----
+BSIAB2 -Overdrive Guitar effect from [https://www.generalguitargadgets.com/ General Guitar Gadgets]
+
+Ruby - 386 9V Amplifier by [http://runoffgroove.com/ruby.html RunOffGroove]
+
+Fuzz Face - Guitar effect, using lay-out from [https://www.generalguitargadgets.com/ General Guitar Gadgets] 
+Check on the progress [http://www.flickr.com/photos/30653390@N00/sets/72157625016122787/ here]
+
+==Workshop Series-Audio Electronics==
+
+----
+This is still in the brainstorming process, but I'm thinking 4-part series. 
+
+* CigarBox Guitar
+* Building a Guitar pick-up 
+* Building a 1-Watt Amplifier
+* Building a Fuzz Box
+
+
+==Tools for BloomingLabs==
+
+----
+
+Prototyping Board(heres a vid of [http://www.youtube.com/watch?v=PczY-g5cMCI mine])
+* plank o' wood w/mounted breadboard, terminal strips, battery box and angle-aluminum pre-drilled for pots/led/power/IO jacks/switches.
+* designed for use with audio projects, but might be useful in other areas.
+* the benefits of a protoboard is sturdiness and efficiency... no dangling jacks/pots/switches/batteries, allowing a more robust test of yr new circuit. yay!
+
+[[Category: Projects]]

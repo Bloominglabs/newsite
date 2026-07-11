@@ -1,0 +1,7 @@
+An oscilloscope is an electrical testing device which displays electric signals on a screen.
+
+Bloominglabs currently has 3 oscilloscopes:
+
+# [[Beckman-Industrial-Circuitmate-9020]] 20MHz 2-channel oscilloscope
+# [[Kenwood-CS-1065]] 60 MHz 2-channel oscilloscope
+# [[Tektronix-2213A]] 60 MHz 2-channel oscilloscope

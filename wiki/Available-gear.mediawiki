@@ -1,0 +1,122 @@
+These are tools and supplies available to Bloominglabs members. Pretty much all of the bench-top and larger tools are owned by members and kept in the space for use by other members. If you are unsure of how to use a tool or want to learn more please grab someone and we'll guide you in the right direction. General safety documentation for common power tools is kept in the black cabinet in the shop area (along with MSDS sheets). Also note that this page is generally out of date, if you are interested in something specific and don't see it here ask us about it.
+
+Reminder: this list is often out of date. For the most up-to-date information about what tools we have and what condition they are in contact us and inquire or stop in during public hours and ask around.
+
+* [[Tool-Manuals]]
+
+== Power Tools & Heavy Equipment ==
+We require a brief [[Safety-qualifications]] walk through before using any power tools in the space.
+
+===Wood===
+* drill presses
+* chop saw
+* table saw
+* 9" band saw (wood, plasic, & light metal)
+* [[RBI-Hawk-220VS-Scroll-Saw|Scroll Saw]]
+* bench-top router table (with router)
+* table-top sander
+* wood lathe
+* 12" planer ([[Restoration-of-Parks-95-12-22-surface-planer|being restored]])
+* 4" jointer ([[Restoration-of-Craftsman-4-joiner|being restored]])
+* corded and cordless drills
+* dremel(s) with a complete set of accessories
+
+===Metal===
+* bench grinders
+* Atlas lathe (30" between centers, see [[Atlas-Lathe-Restoration]])
+* generic 20" metal lathe
+* [[Mill]]
+* metal cutting band saw, 5"x6" cutting area, w/auto-shutoff
+* metal chop saw
+* oxy-acetylene torch
+* TIG welder - [[Miller-Syncrowave-350]] with pulser, spot timer, etc.
+* MIG welder - Millermatic 250
+* Arc welder - Miller stick welder
+* Hypertherm Drag-gun 38 plasma cutter (self contained air compressor)
+* [[Speedway-1404-30-Amp-Spot-Welder]]
+
+== Electronics ==
+* soldering irons (variable temp)
+* hot air rework station
+* smoke absorber
+* soldering supplies (solder, desoldering braid, sponges, ect)
+* large quantity of hand tools (pliers and sidecuts)
+* [[Ballantine-3028A]] bench multimeter
+* various digital and analog handheld multimeters
+* BK model 1601 2A 0-50V variable bench DC power supply
+* Topward 3306D 6A 0-30V variable bench DC power supply
+* [[Oscilloscopes]]
+* Picoammeter
+* Sweep/Function Generator
+* solderless breadboards
+* Arduino clones
+* [[Heathkit-ET-3100-Digital-design-system]]
+* [[Heathkit-ET-3200-Analog-design-system]]
+* AVR tools
+** USBTiny programmers
+** ATMega8 and ATtiny2313 chips
+** buttons, 5v regulators, and other supplies
+* hot air guns
+
+== Automated Manufacturing ==
+* [[Pocket-NC-V2-10]] 5-axis CNC mill
+* [[3D-Printers]]:
+** FDM (filament) printers
+*** Bambu A1 mini
+*** Prusa i3 MK3S
+*** [[Sovol-SV04-3D-printer|Sovol SV04]]
+*** Ender CR-10S Pro
+*** [[Ender-3-S1|Ender 3 S1]]
+*** [[Anycubic-i3-Mega]]
+*** [[PrintrBot-Simple|PrintrBot Simple v1 (1310)]]
+*** [[PrintrBot-Play|PrintrBot Play (1505)]]
+** resin printers
+*** Anycubic Photon Mono M7 Pro
+* a [[3D-Scanners|3D Scanner]]
+* automatic knitting machine
+* [[FullSpectrum|Full Spectrum 45W laser cutter/etcher]]
+* CNC Routers
+** [[X-Carve-CNC-Router]]
+** [[ShapeOko-2-CNC]] - needs work
+** [[Maslow-4]]
+* First-Generation [[Silhouette-Cameo]] CNC paper/vinyl cutter
+
+== Crafting Equipment ==
+
+=== Sewing Machines ===
+
+* [[Vintage-Singer-237-Sewing-Machine]]
+* [[Vintage-Fleetwood-Sewing-Machine]]
+* [[Singer-8280-Sewing-Machine]]
+* [[Janome-HD-1000-Sewing-Machine]]
+
+== Office Equipment==
+* Several [[Laser-Printers]]
+
+== Other Equipment ==
+* 8"x10" plastic [[Vacuum-forming-table]]
+* larger vacuum forming table donated to the space
+* shopvac (for dust collection system and cleanup)
+* [[Electrolysis-Rust-Removal-System]]
+* 19" rack, 4' tall
+* 19" rack, 6' tall
+* [[Car-Lift]]
+* car battery tester
+* 60 gallon air compressor (wood shop with feed to metal fab shop)
+* [[CCTV-Network]]
+* [[MAME-Cabinet]]
+* [[Bransonic-12-Ultrasonic-Cleaner|Bransonic 1.2-liter ultrasonic cleaner]]
+
+== Borrowable Equipement ==
+
+* Keg tap: contact [[User-Kinnimari|Kyle]]
+
+<!--
+Neal hasn't been a member since 2019 or so, but if you ask nicely he would probably still let you borrow his trailer  ;-)
+* 5' x 8-1/2' Utility Trailer: contact Neal
+[[File:Utilty_trailer.JPG|200px|thumb|right|Neal's Trailer]]
+-->
+
+
+[[Category: Tools]]
+[[Category: The Space]]

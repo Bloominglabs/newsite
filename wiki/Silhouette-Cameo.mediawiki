@@ -1,0 +1,152 @@
+[[File:Silhouette-cameo.jpeg|thumb|480px]]
+
+The Silhouette Cameo (1st generation) is a [[Availablegear#Automated-Manufacturing|CNC tool]] which takes in flat sheets of material and runs a tool left-right and up-down along it.
+It is capable of recreating intricate designs with either a knife or a writing utensil.
+The Silhouette Cameo is most used for cutting vinyl stickers, but has many other uses.
+
+The recommended software for this machine is [https://inkscape.org/en/ Inkscape] with the [https://github.com/fablabnbg/inkscape-silhouetteinkscape-silhouette plugin].
+The instructions on this page are written for this software.
+As of September 2023, [https://www.silhouetteamerica.com/software Silhouette's official software] is unusably buggy.
+
+== Installing Software ==
+
+First, install [https://inkscape.org/en/ Inkscape].
+
+Second, install the [https://github.com/fablabnbg/inkscape-silhouette inkscape-silhouette plugin].
+Instructions for Windows, MacOS, and Linux are on the GitHub page.
+As of September 2023, the Windows instructions are complete and correct.
+If you have problems, check the "issues" tab.
+If nobody is describing the issue you are having, feel free to open a new issue.
+
+== Using ==
+
+=== Make Your Design ===
+
+You can draw your design in Inkscape, or import a file that you found online or drew in another program.
+If you plan to import a file into Inkscape, make sure it is a "vector" file (often .svg, .dxf, .pdf, .ai, or .dwg), not a "raster" or "bitmap" file (such as .jpg, .jpeg, .png, or .gif).
+Besides Inkscape, other popular vector drawing programs include [http://www.adobe.com/products/illustrator.html Adobe Illustrator], [https://www.libreoffice.org/discover/draw/ LibreOffice Draw], and [https://affinity.serif.com/en-us/designer/ Affinity Designer].
+
+=== Plug In ===
+
+The cutter has a power brick and a USB-B cable. Plug these in to the wall and the computer, respectively.
+
+=== Prepare Tool ===
+
+So far, the silhouette cameo has been tested with markers and with blades.
+
+==== Markers ====
+
+For markers, just wrap in enough tape that it will ''barely'' fit into the "print head".
+
+==== Blades ====
+
+<gallery>
+File:Silhouette-official-knife-cartridge.jpg|Official knife cartridge
+File:Silhouette-unofficial-knife-in-tube.jpg|Generic knife cartridge in protective tube
+File:Silhouette-unofficial-knife-cartridge.jpg|Generic knife cartridge
+</gallery>
+
+Blades for Silhouette's cutting machines come in cylindrical cartridges.
+The blade sticks out the bottom of the cartridge and pivots freely.
+
+Bloominglabs has 2 kinds of knife cartridges for the silhouette cameo:
+* the official knife cartridge, made from plastic, which must be totally replaced when dull
+* an unofficial knife cartridge, made from aluminum, with replaceable blades
+
+===== Adjust Blade Depth =====
+
+It is important that the blade protrude the correct depth.
+Too shallow, and it will not cut through the material.
+(This can be used deliberately to score material for folding or tearing.)
+Too deep, and it will scour the rubber pad under the print head, prematurely dull the blade, and potentially snag the material and tear it apart.
+
+To adjust the blade depth of the official (blue plastic) knife cartridge, insert it into the fixture on the front-left of the Cameo, align it until it drop in, and twist it until the arrow points at the desired depth.
+
+[[File:Silhouette-adjusting-blade-depth.gif|180px]]
+
+The [http://bloominglabs.org/images/6/65/Silhouette_cameo_manual.pdf manual] has recommended depth settings for different materials.
+
+{| class="wikitable" style="margin:auto"
+|+ Recommended Cutting Depths for Official Blade
+|-
+! Blade Setting !! Material
+|-
+| 1 || Thin materials such as vinyl and smooth heat transfer material
+|-
+| 2-3 || Medium-weight materials such as paper, cardstock and flocked heat transfer material
+|-
+| 4-6 || Thicker materials such as textured cardstock and pattern papers
+|-
+| 7-10 || Thick materials such as canvas
+|}
+
+The unofficial (aluminum) knife cartridge is adjusted by turning the knob on the top.
+It may be necessary to manually drag the blade across your material in order to determine whether it is adjusted properly.
+
+[[File:Silhouette-adjusting-generic-blade-depth.gif]]
+
+=== Insert Tool ===
+
+[[File:Silhouette-inserting-blade-cartridge.gif|180px]]
+
+Tools drop in to the "print head" of the machine and lock in place by twisting the blue plastic knob clockwise.
+Be sure that the tool is seated all the way down, otherwise you way not cut all the way through, or even at all.
+
+=== Load Material ===
+
+==== Non-Adhesive-Backed Materials ====
+
+For cutting materials that don't already have adhesive backing, like paper or fabric, it is recommended to use an adhesive cutting mat.
+(You may be able to get away without using a cutting mat, see examples [https://github.com/fablabnbg/inkscape-silhouette/wiki#can-you-do-this-without-a-cutting-mat here].)
+Cutting mats can be purchased on [https://smile.amazon.com/s/&field-keywords=adhesive%20cutting%20mat amazon] or at major craft stores.
+Mats can be re-used a limited number of times, depending on whether the blade is set to be too deep or not and how well the adhesive maintains its hold.
+
+Align your material in the top-left corner of the adhesive cutting mat.
+
+Check that the blue knob on the right side of the cutter is pointing upward.
+
+On the cutting machine, select the menu item "load cutting mat", and feed your cutting mat or work piece in.
+
+==== Adhesive-Backed Materials ====
+
+Materials that already have adhesive backing, like [https://smile.amazon.com/s/&field-keywords=adhesive%20vinyl%20sheets vinyl sheets], can be fed into the cutter directly.
+
+If your sheet is less than twelve inches wide, the [http://bloominglabs.org/images/6/65/Silhouette_cameo_manual.pdf manual] has instructions on adjusting the rollers for narrower sheets.
+
+Check that the blue knob on the right side of the cutter is pointing upward.
+
+On the cutting machine, select the menu item "load media", and feed your cutting mat or work piece in.
+
+=== Plot the Design onto the Material ===
+
+In Inkscape's menu bar, select <code>Extensions -> Export -> Send to Silhouette...</code>.
+
+A big dialog box will pop up with lots of options.
+Generally, you only need to set <code>Tool</code> to either <code>Cut</code> or <code>Pen</code>, and set what <code>Media</code> you are working with.
+If you find the defaults unsatisfactory, and you are sure that the blade is sharp and set to the correct depth, then you should start playing with the rest of the settings. For custom pressure settings, the unit is 7 grams. (So P=3 means 21 grams of force will be applied.) For custom speed, the maximum is 30. If you find some good settings that aren't in the defaults, please add them to the following table.
+
+{| class="wikitable" style="margin:auto"
+|+ Alternative Media Settings
+|-
+! Media !! Pressure !! Speed !! Notes !! Result
+|-
+| Ballpoint Pen (Bic Cristal) on Printer Paper || 1 || 30 || Pressure of 12 or higher can cause the pen to snag the paper.
+The ballpoint pen will not write well on the paper that the white rollers press on.
+| [[File:Silhouette-ballpoint-pen-bic-cristal-printer-paper-p01-s30.jpg|120px]]
+|}
+
+Finally, click <code>Apply</code>. The cutter will do the stuff and make the thing.
+
+== Links ==
+
+User manual: [[File:Silhouette_cameo_manual.pdf]]
+
+User guide for inkscape-silhouette: [https://github.com/fablabnbg/inkscape-silhouette/blob/main/USERGUIDE.md]
+
+An archived copy of the product page: [https://web.archive.org/web/20130620105656/http://www.silhouetteamerica.com:80/?page=shop&cat=1]
+
+A PDF of the technical specifications: [https://web.archive.org/web/20180508201602/https://cdn.silhouetteamerica.com/m/d/technical-specs_cameo.pdf]
+
+[[Category:Tools]]
+[[Category: Craft Cutter]]
+[[Category: Vinyl Cutter]]

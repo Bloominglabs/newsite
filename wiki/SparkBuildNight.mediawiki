@@ -1,0 +1,30 @@
+== What it is ==
+
+A chance for us to build some projects using the Spark.io board. It is a small, inexpensive (free for us!) Arduino-like board w/ wireless built-in, and a 'cloud' development environment and API.
+
+Info on the Build Night Here: [http://www.instructables.com/community/November-2014-Build-Night-with-Sparkio/ Build Night]
+
+We are going to be sent:
+*(10) Spark Cores
+*(10) Spark Buttons: a new shield for Spark with LEDs, 4-way clicking like a game controller, acceleration and temperature sensing.
+
+Note: this is hosted by Instructables and they ask that we submit 2 Instructables about projects built at Build Night. Both Steve and Vic have volunteered to do write-ups, but the more the merrier.
+
+== When it is ==
+Need to finalize this but how about Tuesday the 11th, Thu the 13th, or Friday the 14th (or some combo)?
+
+== Who we'd like to see there ==
+*Hardware Hackers
+*Software Hackers
+*Artists with creative ideas
+*Non-artists with creative ideas
+*Artists or non-artists with practical ideas
+*Somebody (or multiple somebodies) with cameras and camera skills to help document the projects
+
+== Project Ideas ==
+*Crawl Space Monitor
+*Bathroom Occupancy sign in the Workshop
+*Magic Wireless Neopixels people can interact w/ via the Web
+
+== Stuff we need ==
+(Make a 'wish list' of things you like to have there for building - hopefully we can pool resources amongst ourselves)

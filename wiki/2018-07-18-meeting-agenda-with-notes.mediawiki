@@ -1,0 +1,127 @@
+<nowiki>
+Questionnaire
+    If you haven't responded already, please do--it's got important questions about upcoming events.
+    https://goo.gl/forms/ZhML69odqt99k3av2
+    If you're concerned about having your email address collected, let me know--it's so we know who's answering on the availability questions.
+
+Schedule of fall/winter workshops
+More solid dates:
+    Soldering workshop
+        Gavin
+        July 30, one later (September 30?)
+    Full-Stack Javascript
+        Joey
+        9 weeks, 5-20 people
+        Starting August/September?
+    Intro to tools
+        Gwen
+        Late August and/or November
+    Laser workshop
+        DAKMH
+        September
+    Needle felting
+        DAKMH
+        September/October
+    Acid dying wool and silk
+        Laura
+        October
+    Screen printing
+        Get Danielle! (Gwen, Neal)
+        Winter
+    Wearables
+        Gwen, Laura
+        Winter
+    
+    Sustainabarrels
+        Heath
+        Before winter
+    Intro to 3D printers/Solving common 3D print problems
+        Laura can help, doesn't want to lead solo
+        Date ??
+    Bat Houses
+        Laura, Allyn
+        Spring/late winter
+    Cosplay materials and techniques
+        Gwen
+        Next spring/summer
+
+    Other learning:
+        Potential learning group for analog circuits
+            Iain, Gavin
+        Welding videos (TIG machine setup)
+            Nathan, Adam
+        Radiation Safety/Myth vs Fact (cloud chamber, practical and theoretical info)
+            Nathan
+        Group Build: Woodworking bench
+            Allyn
+
+Fix-It Fair (Aug 18)
+    Nathan, Gavin, Laura, Gwen, DAKMH
+
+Makevention (Aug 25)
+    4 sponsors (full sponsorship)
+    19 exhibitors so far
+    53 more past exhibitors contacted
+
+Saturday public times
+    Saturdays 1-5 for trial
+
+Current state of tools/equipment at the space
+    Continued surplussing/trashing
+        Allyn going to clean one of the jointers
+    Consumables acquisition
+    * Signage
+    * Box for woodshop
+        Soldering iron tips
+        Drill bits
+        Screwdriver bits
+        Angle grinder cut-off, grinding wheels ()
+        Blades for utility cutters
+        Hot glue sticks
+        Thread
+        Solvents
+        Chip brushes
+        Lathe and tool oils
+        Distilled water (from laser money)
+        Fasteners (variety boxes)
+            Machine screws
+            Grommets
+            Standard nuts, stop nuts, washers
+
+    SNACKS
+        Kitchen for now
+        Vending as group project?
+
+    Wish-lists
+        Deferred
+
+List of local resources
+    I think it'd be useful to have a directory of other places that hold workshops that might complement ours, local stores that sell supplies for projects, and groups that might be good to hit up for cross-promotion.
+    Retailers
+        Stansifer's
+            Electronics tools and supplies
+        Blue Heron Woodworking
+            Wood, tools
+            Workshops
+            Might be able to carry Baltic Birch for lasering
+        Tailored Fit
+            Specialty fabric, thread, sewing machines
+            Workshops
+        Kleindorfer's
+            Tools, hardware
+        Bloomington Stichery
+            Craft accessories
+            Craft nights
+            Knit nights
+    Other orgs
+        Discardia
+        CSL (overall)
+        Bybee (quarry that does carving workshops every 2 years)
+        Dimension Mill
+        Purdue @ Westgate
+        Switchyard Brewery?
+        Gather (cross-promotion)
+</nowiki>
+
+
+[[Category:Meetings]]

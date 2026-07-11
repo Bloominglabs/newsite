@@ -1,0 +1,65 @@
+---
+
+title: Bloominglabs' Board Meeting  
+
+created: 2024-08-13  
+
+author: Kyle Dirrim  
+
+---
+
+<nowiki>##</nowiki> Start @ 1913
+
+<nowiki>##</nowiki> Roll Call
+
+-    Calob
+
+-    Nathan
+
+-    Apple
+
+-    Jimmy
+
+-    Kyle
+
+-    Kevin
+
+<nowiki>##</nowiki> Business
+
+I.    Gutters
+
+   A.    Gutter Screening party will be scheduled
+
+II.    Dumpster moving and bike rack
+
+   A.    Asked Mark about both, no answer yet
+
+   B.    Kevin says too many bikes in the space
+
+   C.    Ian has a bike rack to donate
+
+   D.    Can be installed at entrance to kitchen
+
+   E.    Dumpster is full at least a week before pickup
+
+   F.    Dumpster is picked up every other thursday
+
+   G.    Send a polite message to all members about being considerate about large items in dumpster
+
+III.Access to passwords and slack channels
+
+   A.    Elliot should have access to the slack Board channel
+
+       1.    Forwarded by Kevin
+
+       2.    Seconded by Apple
+
+       3.    2 aye, 2 nay
+
+       4.    tied, default to not passing
+
+   B.    Kevin and Calob starting a new computer management system
+
+       1.    singal sign on, PXE boot, and new laptops
+
+<nowiki>##</nowiki> Adjournment @ 1945

@@ -1,0 +1,39 @@
+==Auto Shop Sound System==
+
+Bloominglabs has a stereo system with external speakers located in the auto shop bay area that members and guests may use. Below are some basic instructions:
+
+First, press the power button on the stereo to turn it on. You can choose from the following audio sources:
+
+* FM Radio
+** Select the FM button, then select a preset:
+*** Preset 1: WFIU (103.7)
+*** Preset 2: WTTS (92.3)
+*** Preset 3: WFIU 2 (101.9)
+*** Preset 4: WFHB (91.3)
+* Auxiliary Input
+** Connect the provided cable with the 3.5mm plug to your device's headphone jack
+** Select the CD/AUX button (the one with the white sticker)
+* Bluetooth or AirPlay
+** Connect to "Auto Shop Speakers" via your device's Bluetooth settings, or connect your Apple device via AirPlay. A passcode shouldn't be required.
+** Select the TV/AUX button (the one with the blue sticker)
+** Troubleshooting: if the "Auto Shop Speakers" don't show up on your device list, try power-cycling the external Bluetooth board located on top of the stereo unit.
+** When finished, please disconnect from Bluetooth and set the connection to reconnect automatically. This will allow others to use the system.
+
+Done using the sound system? Please power it off. You can leave the external Bluetooth board running.
+
+== Old Information ==
+EDIT - As of 8-2014 we have relocated to a new building. The below information is out of date and currently invalid. Thanks!
+
+
+
+Bloominglabs has a speaker network throughout the space. An audio input also made of CAT5 is available in the front room. The excellent noise rejection capabilities of CAT5 helps keep 60Hz noise to a minimum as long as the input is connected to an output device.
+
+=== How to use the stereo ===
+* Turn on the stereo along the far back wall of the workshop.
+* Make sure the input is set to "CD", also that both the "A" and "B" speakers are displayed (one set is the workshop and the other is the front room)
+* Plug your audio source into the 1/8" phono jack hanging in the front room if you are working from there (yellow CAT5 with adapter and plug on the end). You can also jack directly into the stereo if you are only working in the workshop.
+
+==== Future upgrades ====
+We have a 4 channel mixer which we plan to use to link both the [[CCTV-Network]] and this audio network, as well as our friendly in-space AI called Wintermute. Wintermute currently has the ability to greet members as they use their RFID both with text-to-speech and by using our scrolling LED sign in the front room. Wintermute also watches our WiFi network and other signs of life in the space.
+
+[[Category:Group projects]] [[Category:A/V]] [[Category:Dosman projects]]

@@ -1,0 +1,45 @@
+The Ender-3 S1 was procured by a member faction interested in increasing project [https://en.wikipedia.org/wiki/Flux#Flux_as_flow_rate_per_unit_area flux] within the Digital Fabrication Lab at Bloominglabs. 
+
+By upgrading our equipment (as measured according to the metric of Low Cognitive and Maintenance Overhead to Use, rather than performance ''simpliciter''), it is hoped that more investment of attention and resources will be drawn to this sector of the space.
+
+OEM product listing: https://www.creality.com/products/creality-ender-3-s1-3d-printer
+
+[[Image:Ender3_20240109_160554.jpg|none|thumb|300px|Ender 3-S1]]
+
+== Printer Features ==
+
+220x220x270 mm build volume
+
+Single nozzle extruder, 0.4 mm diameter, max temp 260 C
+
+Heated build platform, max temp 110 C, with removable magnetic surface sheet
+
+Filament sensor.
+
+See "Product Parameters" on the OEM page above for further information.
+
+Mechanical bed depth sensor: used by the printer to construct a map of variations in the build platform. 
+
+Note that this printer does not auto-level: the z-offset, and build platform tensioning wheels, must be set manually. Full procedure available on the Creality FAQ page for the Ender-3 S1 (not Pro or Plus): https://www.creality.com/pages/faq
+
+== Usage Information ==
+
+Please note any changes in printer functionality or settings (z-offset, manual re-levelling, firmware modification, cleaning, repairs, mechanical/electrical/software failures, etc.) in the Log below.
+
+Please route all filament through the filament sensor, to avoid partial prints.
+
+Known good filament:
+1.75 mm diameter
+PLA, ABS, TPU, PETG
+
+== Log ==
+
+[Please include a status report at the top of all Log entries.]
+
+20240109: 
+
+Status: Functional
+
+Printer assembled, bed leveled, z-offset set to -3.15 mm, first test print.
+
+[[Category:3D Printers]] [[Category:Tools]]

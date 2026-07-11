@@ -1,0 +1,44 @@
+Decommissioned somewhere around 2016. This page is only here for reference purposes. The backups of the code and projects described here probably do exist in a few peoples hands.
+
+Pogo is the name of the system we keep running for services in the space. Generally we try to keep it in a running state as much as possible.
+
+== Services Pogo provides ==
+* Internal webserver/fileserver
+* External webserver via dynamic dns
+* Shell accounts
+* RFID access management (RFID operates independently)
+* Gateway between RFID system and IRC via doorbot
+* Audio annunciation to people within the space
+* Controls scrolling LED sign, access from IRC via SignBot
+* X10 Firecracker (serial X10 device control)
+* LDAP (still experimental)
+* Minecraft server for a while (kept crashing)
+
+== FTDI - /dev/ttyUSBx ordering ==
+We have a number of FTDI serial adapters connected to pogo. These allow access to X10 control, the scrolling LED sign, access to the RFID board, etc. To keep the tty devices ordered the same after each reboot some udev rules had to be created.
+
+* /etc/udev/rules.d/10-local.rules
+
+<pre>
+# Run this to find an FTDI adapters serial number:
+# udevadm info --name=/dev/ttyUSB1 --attribute-walk | grep -i serial
+# More info here: https://forum.sparkfun.com/viewtopic.php?f=14&t=34590
+
+# Definition for the X10 Firecracker on FTDI /dev/ttyUSB0
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{serial}=="FTCUSA8R"
+
+# Definition for the RFID system (Arduino)
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{serial}=="A7006QeX"
+
+# Definition for the serial USB interface to the scrolling LCD sign /dev/ttyUSB2
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{serial}=="FTCBW2W2"
+</pre>
+
+
+== Notes on pulseaudio setup ==
+There were some pulse audio notes here, but the final fix to get audio working again on pogo was to uninstall pulse-audio. That's it.
+
+= RIP pogo =
+Pogo was retired when we moved to the new space. Poquito (RFID system) is still kicking for now.
+
+[[Category:Hackerspace systems]]

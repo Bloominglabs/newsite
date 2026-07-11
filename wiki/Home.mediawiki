@@ -1,0 +1,85 @@
+<big>'''Welcome to Bloominglabs, Bloomington's very own hackerspace!'''</big>
+
+<big>''A space for sharing tools and knowledge to make stuff''</big>
+
+Bloominglabs is Indiana's first hackerspace (also known as a makerspace). We are a group of group of people who rent a shared workshop full of tools for our individual and collective projects. 
+
+[[Location|Our space]] at 1840 S. Walnut Street is [[Public-meetings|open to the public Wednesday evenings]] from 7pm until 10pm. 
+
+Every year we organize and run [https://www.makevention.org/ Makevention], a fair that brings together and showcases other like-minded groups in Bloomington, 
+= Who are we? =
+We are a bunch of people that want to do interesting things and explore the world and technology around us.  Expression of this interest takes at least as many forms as we have members, and often employs an amalgam of found and newly-constructed hardware and/or open-source and self-authored software components, but may be as simple as screwing some pieces of wood together to make a useful tool we don't have yet.
+
+Bloominglabs was forged from the Bloomington Hackerspace Initiative and the former IU Robotics Club.
+= What is a hackerspace? =
+A hackerspace is a physical location where people can share resources for their own creative pursuits. It's also a resource where people can come in off the street and advance their own knowledge. In urban locations it can often be hard to find places to weld/build/make noise and keep projects on-going without having to tear down and put-up your work each evening. With a hackerspace, people can work on their projects and not worry about annoying their neighbors or spouses. The social aspect is also an incredibly important component. Having people to bounce ideas off of and discuss your projects with when you get stuck is a great thing.
+
+= Location & Parking =
+
+[[File:Bloominglabsaerial.png]]
+
+= [[Public-hours|Public Hours]] =
+* Every Wednesday from 7pm until 10pm at our [[Location]]
+* Come build projects, ask questions, teach things, learn stuff, and meet cool people.
+* Free, all ages, and everyone is welcome
+** On your first visit, you will have to fill out a liability waiver.
+** Under-18s need a parent or guardian to sign their liability waiver, and an adult must be responsible for them while they visit.
+* E-mail [mailto:contact@bloominglabs.org contact@bloominglabs.org] or ask in [http://bloominglabs.slack.com/ Slack] if you would like to arrange access to the space at another time.
+
+= Stay informed =
+
+* We can reliably be reached via old-fashioned email at [mailto:contact@bloominglabs.org contact@bloominglabs.org]
+* Send us email to get an invite to our [http://bloominglabs.slack.com/ Slack], where many of our members chat.
+* If you're feeling old-school, our IRC server is at irc.bloominglabs.org:6667, #hackerspace.
+* Subscribe to our [https://www.google.com/calendar/embed?src=bloominglabs%40gmail.com&ctz=America/New_York Calendar of events]
+* Sign up to the [http://www.bloominglabs.org/mailman/listinfo/bloominglabs-announce announcement mailing list] to keep up with our group. ''[link temporarily broken early 2025]''
+* We have a public [http://www.bloominglabs.org/mailman/listinfo/bloominglabs-discuss discuss mailing list] too. ''[link temporarily broken early 2025]'' 
+* Send mail to P.O. Box 2443, Bloomington, IN 47402
+
+= Support =
+Bloominglabs is largely funded by member dues. However, we also welcome [[Donations]], both monetary (cash, check, paypal, etc.) and hardware (useful tools, parts, materials, and so forth). Bloominglabs Incorporated is a registered 501(c)3 charitable non-profit in the state of Indiana, so donations are tax-deductible. 
+
+You can also opt into Kroger Community Rewards to donate a small cut of your shopping to Bloominglabs, at no extra expense to you.
+
+More information is on our [[Donations]] page.
+
+= Current & Upcoming Events =
+
+== March 2026 ==
+
+=== Linux Workshop for Beginners ===
+* 7, 14, and 21 March 2026
+* a multi-day workshop, 3 Saturdays in a row
+* Liberate your computer and your self from Windows or MacOS!
+* more info on the [[Linux-Workshop-for-Beginners]] wiki page
+(Bloominglabs's past activities are somewhat scattered across the[[PastEvents| Past Events]], [[Past-Workshops]], [[Bloominglabs-Log|Log]], and [[Meeting-Minutes]] pages.)
+
+= Membership =
+Dues-paying members have 24/7 access to the space and most of the tools, vote at the annual members meeting, and can host non-members for informal or organized events at the space. Start your membership process by joining us at public night or one of our workshops. More details are on the [[Membership-Manual]] and [[New-Members]] pages.
+
+= Nearby Hackerspaces/Makerspace or initiatives: =
+* [https://members.columbuspropeller.com Propeller Columbus (Columbus, Indiana)]
+* [http://castlemakers.org/ Castlemakers (Greencastle, Indiana)]
+* [https://fishersmpg.com/ Fishers Parks’ Maker Playground (Fishers, Indiana)]
+* [https://16tech.com/machyne/ 16 Tech Machyne (Indianapolis, Indiana)]
+* [http://www.shakmakerspace.com/ The SHAK (Kokomo, Indiana)]
+* [http://www.themakerhive.com/ The MakerHive (Elkhart, Indiana)]
+* [http://hive13.org Hive13 (Cincinnati, Ohio)]
+* [http://www.lvl1.org LVL1 (Louisville, Kentucky)]
+* [https://pumpingstationone.org/ Pumping Station: One (Chicago, Illinois)] 
+* [http://www.daytondiode.org/ Dayton Diode (Dayton, Ohio)] 
+* [http://www.i3detroit.com/ i3 Detroit (Detroit, Michigan)]
+<!--
+* [http://www.kre8now.com Kre8Now (Lexington, Kentucky)] (related to the former Collexion space)  // became a news aggregator, can not find any refs to the makerspace now
+
+-->
+
+= Other Cool Groups in Bloomington & Monroe County =
+* [https://www.bloomingtonradio.club/ Bloomington Amateur Radio Club]
+* [https://www.facebook.com/groups/k9iuarc/ Indiana University Amateur Radio Club]
+* [https://iumakes.indiana.edu IU Makes]
+* [http://www.discardia.org/ Discardia]
+* [http://www.presspuzzles.com/ Press (jigsaw) Puzzles]
+* [https://btownbikeproject.org/ Bloomington Community Bike Project]
+* [https://www.bloomingtoncreativeglasscenter.org/ Bloomington Creative Glass Center]
+* [https://www.bloomingtonparkour.com Bloomington Parkour]

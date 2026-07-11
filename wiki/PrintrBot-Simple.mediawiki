@@ -1,0 +1,30 @@
+[[Image:PrintrBot.jpg|200px|thumb|PrintrBot its cabinet]]
+Bloominglabs has a PrintrBot Simple v1 (1310) [[3D-Printers|3D printer]], controlled with a [[Sunverge| donated ag150]].
+
+== Official Documentation ==
+PrintrBot model 1310 is pretty old, and the information on it is not easily available on printrbot.com. All of the official documentation on the "legacy" printrbots can be found in [https://drive.google.com/open?id=0B9oj0J-4qhdjWThtZmY2YzJIRE0 this google drive folder]. The (copyrighted) assembly manual can be found [https://drive.google.com/open?id=0B9oj0J-4qhdjVXZhU3l6Um5LVTg here].
+
+== Using Locally ==
+Login to the ag150 with username "blabs".
+[https://ultimaker.com/en/products/cura-software Cura] software GPL AFFERO V1 
+
+== Using via Command Line ==
+Login remotely with secure shell: "ssh -XC blabs@192.168.1.137".
+The Arduino terminal can be used to directly talk to the PrintrBot.
+Serial is set up to be 115200 baud.
+
+=== Useful [http://reprap.org/wiki/G-code g-codes] ===
+* <code>M115</code> reports Firmware installed.
+
+ FIRMWARE_NAME: Marlin v1; Sprinter/grbl mashup for gen6 
+ FIRMWARE_URL:http://www.mendel-parts.com
+ PROTOCOL_VERSION:1.0
+ MACHINE_TYPE Mendel
+ EXTRUDER_COUNT:3
+
+* <code>M114</code> reports position.
+
+* <code>M119</code> reports endpoint status.
+
+
+[[Category:Tools]] [[Category:3D Printers]]

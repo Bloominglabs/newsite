@@ -1,0 +1,85 @@
+Our full spectrum 5th gen laser has a network connection. Currently it has ip 192.168.1.5 and accepts telnet sessions to port 12345. There is no authentication, we have to be careful not to clobber each other when users have multiple sessions of Retina Engrave running on multiple laptops. Also care needs to be taken when directly playing with this interface as it appears bad things can be done (TM) to the laser when manually fiddling around in the network interface.
+
+
+== Laser API ==
+There is a published API for the laser's network interface here:
+* [http://www.fullspectrumengineering.com/forums/viewtopic.php?f=7&t=1534 http://www.fullspectrumengineering.com/forums/viewtopic.php?f=7&t=1534]
+
+<pre>
+Attached is example code in VS2010 C# 4.0. Since it relies only on network sockets, it requires no drivers and can be used under 
+any OS (PC, Mac, Linux, Android, etc).
+
+Currently this is the specification. This is subject to change.
+
+Connection is over Telnet to port 12345
+
+Command : Description
+GOTOXYZ x y z : where x y z are in number of steps
+GOHOME : goes home
+TSTFIRE x : where x is duration in 0.1ms eg TSTFIRE 50 = 5ms pulse
+CURPOS : returns current position in steps
+LS : list files on SD Card
+FXJOB : enter file mode
+FILE filename : load filename (must be in FILE mode first)
+RUN : runs the job
+PAUSE : pauses job
+RESUME : resumes job
+ABORT : aborts job
+PIN x IN : set pin as input
+PIN x OUT : set pin as output
+PIN x GET : get state of pin (works for input or output)
+PIN x SET: where x = 1 or 2 or 3, which will set a digital pin level high (3.3v, 4mA). You must buffer this pin or risk damaging the 
+board. Do not hook up devices directly to this pin.
+PIN x CLR: where x = 1 or 2 or 3, sets the logic level low on that particular pin
+STATUS : returns RUNNING if job is still running or IDLE if job is finished
+
+Example:
+CURPOS
+GOTOXYZ -1000 -1000 0
+FXJOB
+FILE test.bin
+RUN
+PIN 1 OUT
+PIN 1 SET
+
+this will get the current position, move left 1000 steps, down 1000 steps then load and run the job "test.bin" then raise 
+pin 1 to +3.3v
+</pre>
+
+== Additional commands ==
+We have sniffed the network connection to find other useful commands. Here we watched as Retina Engrave set a static ip on the laser. These are the commands ran and in the order they were ran. BURN probably has nothing to do with activating the laser. Most likely it "burns" these settings to EEPROM, however that is a best guess for now.
+
+<pre>
+SET IPADDR x.x.x.x
+SET IPMASK x.x.x.x
+SET IPGW x.x.x.x
+SET DHCP [OFF|ON]
+BURN
+</pre>
+
+== How to find more ==
+Here is how to use tcpdump to capture a telnet session to the laser:
+
+<pre>
+tcpdump -X -s 4000 -i en1 host 192.168.1.5 and port 12345 > out.txt
+</pre>
+
+Next you need to run Retina and perform the action you want to decode. As soon as you are done in Retina, CTRL+C the tcpdump session. Now you need to extract just the text info from the dump (out.txt). The grep string includes a single tab character, if you copy and paste you must remove the spaces and insert a tab next to the caret (^):
+<pre>
+grep "^        " out.txt | cut -c 52- | tr -d "\n"
+</pre>
+
+You will now have some output like this which you can sus-out  the commands Retina Engrave is sending to the laser:
+<pre>
+E..?..@.@.............09.~.*..>.P.......SET.IPADDR.192.168.1.5.E..0.z....5w........09....>..
+~.AP..T.]..102.OK..E..(..@.@..M..........09.~.A..>.P...._..E..A..@.@..*..........09.~.A..>.P
+.......SET.IPMASK.255.255.255.0.E..0.|....5u........09....>..~.ZP..;.U..102.OK..E..(p.@.@
+.FH..........09.~.Z..>.P....>..E..=..@.@..H..........09.~.Z..>.P...:...SET.IPGW.192.168.1.1.E..0
+.~....5s........09....>..~.oP..&.M..102.OK..E..(..@.@..?..........09.~.o..>.P....!..E..5..@.@..-
+..........09.~.o..>.P....x..SET.DHCP.OFF.E..0......5r........09....>..~.|P....E..102.OK..E..(!.@.
+@..s..........09.~.|..>.P.......E..-J.@.@.l-..........09.~.|..>.P....[..BURN.E..0......5p........09..
+..>..~..P....=..102.OK..E..(6.@.@.............09.~....>.P.......
+</pre>
+
+
+[[Category:Laser]]

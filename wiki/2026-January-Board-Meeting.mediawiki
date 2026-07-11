@@ -1,0 +1,87 @@
+Bloominglabs' Board Meeting
+
+I. Called to order @ 1803
+
+    A. Present: Calob, Kevin, Kyle, Jimmy, Pete, Joeseph, Apple
+
+II. GigabitNow
+
+    A. has recieved paperwork to proceed and will do so
+
+    B. Right of entry confirmed December 30th
+
+    C. will contact us for installation
+
+        1. if no contact by 21st, Jimmy will contact them
+
+III. UPS
+
+    A. failed and locked up
+
+    B. if it happens again will investigate replacing
+
+IV. Cloud assets
+
+    A. Our grant with Digital Ocean ended
+
+    B. Consolidated onto one server @ $14 per month
+
+    C. Bloominglabs will take on monthly payment
+
+    D. CC with Porkbun for Makevention.org was expired
+
+    E. Investigate linking bank accounts
+
+    F. reconciled active members in freshbooks with:
+
+        1. bloominglabs-members mailinglist
+
+        2. bloominglabs-announce mailinglist
+
+V. $1000 in unclaimed funds
+
+    A. held by the state
+
+    B. President will claim in next few days
+
+VI. Annual Meeting (28th February)
+
+    A. Annual Report
+
+        1. President's Report
+
+        2. Treasurer's Report
+
+        3. Other Item of Interest
+
+    B. Officer Elections
+
+        1. Provisional Nominations
+
+            a. President: Joeseph
+
+            b. Secretary: Kyle
+
+            c. Treasurer: Jimmy
+
+            d. At-Large: Pete
+
+            e. At-Large: Sam Boldenow? Sistoria?
+
+VII. Makevention
+
+    A. Lotusfest collaboration
+
+        1. Fountain Square Ballroom will be available
+
+            a. too small
+
+            b. can tour
+
+        2. colocation prospects look dim
+
+    B. Thank you notes
+
+    C. Pre-committee solicitations
+
+VIII. Adjourned @ 18:49

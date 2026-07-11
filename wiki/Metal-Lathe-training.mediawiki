@@ -1,0 +1,64 @@
+This is reference material for people interested in using our metal lathes. This material is collected here in order to assist a workshop on using the lathe as well as for people to teach themselves how to use this machine.
+
+== Diagram ==
+This is a diagram of the parts of a lathe. Please note that this picture was taken before our Atlas lathe was restored to full working condition. See that process here: [[Atlas-Lathe-Restoration]].
+
+
+[[Image:AtlasLathe_diagram-small.jpg|600px|Atlas TH42 Lathe]]
+
+
+== Reading Material ==
+Here are some scans from books very much worth reading. First are three chapters from "Machining Fundamentals" on lathes and lathe operations. It's a highly illustrated book which shows many variations in lathes and how to use them.
+* [http://www.bloominglabs.org/downloads/Machining_Fundamentals-Lathe-chapters_13+14+15.pdf.zip Machining_Fundamentals-Lathe-chapters_13+14+15.pdf.zip] (139MB)
+
+=== Lathe manuals ===
+Next is a complete scan of the manual for our Atlas 10" lathe. In addition to covering use of the lathe it also has a lot of info on machining in general too:
+* [http://www.bloominglabs.org/downloads/AtlasLatheOperationManual.pdf.zip AtlasLatheOperationManual.pdf.zip] (254MB)
+
+Manual for our chinese lathe:
+*  [http://www.bloominglabs.org/downloads/blue_lathe-9x20.pdf blue_lathe-9x20.pdf] (6MB)
+
+=== Books ===
+I also recommend reading chapter 2 on measuring tools from the Metal Working Handbook, as well as this chapter on turning from the same book:
+* [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip]
+* [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-Turning-chapter18.pdf.zip MetalWorkingHandbook-Turning-chapter18.pdf.zip]
+
+
+For additional material on the subject of running and using a lathe use these links. The MIT guide is a single page with a good overview of lathe parts and operations. The WE Williams site contains complete PDF's of older books on using lathes. I have two expensive classroom books which cover lathe work which I will provide to Bloominglabs members in the near future.
+
+* [http://web.mit.edu/2.670/www/Tutorials/Machining/lathe/Description.html http://web.mit.edu/2.670/www/Tutorials/Machining/lathe/Description.html]
+* [http://www.americanmachinetools.com/how_to_use_a_lathe.htm http://www.americanmachinetools.com/how_to_use_a_lathe.htm] - A deeper read on lathes and how to use them
+* [http://www.wewilliams.net/SBLibrary.htm http://www.wewilliams.net/SBLibrary.htm] - Complete PDF's of older lathe manuals, all still relavent information.
+
+
+== Supplementary books ==
+* [http://books.google.com/books?id=pPoNZB4xqHoC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false Machinery's Handbook Pocket Companion]
+
+
+== Video Tutorials ==
+We have a set of training videos physically in Bloominglabs for the official machining workshop.
+
+However in the mean-time if you are waiting to take the machining workshop, these MIT training videos are a reasonable introduction to the lathe. They are part of a 10 video series on machine tools, these are the lathe videos from this series. They are about 45 minutes in length each. 
+
+* [http://techtv.mit.edu/videos/144-machine-shop-8] - MIT video 1 for the lathe
+* [http://techtv.mit.edu/videos/134-machine-shop-9] - MIT video 2 for the lathe
+* [http://techtv.mit.edu/collections/ehs-videos/videos/172-machine-shop-10] - MIT video 3 for the lathe
+
+
+More videos on running a lathe:
+* [http://www.youtube.com/results?search_query=%22tubalcain%22+-tips&aq=f] - Youtube search for "Tubalcain" machining videos, many different videos on different aspects of using a lathe.
+
+
+==== Tool Grinding ====
+Tool grinding is just as important as knowing how to use the lathe. You grind a small bar of high quality tool steel down to the correct shape you need for the cuts you need to make. Each of the book downloads in the "Reading Material" section contain good info on tool grinding. However here is some more info on the subject.
+
+* [http://www.youtube.com/watch?v=rZbr7Sh8jQw&playnext=1&list=PL374A335C7EFD3E0C&feature=results_video] - Tool grinding video from "Tubalcain"
+* [http://jjjtrain.com/vms/library.html] - Various pages on lathe info including tool grinding
+
+
+== Replacement Shop Posters and Oiling Charts ==
+Each machine tool station should have a poster board with a detailed oiling chart for the machine and a decimal/millimeter conversion chart among posters. If a machine tool like the lathe or mill is missing necessary posters they should all be available from the [[Signage]] page/category on this wiki for re-printing. 
+
+
+
+[[Category:Training]]

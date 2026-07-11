@@ -1,0 +1,81 @@
+This is an entry point for officers/board members to get access into the operation of Bloominglabs Incorporated. This should also contain links to all of our important legal documents as needed. The end goal is to keep Bloominglabs functioning heathly regardless of who the officers are.
+
+
+== Officer Resources ==
+* [[Bylaws]] - A living document of our legal bylaws.
+* [[Standing-Rules]] - Referred to by the bylaws, these rules also govern aspects of our organization
+* [[Meeting-Minutes]] - Formal meeting minutes from all member meetings.
+* [[Donations]] - How we process donations.
+* [[Treasurer]] - Documentation for the treasurer and/or treasurers assistant
+* [[Grants]] - Grants we have applied for
+<!--
+// The CRM is way out of date and not supported
+* [https://www.bloominglabs.org/crm CRM System] - A rolodex of people we've worked with in Bloomington. If you need a contact for a group or need to find someone's number try this system, it is somewhat up to date.
+-->
+* [[Administrative-Task-List]]
+* [[Bloominglabs-PGP-key]] - the public key used for verifying the authenticity of PGP signed Bloominglabs documents
+
+== Recommended Reading ==
+* [http://www.irs.gov/pub/irs-pdf/p4221pc.pdf IRS Compliance Guide for 501(c)(3) Public Charities] - 30 pages, every officer should read this.
+
+
+=== How officers do their jobs ===
+This is a collection of descriptions and notes for how officers do their jobs. The intent is to provide some direction to new officers and to assist existing officers to cover for each other if needed.
+
+* [[Officers-Guide]] - A general guidepost for officers
+* [[Officer-transition]] - A check-list to run down when transitioning a new officer into their new role
+<!--
+// The Dues Collection doc was way old (for Simple Invoices, not FreshBooks)
+* [[Dues-Collection]] - How the officer in charge of collecting dues handles this duty
+-->
+* [[Adding-Members]] - The process we use to add new members
+
+=== Yearly Dates to Remember ===
+* [https://www.google.com/calendar/render?mode=day&date=20170214T192231 Officer Google Calendar] should have all of these dates setup to help remind you.
+** The Google account bloominglabs at gmail dot com owns this calendar and someone with current access should share this to new officers.
+* Schedule the [http://bloominglabs.org/index.php/Bylaws#Section_2:_Annual_Meetings Annual Meeting] by January 31st (may take place after this date) - [http://doodle.com http://doodle.com]
+* Is it New Years day? That means it's time to start preparing the Annual Report for prior year, to be presented at the Annual Meeting
+** Use the prior years report as a template [https://docs.google.com/document/d/1DSAlSh62ugImJFdxHUHtNj9LSu5LBAUCX1hhWlM5JbA/edit 2015 Bloominglabs Annual Report]
+* Yearly by January 31st: Indiana DoR sales tax filing. https://intime.dor.in.gov/
+* Yearly by May 15th: Indiana form NP-20 (Annual Report/sales tax exemption renewal) Also at https://intime.dor.in.gov
+* Yearly by May 15th: IRS form 990 https://sa.www4.irs.gov/epostcard/
+* USPS PO box: Due yearly by July 31st
+* Dotster bloominglabs.org domain name: Paid up through July, 2020
+* Dotster makevention.org domain name: Paid up through November, 2020
+* S. Walnut lease started ?, 2018 and was for a 3 year period. ? months notice is required for either party to vacate the lease?
+** That first lease was vacated in Q1-2020, a new 1 year lease was signed starting mid-2020. Further 1-year leases have been executed since then.
+** Any signer of future leases should do a diff against the prior lease to generate a 100% accounting of all document changes before signing. This has bitten us before by missing changes made to renewed leases without us noticing.
+* Insurance: due yearly by mid-November
+* Every other year by December 31st: File Indiana Business Entity Report - [https://inbiz.in.gov/business-filings https://inbiz.in.gov/business-filings]. Last filed 2016
+* Every two years (not sure dates, around mid May): File Property Taxes Form: Last filed 2017
+
+== Legal Documents ==
+* [[File:Bloominglabs_IRS_determination_letter.pdf]] - Federal IRS Determination Letter - this verifies we are a charitable non-profit
+* [[File:Bloominglabs-SalesTaxExemption.pdf]] - Indiana State Sales Tax Exemption
+* [[File:Bloominglabs-1023.pdf]] - IRS 501c3 application, form 1023 (long form)
+* [[File:Bloominglabs-Articles-of-Inc.pdf]] - Articles of Incorporation
+* [[File:Bloominglabs-Certificate-of-Inc.pdf]] - Certificate of Incorporation
+
+
+== Document Repository ==
+There are two Google Drive accounts which contains a lot of stuff like the Annual Reports, member surveys, and various spreadsheets. All officers should have the login's for these, new officers should be given access to this resource.
+
+== Member Oriented Operations ==
+* [[Membership-Manual]] - General membership guideline new and old members can use as a reference. Outlines what is expected and how to get involved.
+* [[New-Members]] - The new member guide that every new member gets emailed when they join, intent is to speed up how quickly new members can find resources available to them.
+* [[Bloominglabs-Log]] - This is a historical log of events that happened at Bloominglabs, including informal events and activities.
+* [[PastEvents]] - This is where info from the front page retires to once it's out of date.
+
+
+== QR code URL==
+If you are viewing hard-copy, the latest version of this document is always available online:
+<br>http://bloominglabs.org/index.php/Business_Operations
+[[Image:Qrcode Business Operations.png|none|thumb|150px|URL for this page]]
+
+
+
+
+
+
+
+[[Category:Operations]] [[Category:Meetings]]

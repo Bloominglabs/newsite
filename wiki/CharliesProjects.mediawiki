@@ -1,0 +1,106 @@
+[[Category:Projects]]
+== CAN Bus Stuff ==
+
+I'm starting to play around with small agri-vehicles, starting with commercially available stuff that resembles the OSE Microtrac. It seemed like a good idea to familiarize myself with the CAN Bus architecture to make things easy when that showed up. So, I got a few arduino shields and a Microchip piece of junk that doesn't even pretend to be a serial device. pff. On with the [[Can-hacking]]!!
+
+But, I got an arduino sketch to send data over that CAN bus.
+
+== Ramblin Robot ==
+
+I've been working on a robot with a Raspberry Pi brain, Arduino controller, and a Pololu Zumo Chassis. Using these three ready-to-go components, I've got the jumpstart I needed to start writing interesting software. I've built a low-cost spherical reflector using a capnut shielded and supported by clear acrylic. With that, a cheap USB webcam, and the Raspberry Pi, it just takes a little software to extract the bearing (angular heading) to any pixel in the image.
+
+== Strandbeest ==
+
+We will make a 12-legged Jansen mechanism in a form factor more similar to a Chebyshev mechanism, which hopefully, we will be able to ride. Driving and steering mechanisms left aside, and gait also being considered much much later, we begin by building one leg.
+
+Based on computer models{here}, the construction methodology takes advantage of the design's slicability. That is, linkages can be layered or stacked, with no possibility of collision between two linkages that are stacked on different layers. Cool. Easy.
+
+After experimenting with beer cartons and Popsicle(tm) brand sticks, tinker-toys were the next choice, but I couldn't find any big enough. 
+$65 of nutsnbolts and $50? (thanks dosman) of lumber went into the final version, as well as an entire futon. Thanks Joe! Your futon is the best! nva4gt:) 
+
+Using odd lengths of scrap 1x2, the first leg was born thusly:{pic here}
+
+The next legs were not made with 6' and 8' lowe's crap lumber, but quality pine from Black Lumber Co. in Bloomington, IN. That reminds me, I need to set up a web2.0 lumber company, lumbr.com -- hahaha. 
+{pic of final build, painted, goes here}
+
+Well, the project had a snag or two. Foremost, the "layers" didn't want to stay in their simple 2D plane in the real version. This led to one leg trying to go past the adjacent leg, and getting snagged on a bolt and tripping itself. Major issue, unresolved. So while the beest moves some, it doesn't just "roll" like theo jansen's beest rolls along the beaches. Rats. 
+
+Next, the mechanical linkage from our motors to our legs is a bit delicate. Though I ordered standard 1/2" pitch sprockets, which is ANSI standard #40, I got something in the mail that just wasn't right in tooth pitch or width, and the company that shipped them can't help because they didn't make them. It sucks. I'll probably switch to using rubber belts, because I know my way around plywood and a circle jig on the bandsaw pretty well, and don't have access to a gear making shop, and the last time I asked someone else to do it, they TOTALLY bollixed it up. 
+
+The answer is MOAR POWAH. I will be building an OSMC to gently squeeze the everliving amps out of our batteries and gracefully ramp speed on two motors.
+
+== IR Remote Stuff ==
+I want to turn on lights and motors by IR remote control.
+
+I don't want to build the remote, because until I have a CNC machine of some kind, battery enclosures confound me, and while I love the feel of a project box in my hands, some prefer something more svelte. Also, remotes keep working while durable electronic goods encounter minor repair issues and get thrown out, so there are lots lying around, and I have a few. 
+
+However, the language these common remotes speak isn't one I designed, and it varies from device to device. I'll have to learn the language my remote speaks.
+PyroElectro looks like a good source for information: http://www.pyroelectro.com/tutorials/infrared_ir_receiver/index.html
+
+== Printers to Mills ==
+I have a number of canon printers (high quality stuff) to teardown, scrap, and salvage. 
+The printers include steel rods, stepper motors, drivers, and other cool components. 
+Is it enough stuff to make a RepRap? Let's find out.
+
+Major components salvaged: 
+* High-polish precision steel rod, various lengths and diameters.
+* 2xPower supply, 5/24VDC @ 1/1A 
+* 4-wire stepper motors. 24v, Bipolar, various steps/revolution
+* QH4-4484 Mabuchi/Canon motor: 38mm long x 28mm dia, shaft 7mm x 2mm dia
+**12v? 24v? W=VI?
+* 34V 470- and 1000- uF capacitors
+* Various driver chips: ULN2803A, L298HN+L6210, TB62202AF, A3953SB, M5266P
+**The ULN2803A is great for unipolar motors, where one side of the coil is always tied to the +V line
+**The L298HN+L6210 circuit makes a great dual full h-bridge. What's more, the L298 datasheet has a complete bipolar application circuit on p.8
+**The TB62202AF is also ideal for bipolar motors, but until the pcb mill is working, it would be quite a task to work with its small form factor.
+**The A3953SB is a full H-bridge, so two will drive a bipolar stepper. There was one in each of the i470d printers.
+**The M5266P is still under investigation. It has 4 outputs, so it can be used to drive a 4-coil unipolar motor, but can it be used to drive current forward and backward through a coil or two?
+
+Testing power supplies and junk:
+i470d psu works as labeled
+canon bj-200 PSU:
+1 G  (white)
+2 +24 
+3 G 
+4 +24 
+5 G 
+6+5
+
+===Stepper motor control===
+
+Using aforementioned driver chips, how do I make the motor move?
+
+http://www.cs.uiowa.edu/~jones/step/index.html <-excellent
+
+http://www.discovercircuits.com/S/stepper.htm
+
+http://www.piclist.com/techref/piclist/jal/drivingbipolarsteppermotors.htm
+
+http://www.8051projects.net/stepper-motor-interfacing/stepper-motor-connections.php
+
+===Construction of the mills===
+
+An order from SDP/SI, McMaster, and ebay later, we are ready to begin. The hardware is straightforward: We will use the bloominglabs bandsaw to cut some shapes out of wood for the body, but they will ave to be proportioned to the rods and leadscrews we are using.
+
+We have many nice rods now, and 2 each of several lengths. approx. 14", 11", and 9", which will be used for the x, y and z axes respectively. That means the footprint of the mill will be 14x11" or so.  The x table will be an bit shorter, to make up for the thickness of the material on the left and right sides supporting the y axis, so 10" perhaps, and half as long as the axis it rides on, so around 6 or 7 inches.
+
+After brief discussion of fabrication methods, it's been informally decided to be informal about the construction, as any repeatability of our dimensions would require the same rods, and therefore perhaps the same printers. 
+
+TODO: 
+*drill matched holes in wood frame
+*assemble spindle: collet, shaft, bushing, bearings, collar, tubing, motor
+*mount rods and bearings in unassembled frame
+*read and comprehend allegro 3953 motor driver datasheet
+*assemble frame
+**x axis
+**y axis
+**z axis
+*mount motors to assembled frame
+*mount leadscrews to motors
+*fabricate lead screw nut
+
+== Lathe ==
+We can cast aluminum and have a drill press, so I'm pretty sure we can make a lathe somehow.
+More to come on this I hope.
+
+Edit: The space bought a used lathe. I didn't learn all the challenges in making one from scratch, but that's okay I guess.

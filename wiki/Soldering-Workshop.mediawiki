@@ -1,0 +1,138 @@
+== Bloominglabs Soldering Workshop ==
+
+<big>'''Description:'''</big>
+
+Come and learn the basics of soldering and de-soldering for electronics. Soldering is your key to entering the world 
+of building, altering, and repairing electronics! In this workshop, participants will use their newfound skills to 
+assemble “phaser” electronics kits to take home (flashing lights, buzzing buzzers, and frequency knobs!!!). 
+No prior experience necessary! All tools and hardware provided! All ages are welcome; children ages 15 and 
+younger should be accompanied by an adult. 
+
+
+<big>'''Handouts'''</big>
+* Phasor schematic [[Image:Phaser01.pdf]]
+* Phasor batch pcb transparency [[Image:Phasor_v1.0-sheet.bmp|none|thumb|100px|PCB Transparency]]
+* Phasor zip file with EagleCAD schematic, pcb, and gerber files [[Image:Phasor_eagle_pcb-v1.0.zip]]
+* Soldering workshop questionnaire [[Image:Questionnaire-Soldering.pdf]]
+
+
+<big>'''Course Outline'''</big>
+<pre>
+I. Tools - Go ahead and plug in your irons now
+
+	A. Soldering Iron
+		1. Wattages
+			a. hotter means you can work quicker and expose the part to heat for less time
+			b. 30W is a good starting point
+			c. 190 to 840 ¬∞F is the temp range of soldering, anything higher is brazing (brass)
+		2. Tips
+		3. Base model and the high-end station
+
+	B. Types of solder
+		1. metal compositions
+			a. leaded - tin+lead
+			b. 60/40 Tin/Silver (lead free)
+		2. rosin core - a mild acid which removes oxidation from the component you are soldering
+		3. different thicknesses of solder strand
+		4. water pipe solder and rosin - DO NOT USE FOR ELECTRONICS, we're not doing copper sweats!
+
+	C. Sponge worthy
+		1. keep your sponge wet
+		2. clean your iron's tip often
+
+	D. Heat-sink
+		1. protects part from excessive heat during soldering
+		2. rarely used, not really neccessary once you get decent at soldering quickly
+
+	E. Tip cleaner
+		1. not required but can help clean a dirty tip
+		2. depends on your personal preference too
+
+	F. Desoldering braid
+		1. squish it together so it widens out, absorbs solder better
+		2. watch out, copper conducts heat well
+
+	G. Solder sucker/vacume tool
+		1. have a bowl handy to discharge waste solder into, do not discharge into general purpose trash can - could cause fire
+
+
+II. A few pointers before you begin
+
+	A. You know the iron is warm enough when you can melt solder to the tip
+
+	B. Thou shall keep thy tip clean
+		1. use your sponge to clean the tip off regularly
+		2. scrape sludge and carbon build-up off with a utility knife if you have to
+
+	C. Heat the part and apply solder to the part, not your iron
+
+
+III. Lets solder!
+
+	A. Plug in irons, get them hot if they are not already on
+	B. Tin your tip with solder
+	C. Start putting some "lead" down
+	D. That smoke, don't breath it:
+		1. it's from the rosen core (mostly fermaldahyde vapor)
+		2. since solder is now generally lead-free it's not supposed to be toxic
+		3. still gets in your way, use a low-speed fan or blow it out of the way
+
+	E. Tips:
+		1. Make good physical contact with the component you want to solder (push the iron into it)
+		2. You want to apply solder to the component, not the iron
+		3. It's ok to cheat and put the solder just a little on the iron tip to get it flowing, then move solder to the component
+
+
+IV. Now De-solder!
+
+	A. Advice:
+		1. Being good at soldering means being good at desoldering
+		2. You will make mistakes, the faster you can recover (desolder the mistake) the sooner you can get back to soldering
+		3. It's fun, don't fret your mistakes!
+	B. Use the solder-sucker tool
+	C. Use desoldering braid - careful, it gets hot
+
+
+V. Kit Assembly
+
+	A. Schematic symbols - lets go over them
+	B. How to read a basic circuit schematic
+	
+	C. Count your components, make sure nothing is missing from your kit
+	D. Start with the IC socket, then install everything else
+	E. Careful, components can be ruined by too much heat
+	F. Troubleshooting:
+		1. Verify component orientation (IC1 & LED)
+		1. Check power - use a voltmeter to verify the IC has 9V on the correct pins
+		2. Check for solder bridges
+
+
+VI. World Domination - Some parting words
+
+	A. If you ever have to use a non-ideal soldering iron:
+		1. under wattage
+		2. dirty tip/dull tip
+		3. tips are usually made of copper, use a utility knife and sharpen it like a pencil
+		4. then tin the tip as best as you can
+
+	B. Turn your iron off as soon as you are done with it - clean the tip just before you do this!!!
+
+	C. What did everyone think of this class???
+</pre>
+
+== Kits:==
+I have a simple variable LED flasher+piezo buzzer circuit in mind for this. It only takes 10 components plus some wire to build, plus this circuit could also be used for other courses such as an oscilloscope class.
+
+* 1x cut PCB
+* 1x 9V battery clip
+* 1x 9V battery
+* 1x piezo speaker
+* 1x LED
+* 1x 4049 CMOS hex inverter
+* 1x 1M ohm potentiometer
+* 1x .22uF cap
+* 1x 4.7k ohm
+* 1x 2.2k ohm
+* 2" of wire
+
+[[Category: Workshops]]

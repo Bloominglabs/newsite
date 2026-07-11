@@ -1,0 +1,451 @@
+January 23, 2016. 5:00PM to 9:00PM
+
+(If this is a little tl;dr, you can always skim it for the "Action Items" sections to know what it is we are expecting people to help with)
+
+Attendees: 
+
+*Note taker: Stephen Charlesworth, Secretary (if you have more notes to add, please do! Or if you have a question about something I've recorded, please ask!)
+*Tim Buckner
+*Heath Roush - At Large Board Member
+*Ethan Broadnax	
+*Nalette Broadnax
+*James ‘Apple’ Muncy
+*Daniel Halsey - At Large Board Member
+*Nathan Heald - President
+*Max Miller
+*Joey Cieslik
+*Kyle Dirrim
+*Eric Ost
+*Nick ‘Makevenstra’ Venstra
+*Will ‘Robot’ Wright
+*Jenett Tillotson - Treasurer
+*Allyn ‘Smokey’ Lambert
+*Murat Ozturk
+*Adam Nuwer
+*Steve Backs
+*Ian Pottmeyer
+*Neal Barrett
+*Ken Hay
+*Ryder Timberlake
+
+= Meeting notes =
+
+==Pizza And Donuts==
+They were delicious.
+Anchovies were a surprise favorite receiving votes for 2 pizzas.
+
+== Financial information ==
+Presented by Jenett Tillotson, Treasurer.
+
+Jenett and dosman moved everything to Quickbooks.
+
+A key motivation behind the move to (pay for) Quickbooks: SimpleInvoices (free open source system we were using) has reached its limit and has not been sufficient for our current needs.
+
+*We have >3mo of expenses in our bank account now (a financial goal for the year - met).
+*Makevention made some money.
+*Workshops made $1060
+*May switch from Paypal to Quickbooks for payment and donation processing (lower fee).
+
+dosman: yes it’s a fee, but there’s value in the work reduced via use of Paypal.
+
+Membership dues collected per month: $1660
+
+Details are in the Financial Report (TODO - link to this).
+
+A question came up: how much per month should we put in savings? $200 was the agreed upon amount.
+
+So far we have been unable to get a credit card because of strange ambiguity around our address (mailing != physical).
+
+===Taxes===
+Who files taxes? Jenett.
+
+For us, the ‘Postcard 990’ is filed (can do this if under $50,000 revenue - otherwise have to do full 990). 
+
+State of IN: no taxes for nonprofits in IN.
+
+===Hardware donations===
+*The Sunverge donation was a big one (AG 150s)!
+*They need power supplies
+If you want one:
+*mail Jenett (jenett@bloominglabs.org)
+*let us know what you do with it!
+*don’t let it sit around - bring it back if you end up not having time to use it!
+
+===Insurance===
+*We have Public liability insurance
+*But note: members can’t sue us
+*We have Farmer’s insurance
+
+=== Donations ===
+*Let officers know you made Donation
+*If over $250, you must have a receipt (for deductions). Officers can set you up w/ a receipt.
+*See the clipboard by the donation box. Receipts are there for reference.
+*If the donation is over $500 - there’s an additional form required (TODO - need details)
+
+Question: What to do about unwanted donations?
+
+We have ‘Purgatory’ area, up front in the Electronics area adjacent to the Laser Room - if items there sit there, they are recycled. Put dubious items on there.
+
+Smokey points out - for CRTs etc, you will be charged $20 but they give you a $20 Best Buy gift cert.
+
+=== Action Items ===
+*Should make a point of thanking Michelle from Envisage for her donation (who?)
+
+== Makevention 2016 Is Coming in 2016 ==
+Date:Aug 26
+
+Call for exhibitors soon.
+
+Co-hosting with MCPL.
+
+Staff Needs:
+
+*Bloominglabs booth organizer (Heath the past 2 years) - can be more than 1 person
+*‘Volunteer wrangler’
+*Somebody to help get the exhibitors up and running
+In general: put out those flyers and cards.
+
+==Workshops and Collaborations==
+===Workshops in 2015===
+31 Workshops!
+
+37 Events!
+
+===Library collaborations and events===
+We did several workshops, and hosted monthly ‘Arduino Club’ and ‘Python Club’ meetings, which fused together into ‘Hack Nights’.
+
+Steve Backs is a member who works for MCPL. He commented:
+
+*10-14 is any especially good target age group for these events
+*Summer is a peak time
+*Hack nights have lower attendance but we are getting some regulars
+*We are going to move Hack nights to 6pm.
+
+===If you’d like to host a workshop===
+*We have resources for PR (see the Wiki).
+*It seems to work especially well if we do workshops in clusters (for promotion, momentum, etc).
+*If you want to do one, get it on the calendar as soon as you can (deadline helps motivate you).
+
+== Membership ==
+We have hit an ‘equilibrium’ of about 45 members.
+
+Question: Should we cap membership?
+
+Probably up to 50 or so is good.
+
+Agreed: No caps, but currently no need for aggressive membership drives.
+
+===Ex-Member Feedback===
+Discussion of exit surveys.
+
+A point of constructive criticism was the messiness and disarray in some areas.
+
+See somebody leaving a mess? Talk to them.
+
+Same story if unsafe behavior is observed.
+
+===New Member Feedback===
+
+Nalette: Sometimes for new members it’s hard to find info, for example, what’s the exit protocol?
+
+Might be good to increase signage about rules.
+
+Ryder T: Idea for new member orientation. Nalette B concurs this is a good idea.
+
+Kyle D: Had a new member orientation package idea.
+
+Suggestion: do a New Member survey.
+
+Smokey: yes, let’s check in with them a month in.
+
+Ken Hay: query about Shapeoko - what is current status, who to ask about it?
+
+Can we put the info out there about areas where help might be needed?
+
+Having a dedicated area for certain tools would be good (like we have for the 3D printer).
+
+Nick V volunteers to make that for the Shapeoko.
+
+Joey C: Sometimes it’s not as clear who does what or who to ask about what.
+
+Maybe we have nametags with our special area?
+
+Ken Hay: Maybe label areas, who do I ask about this?
+
+Will Robot takes this on!
+
+Ryder will help him out.
+
+Ian P: How do we find out if the space has a tool?
+
+Joey C: if you would really like to familiarize yourself with items at the space, helping out with asset tagging is a great way to do that.
+
+Should we have an ‘inventory day’? No real decision or set date was made.
+
+Ryder volunteers to set up a web front end for inventory stuff and querying.
+
+Daniel H: BTW Bloominglabs has a github org.
+
+If you want a wiki account send email to contact@bloominglabs.org
+
+Ryder: the culture is solid!
+
+=== Action Items ===
+* Jenett to put together ‘Expectations’ list and sign(s)
+* Ryder to  set up a web front end for inventory stuff and querying
+* Will and Ryder to label areas
+* Nick to create a dedicated space for the Shapeoko
+* Set a date for ‘Inventory day’ (who?)
+* Create a ‘new member packet’ (who?)
+* Create a ‘new member orientation’ (who?)
+* Steve to create a ‘new member survey’, follow up with members after their first month.
+
+== Low Points ==
+===The lift controversy===
+Minority objected but we are a consensus organization.
+
+Achieving consensus was quite challenging.
+
+Do we carry on w/ the consensus approach?
+
+For now, yes.
+
+====What needs to happen for the lift====
+
+Money - we have some left from earlier build out.
+
+Nick V is leading this effort
+
+Chris Dadds has the tools.
+
+====Action Items====
+*Nick to coordinate and implement lift installation.
+
+==Officer Elections==
+Does anyone want to be an Officer?
+
+Present officers are willing to serve another year
+
+If you are interested: contact@bloominglabs.org: some mentoring could happen.
+
+Is everybody up every year? Currently no.
+
+Perks:
+*Fun meetings at Bw3!
+*Can put it on your resume
+*Can see the inner workings of the organization.
+*But: you have no additional power.
+
+Joey points out we should really give more lead time to put the call out to people interested in running. We did do better than last year, when we asked if anybody was interested in running AT the meeting, though.
+
+The idea was raised (can't recall by who, exactly - sorry) that people interested in becoming Board Members could be mentored by current members.
+
+Vote: Everybody’s back in (all current officers will retain their positions).
+* Nathan Heald - President
+* Jenett Tillotson - Treasurer
+* Steve Charlesworth - Secretary
+* Heath Roush - At Large
+* Daniel Halsey - At Large
+
+==The Ongoing Cleaning/Organizing Topic==
+
+Organization efforts have helped, but the dremels are in disarray.
+
+Same story w/ the small tools in general.
+
+Adam N. suggests a sign out log for tools.
+
+Kyle D: there’s a page on the Wiki if you have tools not at the space that you’d like to make available to others.
+
+In winter leave the door to the workshop open.
+
+In summer, leave it closed.
+
+Jenett: let’s add this to expectations.
+
+Again, let’s put a sign on the door - use Daniel H.’s sign format preferably.
+
+Max: We need quality chairs.
+
+Steve gripes about stuff on the welcome desk.
+
+dosman/Steve/Will: to move stuff from shelves up front to the back ‘boneyard’
+
+The ‘non member storage’ area in the back is the boneyard.
+
+Nobody wants to intermix member storage and boneyard - you gotta keep ‘em separated.
+
+People enjoy the member storage (helpful hint: get a plastic tote to protect from dust).
+
+Will’s idea: color coding: match areas to tool.
+
+Daniel has paint left over toward the cause.
+
+Don’t leave your bikes around. If they are projects, that’s OK. After about a year or so your project may be absorbed!
+
+We should contact Christian McKay about some of his stuff. Space is at a premium in the space.
+
+Nathan dealing with the octagon tables.
+
+General note - sometimes visitors on public nights will leave a mess when they leave. Be on the lookout and gently encourage them to clean up.
+
+===Action Items===
+*Adam N. to create a sign out log for tools.
+*Steve, Nathan and Will will move stuff from the shelves up front to the ‘boneyard’ to make space for an ‘intake’ area.
+*Will to go ahead with his idea to color code areas and tools.
+*Nathan to deal with the octagon tables
+*(who?) to contact Christian about his stuff?
+
+==Topic: Vaping at the space==
+
+Will raised this as an issue.
+
+Do we have or need an official policy?
+
+Neal B.: no, we do not want a solid rule here.
+
+Jenett: this falls under ‘be excellent to each other’.
+
+In general, approach the person about this kind of thing.
+
+Neal B. mentioned as a city building we fall under city rules.
+
+Nalette prefers a policy.
+
+Takeaway point - people have pretty strong objections to vaping at the space so take that into consideration.
+
+===Action Items===
+*Jenett to add this to the aforementioned Expectation List.
+*Nathan to send something out to the member list to remind people to ask if others mind before vaping it up.
+
+==Recognition of Member Contributions==
+*Setting up the Water heater: Apple.
+*Drywall: Joey, Jimmy, Apple.
+*Workshop lighting: Apple.
+*Joey C updated our hackerspaces.org info.
+*Thanks to anybody who did cool stuff for the space this year.
+
+==Kitchen Area==
+Are we cool going forward with a kitchen area?
+
+We would need some cleanliness measures in place.
+
+There’s much concern as to the cleanliness issue.
+
+==Ham Radio Area==
+
+People love the police scanner!
+
+Nathan considering offering a radio class. There is interest.
+
+Also: we could do a Ham Cram day.
+
+General consensus: keep it, we like it!
+
+Harpo etc.’s Mesh Network: Currently nodes are Blabs and Harpo’s place.
+
+== The Dust Collector ==
+The plan:
+*we will save $200/mo towards this.
+*Allyn will design.
+*Steve: mention on Twitter/Facebook, perhaps people would make a donation towards it.
+
+Suggestion: should we make one?
+
+dosman: we have kicked that around for a year. We have to get serious and move on it.
+
+Adam: Mainly these are for air quality while working - you still have to clean up.
+
+They are LOUD (generally installed outside - can we? Seems it’s possible).
+
+Also can put in a ‘quiet box’.
+
+=== Action Items ===
+* Allyn to design the system
+* Treasurer to set aside $200/mo toward the cause
+* Steve to get the word out
+* (Somebody should research/present options - who?)
+* Is there a lead on this? If not, let's find one.
+
+== Grants ==
+Should we pursue grants?
+
+dosman: An issue with these is there is a lot of oversight required, but we are a pretty free-wheeling laissez faire operation.
+
+Jenett: We have experienced Grant writers among us:
+*Dan
+*Ken
+*Jenett
+*Nalette
+
+Dan: NSF has community development grants
+
+No real conclusion or plan here!
+
+== Consumables ==
+Neal: The cost of welding. How to put a price on it. Money box? $1/min? $x/inch? Some set dealy? Some open ended dealy?
+
+Up to now this has cost $20 every couple weeks. How to support this?
+
+Jenett: We tend to buy our own consumables.
+
+Dan suggests consumables store at Blabs (laser, 3d, welder).He is going to get rolling with this idea.
+
+Adam: Make it (welding)  $1/min. Revisit later if it makes sense.
+
+What costs are associated with the 3d printer? 1kg/$15.
+
+Steve: we should put a lot of this stuff in the new member packet.
+
+For now: we’ll get one more moneybox, but everything else, pay it thru Square.
+
+=== Action Items ===
+*Get another money box (who?)
+*Dan - implement the Bloominglabs consumables store
+
+== Miscellaneous Topics ==
+===Security camera===
+Available online - does not record.
+
+Would be good to have some outside (we have new neighbors, not nec. malicious but they do mill around outside when shows are happening).
+
+Idea of setting up ZoneMinder floated.
+
+===Our Neighbors/Neighborhood===
+
+Allyn: What’s up w/ the parking lot situation?
+
+The Tiny House: people are cool with it.
+
+The bus with woodburning stove: Jenett will talk to Adam N.
+
+The Ford Explorer that’s abandoned and has sat in the parking lot a very long time: Clemens owns that.
+
+==== Action Items ====
+*Jenett to talk to Adam N. about the bus
+
+=== Biohacking Area ===
+
+Joseph mentions there is interest in putting in a biohacking lab area. 
+
+No, not the kitchen!
+
+Currently we have an incubator.
+
+Looking at auctions for fume hoods.
+
+The old laser room is agreed on as best spot.
+
+=== Digital Underground (Not the ‘Humpty Dance’ Digital Underground) ===
+Eric: we can do stuff via existing infrastructure (broadband), the Digital Underground runs nearby.
+
+=== Switchyard Park ===
+Likely this project will take place in steps over a long period. We are likely going to be in the current space for a while.
+
+Hamilton appears receptive to having Bloominglabs stay here (has mentioned us to people, we are on his radar as a Bloomington institution).
+
+MEETING ADJOURNED
+
+
+[[Category: Meetings]]
+[[Category:Operations]]

@@ -1,0 +1,58 @@
+Meeting will be held Saturday, February 11th, from 5pm-9pm.
+
+== Meeting Agenda ==
+
+* Get a pizza order figured out and funds collected, when we are ready to order just pull the lever
+
+* [http://bloominglabs.org/images/2/2a/2016AnnualReport.pdf 2016 Annual Report] presented by the existing board
+* Insurance - what we have, what it covers, cost
+* How we handle donations
+** Cash
+** In-kind (hardware)
+* Review sales tax exemption purchase process (green binder)
+** Trebuchet a perfect example - group project in the name of Bloominglabs - save that sales tax!
+
+* Officer elections
+** count votes in absentia too
+
+==== Year in review 2016 ====
+* Member survey results
+* Member exit survey results
+
+* Who have we colaborated with?
+* What workshops did we have?
+** Arduino
+** Arduino and Motors
+** 3D Printing
+** Laser Cutter
+** Arduino + Motors + 3D Printing + Laser Cutting as the 'Useless Machine' Series
+** Welding Day
+* Nation of Makers
+* Trebuchet (great group project + we won the accuracy prize)
+* Instructables Makerspace Contest (we achieved the 10+ Featured Instructables Prize level)
+** Small laser engraver from MakeBlock procured as a prize
+* Current member survey results
+* Makevention 2016 - how did it go?
+** Makevention 2017 - are we doing it again?
+** Fundraising for our eventual move using Makevention?
+* Car lift - how has it worked out for people?
+* Ham radio HF antenna connected, our HF station works now.
+* New dumpster, reminder not to use Adam Nahas' s any more
+
+==== 2017 Goals, things to discuss ====
+* Keep an eye out for the next home of Bloominglabs
+* Fundraising for our move (build-out to make our current location habitable was about $1500)
+* Spring 2017 workshops
+** Screen printing
+** Using Encryption (PGP, OTP, etc)
+* Fund raising for replacement TIG welder
+** Already about 1/2 way there with welding funds collected
+* Chrstian's tools still in the workshop... year 2 (green 3-wheeled machine)
+* Reminder - anyone can start a periodic meetup at Blabs or call a members meeting
+* Anyone going to the Midwest RepRap Festival in Goshen? [https://www.eventbrite.com/e/2017-midwest-reprap-festival-mrrf2017-aka-mrrf-tickets-28382784673]
+* Reminder of ways to contact the officers/board for emergencies: contact email, and google voice # in emergencies
+* Keep Rockin'
+* Anything else?
+
+
+[[Category:Meetings]]

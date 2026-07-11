@@ -1,0 +1,273 @@
+I. Called to order @ 1020
+
+    A. Susan Sons, Daniel, Jimmy Torres, Pete, Alex von Hoene, Nathan Heald, Adam Nuwer, Jason Brown, Kevin Ratcliff, Calob Humble, Apple Muncy, Sam Ragsdale, Joe Cieslik, Kyle Dirrim, Allyn Lambert, Samuel Boldenow
+
+    B. 15 voting members in attendance
+
+        1. Quorum achieved
+
+    C. 2 half rate members
+
+II. Old Business
+
+    A. 2025 Annual Report
+
+        1. Makevention
+
+            a. visitbloomington.com for scheduling help
+
+        2. Outreach
+
+            a. 2 cookouts
+
+            b. 2 game nights
+
+            c. a ham event
+
+    B. Motion to accept report
+
+        1. Unanimously accepted
+
+    C. State of the Space Retrospective
+
+        1. Cyberinfrastructure is now under our own control, thank you
+
+        2.  Why do people leave?
+
+            a. No clear negatives driving people away
+
+            b. possibilities of more positives to keep people
+
+        3. We are relatively unkown in the broader community
+
+            a. largely discovered through web searches
+
+            b. light social media presence
+
+        4. Water Intrusion
+
+            a. some spots of ceiling damage
+
+            b. reported to landlord, currently unaddressed
+
+            c. gutter clogging is a factor
+
+                i. gutter guards suggested
+
+                ii. landlord notified
+
+    D. Open Floor
+
+III. New Business
+
+    A. Board Election
+
+        1. Nominations
+
+            a. President: Joe Ceislik, Susan Sons
+
+            b. Treasurer: Jimmy Torres
+
+            c. Secretery: Kyle Dirrim
+
+            d. At Large: Susan Sons, Pete, Jason
+
+        2. Motion for Secret Ballot
+
+            a. ayes have it
+
+            b. 1 nay
+
+        3. Elected
+
+            a. President: 12 in favor of Joe, 1 Susan, 1 Abstiantion, 1 invalid
+
+            b. Treasurer: Jimmy Torres is unanimous
+
+            c. Secretary: Kyle Dirrim is unanimous
+
+            d. At Large: Jason withdraws, Susan is unanimous
+
+            e. At Large: Pete is unanimous
+
+        4. New Board
+
+            a. President: Joe Ceislik
+
+            b. Treasurer: Jimmy Torres
+
+            c. Secretary: Kyle Dirrim
+
+            d. At Large: Susan Sons
+
+            e. At Large: Pete
+
+    B. Insecured Financial Infrastructure
+
+        1. Current components:
+
+            a. IUCU - canonical account transactions
+
+                   i. receives check and cash deposits
+
+            b. Freshbooks - majority accounting software: issues and tracks most invoices, payments, credits, some expenses
+
+                         i. majority payment processor: facilitates most payments to BLBS
+
+            c. PayPal - minority accounting software: issues and tracks some invoices and payments (e.g. workshops)
+
+                     i. minority payment processor: facilitates some payments to BLBS, some financial donations via Zettle
+
+            d. Stripe - facilitates some financial donations
+
+            e. Slack - tracks receipts of bank deposits, labelled according to type
+
+            f. Google Workspace - platform for annual report
+
+            g. Square
+
+                i. two accounts, 1 makevention and 1 bloominglabs
+
+        2. Proposed components:
+
+            a. IUCU - canonical account transactions
+
+                i. receives check and cash deposits
+
+            b. Google Workspace - accounting software: tracks invoices, payments, credits, expenses
+
+                i. platform for ongoing and annual reports
+
+            c. PayPal - electronic payment processor: facilitates all electronic payments and donations to BLBS
+
+            d. Slack - tracks receipts of bank deposits, labelled according to type (? - preferable to find alternative)
+
+            e. Stripe - legacy
+
+        3. Payment processor comparison:
+
+                            Freshbooks       Paypal Business
+
+        Annual subscription fee:    702 USD          0 USD
+
+        Transaction fees [0],[1]    2.9%+0.30 USD    2.9%
+
+        Methods of payment:
+
+        credit card                *            *
+
+        debit card                *            *
+
+        PayPal                *            *
+
+            [0] <nowiki>https://support.freshbooks.com/hc/en-us/articles/25362149006349-What-are-the-transaction-fees-for-FreshBooks-Payments-USD</nowiki>
+
+            [1] <nowiki>https://www.paypal.com/us/digital-wallet/paypal-consumer-fees</nowiki>
+
+        4. Accounting software comparison:
+
+            a. Freshbooks: all features included and unchangeable
+
+            b. Google Workspace: all features must be built; user modifiable
+
+            c. A prototype accounting software platform based on Google Workspace has been built; the current Freshbooks subscription renews 2026MAR15.
+
+            d. Every.org: 501(c)3 dedicated to providing payment infrastructure to other nonprofits, only donations not membership
+
+            e. <nowiki>https://frappe.io/erpnext</nowiki>
+
+            f. Motion to charge the 2026-2027 Board to investigate whether the above or another new financial infrastructure for Bloominglabs is viable; to effect the new infrastructure, if so; regardless of viability, report back to the membership the results of the investigation on or before 2026JUL01.
+
+                i. Passes unanimously
+
+    C. Bloominglabs Space Usage FAQ
+
+        1. A collection of requested practices for use of the space, including, but not limited to:
+
+            a. materials and project storage policy
+
+            b. a pet policy
+
+            c. project vehicle and general parking policy.
+
+                i. Specifically on the latter: does the membership wish to pay for a dedicated parking space (cost to be determined) for project vehicles?
+
+        2. Motion to charge the 2026-2027 Board with soliciting input, and proposing, a Bloominglabs FAQ, to trial run through the next year, with the goal of incorporating some or all of its elements into our Standing Rules, following our normal rules and procedures.
+
+            a. Passes Unanimously
+
+    D. Lease Renewal
+
+        1. Current lease ends 2026MAY31; it was inaugurated on 2023JUN01, for three years, with a fixed 3% annual rent increase. Current monthly rent is XXXX. Treasurer has been in contact with Landlord at intervals so as to discuss lease renewal provisions, especially regarding Internet service, and overall cost structure. At present, it is expected that any new lease will: extend for 3 or 4 years; contain annual fixed percentage rent increases; specify that Bloominglabs will have a separate Internet connection from the rest of the building. No provisional monthly rent has been provided.
+
+        2. Proposed: that the 2026-2027 Board draft, no later than 2026APR15, a partial lease agreement, including rent price and proposed annual increases, to motivate price point and other specific negotiations on the part of Landlord.
+
+            a. No variable rate rent increases
+
+    E. New Business Open Floor
+
+        1. Inflation Rate Hike
+
+            a. Rate should cover expenses, with extra for future plans
+
+        2. Marketing Push
+
+            a. to increase members
+
+        3. Reminders to reveiw membership rates
+
+            a. require volunteer hours?
+
+                i. cleaning, maintenence, workshop help
+
+            b. just introduce friction to the reduced rate?
+
+            c. Emeritus rate?
+
+            d. Motion to charge the board with reevaluating dues with the goal of raising rates to at least correct for inflation and fully cover recurring costs, to be presented to the membership by July 31 2026?
+
+                i. passes unanimously
+
+IV. Open Floor
+
+    A. Existing Proposed Workshops
+
+        1. computer aided design
+
+        2. Linux fundementals
+
+    B. Reworking Workshop workflow
+
+        1. reduce friction
+
+        2. Calob voluteers to Captain Workshops
+
+        3. concerns about paypal
+
+    C. Fundraising
+
+        1. amazon smile replacements
+
+        2. Kroger Community Rewards
+
+            a. 15 households
+
+        3. Proposed additions:
+
+            a. walmart.com
+
+            b. igive.com
+
+            c. shopraise.com
+
+    D. Thanks to dosman for bringing donuts
+
+    E. Makevention Committee Meeting Date
+
+        1. 1800 Wednesday March 04, 2026
+
+        2. contact Michael Brady
+
+V. Adjournment
+
+    A. At 1245

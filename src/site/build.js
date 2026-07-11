@@ -5,6 +5,14 @@ const path = require('node:path');
 
 const { siteContent } = require('./content.js');
 const { siteStyles } = require('./styles.js');
+const { titleToWikiFileStem } = require('../wiki/github-wiki.js');
+
+/**
+ * GitHub wiki page URLs use hyphenated stems derived from the archived titles.
+ */
+function wikiPageUrl(title) {
+  return `${siteContent.organization.wikiUrl}/${titleToWikiFileStem(title)}`;
+}
 
 /**
  * HTML escaping is kept local so rendering helpers can safely interpolate
@@ -285,7 +293,7 @@ function renderVisitPage(basePath) {
     heroText:
       'The easiest first contact is to show up on Wednesday evening, meet the people using the space, and ask direct questions about your interests.',
     actions: [
-      { href: organization.wikiUrl, label: 'Live Wiki', variant: 'primary' },
+      { href: organization.wikiUrl, label: 'Wiki', variant: 'primary' },
       { href: `mailto:${organization.email}`, label: 'Email The Space', variant: 'secondary' },
     ],
     signals: [
@@ -323,7 +331,7 @@ function renderVisitPage(basePath) {
           <div class="callout">
             <h2>Key links</h2>
             <p><a href="${toPublicHref(organization.calendarUrl, basePath)}">Calendar</a> for workshops and events.</p>
-            <p><a href="${organization.wikiUrl}">Live wiki</a> for deeper operational details.</p>
+            <p><a href="${organization.wikiUrl}">Wiki</a> for deeper operational details.</p>
           </div>
         `
       ),
@@ -344,7 +352,7 @@ function renderMembershipPage(basePath) {
       'Bloominglabs treats membership as a relationship. Start by showing up at public night or a workshop, meet people, and let the process unfold in the room.',
     actions: [
       { href: '/visit/', label: 'Come To Public Night', variant: 'primary' },
-      { href: siteContent.organization.wikiUrl.replace('/Main_Page', '/Membership_Manual'), label: 'Membership Manual', variant: 'secondary' },
+      { href: wikiPageUrl('Membership Manual'), label: 'Membership Manual', variant: 'secondary' },
     ],
     signals: [
       'Attend 3 meetings or workshops before joining.',
@@ -393,7 +401,7 @@ function renderSupportPage(basePath) {
     heroText:
       'Bloominglabs is funded primarily by membership dues, but donations, volunteer effort, and event support all materially improve what the space can offer.',
     actions: [
-      { href: siteContent.organization.wikiUrl.replace('/Main_Page', '/Donations'), label: 'Donation Details', variant: 'primary' },
+      { href: wikiPageUrl('Donations'), label: 'Donation Details', variant: 'primary' },
       { href: '/membership/', label: 'Become A Member', variant: 'secondary' },
     ],
     signals: [
@@ -434,7 +442,7 @@ function renderWikiPage(basePath) {
     heroTitle: 'Use the main site to orient yourself, then drop into the wiki when you need depth.',
     heroText: siteContent.wiki.explanation,
     actions: [
-      { href: organization.wikiUrl, label: 'Open Live Wiki', variant: 'primary' },
+      { href: organization.wikiUrl, label: 'Open Wiki', variant: 'primary' },
       { href: '/wiki-archive/latest/manifest.json', label: 'Archive Manifest', variant: 'secondary' },
     ],
     signals: [
@@ -452,7 +460,7 @@ function renderWikiPage(basePath) {
           <p>${escapeHtml(siteContent.wiki.explanation)}</p>
           <p>
             For project logs, meeting minutes, tool details, workshops, and historical pages,
-            use the <a href="${organization.wikiUrl}">live Bloominglabs wiki</a>.
+            use the <a href="${organization.wikiUrl}">Bloominglabs wiki</a>.
           </p>
         `
       ),

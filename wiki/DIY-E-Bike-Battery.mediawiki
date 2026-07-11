@@ -1,0 +1,792 @@
+A project by [[User-Jpt4|Jpt4]] and [[User-Avh-on1|AVH]] to homebuild batteries for their personal ebikes.
+
+
+== Cells ==
+120 (total) LiFePO₄ 26650 cells purchased from [https://batteryhookup.com/products/full-case-of-120-k2-26650-3800mah-lifepo4-cells Battery Hookup] for the $228. Their specifications are as follows:
+
+* Make/Model: K2 LFP26650E
+* Size: 26650
+* Voltage: 3.2
+* Capacity: 3.8 amp-hours (12.16 watt-hours)
+* Maximum Voltage: 3.65 (safe) 4.1 (maximum)
+* Minimum Voltage: 2.5 (safe) 2.0 (minimum)
+* Continuous Discharge Current: 12 amps
+* Maximum Discharge Current: 28 amps for 30 seconds
+* Recommended Charging Current: 3.8 amps
+
+=== Packaging ===
+
+The cells arrived in a tightly-fitting two-piece vacuum-formed plastic package that holds all the cells vertically in a 10x12 grid. The top of half of the package had some splits and cracks near one corner. The package, along with a desiccant pack, was in a thin plastic bag, zip-tied shut, in an exactly-fitting cardboard box.
+
+=== Labels and Markings ===
+
+Each cell is marked from the factory:
+   Li-Ion IFpR27/65
+ + K2 Energy LP26650E-3800-21 -
+   3.2V 3.8AH(12.16Wh)
+
+Also, each cell has a serial number in a QR code near the negative terminal, (usually, but not always) on the side opposite the label. The dot-matrix printer that made the codes wasn't perfectly aligned, so many cells have codes that are slightly distorted and difficult to scan. Using the [https://f-droid.org/en/packages/com.google.zxing.client.android/ Barcode Scanner] app, the codes could be scanned more reliably sideways, or at not-quite-90-degree angles.
+
+To make it easier for us to keep track of the cells, the first time each cell was removed from the packaging, it was given a three-digit number corresponding to the row and column they were from in the box. 000 is from the top-left, 009 is from the top-right, 110 is from the bottom-left, and 119 is from the bottom-right. The labels are written in permanent marker on the ''ample'' blank, white space on the cell wrappers, and underlined so that there is no ambiguity which way the number is supposed to be read.
+
+=== Individual Cell Measurements ===
+
+{| class="wikitable" style="text-align: right;"
+|+ K2 26650 Li-Ion Cells
+! scope="col"| Serial Number
+! scope="col"| Label
+! scope="col"| Out-Of-The-Box Voltage
+! scope="col"| Self-Discharge Voltage
+! scope="col"| Capacity (watt-hours)
+! scope="col"| Remarks <!-- This column should be right-most. -->
+<!-- ================ START OF ROW 00 ================ -->
+|-
+| PH190223-132431
+| 000
+| 3.29
+| 3.33
+| 10.682
+|-
+| PH190223-132415
+| 001
+| 3.29
+| 3.33
+| 10.770
+|-
+| PH190223-132362
+| 002
+| 3.29
+| 3.33
+| 10.808
+|-
+| PH190223-132351
+| 003
+| 3.29
+| 3.33
+| 10.898
+|-
+| PH190223-132270
+| 004
+| 3.29
+| 3.33
+| 10.932
+|-
+| PH190223-132286
+| 005
+| 3.29
+| 3.33
+| 10.876
+|-
+| PH190223-132393
+| 006
+| 3.29
+| 3.33
+| 10.802
+|-
+| PH190223-132397
+| 007
+| 3.29
+| 3.33
+| 10.945
+|-
+| PH190223-132328
+| 008
+| 3.29
+| 3.33
+| 10.943
+|-
+| PH190223-132317
+| 009
+| 3.29
+| 3.33
+| 10.862
+<!-- ================ START OF ROW 01 ================ -->
+|-
+| PH190223-132458
+| 010
+| 3.29
+| 3.33
+| 10.824
+|-
+| PH190223-132442
+| 011
+| 3.29
+| 3.33
+| 10.835
+|-
+| PH190223-132426
+| 012
+| 3.29
+| 3.33
+| 10.908
+|-
+| PH190223-132378
+| 013
+| 3.29
+| 3.33
+| 10.915
+|-
+| PH190223-132265
+| 014
+| 3.29
+| 3.33
+| 10.880
+|-
+| PH190223-132281
+| 015
+| 3.29
+| 3.33
+| 10.873
+|-
+| PH190223-132457
+| 016
+| 3.29
+| 3.33
+| 10.876
+|-
+| PH190223-132424
+| 017
+| 3.29
+| 3.33
+| 10.640
+|-
+| PH190223-132392
+| 018
+| 3.29
+| 3.33
+| 10.710
+|-
+| PH190223-132344
+| 019
+| 3.29
+| 3.33
+| 10.737
+<!-- ================ START OF ROW 02 ================ -->
+|-
+| PH190223-132367
+| 020
+| 0.00
+| 3.21
+| 8.886
+|-
+| PH190223-132350
+| 021
+| 3.29
+| 3.34
+| 10.678
+|-
+| PH190223-132334
+| 022
+| 3.29
+| 3.34
+| 10.845
+|-
+| PH190223-132233
+| 023
+| 3.29
+| 3.34
+| 10.792
+|-
+| PH190223-132269
+| 024
+| 3.29
+| 3.34
+| 10.758
+|-
+| PH190223-132462
+| 025
+| 3.29
+| 3.33
+| 10.813
+|-
+| PH190223-132398
+| 026
+| 3.19
+| 3.32
+| 9.369
+|-
+| PH190223-132414
+| 027
+| 3.29
+| 3.33
+| 10.759
+|-
+| PH190223-132413
+| 028
+| 3.29
+| 3.33
+| 10.788
+|-
+| PH190223-132333
+| 029
+| 3.29
+| 3.33
+| 10.646
+<!-- ================ START OF ROW 03 ================ -->
+|-
+| PH190223-132394
+| 030
+| 3.29
+| 3.33
+| 10.740
+|-
+| PH190223-132361
+| 031
+| 3.29
+| 3.33
+| 10.785
+|-
+| PH190223-132345
+| 032
+| 3.29
+| 3.33
+| 10.798
+|-
+| PH190223-132329
+| 033
+| 3.29
+| 3.33
+| 10.863
+|-
+| PH190223-132296
+| 034
+| 3.29
+| 3.33
+| 10.697
+|-
+| PH190223-132280
+| 035
+| 3.29
+| 3.34
+| 10.765
+|-
+| PH190223-132409
+| 036
+| 3.29
+| 3.33
+| 10.776
+|-
+| PH190223-132425
+| 037
+| 3.29
+| 3.33
+| 10.696
+|-
+| PH190223-132440
+| 038
+| 3.29
+| 3.33
+| 10.765
+|-
+| PH190223-132360
+| 039
+| 3.29
+| 3.32
+| 10.744
+<!-- ================ START OF ROW 04 ================ -->
+|-
+| PH190223-134729
+| 040
+| 3.29
+| 3.33
+| 10.620
+|-
+| PH190223-134648
+| 041
+| 3.29
+| 3.33
+| 10.757
+|-
+| PH190223-134519
+| 042
+| 3.29
+| 3.33
+| 10.762
+|-
+| PH120223-134644
+| 043
+| 3.29
+| 3.33
+| 10.798
+|-
+| PH190223-134515
+| 044
+| 3.29
+| 3.33
+| 10.669
+|-
+| PH190223-134691
+| 045
+| 3.29
+| 3.33
+| 10.822
+|-
+| PH190223-134713
+| 046
+| 3.29
+| 3.33
+| 10.874
+|-
+| PH190223-134628
+| 047
+| 3.29
+| 3.33
+| 11.145
+|-
+| PH190223-134632
+| 048
+| 3.29
+| 3.33
+| 11.249
+|-
+| PH190223-134760
+| 049
+| 3.29
+| 3.33
+| 10.829
+<!-- ================ START OF ROW 05 ================ -->
+|-
+| PH190223-134552
+| 050
+| 3.29
+| 3.33
+| 10.393
+|-
+| PH190223-134712
+| 051
+| 3.29
+| 3.33
+| 10.558
+|-
+| PH190223-134631
+| 052
+| 3.29
+| 3.33
+| 10.480
+|-
+| PH190223-134708
+| 053
+| 3.29
+| 3.33
+| 10.497
+|-
+| PH190223-134595
+| 054
+| 3.29
+| 3.33
+| 10.558
+|-
+| PH190223-134755
+| 055
+| 3.29
+| 3.33
+| 10.590
+|-
+| PH190223-134536
+| 056
+| 3.29
+| 3.33
+| 10.520
+|-
+| PH190223-134692
+| 057
+| 3.29
+| 3.33
+| 10.628
+|-
+| PH190223-134696
+| 058
+| 3.29
+| 3.33
+| 10.599
+|-
+| PH190223-134599
+| 059
+| 3.29
+| 3.33
+| 10.622
+<!-- ================ START OF ROW 06 ================ -->
+|-
+| PH190223-134756
+| 060
+| 3.29
+| 3.38
+| 10.739
+|-
+| PH190223-134675
+| 061
+| 3.29
+| 3.33
+| 10.715
+|-
+| PH190223-134697
+| 062
+| 3.29
+| 3.33
+| 10.767
+|-
+| PH190223-134584
+| 063
+| 3.29
+| 3.33
+| 10.809
+|-
+| PH190223-134744
+| 064
+| 3.29
+| 3.33
+| 10.879
+|-
+| PH190223-134596
+| 065
+| 3.29
+| 3.33
+| 10.633
+|-
+| PH190223-134740
+| 066
+| 3.29
+| 3.33
+| 10.695
+|-
+| PH190223-134643
+| 067
+| 3.29
+| 3.33
+| 11.051
+|-
+| PH190223-134681
+| 068
+| 3.29
+| 3.33
+| 10.863
+|-
+| PH190223-134568
+| 069
+| 3.29
+| 3.33
+| 10.842
+<!-- ================ START OF ROW 07 ================ -->
+|-
+| PH190223-134579
+| 070
+| 3.29
+| 3.38
+| 10.666
+|-
+| PH190223-134739
+| 071
+| 3.29
+| 3.33
+| 10.820
+|-
+| PH190223-134761
+| 072
+| 3.29
+| 3.33
+| 10.769
+|-
+| PH190223-134680
+| 073
+| 3.29
+| 3.33
+| 10.719
+|-
+| PH190223-134551
+| 074
+| 3.29
+| 3.33
+| 10.741
+|-
+| PH190223-134676
+| 075
+| 3.29
+| 3.33
+| 10.765
+|-
+| PH190223-134563
+| 076
+| 0.65
+| 3.33
+| 10.773
+|-
+| PH190223-134723
+| 077
+| 3.29
+| 3.33
+| 10.813
+|-
+| PH190223-134745
+| 078
+| 3.29
+| 3.33
+| 10.811
+|-
+| PH190223-134664
+| 079
+| 3.29
+| 3.33
+| 10.754
+<!-- ================ START OF ROW 08 ================ -->
+|-
+| PH190223-134728
+| 080
+| 3.29
+| 3.33
+| 11.277
+|-
+| PH190223-134564
+| 081
+| 3.29
+| 3.33
+| 11.429
+|-
+| PH190223-134724
+| 082
+| 3.29
+| 3.33
+| 10.742
+|-
+| PH190223-134627
+| 083
+| 3.29
+| 3.33
+| 10.689
+|-
+| PH190223-132318
+| 084
+| 3.29
+| 3.33
+| 10.815
+|-
+| PH190223-132446
+| 085
+| 3.29
+| 3.33
+| 10.787
+|-
+| PH190223-132365
+| 086
+| 3.29
+| 3.33
+| 10.836
+|-
+| PH190223-134709
+| 087
+| 3.29
+| 3.33
+| 10.706
+|-
+| PH190223-134693
+| 088
+| 3.29
+| 3.33
+| 10.729
+|-
+| PH190223-132399
+| 089
+| 3.29
+| 3.33
+| 10.863
+<!-- ================ START OF ROW 09 ================ -->
+|-
+| PH190223-134535
+| 090
+| 3.29
+| 3.33
+| 10.736
+|-
+| PH190223-134660
+| 091
+| 3.29
+| 3.33
+| 10.719
+|-
+| PH190223-134531
+| 092
+| 3.29
+| 3.33
+| 10.742
+|-
+| PH190223-134707
+| 093
+| 3.29
+| 3.33
+| 10.785
+|-
+| PH190223-132382
+| 094
+| 3.29
+| 3.33
+| 10.732
+|-
+| PH190223-132301
+| 095
+| 3.29
+| 3.33
+| 10.804
+|-
+| PH190223-132445
+| 096
+| 3.29
+| 3.33
+| 10.636
+|-
+| PH190223-134516
+| 097
+| 3.29
+| 3.33
+| 10.610
+|-
+| PH190223134757
+| 098
+| 3.29
+| 3.32
+| 10.635
+|-
+| PH190223-132223
+| 099
+| 3.29
+| 3.40
+| 10.686
+<!-- ================ START OF ROW 10 ================ -->
+|-
+| PH190223-132441
+| 100
+| 3.29
+| 3.33
+| 10.723
+|-
+| PH190223-132376
+| 101
+| 3.29
+| 3.32
+| 10.736
+|-
+| PH190223-132349
+| 102
+| 3.24
+| 3.32
+| 10.813
+|-
+| PH190223-132430
+| 103
+| 3.29
+| 3.36
+| 10.786
+|-
+| PH190223-132297
+| 104
+| 3.29
+| 3.32
+| 10.668
+|-
+| PH190223-132302
+| 105
+| 3.29
+| 3.33
+| 10.730
+|-
+| PH190223-134521
+| 106
+| 3.29
+| 3.33
+| 10.600
+|-
+| PH190223-134762
+| 107
+| 3.29
+| 3.33
+| 10.628
+|-
+| PH190223-132410
+| 108
+| 3.29
+| 3.33
+| 10.682
+|-
+| PH190223-132383
+| 109
+| 3.29
+| 3.33
+| 10.619
+<!-- ================ START OF ROW 11 ================ -->
+|-
+| PH190223-132312
+| 110
+| 3.28
+| 3.33
+| 10.486
+|-
+| PH190223-132456
+| 111
+| 3.29
+| 3.34
+| 10.401
+|-
+| PH190223-132429
+| 112
+| 3.29
+| 3.34
+| 10.522
+|-
+| PH190223-132285
+| 113
+| 3.24
+| 3.32
+| 11.400
+|-
+| PH190223-132377
+| 114
+| 3.29
+| 3.33
+| 14.682
+|-
+| PH190223-132366
+| 115
+| 3.29
+| 3.32
+| 10.532
+|-
+| PH190223-134633
+| 116
+| 3.29
+| 3.33
+| 10.617
+|-
+| PH190223-134585
+| 117
+| 3.29
+| 3.33
+| 10.706
+|-
+| PH190223-132218
+| 118
+| 3.29
+| 3.33
+| 10.610
+| Slightly torn wrapper
+|-
+| PH190223-132447
+| 119
+| 3.29
+| 3.32
+| 8.131
+
+|}
+
+=== Cell Testing ===
+
+==== Out-Of-Box Voltage ====
+
+When the package arrived, each cell's voltage was measured with the [[Ballantine-3028A| bench multimeter]]. (Also, its QR code was scanned, and its label written on.)
+
+==== First Charge ====
+
+A custom 5-cell holder was made from wood and brass strips (26650 cell holders are wiedly expensive , given how cheap 18650 cell holders are) and plugged in to a [https://www.toolkitrc.com/m7 ToolkitRC M7], which was plugged in to the benchtop power supply. This setup was used to charge 5 cells at a time (24 times) to charge the cells to 3.65V, the maximum setting the M7 can charge LiFePO₄ cells to. Then, the cells were charged 2 at a time on a [https://www.nitecorestore.com/Nitecore-D2-DigiCharger-p/chg-nite-d2.htm NiteCore Digicharger D2] to 3.70V.
+
+==== Self-Discharge ====
+
+This unintentional test was the result of effectively shelving the project for 16 months after the cells were charged. Cells with greater self-discharge (bad) will show lower voltages; cells with voltages closer to 3.65V have low self-discharge. Voltages were measures the same way out-of-box voltage was measured.
+
+The results of this test were very encouraging. The cells held a much more consistent voltage than they had had out of the box, even the ones that had arrived severely discharged. This bodes well for their long-term performance in a battery.

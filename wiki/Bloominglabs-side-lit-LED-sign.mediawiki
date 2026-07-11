@@ -1,0 +1,24 @@
+A guy (Sam) with a very nice home built CNC stopped by a recent meeting asking if people had ideas for CNC projects. Bloominglabs doesn't have a nice sign outside our office space, so that is something we need to fix.
+
+The current plan is to come up with a side-lit LED sign. There are numerous sites and projects on-line to look to for inspiration and information:
+
+=== Online Projects ===
+* [http://www.ehow.com/how_5094589_make-edgelit-led-signs.html EHow, how to make edge-lit signs]
+* [http://www.instructables.com/id/Edge-Lit-Mobile-Night-Light/step10/ENJOY/ You know, for the kids!]
+* [http://www.adafruit.com/blog/2009/09/22/making-an-edge-lit-acrylic-sign/ On Adafruit - gave us the idea]
+
+
+=== Materials ===
+* [http://www.mcmaster.com/#catalog/117/3540/=fr3qdh Machinable PETG (recommended for indoors)]
+* [http://www.mcmaster.com/#acrylic/=frlf1x Machinable acrylic]
+* LED tape (around $30, best would be RGB for multi-colored possibility)
+** http://www.amazon.com/Flexible-Color-Changing-Ribbon-16-4ft/dp/B006JIWM4Y
+** http://ledshoppe.com/Product/led/LE5045.htm
+** http://www.ebay.com/sch/LED-/58019/i.html?_armrs=1&_mdo=Consumer-Electronics&_mspp=&_pcats=58017%2C71536%2C60207%2C3270%2C293
+** http://www.creativelightings.com/LED-Flex-Strips-and-LED-Ribbon-Flexible-LED-Lighting-12v-s/39.htm
+* Aluminum for the case
+* Power Supply (12VDC)
+* Arduino or microcontroller to make the display do cool things.
+
+[[Category:Group projects]]
+[[Category: The Space]]

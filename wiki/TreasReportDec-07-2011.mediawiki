@@ -1,0 +1,36 @@
+Report from Nov-16-2011 to Dec-07-2011
+
+{| border="1"
+|+Bank Statement
+!Date      !!  Check#   !! Transaction          !! Amount       !! Total
+|-
+|11/21/2011||   ACH     ||Comcast - Internet    ||  $70.65	|| $72.14
+|- 
+|11/25/2011||           ||Xfer from Paypal      || $513.90      ||$586.04
+|- 
+|11/25/2011||	 	||Deposit               ||  $40.00      ||$626.04 
+|-
+|11/25/2011||   4015    ||Vectren - Gas         ||  $29.02      ||$597.02
+|- 
+|11/29/2011||   4014    ||Duke Energy - Electric||  $39.49      ||$557.53
+|- 
+|12/02/2011||           ||Deposit               || $200.00      ||$757.53
+|- 
+|12/06/2011||   4016    ||Jamar Prop - Rent     || $583.33      ||$174.20
+|}
+
+
+
+{|border="1"
+|+Incoming Income of $887.89
+|-
+|Three people owe past dues        || $120.00
+|-
+|Cash in hand                      || $287.89
+|-
+|Twelve people owe Dec dues        || $480.00
+|}
+
+
+
+Rent and bills come to ~$725 a month. Note, we are still operating month to month, so get your dues paid!

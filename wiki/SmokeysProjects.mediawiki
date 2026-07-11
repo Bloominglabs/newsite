@@ -1,0 +1,42 @@
+== Seeking Support for: ==
+*Build an actual Woodworkers [[http-www-instructables-com-id-Building-a-real-woodworkers-workbench|Woodworkers Bench]]
+
+== Planned Projects ==
+*Build Wood Case for Refractometer
+**Beginner wood working project before Coffee Table Build.
+*Build Coffee Table as beginner project before Buffet Table
+**Design 95%
+**Material 0%
+*Build buffet table for home
+**Design 0%  (03-MAR-2015 - New Design needed, Old Design at 99%)
+**Building Material Procurement 4%
+*Modify CPU fan for Stir Plate
+**(03-FEB-2015 - THOUGHT, Would a HDD motor work?  It is 3 phase, will require a driver for the motor.)
+**Fan modified, need enclosure, <s>magnet and stir bar</s>
+*Upgrade fermentor/kegerator
+**Will need help with Electrical work
+**modify BrewPi as needed.
+*Microwave Spot Welder
+*Build Poker Table
+*Rehab fixie bike
+**Design 10%
+**Supplies 10%
+
+== Collaboration Projects ==
+*Heath - Laser Cutter from CD-RW Drive
+*Dan - Enclosure for CNC
+*Saloon Doors for the Laser Room
+**Will begin the trim out of the opening 25-MAR-2014
+**Finalize design for doors
+
+== Possible classes ==
+*AutoCAD
+*Inventor
+*Homebrewing
+
+== Completed Projects ==
+*Frementation Chamber/Kegerator Build
+*Shoe Cubby Bench
+*Laser'd Tote for Brewing Supplies
+*Built workbenches for space
+*Make extension cord with switch for brewing pump

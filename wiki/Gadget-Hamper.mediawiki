@@ -1,0 +1,94 @@
+= The Gadget Hamper =
+===The Universal Device Charging Cradle system===
+
+TL;DR: This is an open device charger that can be easily adjusted to support any handheld equipment needing a charging dock.
+
+The latest version of this project is always available on GitHub: https://github.com/dosman33/Gadget-Hamper
+
+This project is also on Thingiverse: [https://www.thingiverse.com/thing:3670668 https://www.thingiverse.com/thing:3670668]
+
+{|
+| [[Image:Gadget hamper010.jpg|none|thumb|200px|Left-to-right radio gang charging]]
+| [[Image:Gadget hamper009.jpg|none|thumb|150px|Front-to-back radio gang charging]]
+|}
+
+{|
+| [[Image:Gadget hamper004.jpg|none|thumb|182px|Base - without the rear deck or device cradle]]
+| [[Image:Gadget hamper008.jpg|none|thumb|300px|Interlocked bases]]
+| [[Image:Gadget hamper002.jpg|none|thumb|240px|More interlocked bases]]
+|}
+
+
+== Resources for supporting more devices ==
+Please see the page [[Modeling-Notes-for-the-Gadget-Hamper]] for information and suggestions on how to support new devices. I also have information tucked in here for simplifying battery cases and contacts since this goes hand-in-hand with the topic.
+
+
+== Components ==
+* Base - the bottom shell everything plugs info
+* Rear deck - horizontal lid that snaps into place on the back side of the Base
+* Cradle - socket that accepts the device being charged
+* Chad - interlocking bricks that snap multiple Bases together
+* Auxiliary Bases - modular organizers that snap into the Base
+
+==Why was this made==
+I found myself designing replacement battery pack cases using 18650 cells for older commercial radio equipment which previously relied on NiCD batteries. These radios have a good niche in the second-hand ham radio market so they are still desirable for hobbyists despite often lacking working batteries. Lithium batteries have many benefits over the older technology, but retro-fitting older equipment with Lithium cells is not just as easy as slapping a new battery pack on the radio. All radios have infrastructure that came with them, including desk-top and vehicular charging cradles. As I kept designing more battery packs for my own gear I realized I needed an easy to repurpose charging cradle system to support all of these new battery pack designs.
+	
+==Other needs for the Gadget Hamper==
+Handheld equipment usually comes with a single charging cradle, most people keep this where the gear spends its down time so it can charge over night. Maby you need a second charger on your desk at home, or in the garage. Now you can print as many as you need! Also, often people buy second hand equipment which didn’t come with a charger. If second-hand charging cradles are hard to find or expensive for some reason, just use the Gadget Hamper instead!
+
+==Modularity - gang charging==
+Anyone who dabbles in commercial radio equipment knows about gang chargers. This is a piece of equipment that can charge 2 or more devices simultaneously (often up to 6), for entire departments of users. Having a heterogeneous charging base that can snap together and charge multiple dis-similar radios was a feature I desired, and I suspect others may desire this too. This also can reduce the multitude of individual charger wall-warts consuming space under your desk for each charging cradle.
+
+==Non-charger uses==
+Since the system is modular, and most people keep their charging cradle on their desk, I went ahead and added non-charging accessories to the lineup. I’ve added some office supply organizer components as well. Also, sometimes a piece of equipment just needs a clear place to sit on a desk even it’s not for charging.
+
+
+==I have a 3D printer, but 3D modeling isn’t my bag - can I still use the Gadget Hamper for my device?==
+See the included Universal Cradle which can be manually trimmed to fit after it's printed! Print it out, trim the ribs to fit your device, make up some battery contacts, and bobs your uncle!
+
+<br><br>
+=Gadget Hamper features by component:=
+
+==The Base==
+* With and without holes for interlocking
+* Integrated keyhole screw slots for secure mounting
+* Allows you to snap together a custom gang charger for your radios
+* Snaps together left-to-right, front-to-back, or both!
+* Chads are used to interlink components
+ 
+==Battery cradle==
+* Friction fits into the Base
+* Can be tapered around the bottom to facilitate wire routing pathways
+* Wire up the cradle with battery contacts and shove into the base
+* Blank cradle model gives you an easy starting place to model support for new equipment
+
+== Universal Cradle ==
+Print it as-is, then trim the ribs down to fit your device. For devices with charging contacts on the side of the battery, you will most likely want the device to fit flush against the back wall so positive connection will be made with your battery contacts. The rear outside of the Universal Cradle is flat, the other three sides are tapered near the bottom. The bottom of this cradle has open channels (requires support), if your device requires contacts on the bottom of the battery these open channels facilitate the installation of contacts here.
+
+{|
+| [[Image:Universal cradle002.jpg|none|thumb|300px|Universal Cradle - trim the ribs to fit your device]]
+| [[Image:Universal cradle003.jpg|none|thumb|105px|Tapered at the bottom on 3 sides]]
+| [[Image:Universal cradle004.jpg|none|thumb|350px|Channels on the bottom to allow installation of contacts]]
+|}
+
+==Designed to be printed using minimal support material==
+* Modular base and battery cradle
+* Rear deck securely snaps into place, reduces support material waste
+* Easy to install indicator LED's on rear deck, then snap it into place
+* Makes internal wiring much easier
+
+==Multiple uses==
+* The Base and cradle components can be remixed separately, as long as their respective footprints and chad holes are used one can remix as much as desired.
+* Organizer trays, bases, and other inserts included in the design
+* Can be used as a device holder and organizer along with battery charging
+
+
+==Print settings==
+My setup is a Hesine M505 cartesian printer (cousin to the Anet A8) with a .8mm nozzle. I've experimented with different layer heights, but .1mm and .2mm work fine with my nozzle size. I mostly use PET-G filament as it's stronger than PLA and I don't need a HEPA filter to avoid lung cancer from the fumes. Support everywhere is needed for the "base with chad holes". The Universal Cradle needs support from build platform for the open channels on the bottom. No other models currently require support. Any filament should work.
+
+
+==Please Remix!==
+It would be cool to see compatible blank cradles modeled in other formats than Blender (OpenSCAD, FreeCAD, etc). For better or for worse Blender is the only 3D modeling tool I can use for now so I can't provide other formats.
+
+
+[[Category:Dosman projects]] [[Category:Radio]] [[Category:3D Printing Projects]]

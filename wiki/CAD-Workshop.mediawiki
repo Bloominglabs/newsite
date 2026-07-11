@@ -1,0 +1,32 @@
+This workshop took place as scheduled. Three people (all Bloominglabs members) attended. Perhaps more people would have attended if the workshop had been advertised outside Bloominglabs at all. I consider this workshop to have been a success, and will probably run it again in the future.
+
+<blockquote>Date: Sunday, 1 March 2026
+
+Time: 2PM to 5 PM
+
+Location: [[Location|Bloominglabs]] lounge
+
+Suggested to bring a laptop with Windows, Linux, or MacOS, and a mouse with a left button, right button, and scroll wheel.
+
+Price: $20 for members of Bloominglabs, $40 for everyone else
+
+<html>
+<!--
+<div>
+  <style>.pp-F8W7EWDGDPPN2{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+  <form action="https://www.paypal.com/ncp/payment/F8W7EWDGDPPN2" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+    <input class="pp-F8W7EWDGDPPN2" type="submit" value="Pay and Register" />
+  </form>
+</div>
+-->
+</html>
+
+Capacity: eight. Registration upon payment.
+
+</blockquote>
+
+Some computers and mice will be available.</blockquote>Computer-Aided Design is an invaluable tool for planning many sorts of DIY projects, and unlocks the full capability of computer-controlled maker tools like 3D printers and laser cutters. This workshop will teach the principles used in most engineering CAD programs --  sketching, constraining, extruding, revolving, mirroring, patterning, and assembling -- to design functional 3D objects.
+
+In this workshop, we will use the fast and free CAD program [https://solvespace.com/index.pl SolveSpace]. This program has a minimal approach to CAD, making it faster to use and easier to learn than most others.
+
+For people who are interested in using more powerful design tools, skills learned in SolveSpace will transfer to most other engineering CAD programs, like Autodesk Inventor and Dassault SolidWorks. Some that are available for zero cost to hobbyists are FreeCAD, Autodesk Fusion 360, PTC OnShape, and Siemens Solid Edge.

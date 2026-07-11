@@ -1,0 +1,16 @@
+<noinclude>
+This is a list of [[Workshops]] that are scheduled for the future.
+The main content of this page are automatically transcluded into the Workshops page and also the front page of the wiki.
+</noinclude>
+
+== March 2026 ==
+
+=== Linux Workshop for Beginners ===
+* 7, 14, and 21 March 2026
+* a multi-day workshop, 3 Saturdays in a row
+* Liberate your computer and your self from Windows or MacOS!
+* more info on the [[Linux-Workshop-for-Beginners]] wiki page
+
+<noinclude>
+[[Home#Stay-informed|'''Follow us''']] to get announcements for upcoming workshops.
+</noinclude>

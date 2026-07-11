@@ -1,0 +1,39 @@
+Instructor notes for conducting a welding workshop, a fair number of materials need to be stocked and setup ahead of time.
+
+===At least 1 week before class===
+* MIG
+** Verify machine is in working order
+** Verify there is enough inert gas for Miller machine
+** Make sure there are enough gun tips
+** Verify amount of filler wire on-hand (0.030")
+
+* TIG
+** Verify machine is in working order
+** Verify there is enough inert gas for the Eastwood machine
+** Verify there are several extra Tungsten electrodes on-hand
+** Verify amount of filler wire on-hand
+
+* Arc
+** Verify machine is in working order
+** Verify we have enough electrode sticks on-hand
+
+* Plasma cutter
+** Verify machine is in working order
+** Verify air compressor is in working order
+
+====Other supplies====
+* Scrap metal
+** make sure we have enough scrap steel on-hand for the class. 1/4" steel plates from JB Salvage are perfect for this.
+
+* Grinding wheels - make sure we have some extras
+
+* Helmets
+** Send emails coordinating group purchase or borrowing of helmets.
+
+* Indiana Oxygen - Bloominglabs is registered as a non-profit there, we get discounted purchases as well.
+
+===Other resources===
+This is a material-intensive workshop. Make sure you don't end up charging too little to cover all the expenses. This is a spreadsheet which can assist you in determining the full cost of the wokrshop. Make sure your net is in the positive, even if you want to just break even there will probably be extra expenses at the last minute so get that price set appropriately.
+* [[File:Welding_workshop_cost_analysis.xls]]
+
+[[Category:Workshops]] [[Category:Workshop prep notes]]

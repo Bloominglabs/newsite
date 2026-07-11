@@ -1,0 +1,3 @@
+Powerful and multi-functional TIG welder.
+
+[[File-Miller-syncrowave-350-pdf|manual]]

@@ -1,0 +1,87 @@
+* Conductive paint
+** wire glue is cheap, but takes a long time to cure (8-12 hours) and isn't conductive until it's cured.
+*** She uses super glue to protect the wire glue after it's cured.
+** nickel print
+** She doesn't use resistors with conductive paint because it's highly resistive.
+
+* Magnetic paint - she makes it herself.
+
+* UV reactive thread and beads
+** [http://www.amazon.com/SolarActive%C2%AE-Changing-Embroidery-Thread-Starter/dp/B0050D6UX8 Solar Active thread]
+** [http://www.amazon.com/Sensitive-Color-Changing-9x6mm-500pcs/dp/B004LCVCA0/ref=sr_1_cc_2?s=arts-crafts&ie=UTF8&qid=1322701136&sr=1-2-catcorr UV reactive beads]
+
+* Temperature reactive material
+** fabric, pigment, and paint
+** You can get the pigment from http://www.paintwithpearl.com/
+
+* Thermo chromic film
+** picture of wall paper with thermo chromic film flowers
+
+* Mylar 
+** not a "smart" material, but still a cool material
+** you get it from the inside of potato chip bags
+
+*(an aside)Copper tape is very useful. She uses it a lot.
+
+* moldable materials
+** polymorph (or polycaprolactone) is plastic that melts in hot water, can be molded, and then is hard nylon once it cools
+*** can be melted any number of times
+** sugru a playdoh that cures at room temperature
+** mold making putty cures in 10 minutes and then can take high temperatures
+
+* Quantum Tunneling Composite
+** smart flexible polymer (rubber-like)
+** near perfect electrical insulator
+** 4mm square and 1.5mm thick can pass 10 amps when squeezed
+** conductivity affected by pressure
+** also magnetic
+** currently not being made due to patent issues
+** but you can get it in pill form currently 
+** used to be able to get in fabric form
+** [http://www.peratech.com/qtcmaterial.php Peratech]
+
+* Endlighten
+** edge diffusing material
+** http://www.youtube.com/watch?v=evGALmP4F8s
+** price depends on size and goes up with bigger sheet because you need a higher grade plastic
+
+* Conductive plastics
+** plastics with metal particles (graphite)
+*** comes in sheets
+** stretch sensors with metal in stretchable plastic
+*** resistance decreases with stretch
+** conductive polyester rope
+*** resistance increases with stretch because the fibers align
+** conductive acetate 
+*** thin and clear with a film of metal a few atoms thick 
+***http://www.lessemf.com/
+
+* Shape memory polymers
+** you expose it to high heat and then shape it
+** after it cools down, you can unshape it, then heat it up slightly and it will return to it's shaped form
+
+* EL wire 
+** 1.2mm (angel hair) to 6mm (outdoor grade) thick wire with a phosphorous material in it
+** comes in sheets
+** can make your own sheets with conductive sheeting and phosphorous paint
+** requires an inverter to step up the voltage and has a danger of shock
+** Sewable EL inverter made by Ben Zatlin???
+
+* Conductive fabrics
+** copper tafita
+** metal iron ons (nickel)
+*** very durable
+*** nickel lasts longer than the copper
+** fabric that has insulators on one side
+** anti-static material that is pressure sensitive
+*** put in between two conductive fabrics
+** conductive lycra
+*** resistance decreases if stretched in one direction, resistance increases if stretched in the other direction
+** conductive tape
+*** metal traces on fabric that is solderable
+** All found at http://www.lessemf.com/
+ 
+* Conductive food
+** candy coated in silver or gold
+** pumpkins as capacitive sensors
+** resistor jelTone http://www.flickr.com/photos/ranjit/5879592536/

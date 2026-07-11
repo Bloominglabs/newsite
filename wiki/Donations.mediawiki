@@ -1,0 +1,49 @@
+== Our non-profit status ==
+Our full name is "Bloominglabs Incorporated" and we are a charitable non-profit incorporated within the State of Indiana. We have 501(c)3 status through the IRS which can be confirmed with [http://apps.irs.gov/app/eos/pub78Search.do?ein1=&names=Bloominglabs&city=&state=All...&country=US&deductibility=all&dispatchMethod=searchCharities&submitName=Search this link].
+
+
+== How we process monetary donations ==
+We can directly receive cash donations and issue tax-deductible receipts. Please note that membership dues are NOT tax deductible and should not be sent as a donation.
+
+=== Donations by check: ===
+* Checks and money orders must be made out to "Bloominglabs Incorporated"
+* If sending by mail, please use our P.O. box listed on our [[Location]] page.
+
+=== Donations by PayPal: ===
+This PayPal button may be used to make donations online:
+
+<html>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="J7WBD5CUBZWVN">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</html>
+
+* Donors may choose to identify the purpose of the donation somewhere in the system - but this is not required.
+** Ex: Does the donor expect their donation to be used for a specific event or purpose? If so, they need to note that as a comment. Otherwise, funds will be directed for any purpose needed by Bloominglabs.
+* PayPal takes 2-3% off the top of all donations it processes online
+
+=== Kroger Community Rewards ===
+Kroger also has a program to give a small cut from purchases to local nonprofits. Steps for setting up Bloominglabs, or the NPO of your choice, are given here:
+
+https://www.kroger.com/i/community/community-rewards
+
+== How we process hardware donations ==
+We can take in-kind hardware donations and issue tax deductible receipts. <font color="red">It is also important to note here that we need to be selective now, that is to say that we should not accept any more busted inkjet printers and the like. However working tools and useful donations are accepted.</font> Donors should please contact a member beforehand to determine whether a donation is useful to us, and to arrange a time for handoff. For things we can't use, we can help you figure out other groups in Bloomington who would appreciate them or help you determine the best way to dispose of them.
+
+Paper donation forms are kept on a clip-board near the main entry way.
+
+* <b>The donor must determine a reasonable and appropriate value for the item, Bloominglabs can not provide this.</b>
+* Suggestions: Check Amazon.com or Ebay.com for similar items
+* Account for the age of the item when determining its value
+* Give the donor the receipt, Bloominglabs retains the carbon-copy
+
+== Receipts ==
+A pad of carbon-paper receipts for donations can be found on a clipboard on the left as you walk in the front door. Receipts are required for donations with a value over $250.
+
+
+[[Category: Operations]]
+[[Category: Support]]
+[[Category: Donation]]

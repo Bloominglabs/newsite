@@ -1,0 +1,50 @@
+== Member Project Index and Resources ==
+* [[JenettsProjects|Jenett's Projects]]
+* [[DosmansProjects|dosman's Projects]]
+* [http://pewpewspaceship.com Adam Nuwer's Projects] (external link)
+* [[StevesProjects|Steve's Projects]]
+* [[WillsProjects|Will's Projects]]
+** [[Laser-Interferometer|Laser Interferometer]]
+* [[RexsProjects|Rex's Projects]]
+** [[serialbitwisealu|serial bitwise ALU]]
+* [[JoesProjects|Joe's Projects]]
+* [[NicksProject|Nick's Projects]]
+* [[User-Avh-on1|Alex's Projects]]
+* [[CharliesProjects|Charlie's Projects]]
+* [[JaysProjects|Jay's Projects]]
+* [[JoshsProjects|Josh's Projects]]
+** [[RepRap-Prusa-i2]]
+* [[Daniel-27s-Projects|Daniel's Projects]]
+* [[HeathsProjects|Heath's Projects]]
+* [[ApplesProjects|Apple's Projects]]
+* [[AustinsProjects|Austin's Projects]]
+* [[SmokeysProjects|Smokey's Projects]]
+* [[WillRobotsProjects|Will Robot's Projects]]
+* [[Joe-s-Projects|Joe's Projects]]
+* [[Jesse-27s-Projects|Jesse's Projects]]
+* [[MrTattoohead-27s-Projects|MrTattoohead's Projects]]
+* [[Gavin-s-Projects]]
+* [[Paul-s-Projects]]
+* [[TapeDriveMcTapeFace-s-Projects]]
+
+== Bloominglabs Group Projects ==
+*[[Bloominglabs-side-lit-LED-sign]]
+* [[Old-RFID-access-control]] - this was our first attempt at an RFID system for our room (back at the Collaboration Room) and the building
+* [[Amateur-Radio]] use at the space (aka Ham Radio)
+* [[MAME-Cabinet]] ('nuff said)
+* [[Digital-Badges]] - Achievement unlocked!
+* [[Sunverge|Sunverge Energy computer donation]]
+* [[PrintrBot]] 3d printer
+* [[Engage-10]] uWrite Screens
+* [[Open-HVAC-Control|Open HVAC Control]]
+* [[Can-hacking]]
+* [[AVR]] Page (robotics club code that we have used in testing AVR)
+* [http://embeddeddreams.com/site/2009/07/29/eduino/ EDuino-B] Arduino clones
+
+== Potential projects ==
+* design and build, and (market?) a bathroom monitor. [[BloomingLabs-Bathroom-Minder]]
+* build a [http://www.instructables.com/id/A-Word-Clock/ word clock]
+* [http://instruct1.cit.cornell.edu/courses/ee476/FinalProjects/ Cornell AVR Projects Page]
+
+
+[[Category:Projects]]

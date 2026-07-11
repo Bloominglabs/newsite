@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:DAKMH's Projects}}
+Projects I've worked on at Bloominglabs:
+==Done/Reached Point of Satisfaction==
+*Buzzer system
+**Netduino and shift-register based
+**BrainBowl/Certamen-style buzzer system
+**Self-hosted web scoring/reset interface
+
+*Arduino Sonar Ruler
+**Basic range-finder with LED inch display
+**Mostly a test of using sonar range-finder for cubicle buddy
+
+*Steamer fix-up
+**Gunked-up home clothing steamer
+**Lesson learned: use distilled water
+
+*Halloween mask
+**Faceless kid from Pink Floyd: The Wall
+**Thermoplastic, acrylic paint, elastic band, black mesh fabric, foam marshmallows
+**Used vacuum former, heat gun, 5gal bucket with outline template
+
+*Lathe chisel cleanup
+*Lathe chisel/gouge sharpening jig
+**[http://www.instructables.com/id/Sharpening-jig-for-turning-chisels/ Based on a few tutorials/plans]
+
+*Whistle
+**Oak
+**Test turning on lathe
+**Drilled out using 7/8" bit, cut notch on band saw, sanded down and flattened 1" dowel, glued in place
+
+==Active/Impending==
+*Ripple/Vintnr
+**Google Wave replacement
+**v1 in use to small group of friends; working on v2
+
+*Rolling under-workbench storage
+**http://www.familyhandyman.com/DIY-Projects/Woodworking/Workbenches/diy-workbench-upgrades/Step-By-Step#step2
+
+*Cubicle buddy
+**Physical status indicator
+**Worker warning system
+**Integrated with messaging systems?
+
+==Planned==
+*Tons of laser cutting
+
+*Updates to asset management system
+
+[[Category:Projects]]

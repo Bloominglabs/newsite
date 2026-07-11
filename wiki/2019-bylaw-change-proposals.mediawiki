@@ -1,0 +1,44 @@
+This page is to document a set of bylaw amendments at the 2019 Yearly Meeting.
+
+Firstly, a long-standing issue has apparently been that our bylaws refer to something called "Standing Rules", and Standing Rules have never been defined. Please see the page [[Standing-Rules]] for further discussion of this issue.
+
+
+== 2018 proposed bylaw changes ==
+At the 2018 yearly meeting board member Gavin petitioned for two proposed bylaw changes. There was discussion brought up about amending the proposed amendments which should be further discussed, see below.
+
+=== Amendment to the Bylaw Amendment Process ===
+
+====Proposed amendment of existing Section - Article VIII, Section 1: Amendments====
+These bylaws may be amended only when an amendment proposal petition is approved at a membership meeting and the amendment is signed by all (100%) of responding voting members. A good-faith attempt must be made to contact all voting members with notice of such petition in solicitation of a response vote. This attempt may be made electronically.
+
+Voting members must be given at least two weeks to give a response vote. If a response vote is not received from a voting member during the voting period, their absence of vote will not affect the result of the vote.
+
+
+* This would replace the existing Article VIII, Sections 1. which follow.
+
+====Article VIII, Section 1: Amendments====
+These bylaws may be amended only when an amendment proposal petition is approved at a membership meeting and signed by all (100% of) voting members. Notice of such petition may be submitted electronically to all members.
+
+===Amendment to clarify the Authority to Execute Contracts===
+
+====Proposed new Section - Article V, Section 7: Executing Corporate Contracts====
+Except as otherwise provided in the articles or in these bylaws,
+the board of directors by resolution may authorize any officer,
+officers, agent, or agents to enter into any contract or to
+execute any instrument in the name of and on behalf of the
+corporation<strong>, and may only do so with verbal and/or written notification to ALL sitting board members.</strong> This authority may be general or it may be confined
+to one or more specific matters. No officer, agent, employee, or
+other person purporting to act on behalf of the corporation shall
+have any power or authority to bind the corporation in any way,
+to pledge the corporation’s credit, or to render the corporation
+liable for any purpose or in any amount, unless that person was
+acting with authority duly granted by the board of directors as
+provided in these bylaws, or unless an unauthorized act was later
+ratified by the corporation.
+
+Context:
+* This amendment is just some legal boilerplate, with the intent to make the authority to enter contracts on the behalf of Bloominglabs explicit and flexible. Currently the authority of the board to enter contracts on the behalf of Bloominglabs is rather implicit in the nature of the corporation. This amendment makes it explicit that a resolution of the board can allow the board to authorize any individual to enter into a contract on the behalf of Bloominglabs, for whatever range of authority the board grants. The text of the amendment follows.
+* Bolded text has been added to satisfy concerns raised by a member during the original amendment proposal.
+
+
+[[Category:Operations]] [[Category:Meetings]]

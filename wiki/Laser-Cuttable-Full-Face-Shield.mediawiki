@@ -1,0 +1,42 @@
+This is an implementation of the [https://github.com/madmaxbr5/faceshield/blob/master/shield_laser_template_v15.pdf madmaxbr5/ faceshield project] from Github based on version 15 of their project. Please see Github for the latest version if needed.
+
+== Info about this item==
+This is a local implementation of the above project optimized for our Full Spectrum 5th Gen laser cutter with a bed size of 12"x20". I have taken their master PDF image and cropped out just one face shield and the elastic headband to fit our 12"x20" laser cutter bed, I also had to scale it down just a hair to fit correctly. I am aware of a number of similarly sized laser cutters that exist in our local community, anyone is welcome to use this file if needed. All credit for this project goes to the above author who published the design on Github.
+
+Our lasers bed is not wide enough to cut the full-length headband, and also there is some strangeness in the v15 design with regards to the smaller headband (Elastic headband), I've corrected this so it is a single object.
+
+== sterilization!!! ==
+It is incredibly important that these are sterilized before being shipped to the front lines. Assume that you yourself are incubating the Covid-19 illness the entire time: use gloves, face mask, and if possible a face shield to protect the raw materials for the entire duration you are handling them. From unboxing them to repackaging finished units. A sterilization step still needs to be added before packaging completed units. 
+
+== Assembly Directions ==
+V3 of the assembly directions. Because we have to use the shorter headband a length of elastic meterial is also required for this design:
+* [https://github.com/madmaxbr5/faceshield/blob/master/shield_assembly_instructions_v3_web.pdf https://github.com/madmaxbr5/faceshield/blob/master/shield_assembly_instructions_v3_web.pdf]
+
+
+== Files ==
+Our laser can only cut a single face shield at a time and headbands must be cut from a separate sheet. I have multiple files here, grab them all but ideally you only should need the face shield file and the batch-headband file. The single head-band file is included because nothing ever goes perfectly and you can probably cut some extra headbands from scrap material.
+
+Last but not least, some web browsers do not present/draw SVG's 100% correctly, so don't judge the images below if you see issues with them until they are loaded into a proper SVG program like InkScape or Retina Engrave.
+
+* All files must be cut as vectors.
+* Testing is needed to determine the optimal cut speed, please update the wiki here with any results you obtain.
+<br>
+* Single face shield file: 
+**Testing is still needed, but should take ~4.5 minutes at 30% speed for 1 face shield cut
+**"Full origami mask with retention tabs for high volume production": [[File:Shield_laser_template_v15-blabs-face_shield_v02.svg]]
+
+<br><br>
+* Batch of 10 headbands: 
+**Testing is still needed, but estimated at 21 minutes at 30% speed 
+**[[File:Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg]]
+
+
+<br><br>
+* Single headband: 
+** Testing is still needed, but estimated at 2 minutes at 30% speed 
+**[[File:Shield_laser_template_v15-blabs-elastic_headband_v02.svg]]
+
+
+
+
+[[Category:Covid19]] [[Category:Projects]]

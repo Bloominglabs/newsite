@@ -1,0 +1,68 @@
+<b>Teacher:</b>Jenett Tillotson <br>
+<b>Teacher's email:</b> jtillots ]at[ gmail ]dot[ com
+
+<b>Website:</b> http://harold.uits.indiana.edu/~jtillots/IntroToProgramming
+
+<b>Text:</b> The C Programming Language: 2nd Edition by Kernighan and Ritchie <br>
+Buy it on [http://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628 Amazon]!
+You might find the [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/C.pdf PDF] version useful.
+
+<b>Mailing list:</b> introtoprogramming@bloominglabs.org
+
+<b>Software:</b> 
+* Linux: Use the gcc package which comes with your Linux distribution
+* Mac OSX: Use [http://clang.llvm.org/get_started.html Clang]
+* Windows: Use [http://cygwin.com/ Cygwin] [http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/cygwin/part2/ Installing GCC]
+
+Check the <b>[http://bloominglabs.org/index.php/Talk:IntroToProgramming discussion]</b> tab for this page to find helpful information for this class. If you need to request an account for the wiki so that you can edit, send an email to contact ]at[ bloominglabs ]dot[ org and make sure to list your preferred username.
+
+<b>Lectures:</b>
+* Lecture 8 - November 12th
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture8/lecture8.txt Notes]
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture8/ Code]
+** Homework: Read half of chapter 5, and [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture8/assignment8.txt write fib (and hanoi for extra credit)]
+
+* Lecture 7 - November 5th
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture7/lecture7.txt Notes]
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture7/ Code]
+** Homework: Read Chapter 4, sections 4.6 - 4.11, exercise 4.4, and [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture7/assignment7.txt dividing a program into multiple files]
+
+* Lecture 6 - October 29th
+** Sorting
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture6/lecture6.txt Notes]
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture6/ Code]
+** Homework: Read Chapter 4, sections 4.1 thru 4.5, [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture6/assignment6.txt Bubble Sort]
+* Lecture 5 - October 22nd
+** Finish up last week's lecture
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture5/lecture5.txt Notes]
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture5/ Code]
+** Homework:
+*** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture6/readings.txt Read about sorting], finish up last week's homework, exercise 3-2
+ 
+* Lecture 4 - October 15th
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture4/lecture4.txt Notes]
+**[http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture4/ Code]
+** Homework:
+*** Read all of Chapter 3; exercises 2-2, 2-3, 2-4, 2-5
+
+* Lecture 3 - October 1st
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture3/lecture3.txt Notes]
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture3/ Code]
+** Homework:
+*** Read pages 41 through 54
+***  Print out the ascii table for ascii values from 0 to 127. Include decimal, octal, hexidecimal, and char values for each value. You may find page 154 very helpful.
+*** Directly compute the value ranges of unsigned char, short, and unsigned short. See [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture3/values-char.c values-char.c] as an example
+*** Extra credit: compute the ranges for int, unsigned int. 
+*** Extra, extra credit: compute the ranges for long and float
+
+* Lecture 2 - September 24th
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture2/lecture2.txt Notes]
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture2/ Code]
+** Homework: Read pages 35 through 40; exer 1-15, 1-17; extra credit 1-13 (both horizontal and vertical), 1-19
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture2/homework Homework Answers]
+
+* Lecture 1 - September 17th 
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture1/lecture1.txt Notes]
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture1/ Code]
+** Homework: Read pages 5 through 34; exer 1-1, 1-2, 1-4, 1-5
+** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture1/homework Homework Answers]

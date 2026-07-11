@@ -1,0 +1,30 @@
+== Java programming for Android.
+ == [http://www.android-ide.com/ Aide] has become my IDE of choice rather than Android Studio mainly because of the convenience it offers being on  my tablet.  
+----
+
+Upgrade ham radio general class license to extra class. Currently call sign is KC9SXB
+
+Repair my first computer, IMSAI 8080 and get it on the interwebs : )
+
+----
+[http://navspark.mybigcommerce.com/| NavSpark GPS stuff]
+
+[http://www.navspark.com.tw/  NavSpark Forum]
+
+----
+
+[http://wiki.iteadstudio.com/Serial_Port_Bluetooth_Module_%28Master/Slave%29_:_HC-05 HC-05 Bluetooth module]
+
+----
+[http://wiki.iteadstudio.com/SERIAL_PORT_BLE_MODULE_%28MASTER/SLAVE%29:_HM-10 HM-10 Bluetooth Ble module]
+Succeeded in downloading an example UART app by [https://github.com/NordicSemiconductor/Android-nRF-UART nRF] , modifying just three UUID's, and it talks to my cheap ($2.45) fake HM-10 module.
+  
+[https://github.com/applemuncy/Android-nRF-UART My Github fork] I just noticed that the original code was put up just 5 days ago  : )
+----
+[https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822 nRF51822 Bluetooth Ble module]
+
+----
+[[Welder-s-Lock]] 
+----
+
+[[Category:Projects]]

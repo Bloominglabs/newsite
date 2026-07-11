@@ -1,0 +1,9 @@
+I made some rubber stamps on our laser machine. I went ahead and cut a wood base and turned a nice handle on our wood lathe. Just used some common fast-setting household glue to hold it all together. Note: you do NOT want to use regular rubber from a hobby store. That stuff creates very very bad fumes. This stuff is specially formulated for laser etching, it smells bad but is tolerable. 
+
+{|
+| [[File:Stamp01.jpg|none|thumb|300px|Rubber stamp with settings used]]
+| [[File:Stamp02.jpg|none|thumb|200px|Stamp base and handle]]
+| [[File:Stamp03.jpg|none|thumb|300px|Stamp mounted to the base and the result]]
+|}
+
+[[Category:Dosman projects]] [[Category:Laser]]

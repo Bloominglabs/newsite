@@ -1,0 +1,91 @@
+{{DISPLAYTITLE:Critical Playshop - Ubiquitous Sensing}}
+
+Critical Playshop - Ubiquitous Sensing is the first of a series of [[Critical-Playshops]] Bloominglabs is hosting in partnership with the [http://crit.soic.indiana.edu/ Cultural Research In Technology (CRIT)] research group at Indiana University Bloomington's School of Informatics and Computing, and with Intel's [http://socialcomputing.uci.edu/ ISTC-Social Computing program].
+
+=Purpose=
+This playshop primarily serves as a way for Bloominglabs to reach out to the Bloomington community through a fun and engaging event. Secondarily, this playshop functions as an opportunity for the [http://crit.soic.indiana.edu/ Cultural Research In Technology (CRIT)] research group to further their research on Making, Maker Culture, and Critical Designs.
+
+==Why are they "Critical" Playshops?==
+We use the term "critical" to describe creations that inspire some kind of reflection. For some examples, please refer to this document as a resource. In these workshops, we aren't expecting this kind of quality of production, but these give you an idea of the kinds of concepts we mean when we say "critical."
+https://www.dropbox.com/s/30fx3w009mt0y6y/Critical%20Designs%20for%20Hackers.pdf
+Note: If this link is not working, please contact altoombs [at] indiana [dot] edu
+
+=Playshop Information=
+* Cost
+**'''FREE!''' 
+* Dates
+**April 12th and 13th, from 1pm to 5pm each day
+**(please see "Attendance" section below for more details)
+*Location
+**Bloominglabs
+* '''Sign up for this workshop''' [https://www.eventbrite.com/e/critical-playshop-perception-tickets-11156241619 here!]
+==Attendees==
+We want an even mix of Bloominglabs members/affiliates and non-members from the community. 
+
+Due to space limitations, we are limiting signup to around 10 Bloominglabs affiliates and 10 non-Bloominglabs affiliates. 
+
+We have three types of participants for this event:
+
+* '''Arduino Wrangler, Screwdriver Expert, or Critical Artist'''- Participants who are familiar (even just a little bit) with building their own Arduino or similar projects, with building and prototyping projects they've designed, or with general technology hacking activities
+* '''Arts and Crafts tinkerer''' - Participants who are willing to give it a shot, even if they don't think they have quite the level of skill...yet.
+* '''Technology and Maker consultant volunteer''' - If you would like to volunteer to assist with technology and maker related consultations during this event, please contact the organizer for more details!
+
+'''Sign up for this workshop''' [https://www.eventbrite.com/e/critical-playshop-perception-tickets-11156241619 here!]
+
+If you have questions, or want to be on the wait list if we run out of spots, please contact Austin Toombs at altoombs [at] indiana [dot] edu.
+===Age Limit===
+At this time we ask that only those age 18 or older participate. Future [Critical Playshops] will try to be more inclusive of younger audiences, but current limitations prevent us from doing so at this time.
+===Technology Consultant Volunteers===
+The Bloominglabs affiliates who are participating in the event will be working on their own projects, and will not necessarily be available for project consultation. We are, however, looking for volunteers who are willing to help consult other's projects. Please contact Austin Toombs at altoombs [at] indiana [dot] edu if you are interested in participating as a technology consultant volunteer.
+
+==Attendance==
+You do '''not''' have to show up both days to take part in the playshop. Those who want to finish the playshop all in the first day are welcome to do so, and those who wish to skip the first day can be brought up to speed on the second day. However, projects for this playshop can only be worked on '''in''' Bloominglabs and '''during''' the playshop time frames (1pm to 5pm each day).
+
+==Prompt==
+The prompt will be revealed at the start of the playshop. 
+(hint: It will be about surveillance and anxiety associated with modern or future technology.) 
+===Tasks===
+Players will build projects in reaction to the prompt '''during''' the playshop time at Bloominglabs. Players can form groups at the start of the playshop, or work individually to compete. Players are encouraged to make use of the materials we provide, but are also welcome to bring in their own materials, as long as these "materials" aren't half-finished projects. These projects must be started at the beginning of the workshop to give everyone equal footing.
+
+==Materials==
+This is the current list of materials that Intel and the CRIT group are providing for use during this event. These materials will be used for multiple Playshops, so they will need to be used in a way that does not damage them beyond re-use. Many of the materials and tools in Bloominglabs will also be available to work with, and participants are encouraged to bring their own materials if they have them! (Please note that as part of our documentation process, we may need to hold onto participant projects for 2-3 days so that we can sufficiently document them before participants' materials can be returned.)
+
+* Arduinos
+* LilyPad Arduinos
+* XBees
+* Intel Perceptual Computing Cameras
+* Arduino camera modules
+* Proximity sensors
+* Remote controls and IR sensors
+* Microphone Amplifiers
+* Accelerometers
+* Force Sensitive Resistors
+* Temperature Sensors
+* Potentiometers
+* Magnet sensors (Hall Effect Sensors)
+* Magnets
+* Ball tilt sensors
+* Photo cell sensors
+* Piezos
+* IR LEDs
+* Magnetic contact switches
+* Slow Vibration sensor switch
+* 2 color LCD screens
+* 2 B/W LCD screens
+* stepper motors
+* 9v batteries and 9v battery connectors for arduino
+
+=Documentation of the Event=
+During the event, we will have several forms of documentation taking place. 
+* Video and photography
+** One output of this event will be a short, ~3 minute documentary of the event taking place. To this end, we will have 1-3 cameras collecting video footage and photographs of the event.
+* Note takers
+** This event is a part of a research project conducted by the [http://crit.soic.indiana.edu/ Cultural Research In Technology (CRIT)] research group at Indiana University Bloomington's School of Informatics and Computing and Intel's [http://socialcomputing.uci.edu/ ISTC-Social Computing program]. There will be several researchers present documenting the event through note taking.
+=Outcomes=
+We plan to show off the projects built through this Playshop in a separate showcase event. Details for this showcase are still being worked out, and we will be seeking input from participants for how this showcase should be run.
+==Prizes!==
+We will have several categories of prizes to hand out, such as "most innovative project," "best use of materials," "most interesting," etc. The prizes, which are still being worked out, could range from:
+* an opportunity to build a higher-quality version of your project with help from members of the hackerspace or affiliates, 
+* a free 2-month membership to Bloominglabs, 
+** (after going through the official membership process for Bloominglabs described here: [[Membership-Manual| Membership Manual]] )
+* the chance to keep all of the materials you worked with, even the hardware supplied by Intel.

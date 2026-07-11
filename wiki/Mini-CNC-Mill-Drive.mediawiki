@@ -1,0 +1,54 @@
+This is to get the ball rolling for the acquisition of a mini CNC mill/router for Bloominglabs.
+
+== What could we do with it? (The sales pitch) ==
+First, what are the realistic capabilities of a CNC mill we could afford, and how does it compare to the laser?
+Like the laser, it would be limited to fairly thin/soft materials.  However, it would add the ability to cut, deeply engrave, and shape aluminum and other soft metals to the list.  It would also do a much better job at 3D shaping than the laser.
+
+The cost per minute to run a CNC mill is also potentially less than the laser, and the machinery is less fragile overall.
+
+== Environmental ==
+A CNC mill would require a dust/waste collection system.
+
+== What do we want? ==
+There are a lot of DIY and kit CNCs around, and each has its own valid selling points.  The one I'm leaning toward is the [https://www.inventables.com/technologies/desktop-3d-carving-cnc-mill-kit-shapeoko-2 Shapeoko 2, in "full kit" form from Inventables].
+
+This version of the Shapeoko 2 kit is $650.
+
+=== Why the Shapeoko? ===
+This machine is:
+*affordable
+*intended for hobbyists
+*desktop-sized, but expandable
+*open-source hardware
+*upgradeable (with fairly large community support)
+
+=== Why not the Shapeoko? ===
+This machine is not:
+*big
+*powerful
+*a Blackfoot, Shopbot, Tormach, etc.
+
+== Pledges ==
+
+* $100 Daniel
+* $150 Jay
+* $125 from Jay (from a reimbursement he wants to go to the laser) - will not be run through the School Factory
+* $50 Jenett - I also don't care about the tax break so I'll give my money directly
+
+=== Overflow == upgrades ===
+If we get more money pledged than we need for the base purchase of the mill, we might be able to put that money toward buying tools (end mills, router bits, etc.) and motor upgrades (router rather than Dremel-style motor) for the kit.
+
+== Current Purchase Status==
+* Get pledges totaling our goal
+And here's where it went off the rails
+* Do not pass GO, buy immediately for $100 discount
+* Assemble
+* Collect pledges
+
+== Owners, Usage, and Safety ==
+Bloominglabs will be the owner, donors receive a tax deduction. We are an awesome group and all play well together, I think we can craft usage guidelines as usage evolves.
+
+
+[[Category: Pledge]]
+[[Category: Tools]]
+[[Category: CNC Mill]]

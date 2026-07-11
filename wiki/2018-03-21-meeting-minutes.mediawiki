@@ -1,0 +1,150 @@
+2018-03-21 Blabs meeting agenda / minutes
+
+Agenda:
+* Treasurers report presented - prepared by Heath
+* Workshop planning for spring and summer
+* The new parking ticket stickers provided by Adam
+* Pete provided dust collection system maps for people to submit their preferred layout
+
+
+Hidden agenda: Post meeting activities organized after 7pm:
+* Secure member storage area setup with shelves
+* Air compressor moved to final location in wood shop
+* Upper deck of storage unit cleared of all Blabs stuff
+* Good progress in moving smaller stuff back into space
+* Discarded some junk which made the move.
+* Car lift stood up in final location
+
+
+Treasurers report - all for prior month
+{| class="wikitable"
+!colspan="2"|Expenses (monthly)
+|-
+|Rent
+|$1360.75
+|-
+|Electricity
+|$255
+|-
+|Dumpster
+|$38.72
+|-
+|Internet
+|$69.95
+|-
+|Gas
+|(won't pay till insulation installed)
+|-
+|Total monthly
+|$1724.42
+|}
+Discussion occurred about the high electric bill, no determination was found for this. (Note after the fact: the April electric bill was only about $180, still about $60 higher than the S. Rogers location for bare minimum usage of the space.)
+
+{| class="wikitable"
+!colspan="2"|<strong>Income</strong>
+|-
+|Member Dues
+|$1520
+|-
+|Outstanding dues
+|$1760
+|}
+
+	
+{| class="wikitable"
+!colspan="2"|Current Bank funds
+|-
+|Checking
+|$5987.04
+|-
+|Savings
+|$2377.79
+|-
+|Square balance
+|$1,072.55
+|}
+
+
+{| class="wikitable"
+!colspan="3"|Buildout Funds Report
+|-
+|Starting balance including GoFundMe
+|$3824.67
+|-
+!rowspan="9"|Spent:
+| -107.16	
+|-
+| -55.87	
+|-
+| -9.83	
+|-
+| -341.29	
+|-
+| -82.31	
+|-
+| -358.66	
+|-
+| -141	
+|-
+| -582 Paint purchase
+|-
+| -1150 Furniture (Pinnacle) 
+|-
+|Total remaining as of today
+|$996.55
+|}
+Buildout funds are funds raised in 2017 specifically for the move and buildout in our current location. These funds are part of the checking account balance. 
+It's also important to note that the electrical buildout in the metal fab area is going to cost quite a bit yet to finish.
+
+
+-----
+Workshop discussion notes:
+
+* Blender 3D Modelling and Animation - $150 - April Alex - Tuesdays 7-9pm
+**   9 weeks, 2 hours per week
+
+* Needle Felting - $15 - April 7th - Dan & frieind - 2 hours
+
+* Soldering - $15-20 - April 20th - Gavin & Nathan - 2 hours x2
+**   2nd date - July 30th Monday
+
+* Laser Cutter - $40 per person + $25 materials = $65
+**   April 21 and 28, 2018 - Dan - 4 hours x2
+
+* Machining - Nathan / April days
+
+* Retr0bright Day - $TBD May 5th / 
+
+* Welding Day - Nathan, Adam, Neal - June 23rd, Sat
+**   / Adam unavail June 8-10th
+
+* Arduino - $30
+** Steve and Jenett - April 21st / Saturday / 3-4 hours / Dates changed after the meeting
+
+* MicroPython & microcontrollers — $TBD - Vic - July / 2wks / 3-4 hours / Tuesday evenings
+**   July 10th & 17th
+
+* Rain Barrel/Planters - Heath - April, TBD
+
+----
+TBD workshops and other notes: ones which did not yet have solid dates lined up. 
+
+* Neopixel/IoT or Addressable RGB LED - anytime after Arduino, followup in May - TBD
+** Dan would like to help with a workshop on this
+
+* Oscilloscope workshop - Gavin - Later, maby August - TBD
+
+* Video Editing - Jason - Summer - TBD
+* Powerpoint Roulette - Jason - TBD
+* Amateur Radio - Gavin / Shelved until antennas back up, TBD
+
+* Full Stack class / Joey / July - TBD
+
+* Encryption class like we tried last year and failed - Jimmy/Steve/Nathan
+
+* August Laser workshop - Dan - TBD
+
+
+* Pete - wanted 4 workshop slots held for auction at Girls Inc
+
+[[Category:Meetings]]

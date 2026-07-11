@@ -1,0 +1,37 @@
+These directions are now out-dated as of 2017. We use a new invoicing system which does not require the hoop jumping we used to have to do.
+<hr>
+
+
+This is a quick and dirty explanation of how the treasurer and/or accounts receivable person handles cash dues payments. These examples assume the member is a full-voting member paying $40 or more a month in dues. If the member you are processing pays a different amount, use that dues value instead. The prime rule of “never mark an invoice as being paid for more than the value of the invoice” must be followed.
+
+The complete documentation for handling invoicing and special cases can be found under [[Dues-Collection]].
+
+
+== Member pays cash for 1 month with 1 outstanding invoice ==
+* Issue a hardcopy receipt
+* Mark their invoice as paid
+* Update the Google spreadsheet for the month paid
+
+
+== Member pays cash for 2 months while being 1 month behind ==
+They paid a single payment of $80 for two $40 inovices:
+
+* Issue a hardcopy receipt for $80
+* Mark each individual invoice as being paid for $40 each
+** Do NOT mark one invoice as being paid for $80 or leave one invoice unpaid
+* Update the Google spreadsheet for the months paid
+
+
+== Member pays cash for 1 month and pays ahead for 1 more month of dues ==
+They paid a single payment of $80 covering one outstanding invoice for $40 and for next months invoice which does not exist yet:
+
+* Issue a hardcopy receipt for $80
+* Mark their current invoice as being paid for $40
+* Update the Google spreadsheet for the months paid
+
+Do NOT mark their single outstanding invoice as being paid for $80! Our invoicing system does not handle this properly when the invoice for the next month gets generated.
+
+At the beginning of every month after new invoices are cut the accounts receivable person looks at the Google spreadsheet and marks invoices paid for members who have paid ahead. This is how this situation is reconciled.
+
+
+[[Category:Operations]]

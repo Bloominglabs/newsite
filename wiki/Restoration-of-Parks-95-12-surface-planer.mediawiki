@@ -1,0 +1,44 @@
+Jesse brought in a Parks 95 12" surface planer, on 03/16/2016.  This is a ~280 lb machine, probably manufactured in the 30s or 40s (we'll know more if we can clean up the plate with the serial #).  It is cosmetically in bad shape, and has one small operating problem that should be resolvable.
+
+It's not yet been decided whether this tool will get a top-to-bottom overhaul or just be touched up for usability.  This page will be used to track resources with repair information, and to document the process of cleaning it up.
+
+
+== Photos ==
+'''Before restoration'''
+<gallery>
+Image:IMG 20160316 191012263.jpg|On arrival
+Image:IMG 20160316 205005456.jpg|Gearbox
+Image:IMG 20160316 205013924.jpg|The bed
+</gallery>
+
+
+== Usability ==
+The planer is somewhat operational now.  However the pickup roller (infeed roller) is not successfully pulling boards through the cutter.  The fifth link below is for a thread where a similar problem with an identical planer is being discussed, and there are several suggestions we can try there without a full teardown.  Anybody is welcome to attempt work on this, if you'd like a working planer or you're just bored.  Things we can try (but haven't yet) include:
+* Confirm that the bed rollers are positioned high enough to support the board rather than having it rest entirely on the bed itself
+* Attempt to lower the position of the infeed roller itself - this would be a delicate process, since it's important that the roller height is not lower than the cutting height
+* Further clean the bed - using steel wool, then sandpaper up to 1000 grit
+* Once clean, apply a layer of non-silicone wax to the bed
+
+
+== Planned improvements ==
+* Build a replacement stand
+* Install a hinged motor mount for belt tensioning
+* Add a belt guard
+* Add a starter switch
+* Machine a replacement pickup roller on the lathe / mill
+
+
+== Restoration resources ==
+[http://wiki.vintagemachinery.org/restoring%20a%20parks%20planer.ashx Restoration worklog @ vintage machinery]
+
+[http://estrategy.net/bill/website/tools/restorations/parksrestoration/parksplanerrestoration.html Restoration worklog @ estrategy]
+
+[http://vintagemachinery.org/pubs/618/6157.pdf Owner's manual]
+
+[http://wiki.vintagemachinery.org/ParksPlanerPartsIndex.ashx Parts list with photos]
+
+[https://forum.canadianwoodworking.com/forum/tools/power-tools/48261-parks-planer Thread on pickup roller performace]
+
+[http://www.dcmorrison.com/ DC Morrison - last known parts supplier]
+[[Category:Projects]]
+[[Category:Former Tools]]

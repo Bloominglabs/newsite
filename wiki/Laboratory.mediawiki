@@ -1,0 +1,75 @@
+This page is for planning a Biology and Chemistry lab tentatively located in the closet where the laser cutter used to reside.
+
+==Equipment==
+
+Centrifuge ✓
+
+Incubator(Shaker/agitator currently not working) ✓
+
+OpenPCR or a [[https-tequals0-wordpress-com-2014-04-05-lightbulb-pcr-build-documentation-Lightbulb-PCR]]
+
+Computer ✓
+
+Hood
+
+Agarose electrophoresis gel box(Can be built easily)
+
+Lab fridge
+
+Single/Multichannel pipettes + regular droppers/pipettes
+
+Microscope
+
+Microwave/pressure cooker/autoclave
+
+Rotary evaporator
+
+Reagents/other chemicals
+
+Basic lab equipment
+
+-Bunsen burner
+
+-Precision scale
+
+-Ring stand and clamps
+
+-Petri dishes
+
+-Funnel
+
+-Test tube holder
+
+-Wash bottle
+
+-Crucible
+
+-Rubber stoppers
+
+-Forceps
+
+-Pipestem triangle
+
+-Mortar and pestle
+
+-Tubing
+
+-Aspirator
+
+-Separatory funnel
+
+Glassware
+
+-Erlenmyer flask
+
+-Test tubes and rack
+
+-Beakers
+
+-Gas bottle
+
+-Graduated cylinder
+
+==Room Modifications==
+
+Plastic sheeting to maintain a clean room type environment

@@ -1,0 +1,164 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs/promises');
+const os = require('node:os');
+const path = require('node:path');
+
+const {
+  titleToWikiFileStem,
+  normalizeWikiTitle,
+  extractTranscludableContent,
+  convertWikiLinks,
+  expandTransclusions,
+  writeGitHubWikiTree,
+} = require('../src/wiki/github-wiki.js');
+
+test('titleToWikiFileStem converts titles into GitHub wiki file stems', () => {
+  assert.equal(titleToWikiFileStem('Main Page'), 'Main-Page');
+  assert.equal(titleToWikiFileStem('2026 July Board Meeting'), '2026-July-Board-Meeting');
+  assert.equal(titleToWikiFileStem('RFID/System Software'), 'RFID-System-Software');
+});
+
+test('normalizeWikiTitle treats spaces and underscores as equivalent lookup keys', () => {
+  assert.equal(normalizeWikiTitle('Main Page'), 'main page');
+  assert.equal(normalizeWikiTitle('Main_Page'), 'main page');
+  assert.equal(normalizeWikiTitle('  Location  '), 'location');
+});
+
+test('extractTranscludableContent removes noinclude blocks used for template metadata', () => {
+  const source = '<noinclude>hidden</noinclude>\n== Visible ==\n* item';
+  assert.equal(extractTranscludableContent(source), '== Visible ==\n* item');
+});
+
+test('convertWikiLinks rewrites internal links to GitHub wiki page names', () => {
+  const titleMap = new Map([
+    ['main page', 'Home'],
+    ['location', 'Location'],
+    ['membership manual', 'Membership-Manual'],
+  ]);
+
+  assert.equal(
+    convertWikiLinks('See [[Location]] and [[Membership Manual|the manual]].', titleMap),
+    'See [[Location]] and [[Membership-Manual|the manual]].'
+  );
+  assert.equal(convertWikiLinks('Front page: [[Main Page]]', titleMap), 'Front page: [[Home]]');
+  assert.equal(
+    convertWikiLinks('Legacy link: [[Main_Page#Stay informed]]', titleMap),
+    'Legacy link: [[Home#Stay-informed]]'
+  );
+  assert.equal(
+    convertWikiLinks('Image: [[File:Bloominglabsaerial.png]]', titleMap),
+    'Image: [[File:Bloominglabsaerial.png]]'
+  );
+});
+
+test('expandTransclusions inlines archived page content for include directives', () => {
+  const pagesByTitle = new Map([
+    [
+      'upcoming workshops',
+      '<noinclude>meta</noinclude>\n== March 2026 ==\n* Linux workshop',
+    ],
+  ]);
+
+  assert.equal(
+    expandTransclusions('Events:\n{{:Upcoming Workshops}}\nEnd.', pagesByTitle),
+    'Events:\n== March 2026 ==\n* Linux workshop\nEnd.'
+  );
+});
+
+test('convertWikiLinks falls back to hyphenated targets for unknown pages', () => {
+  assert.equal(convertWikiLinks('[[Unknown Page Title]]', new Map()), '[[Unknown-Page-Title]]');
+});
+
+test('expandTransclusions leaves unknown templates unchanged', () => {
+  assert.equal(expandTransclusions('{{:Missing Template}}', new Map()), '{{:Missing Template}}');
+});
+
+test('writeGitHubWikiTree rejects manifest entries without archived records', async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-github-wiki-missing-'));
+  const archiveRoot = path.join(tempRoot, 'wiki-archive', 'latest');
+  const outputRoot = path.join(tempRoot, 'wiki');
+
+  await fs.mkdir(path.join(archiveRoot, 'pages'), { recursive: true });
+  await fs.writeFile(
+    path.join(archiveRoot, 'manifest.json'),
+    JSON.stringify({ pages: [{ title: 'Missing Page', file: 'pages/Missing_Page.json' }] }),
+    'utf8'
+  );
+
+  await assert.rejects(
+    () => writeGitHubWikiTree({ archiveRoot, outputRoot }),
+    /Manifest entry "Missing Page" has no archived page record/
+  );
+});
+
+test('writeGitHubWikiTree writes Home.mediawiki and one file per archived page', async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-github-wiki-'));
+  const archiveRoot = path.join(tempRoot, 'wiki-archive', 'latest');
+  const outputRoot = path.join(tempRoot, 'wiki');
+
+  await fs.mkdir(path.join(archiveRoot, 'pages'), { recursive: true });
+  await fs.writeFile(
+    path.join(archiveRoot, 'manifest.json'),
+    JSON.stringify(
+      {
+        pages: [
+          {
+            title: 'Main Page',
+            file: 'pages/Main_Page.json',
+          },
+          {
+            title: 'Location',
+            file: 'pages/Location.json',
+          },
+        ],
+      },
+      null,
+      2
+    ),
+    'utf8'
+  );
+  await fs.writeFile(
+    path.join(archiveRoot, 'pages', 'Main_Page.json'),
+    JSON.stringify({
+      title: 'Main Page',
+      revision: {
+        content: 'Welcome [[Location|here]].\n{{:Upcoming Workshops}}',
+      },
+    }),
+    'utf8'
+  );
+  await fs.writeFile(
+    path.join(archiveRoot, 'pages', 'Location.json'),
+    JSON.stringify({
+      title: 'Location',
+      revision: {
+        content: '1840 S. Walnut Street',
+      },
+    }),
+    'utf8'
+  );
+  await fs.writeFile(
+    path.join(archiveRoot, 'pages', 'Upcoming_Workshops.json'),
+    JSON.stringify({
+      title: 'Upcoming Workshops',
+      revision: {
+        content: '<noinclude>meta</noinclude>\n== March ==\n* workshop',
+      },
+    }),
+    'utf8'
+  );
+  await fs.writeFile(path.join(archiveRoot, 'pages', 'README.txt'), 'ignore me', 'utf8');
+
+  const summary = await writeGitHubWikiTree({ archiveRoot, outputRoot });
+
+  assert.equal(summary.pageCount, 2);
+  assert.equal(summary.fileCount, 2);
+
+  const home = await fs.readFile(path.join(outputRoot, 'Home.mediawiki'), 'utf8');
+  const location = await fs.readFile(path.join(outputRoot, 'Location.mediawiki'), 'utf8');
+
+  assert.match(home, /Welcome \[\[Location\|here\]\]/);
+  assert.match(home, /== March ==/);
+  assert.equal(location.trim(), '1840 S. Walnut Street');
+});

@@ -1,0 +1,209 @@
+<!--[[2019-Yearly-Meeting-Notes|Notes from the meeting]]-->
+
+= Boominglabs 2019 Yearly Meeting Agenda =
+== Annual Meeting Preface ==
+* Welcome, new members since last annual meeting!
+* What is Consensus? - no STRONG opposition to a decision, doesn't mean everybody has to be 100% on board.
+* What is membership, and how does that happen?
+* What are donuts, and how do they magically appear?
+
+== Members Attending ==
+
+* Dan H.
+* Steve C.
+* Laura H.
+* Alex V.
+* Pete K.
+* Rebeca S.
+* Kevin R. 
+* Tobias M.
+* Heath R.
+* Jenett T.
+* Matt H.
+* dosman
+* Jimmy L.
+* Sarah W-D. 
+* Josh C.
+* Josh 'Mr.' G.
+
+* Gavin W. (via Google Hangout)
+
+== Financial Preamble ==
+
+Electric: 1924.26 <br />
+Freshbooks: 139.65<br />
+Garbage: 677.04<br />
+Gas*: 109.19<br />
+Insurance: 871.25<br />
+Internet: 897<br />
+Makevention: 277.66<br />
+Lowes/Menards: 1619.05<br />
+Metal Shop: 2363.91<br />
+Misc: 292.43<br />
+Parade: 41.78<br />
+Rent: 14968.25<br />
+Rent Deposit: 1000<br />
+Water*: 88.96<br />
+Government filings: 22<br />
+Workshop expenses: 135<br />
+<br />
+Total expenses: 25427.43<br />
+Total income:   27775.10<br />
+Net change:      2139.64<br />
+<br />
+Savings account<br />
+Initial balance: 2376.83<br />
+Ending balance:	 2603.56<br />
+Net change:       226.73<br />
+<br />
+<br />
+Monthly Expenses<br />
+<br />
+Rent: 1360.75<br />
+Electric: 200<br />
+Freshbooks: 20<br />
+Gas*: 40<br />
+Garbage: 48<br />
+Insurance: 73<br />
+Internet: 70<br />
+Water*: 50<br />
+Total: 1861.75<br />
+	<br />
+Full member rate / month: 46.5<br />
+<br />
+* started paying in October<nowiki>
+</nowiki><br />
+<br />
+Financial Postamble<br />
+<br />
+2019 Expected Expenses<br />
+Rent: 1594.08 -	Starting February<br />
+Electric: 200<br />	
+Freshbooks: 32.5 ???<br />
+Gas: 40	<br />
+Garbage: 48	<br />
+Insurance: 73	<br />
+Internet: 70	<br />
+Water: 50	<br />
+Total: 2107.58	<br />
+Full member rate / month: 52.6895	<br />
+
+== 2018 year in review ==
+
+* Member survey results
+* Member exit survey results
+** Need to send out exit surveys to members who left
+* Who have we collaborated with?
+** Community Foundation (STEM Lunches)
+** MCPL
+** Wonderlab
+* What workshops did we have?
+** Blender
+** Needle felting (attempted)
+** Soldering (x2)
+** Laser cutting and engraving
+** Arduino
+** Micropython and IoT
+** Build an IoT Switch (Jay Sissom)
+** Welding Day
+** Machining (x2)
+** Makevention onsite workshops:
+*** Lockpicking
+*** Soldering
+** Needle felting (actual)
+** #badgelife (with special guest hosts mzbat and 'Frank the Tank')
+** Essential Oils
+** Rain barrel / plant tower
+
+* Makevention
+** 2018 (Year 6!) - how did it go?
+***Financial Report
+** 2019
+* Trebuchet.
+* Fundraising, donations, and attempts
+* The Move Pt2: The Move In
+** Remodeling
+** Space definition
+** Continuing work
+
+== Break for Lunch ==
+
+== Officer elections ==
+* Prospective Nominees:
+** President: LaserDan
+** Treasurer: Heath
+** Secretary: Sarah
+** At-large: Laura, Pete, Alex, Jimmy
+
+== 2019 Pressing issues, goals, and things to discuss ==
+* [[2019-bylaw-change-proposals]] - broken out to a separate page to keep discussion clearer
+* The Space!
+** How happy are we? Do we want to talk with Mark now about a long-term lease?
+** How much do we need the kitchen?
+* Members!
+** Better onboarding needed, but how?
+** Better access to spaces, ''but how''? /s
+** Member photo wall
+* Software infrastructure
+** FreshBooks price increase
+*** Alternatives matrix
+*** How do you pronounce "Apricot"?
+** Actually getting other systems off Dosman's Linode instance
+* Security infrastructure
+** Additional RFID equipment
+** New door?
+** Cameras
+** Reflective film for glass doors
+* Cleanliness and excellence
+** "Is this the best use of this space?"
+** "What if someone parked their stuff in space I wanted to work in?"
+** "What if someone put a parking sticker on my project?"
+
+* Other space needs
+** Fume hood exhaust hole
+** Enhance dust collection w/filter & cyclone/baffle
+** Good shop-vac to replace Gavin's
+
+* Membership goals
+* Workshops, Workshops, Workshops!
+** Machine knitting (already on the schedule)
+** Laser cutting
+** Soldering
+** Book binding
+** Sustainabarrels
+** Essential Oils
+** Welding?
+** Arduino
+** Fun with LEDs
+** Needle felting
+** How not to be on fire/Avoiding being called "Stumpy" (workshop safety)
+** Resin casting
+** Recording your work (photo/video)?
+** Tool overview?
+*** Do we want to upgrade our laser? (90W, 120W, etc)
+*** Do we want to fundraise for a new big tool? (CNC table router, Wazer/water jet, CNC metal mill, etc)
+*** Still intend to sell 3rd lathe which can help raise funds (dosman)
+* Non-workshop event days
+** Open houses
+** Rummage sales
+** DANGER DAYS!
+** Show and Yell
+** FIY days
+* Space workdays
+** Recycling runs (req. commandeering a truck)
+** Cleaning
+** Maintenance
+** Junk teardown
+** Repair
+* We have a wind turbine generator in storage at dosmans that belongs to the space
+** And two power inverters in the electronics room for battery charging
+** And a large solar cell in the members room which Will left behind
+* Laboratory fume hood vent hookup
+* Makevention
+** Volunteers vs Exhibitors
+** Bloominglabs booth
+*** Dedicated runner who is not the booth organizer
+*** Members who have booths should not double-dip on Bloominglabs vending space
+** Committee members? JOIN US!
+* Anything else?
+[[Category:Meetings]]

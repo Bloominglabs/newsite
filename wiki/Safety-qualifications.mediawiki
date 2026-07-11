@@ -1,0 +1,26 @@
+Safety qualification means you have been shown basic safety precautions regarding use of the tool in question. It also covers full operation of the tool. Once signed off you free to use the tool in question.
+
+== Power Tools ==
+=== Drill Press ===
+* Nathan
+* Steve
+* Brent
+* Joe
+* Justin
+* Barry
+* Nick
+
+=== Band Saw ===
+* Nathan
+* Steve
+* Joe
+* Brent
+
+=== Chop Saw ===
+* Jenett
+
+=== Bench Grinder ===
+* Nathan
+
+[[Category: Operations]]
+[[Category: Tools]]

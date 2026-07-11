@@ -1,0 +1,30 @@
+== Amateur Radio requires a valid FCC license to operate! ==
+Please respect this.  '''Feel free to turn it on and tune in to any frequency and listen''', but if we start to hear of unlicensed transmissions this radio may need removed.  Anyone can get a license, there is a test to take and a $14 fee for taking the test. There are free and pay study guides available online and in print.  Google for “technician class study” to start. In fact, the entire question pool is openly available.    Testing sessions are typically held on the first Saturday of the month at noon in Bloomington. For more info see http://tinyurl.com/b5l3zkd
+
+http://www.bloomingtonradio.org/index.php/info/ve-testing
+
+
+== RadioShack HTX-212, 2m (144mhz) Amateur Radio ==
+(currently setup in the front room)
+
+About this radio:
+
+I’ve programmed the following local repeaters as memory channels.  To access memories briefly press MR:
+
+* Mem 1	146.640-	pl 136.5	Monroe Co. Repeater Association
+* Mem 2	146.940-	pl 136.5	Indiana University ARC
+* Mem 3	147.240+	pl 103.5	Greene Co.
+* Mem 4	146.985-	pl 136.5	Owen Co.
+* Mem 5	147.060+	pl 88.5	Morgan Co.
+* Mem 6	147.300+	pl 136.5	Brown Co.
+* Mem 7	146.730-	pl 107.2	Lawrence Co.
+
+To scan all memories hold down MR until the display shows the frequencies changing.  Press MR briefly to stop scanning.
+
+I have set Low power (10w) on the local repeaters to reduce RFI on the mag-mount antenna.  This should be plenty to hit the local repeaters (first 2 in the list).  High power is 45W and is well within the capabilities of the antenna, but at the higher risk of RFI.  High power would be more appropriate for an outdoor antenna. 
+
+The receive end of this radio seems to have bouts of sensitivity that will open the squelch.  To get around this I’ve set the memories to only open squelch when the PL tone comes with the signal.  Note that these repeaters do not send the PL tone when they ID every 12 minutes, so you will not hear those.  Tune to the repeaters in VFO mode without T-SQL to listen to everything coming from it.
+
+Any questions please contact Corey (KB9JHU), cshields on irc
+
+[[Category: Group projects]] [[Category:Radio]]

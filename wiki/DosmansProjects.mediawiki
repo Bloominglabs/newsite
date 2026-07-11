@@ -1,0 +1,69 @@
+My project listing, probably always out of date.
+
+=== Done / Mostly working ===
+* [[BirdhouseCam]]
+* [https://github.com/dosman33/rtl433-mon rtl433-mon] - Some scripts to make it easier to passively monitor 433MHz ISM band sensors (vehicle tire pressure sensors, remote-keyless-entry signals, etc)
+* [[Cherokee-CBS1000-Mic-adapter]] - The wiring diagram for hooking up a 4pin or 5pin mic to this non-standard 5pin jack
+* [[Hesine-M-505-3D-printer-mods]] - Very similar to the Anet A8, but different
+* [[Solar-filter-for-a-10-Dob-Telescope]]
+* [[Telescope-Solar-Finder]]
+* [[Lasered-acrylic-con-badges]]
+* [[Training]] - I'm working on making training materials available for our shop equipment
+* [[Laser-etched-rubber-stamps]]
+* [[CCTV-Network]] - our in-space TV network
+* [[Audio-Network]] - our speaker system which reaches into most rooms in the space
+* [[Gin-pole-welding-project]]
+* [[Atlas-Lathe-Restoration]]
+* [[InkShield-Project]]
+* [[Lockpicking-contest-system]] - AKA Rumble Challenge lock picking + drinking game
+* [[Electric-firework-firing-system]]
+* [[Electrolysis-Rust-Removal-System]]
+* [[Vacuum-forming-table]]
+* [[Laser-Interferometer]] - Will's project, I assisted on this (back when our meetings were held in Jenett's basement)
+
+=== Projects I've documented on other sites ===
+* [https://www.thingiverse.com/dosman33/designs Thingiverse 3D models I've made]
+* [https://www.instructables.com/member/dosman33/ My Instructables] - most of these were for hackathons
+* [https://github.com/dosman33 Github] - Occasionally I do some script/code related projects
+
+
+=== Active projects and ToDo List ===
+* [[Bloomington-Meshtastic]] - Tracking Meshtastic activity in Bloomington
+* [[Gadget-Hamper]] - The Universal Device Charging Cradle
+* [[Building-an-RF-Receiving-Station]] - Some of us have been working on this project together
+* [[SatNOGS-no-rotator-Ground-Station]] - SatNOGS client connected to stationary antennas
+* [[SatNOGS-Ground-Station-v3]] - Version 3 rotator ground station
+* [[SatNOGS-Ground-Station-v2]] - Satellite tracking and receiving station
+* [[Radio-Activities]] - A page to track all radio activities at Bloominglabs. Ham, CB, Wi-Fi mesh, part15, etc.
+* [[Water-Heater-Monitoring-and-Setback-Control]]
+* [[Eaton-Home-Heartbeat]] - reclaiming discontinued home monitoring gear
+* [[Wintermute]] - a joint project between Steve and myself
+* [[Radar-sign]]
+* [[Arduino-AC-Remote]]
+* [[PCB-Etching]]
+
+* Galvanic Vestibular Stimulation: recreate the results of NTT Communication Science Laboratories with remote-controlled humans
+** Prototype built based on Arduino's and [http://www.sparkfun.com/products/8948 these RX/][http://www.sparkfun.com/products/8945 TX RF boards]
+** Papers and media pertaining to GVS:
+** [http://www.youtube.com/watch?v=OlXYqfQHNuA&feature=related YouTube video of GVS used to remote control a human]
+** [http://delivery.acm.org/10.1145/1190000/1187315/p17-maeda.pdf?key1=1187315&key2=6981350921&coll=DL&dl=ACM&CFID=112087327&CFTOKEN=73009114 PDF: Shaking The World: Galvanic Vestibular Stimulation As A Novel Sensation Interface]
+** [http://jp.physoc.org/content/500/Pt_3/661.full.pdf Human body-segment tilts induced by galvanic stimulation: a vestibularly driven balance protection mechanism]
+* CES device advancements
+** voodoo magick box equivalent based on attiny13
+***done, more tweaking to do yet though
+* SLM+CES combo device
+* wearable RF sensory devices (for use with the TI Chronos when it arrives)
+** attiny with RF receiver and cell phone motor attached to an arm-band
+* True North belt - research phase (Steve has working prototype built, see his project page)
+** http://feelspace.cogsci.uni-osnabrueck.de/en/index.html
+
+=== Some day list ===
+* arduino ps/2 keyboard - to facilitate alternative input controls to software that accepts only keyboard inputs / for stand alone operation
+* ferrofluid
+
+=== Miscellaneous one-offs ===
+These are some simple things I've done that don't each require their own page.
+* [[Dosmans-miscellaneious-projects]]
+
+
+[[Category:Projects]]

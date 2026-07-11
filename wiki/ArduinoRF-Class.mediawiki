@@ -1,0 +1,75 @@
+== Bloominglabs Arduino RF/Wireless Class ==
+[[Category: Workshops]]
+
+<big>'''Description:'''</big>
+
+This is a simple beginners course in which participants will learn how to use simple+cheap RF modules to communicate wirelessly with microcontrollers. We will focus on the Arduino platform although the RF modules and techniques are easily applied to most microcontrollers. Time will be spent both working on hardware as well as writing simple software routines. Participants will also spend time troubleshooting basic reception problems and learn techniques to eliminate noise and spurious signals. At the end of the course we will connect components such as potentiometers and light sensors to the transmitter and receive the data both on the receiving Arduino as well as the computer it is connected to. Lastly we will see what kind of range can be expected and how to get the best possible distance with these RF boards.
+
+
+<big>'''Handouts:'''</big>
+* Arduino RF code samples [[Image:ArduinoRF.2010-07-27.zip]]
+* Arduino RF/wireless workshop outline (handout) [[Image:ArduinoRF_outline.pdf]]
+* Arduino RF/wireless workshop questionnaire [[Image:Questionnaire-ArduinoRF_workshops.pdf]]
+
+
+<big>'''Requirements:'''</big>
+
+We will provide all required hardware to participate in this course however attendees are encouraged to bring their own gear if they have it. A microcontroller, RF board (TX and RX), and computer will be used by each pair of participants. Participants should already be somewhat familiar with the process of breadboarding circuits and loading code onto microcontrollers, however this is not a requirement.
+
+
+<big>'''Age group:'''</big>
+
+15 to adult, anyone under 15 should be accompanied by an adult
+
+
+<big>'''Instructor notes:'''</big>
+
+Participants should be setup in pairs where each individual has either a transmitter or a receiver on their breadboard. Students will work together to send and receive data reliably between their Arduino boards. If you have an odd number of students, then you should issue the odd student a receiver board and combine them with another group.
+
+You should be careful to keep groups on the same frequency at opposite ends of the table to reduce problems with interference. Physical dividers can be used to further reduce interference problems. Be watchful that participants don't add antenna wires to transmitter boards except for debugging purposes as this extends the TX range and can add to interference problems.
+
+Required hardware for class - you need a complete set of these components these for each pair of students:
+<pre>
+1x PC - anything that can run Processing (Arduino software) and the example sketches linked below
+2x Arduino (any model) - one for each student, but a pair is required
+2x breadboard (Arduino proto-shield works great but any breadboard will suffice)
+1x TX board
+1x RX board
+1x 9V pigtail with 2.1mm power plug (for TX board distance testing in section V)
+1x 9V battery
+3x 1.2k resistor (1/4-1/8W)
+1x photoelectric sensor (light sensor)
+1x 5k potentiometer
+1x LED
+~12x 4" breadboarding wires per Arduino
+</pre>
+
+
+<big>'''Additional hardware operated by instructor to assist participants with learning:'''</big>
+<pre>
+Receiver or police scanner with TX frequencies pre-programmed into it (315.01MHz, 433.92MHz)
+Oscilloscope connected to data output of a working receiver board (no Arduino required)
+</pre>
+These two pieces will allow students to get audio and visual feedback to help them in understand some of the problems they will encounter in section III.
+
+
+<big>'''Sample Arduino code provided in this course'''</big>
+
+Section II code (borrowed from [http://www.sparkfun.com/datasheets/RF/KLP_Walkthrough.pdf KLP_Walkthrough.pdf]):
+<pre>
+simpleCounterTX.pde           - Basic TX counter code for section II
+simpleCounterRX.pde           - Basic RX counter code for section II
+</pre>
+
+Section III_IV code (RFLink borrowed from [http://www.glacialwanderer.com/hobbyrobotics/?p=291 Cheap Arduino Wireless Communications]):
+<pre>
+simpleErrorRejectionRX.pde    - Ignores values outside of a valid range, use with simpleCounterTX
+lightSensorRXTX.pde           - RFDriver TX code for section IV - light sensor output w/LED blinker
+RFLink.pde                    - RFDriver library to be dropped into previous two projects
+</pre>
+
+Auxillary code:
+<pre>
+raw_analog_readings.pde       - prints raw analog values from light sensor to the serial port (use serial monitor)
+potTX.pde                     - Read analog value of potentiometer and map it from 0 to 9, then transmit 0-9 - use RFLink.pde to RX
+</pre>

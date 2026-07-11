@@ -1,0 +1,4 @@
+Two of Bloominglabs's [[3D-Printers]] are PrintrBots:
+
+* [[PrintrBot-Play]]
+* [[PrintrBot-Simple]]

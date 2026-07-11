@@ -1,0 +1,40 @@
+Tape backups? In 2026? Most people are not even aware tape is still a viable backup medium, anyone who really wants a backup of their homelab NAS typically only backs up a smaller portion of their most critical data to another disk array, possibly at a friend or family members house, or to cloud backup.
+
+The point of tape is that once you get past the initial drive investment cost, it gives you multiple backup rotations for much less than having another spinning disk array, plus it's much safer to have sitting idle on a shelf than hard drives. However tape has gotten expensive as capacities keep ratcheting up to keep up with big data. In the realm of tape backup, LTO is king for most folks, and to backup a typical multi-TB home NAS system you really need a LTO-7, 8 or 9 system which can pack data dense enough to be plausibly useful for a 10-60TB NAS. LTO-8 can handle 12TB native per tape, but these drives still go for $1000-$2000 on ebay. 
+
+=== IBM 3592 ===
+This is where the IBM 3592 comes in. At the time of this writing, IBM 3592-E08 (TS1150) tape drives can be had for around $380 by themselves on ebay. These drives can backup to tapes with 10GB of native capacity. 
+
+The challenge is that the drive does not ship from IBM with a power supply - the power supply is always part of another product line - either a TS3500 tape library or the even more rare 19" rack drawer enclosure. These drives are only designed to operate in a tape library, standalone use is not really a consideration. But, there's no reason the drives CAN'T work standalone, it's just not done... until now.
+
+I found the part that acts as a power regulator for the drive from the TS3500 tape library on ebay, and I suspect I’ve found a workaround that may allow the drive to run without this board. We will do more experimentation on this in the future.
+
+
+=== Required Initial Investment ===
+Presently a used 3592-E08 drive can be had for ~$380, $50 for the power regulator, and the best value on tapes is $499 for 5 used tapes on ebay. New cleaning tapes are about $90 and I would not skip this. The tapes are quoted as being designed to last 30 years, albeit they don't usually have that long of a real service life due to typical product lifecycles. The E08/EH8 uses 8Gb fiber channel, so you'll need a pcie FC HBA which will run you about $20 used, and an LC to LC fiber jumper, let's say $12.
+
+You are looking at $950 to $1000 to get started. That is certainly high, but if you have 10-50TB in home NAS storage, getting a full off-site or 3-2-1 backup and looking at this as a 20 year investment helps. If you need to backup more than 50TB then your tape cost does double - buying tapes in quantities less than 5 is not really viable due to cost. You'll have to do the math and decide if this fits your price-point use case, and for this window of time where AI is driving drive prices sky high and 3592-E08 drives are being dumped cheaply on the 2nd hand market, it does work out. 
+
+I strongly suspect that I can get the drive to work without the external tape library regulator board saving $50 for some folks. Inside the back “cage” the drive is actually powered via a standard 12V PC power plug - you may loose the ethernet connectivity and the rear status lights, but I will do more investigation on this soon.
+
+
+
+=== 3592 Varients ===
+There are a number of drive varients, in case you are tempted by the lesser capacities I've created a chart of their capabilities.
+
+They have integrated RFID for tracking tape reliability stats which the drive updates every time it loads the tape. The drives are 8Gb/s fiber channel,
+
+
+
+=== LTO canisters ===
+The tape libraries that handle 3592 drive canisters also support LTO drives, however they are in the a similar unique canister format like the 3592's. If you are not convinced in 3592, you can apply the same info I have here to possibly get a 3588 (LTO canister) powered up if you can find one cheap. Again, these drives do not come with a power supply, the power supply is part of another product - the tape library the drive mounts in. AND the LTO canisters require a different power supply than the 3592.
+
+
+=== Tape Drive History ===
+This drive format has a long history from IBM - it debuted in 1983 with the 3480 (washing machine sized drives), then was succeeded by the 3490 (refrigerator sized drives behind the 3480's):
+
+The bump out the top/front of the 3480 is an automatic cartridge loader system, operators would put a pack of 12 tapes into the ACL and it would auto-rotate tapes through the drive. Operators would then get notified at their terminal when a drive was ready for a new 12-pack to get swapped in.
+
+The successor to these product lines were the 3590 tape drive and the 3494 robotic tape library (there was an intermediate robotic tape library that was sold in limited numbers as a proof of concept though).
+
+The 3592 product line came out around 2005 and changed the cartridge format for the first time since 1983, but it’s been steady for 21 years now and the current top product in the line still uses the same cartridge format. IBM still sells the 3592-70F and 70S drives with 50TB capacities (FC and SAS respectively).

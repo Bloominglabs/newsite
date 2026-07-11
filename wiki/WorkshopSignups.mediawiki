@@ -1,0 +1,95 @@
+== Useless Machine Signups ==
+{| class="wikitable"
+|-
+! Name    
+! Contact
+! Member?
+! Paid?
+|-
+| Chet Wonsik
+| chetwonsik@gmail.com
+| No
+| No
+|-
+| Murat
+| muzcuk@gmail.com
+| Yes
+| Yes
+|-
+| Jordan Zook
+| jordon.zook@gmail.com
+| No
+| Yes
+|-
+| Daniel Tracey
+| artslvrs@gmail.com
+| No
+| Yes
+|-
+| Will 
+| willrobot@gmail.com
+| Yes
+| Yes
+|}
+
+== Arduino Signups ==
+{| class="wikitable"
+|-
+! Name    
+! Contact
+! Member?
+! Paid?
+|-
+| Michael O'Connell (and son)
+| maicole@gmail.com
+| No
+| Yes
+|}
+
+== Laser Signups ==
+{| class="wikitable"
+|-
+| Name
+| Contact
+| Member?
+| Paid
+|-
+| Steve Backs
+| 
+| Yes
+| Yes
+|-
+| Ted Backs
+| 
+| Yes
+| Yes
+|-
+| Marc Tschida
+|
+| No
+| Yes
+|}
+
+== 3D Printing Signups ==
+{| class="wikitable"
+|-
+| Name
+| Contact
+| Member?
+| Paid
+|-
+| Steve Backs
+| 
+| Yes
+| Yes
+|-
+| Ted Backs
+| 
+| Yes
+| Yes
+|-
+|Steve Charlesworth
+|
+| Yes
+| Yes
+|}

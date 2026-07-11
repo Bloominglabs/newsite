@@ -1,0 +1,122 @@
+Joe Cieslik's projects
+
+==Finished==
+
+Git Labs server and IRC server with Harpo
+
+Pan pipes
+
+Small knives
+
+Throwing stars
+
+Basic synthesizer with 555 timer chip
+
+Circuit bent children's piano
+
+Dry wall on the workshop side (South Rogers St location) with Jimmy and Apple
+
+Flash cotton
+
+Wooden and metal rings
+
+Tomahawk/throwing knife target
+
+"data couch"
+
+Desktop CNC enclosure
+
+PVC bow
+
+Wooden dual GPU support
+
+3D printed Battletech figures with Max and Chet
+
+Can forge
+
+Smelting aluminum with Alex
+
+Handle for Poleaxe
+
+Thermite
+
+[[Rcandy| Rcandy with Jimmy and co.]]
+
+[[New-3d-Printer| A new 3d Printer]]
+
+New HVAC door
+
+3D printed Yarn Bowl
+
+==In Progress==
+
+Throwing spear 
+
+Laser cut plane schematics 
+
+[https://github.com/TheRobotStudio/SO-ARM100 SO-ARM100] 
+[[File:20250927 092130 720.jpg|thumb|none]] 
+
+==Abandoned==
+
+DIY tile and fiberglass body armor (First trial failed)
+
+1988 Toyota Celica Alltrac ST165 (Sold)
+
+Wrist fireball launcher (Never assembled)
+
+NAS/file server and vulnerable host with Max
+
+[[Laboratory|Chemistry and Biology lab in back closet]]
+
+[http://n-o-d-e.net/post/128857545201/how-to-create-an-ethernet-monitoring-tap Ethernet Throwing Star]
+
+Vapeable Nootropics
+
+[https://github.com/ixtechnology/cots COTSMBC with Jimmy]
+
+[[Pager-Network| A proposed pager network]]
+
+[[Ceiling-Modifications]]
+
+==Future Projects==
+
+[http://n-o-d-e.net/post/136607105426/how-to-create-a-tiny-usb-condom-v2 Cyberpunk deck (There is also a version on Instructables)]
+
+[http://n-o-d-e.net/post/107977286006/how-to-create-a-handheld-linux-terminal Linux handheld terminal with RaspberryPi]
+
+Rugged, portable server
+
+Weather balloon
+
+[http://makezine.com/projects/make-36-boards/nuclear-fusor/ Nuclear fusor]
+
+Longbow
+
+Haptic augmentation
+
+Pirate radio
+
+Hydroponics
+
+Tyvek backpack, belt, and wallet
+
+Potato box
+
+Brewing beer/ferment wine
+
+Blacksmithing
+
+[http://www.instructables.com/id/Automated-Titration-Machine/ Automated titration machine]
+
+Satellite antenna
+
+[http://n-o-d-e.net/post/136607105426/how-to-create-a-tiny-usb-condom-v2 USB condom]
+
+Pirate/Library Box
+
+[http://hackaday.com/2016/02/09/vhs-tape-plasma-mirror-drives-tiny-particle-accelerator/ VHS tape particle accelerator]
+
+[https://www.cumberlandrover.com/boat-plans/p/solo-pirogue-12-plans-7yhfj Solo Pirogue]
+
+[[Category:Projects]]

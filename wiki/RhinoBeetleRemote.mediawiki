@@ -1,0 +1,121 @@
+Here's some code that adds remote-control capability to the Tamiya Rhino Beetle. Uses Arduino, Motor shield, and an I/R receiver from Radio Shack.
+
+ <nowiki>
+/*
+Rhino Beetle!
+20-3-2011 SDC
+
+motors 3 and 4 3 is left (red, white)
+4 is right (blue, yellow)
+
+other pins - analog 0-5 are available.
+
+analog is across analog 0,1,2 (vcc, gnd, signal)
+
+have to use 3 and 4 b/c IR thing interferes w/ timer/pwm for 1 and 2 on the shield
+
+ */
+#include <AFMotor.h>
+#include <IRremote.h>
+
+int RECV_PIN = 16; // aka analog 2 11;
+// using motor 3 and 4, I think otherwise IR code interferes.
+AF_DCMotor motor2(4, MOTOR12_2KHZ); // create motor #2, 2KHz pwm can do 64,8,2,1
+AF_DCMotor motor1(3, MOTOR12_2KHZ);
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+
+/*
+
+the apple remote codes!
+plus (fwd): 77E15064
+minus (bkwd): 77E13064
+play (stop): 77E1A064
+rew (left): 77E19064
+ffwd (right): 77E16064
+*/
+
+const long FORWARD_STATE =  0x77E15064;
+const long BACKWARD_STATE = 0x77E13064;
+const long STOP_STATE =  0x77E1A064;
+const long LEFT_STATE = 0x77E19064;
+const long RIGHT_STATE = 0x77E16064;
+const long IGNORE_CODE = 0xFFFFFFFF;
+
+
+long current_state = STOP_STATE;
+
+void setup()
+{
+  // send a 1 to the vcc, 0 to ground
+  pinMode(14, OUTPUT);
+  digitalWrite(14,HIGH);
+  pinMode(15, OUTPUT);
+  digitalWrite(15,LOW);
+  Serial.begin(9600);
+  irrecv.enableIRIn(); // Start the receiver
+  // might want below to be faster or varying
+  motor1.setSpeed(255);     // set the speed to 200/255 // this is pretty slow w/ the beetle thingy
+  motor2.setSpeed(255);
+  //robot_forward();
+  Serial.println("it's time to goooooo....");
+  delay(2000);
+}
+
+void robot_forward() {
+  motor1.run(BACKWARD);
+  motor2.run(BACKWARD); 
+}
+
+void robot_backward() {
+  motor1.run(FORWARD);
+  motor2.run(FORWARD);   
+}
+
+void robot_left() {
+  motor1.run(FORWARD);
+  motor2.run(BACKWARD); 
+}
+
+void robot_right() {
+  motor1.run(BACKWARD);
+  motor2.run(FORWARD);
+}
+
+void robot_stop() {
+    motor1.run(RELEASE);
+    motor2.run(RELEASE); 
+}
+
+void loop() {
+  if (irrecv.decode(&results)) {
+    Serial.println(results.value, HEX);
+    if ((results.value != IGNORE_CODE) && (results.value != current_state)) {
+      switch(results.value) {
+        case FORWARD_STATE:
+          Serial.println("go forward!");
+          robot_forward();
+          break;
+        case BACKWARD_STATE:
+          Serial.println("go back!");
+          robot_backward();
+          break;
+        case LEFT_STATE:
+          Serial.println("go left!");
+          robot_left();
+          break;
+        case RIGHT_STATE:
+         Serial.println("go right!");
+         robot_right();
+         break;
+        case STOP_STATE:
+         Serial.println("stop dammit!");
+         robot_stop();
+         break;
+      }
+      current_state = results.value;
+    }
+    irrecv.resume(); // Receive the next value
+  }
+}
+</nowiki>

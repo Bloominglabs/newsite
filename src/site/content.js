@@ -15,7 +15,7 @@ const siteContent = {
     mailingAddress: 'P.O. Box 2443, Bloomington, IN 47402',
     email: 'contact@bloominglabs.org',
     publicHours: 'Wednesday evenings from 7pm until 10pm',
-    wikiUrl: 'https://www.bloominglabs.org/Main_Page',
+    wikiUrl: 'https://github.com/Bloominglabs/newsite/wiki',
     makeventionUrl: 'https://www.makevention.org/',
     calendarUrl: 'https://calendar.google.com/',
   },
@@ -78,7 +78,7 @@ const siteContent = {
   },
   wiki: {
     explanation:
-      'This public-facing site is intentionally narrow. The live wiki remains the full reference for projects, history, meeting notes, procedures, and other deep organizational material.',
+      'This public-facing site is intentionally narrow. The GitHub wiki remains the full reference for projects, history, meeting notes, procedures, and other deep organizational material.',
     archiveNote:
       'A textual preservation snapshot of the current wiki also lives in this repository so Bloominglabs is not dependent on one hosting arrangement.',
   },

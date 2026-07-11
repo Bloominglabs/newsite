@@ -1,0 +1,57 @@
+This is to get the ball rolling for the acquisition of a craft/vinyl cutter for Bloominglabs.
+
+== What is a vinyl/craft cutter? ==
+'''Vinyl cutters''' are generally designed as commercial-grade sign-making tools.  They operate much like pen plotters...but with knives.  They excel at cutting large roll-fed swaths of vinyl, but little consideration is given to their ability to cut other materials (some can accept cardstock or thicker material, but this varies), or to register sheets for cutting outlines of separately printed items.  These can range in size from 12" to 36" widths.  We could make big signs/car wraps/some stickers and iron-on t-shirts with this.
+
+'''Craft cutters''' are a somewhat new variant on vinyl cutters that are replacing home-scale die cutters.  These have increased in popularity with scrapbooking, pepakura sculpture, and other home cutting crafts, and are intended largely for hobbyist use.  They are generally made to cut paper and cardstock, but can also cut vinyl and fabric, and some can handle thicker materials.  We could make smaller stuff, but out of a wider variety of materials with this.
+
+== What could we do with it? (The sales pitch) ==
+What are the realistic capabilities of a craft cutter we could afford, and how does it compare to the laser or a CNC mill/router?
+
+Like the laser, it would be limited to fairly thin/soft materials.  However, it would add the ability to cut vinyl, stickers, iron-on material, screen printing masks, and other materials that would be hazardous or too delicate/flammable to cut on the laser, or wouldn't do well with a mill/router's rotating cutting tool.  Some models would also add the ability to emboss (mark using pressure) thin metals and cut through balsa.  These machines also require much less maintenance and cleanup than either a laser or CNC mill/router.
+
+The cost per minute to run a craft cutter is negligible.  Consumables include new cutting heads (which we should be able to self-sharpen to prolong the life of) and cutting mats.
+
+== Environmental ==
+A craft cutter would require no additional environmental or safety measures.
+
+== What do we want? ==
+
+The one I'm leaning toward is the [http://knkusa.com/shop/knk-zing-air/ KNK (Klick-N-Kut) Zing Air].
+
+A new challenger has appeared, though: The [http://janomespecials.com/edge/index.html Janome Artistic Edge].  It looks similar to the Zing, spec-wise, but adds wi-fi, rather than needing a USB/Bluetooth connection.
+
+=== Why the Zing? ===
+This machine is:
+*more affordable than larger machines
+*intended for hobbyists
+*desktop-sized, but should be wide enough for most applications
+*able to cut thicker material (balsa, felt)
+*able to emboss metal (with appropriate tool)
+*comparatively sturdy
+*open-source software-friendly and SVG-friendly (especially compared to Silhouette and Cricut machines)
+
+=== Why not the Zing? ===
+This machine is not:
+*as cheap as a Cricut Explore or Silhouette Cameo
+*big
+*a commercial-grade sign-making tool
+*as FOSS-friendly as it could be [http://inkcut.sourceforge.net/cutters/index/page:3 (at least it's not supported by a common Inkscape plugin)]
+
+== Pledges ==
+
+* $100 Daniel
+* $50 Jay
+
+== Current Purchase Status==
+* Get pledges totaling our goal
+
+
+== Owners, Usage, and Safety ==
+Bloominglabs will be the owner, donors receive a tax deduction. We are an awesome group and all play well together, I think we can craft usage guidelines as usage evolves.
+
+
+[[Category: Pledge]]
+[[Category: Tools]]
+[[Category: Craft Cutter]]
+[[Category: Vinyl Cutter]]

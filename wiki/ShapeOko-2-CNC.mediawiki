@@ -1,0 +1,11 @@
+The ShapeOko 2 is a [[Availablegear#Automated-Manufacturing|CNC machine]] that usually uses a dremel-style rotary tool as a mill.
+At present, the shapeoko is still in "project" stage. It sort-of works, and has not yet been used for a serious project.
+
+Here is the [https://www.shapeoko.com/wiki/index.php/ShapeOko_2 official wiki page] describing it.
+
+Here is the [https://www.shapeoko.com/wiki/index.php/Materials official list of materials and cutting settings].
+
+Here is a [https://www.shapeoko.com/wiki/index.php/CAM list of known-working software].
+
+
+[[Category:Tools]]

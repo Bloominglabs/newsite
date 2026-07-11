@@ -1,0 +1,49 @@
+Report from Oct-18-2011 to Nov-16-2011
+
+{| border="1"
+|+Bank Statement
+!Date      !!  Check#   !! Transaction          !! Amount       !! Total
+|-
+|10/18/2011||	4009  	||Vectren - Gas         ||  $27.90	|| $250.23
+|-
+|10/19/2011||	4010  	||Duke Energy - Electric||  $51.00	|| $199.23
+|-
+|10/31/2011||	 	||Deposit  	  	|| $565.00	|| $764.23
+|-
+|10/31/2011||	 	||Xfer from PayPal      || $218.54	|| $982.77
+|-
+|11/01/2011||	4011  	||Comcast - Internet    ||  $70.65	|| $912.12
+|-
+|11/03/2011||	4012  	||Jamar Prop - Rent  	|| $583.33	|| $328.79
+|-
+|11/08/2011||	4013  	||Cincy Insur Comp  	|| $310.00	||  $18.79
+|-
+|11/15/2011||	 	||Deposit  	        || $124.00	|| $142.79
+|}
+
+
+{|border="1"
+|+Current Unpaid Bills of $138.16
+|-
+|Comcast ||$70.65
+|-
+|Vectren ||$28.02
+|-
+|Duke    ||$39.49
+|}
+
+
+{|border="1"
+|+Incoming Income of $840.00
+|-
+|Six people owe past dues     || $240.00
+|-
+|Cash on Hand                 || $40.00
+|-
+|PayPal Balance               || $40.00
+|-
+|Thirteen people owe Nov dues ||$520.00
+|}
+
+
+If everyone pays up their dues and pays their November dues, we will easily pay all our bills including December rent and have $240.00 in the bank thanks to a couple of people who have paid their dues several months in advance.

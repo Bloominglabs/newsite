@@ -1,0 +1,4 @@
+Here are documents for the ET-3100: 
+
+* Manual: [[File:Et-3100-manual.pdf]]
+* Schematic: [[File:Et-3100-schematic.pdf]]

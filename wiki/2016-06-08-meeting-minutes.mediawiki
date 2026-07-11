@@ -1,0 +1,50 @@
+==Agenda==
+* Posted parking lot line drawing that Adam Nahas is currently painting in the parking lot
+* July 4th parade
+<pre>
+Neal has volunteered his bus, wants to have a painting session for it before parade at Blabs
+Possibly June 18th, or July 2nd
+7 members at the meeting plan to be in the parade entry, we can have more if people want to join
+Hans and Steve Backs will have Makevention cards for us to distribute
+</pre>
+
+===Treasurers report presented===
+
+* We have enough money saved up, lets put it to work:
+* Dust collection system
+* Air compressor
+<pre>
+It was decided we wanted to prioritize a replacement air compressor over the dust collector for now.
+By this point in the meeting we had a quorum (at least 25% of our members present).
+Called a vote, 13 votes for this measure, none against.
+
+An industrial air compressor was found on CL for $500, would require a phase convertor (an additional $200).
+This will be investigated asap as it is a very good deal.
+</pre>
+
+===3D printer acquisition (fund raising)===
+<pre>
+At this point the Makerfarm Pegasus 12" appears to be the prefered printer for the desired 
+metrics (price, print volume, open source, upgradeability, etc). More communication will go 
+out about this on the members list in the near future.
+</pre>
+
+===Last minute agenda items===
+* Discussion of converting mud room into a bio lab
+<pre>
+This was raised at the annual meeting this year. Only concerns by others were for the less than cleanly 
+items that are in there (dirty slop sink, mop & bucket).
+Discussed the possibility of moving the slop sink into the workshop.
+Discussed an alternative of building out a small room where Adam’s car stuff is presently located (since he’s 
+moving his stuff out). This was discussed as both building a small room there or a less permanent room made of
+plastic sheeting.
+No definitive decision was reached.
+</pre>
+* Discussed installing an out-door spigot along the east wall (with valve inside).
+* Discussed fixing the slop sink so that cold water is controlled by cold water knob, and plumbing in the
+hot water line.
+
+* Discussed watching for Kmart (which is closing) to start selling their industrial shelving off. Also, check to see if Sears has done the same yet or if they are already closed out.
+
+
+[[Category:Meetings]]

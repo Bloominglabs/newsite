@@ -1,0 +1,27 @@
+Jesse brought in a Craftsman 4" jointer on 03/16/2016.  This tool has been in a barn for a couple decades and will need significant work to be truly operational.  However the basic functionality is there - the motor runs and the blades cut.
+
+
+== Photos ==
+'''Before restoration'''
+<gallery>
+Image:IMG 20160316 205019462.jpg|On arrival
+</gallery>
+
+
+== Usability ==
+The jointer needs a fair bit of work before it can be effectively used:
+* Remove rust from bed, with oil + steel wool, then sandpaper from course up to 1000 grit
+* [optional] Buy non-silicone wax for bed
+* Research the fence, figure out how it's supposed to provide rigidity, and fix it
+* Replace the belt
+
+== Planned improvements ==
+* Build a replacement stand
+* Install a hinged motor mount for belt tensioning
+* Add a belt guard
+* Add a starter switch
+
+
+== Restoration resources ==
+[http://vintagemachinery.org/photoindex/detail.aspx?id=13633 Completed restoration @ Vintage Machinery]
+[[Category:Former Tools]]

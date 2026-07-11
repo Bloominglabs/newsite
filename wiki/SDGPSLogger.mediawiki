@@ -1,0 +1,336 @@
+The SD GPS logger will take data from a GPS and log it into a file on an SD card every 5 seconds.
+
+It is based on the Arduino with an SD card shield and an attached GPS.
+
+Here is the source code for the arduino:
+<pre>
+/*
+  SD gps datalogger
+  
+  This will log locations to a file on an SD card.
+
+  Known bugs:
+    If the code writes to the SD card at the same time you power down, it
+    can corrupt the file system on the SD card.
+
+  Pins:
+    SD MOSI - pin 11
+    SD CLK - pin 13
+    SD CS - pin 8
+    GPS serial out - pin 7
+    GPS serial in - pin 6 (not needed)
+
+  SD Shield:
+    http://www.sparkfun.com/products/9802
+ 
+  GPS:
+    http://www.byonics.com/tinytrak/gps.php (GPS2)
+ 
+  Required Libraries:
+    NewSoftSerial - http://arduiniana.org/libraries/newsoftserial/
+    TinyGPS - http://arduiniana.org/libraries/tinygps/
+
+Copyright (C) 2011 Jay Sissom
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; version 2
+of the License.  THIS SOFTWARE IS RELEASED UNDER THE TERMS OF
+VERSION 2 OF THE GPL LICENSE ONLY.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+http://www.gnu.org/licenses/gpl-2.0.html
+
+Jay Sissom jsissom@gmail.com
+
+ */
+#include <SD.h>
+#include <NewSoftSerial.h>
+#include <TinyGPS.h>
+
+// GPS and serial objects
+TinyGPS gps;
+NewSoftSerial nss(7,6,true);
+
+// GPS data (global so we don't need to pass them around)
+long lat, lon;
+int year;
+byte month, day, hour, minute, second, hundredths;
+unsigned long age, date, time, chars, speed;
+bool moving = true;
+
+// On the Ethernet Shield, CS is pin 4. Note that even if it's not
+// used as the CS pin, the hardware CS pin (10 on most Arduino boards,
+// 53 on the Mega) must be left as an output or the SD library
+// functions will not work.
+const int chipSelect = 8;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.print("Initializing SD card...");
+
+  // make sure that the default chip select pin is set to
+  // output, even if you don't use it:
+  pinMode(10, OUTPUT);
+  
+  // see if the card is present and can be initialized:
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Card failed, or not present");
+    // don't do anything more:
+    return;
+  }
+  Serial.println("card initialized.");
+
+  nss.begin(4800);
+  
+  Serial.println("GPS initialized.");
+}
+
+void loop() {
+  bool newdata = false;
+  unsigned long start = millis();
+
+  // Every 5 seconds we write an update (if we are moving)
+  while (millis() - start < 5000) {
+    if ( feedgps() ) {
+      newdata = true;
+    }
+  }
+
+  if (newdata) {
+    speed = gps.speed();
+    gps.get_position(&lat, &lon, &age);
+    feedgps();
+    gps.get_datetime(&date, &time, &age);
+    feedgps();
+    gps.crack_datetime(&year, &month, &day, &hour, &minute, &second, &hundredths, &age);
+    feedgps();
+
+    // Only write data if we are moving
+    if ( moving ) {
+      writeData();
+    }
+    moving = ( speed > 85 );
+  } else {
+    Serial.println("No GPS data during the last 5 seconds");
+  }
+}
+
+bool feedgps() {
+  while (nss.available()) {
+    if (gps.encode(nss.read()))
+      return true;
+  }
+  return false;
+}
+
+void writeData() {
+  // open the file. note that only one file can be open at a time,
+  // so you have to close this one before opening another.
+  File dataFile = SD.open("datalog.txt", FILE_WRITE);
+
+  // if the file is available, write to it:
+  if (dataFile) {
+    feedgps();
+    dataFile.print(lat);
+    dataFile.print("\t");
+    dataFile.print(lon);
+    dataFile.print("\t");
+    dataFile.print(gps.altitude());
+    dataFile.print("\t");
+    feedgps();
+    dataFile.print(year);
+    dataFile.print("\t");
+    dataFile.print(static_cast<int>(month));
+    dataFile.print("\t");
+    dataFile.print(static_cast<int>(day));
+    dataFile.print("\t");
+    dataFile.print(static_cast<int>(hour));
+    feedgps();
+    dataFile.print("\t");
+    dataFile.print(static_cast<int>(minute));
+    dataFile.print("\t");
+    dataFile.print(static_cast<int>(second));
+    dataFile.print("\t");
+    dataFile.print(gps.course());
+    dataFile.print("\t");
+    dataFile.print(speed);
+    dataFile.print("\t");
+    dataFile.println(age);
+    feedgps();
+    dataFile.close();
+  } else {
+    Serial.println("error opening datalog.txt");
+  } 
+
+  // print to the serial port too:
+  feedgps();
+  Serial.print(lat);
+  Serial.print("\t");
+  Serial.print(lon);
+  Serial.print("\t");
+  Serial.print(gps.altitude());
+  Serial.print("\t");
+  feedgps();
+  Serial.print(year);
+  Serial.print("\t");
+  Serial.print(static_cast<int>(month));
+  Serial.print("\t");
+  Serial.print(static_cast<int>(day));
+  Serial.print("\t");
+  Serial.print(static_cast<int>(hour));
+  feedgps();
+  Serial.print("\t");
+  Serial.print(static_cast<int>(minute));
+  Serial.print("\t");
+  Serial.print(static_cast<int>(second));
+  Serial.print("\t");
+  Serial.print(gps.course());
+  Serial.print("\t");
+  Serial.print(gps.speed());
+  Serial.print("\t");
+  Serial.println(age);
+  feedgps();
+}
+
+
+</pre>
+
+Here is the source code for a perl program that will read the data file on the SD card and generate a kml file that can be read by google earth:
+
+Use it like this:
+
+perl converter.pl < sd_data_file.txt > output.kml
+
+<pre>
+#!/bin/perl
+
+# Copyright (C) 2011 Jay Sissom
+# 
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; version 2
+# of the License.  THIS SOFTWARE IS RELEASED UNDER THE TERMS OF
+# VERSION 2 OF THE GPL LICENSE ONLY.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+# 
+# http://www.gnu.org/licenses/gpl-2.0.html
+# 
+# Jay Sissom jsissom@gmail.com
+
+print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+print "<kml xmlns=\"http://earth.google.com/kml/2.0\">\n";
+print "  <Document>\n";
+print "    <Placemark>\n";
+print "      <LineString>\n";
+print "        <coordinates>\n";
+
+while ($line = <STDIN>) {
+  @data = split(/\t/,$line);
+  $latitude = $data[1]/100000;
+  $longitude = $data[0]/100000;
+
+  print "          $latitude,$longitude,0\n";
+}
+
+print "        </coordinates>\n";
+print "      </LineString>\n";
+print "      <Style>\n";
+print "        <LineStyle>\n";
+print "          <color>#ff0000ff</color>\n";
+print "          <width>5</width>\n";
+print "        </LineStyle>\n";
+print "      </Style>\n";
+print "    </Placemark>\n";
+print "  </Document>\n";
+print "</kml>\n";
+</pre>
+
+Here is the source code for a ruby program to convert the text file to a kml file.  Put this into a file named tokml.rb and run it like this:
+
+ruby tokml.rb input_file_name output_file_name
+
+<pre>
+# Copyright (C) 2011 Jay Sissom
+# 
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; version 2
+# of the License.  THIS SOFTWARE IS RELEASED UNDER THE TERMS OF
+# VERSION 2 OF THE GPL LICENSE ONLY.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+# 
+# http://www.gnu.org/licenses/gpl-2.0.html
+# 
+# Jay Sissom jsissom@gmail.com
+
+class ToKml
+  def generate_kml(input_file_name,output_file_name)
+    File.open(output_file_name,'w') do |out|
+      out.puts "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+      out.puts "<kml xmlns=\"http://earth.google.com/kml/2.0\">"
+      out.puts "  <Document>"
+      out.puts "    <Placemark>"
+      out.puts "      <LineString>"
+      out.puts "        <coordinates>"
+
+      File.open(input_file_name,'r') do |fl|
+        while line = fl.gets
+          data = line.split("\t")
+          latitude = data[1].to_f / 100000.0
+          longitude = data[0].to_f / 100000.0
+          out.puts "          #{latitude},#{longitude},0"
+        end
+      end
+
+      out.puts "        </coordinates>";
+      out.puts "      </LineString>";
+      out.puts "      <Style>";
+      out.puts "        <LineStyle>";
+      out.puts "          <color>#ff0000ff</color>";
+      out.puts "          <width>5</width>";
+      out.puts "        </LineStyle>";
+      out.puts "      </Style>";
+      out.puts "    </Placemark>";
+      out.puts "  </Document>";
+      out.puts "</kml>";
+    end
+  end
+end
+
+if __FILE__ == $0
+  if ARGV.length != 2
+    puts "Must pass the source file name and target file name on the command line"
+    exit(1)
+  end
+
+  tk = ToKml.new
+  tk.generate_kml(ARGV[0],ARGV[1])
+end
+</pre>
+
+[[Category:Projects]]

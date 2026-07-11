@@ -1,0 +1,42 @@
+We need a fast and reliable method of PCB etching for the space, I intend to build a bubbler etcher and get us setup to use air regenerated acid cupric chloride. 
+
+Presently we have an acrylic "window bubbler" system where the etching solution can be filled in without having to handle the solution as much as well as allowing much less fluid to be used. It also incorporates a bubbler for agitation. It needs to be tested and directions need to be written up for it.
+
+
+
+Some research:
+
+==== Chemicals ====
+* [http://members.optusnet.com.au/~eseychell/PCB/etching_CuCl/index.html http://members.optusnet.com.au/~eseychell/PCB/etching_CuCl/index.html]
+
+* [http://www.instructables.com/id/Stop-using-Ferric-Chloride-etchant!--A-better-etc/ http://www.instructables.com/id/Stop-using-Ferric-Chloride-etchant!--A-better-etc/]
+
+From the instructable:
+<pre>
+Bottom Line: 
+
+Two things to maintain: CuCl2 levels and acid levels.
+
+CuCl2: After all the peroxide is used up, and the solution starts turning brownish, you'll have to add oxygen 
+to regenerate the solution again: toss in a few more capfuls of peroxide or bubble air through the solution or 
+swirl it around vigorously, or just pour it into an open container and wait. It's easy to tell when you're ready to 
+etch again, because the solution turns green. 
+
+It's also impossible to add too much oxygen by adding air, so bubble/swirl to your heart's content. If you're 
+using peroxide to add oxygen, be sparing -- a little goes a long way, and it's mostly water so you're diluting 
+your etchant by adding it.
+
+Acid: Note that HCl is being consumed in the starter etchant and the regeneration reactions. So we're going to 
+have to add a bit more acid as time goes by. If you notice that it's harder to re-green your brown etchant, it's 
+probably time to start thinking acid. 
+
+I've tried the titration described on Adam's site a couple times, and it's pretty easy but requires an accurate scale 
+and pure lye (back to the hardware store...). It's easier to just toss in a capful of acid every few batches of boards, 
+which seems to do the trick for me. 
+</pre>
+
+==== Bubbler Bath ====
+* [http://www.youtube.com/watch?v=DXjWZ9gJ4XE http://www.youtube.com/watch?v=DXjWZ9gJ4XE]
+* [http://www.instructables.com/id/DIY-PCB-Bubble-Etch-Tank/ http://www.instructables.com/id/DIY-PCB-Bubble-Etch-Tank/]
+
+[[Category:dosman projects]] [[Category:tools]]

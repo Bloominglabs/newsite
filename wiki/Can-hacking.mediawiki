@@ -1,0 +1,157 @@
+Once upon a time in our early history we had a working electric wheel chair in the space. This is some info from when we were trying to hack the control system on it. It developed some minor wiring issues which needed to be repaired so it could run again so it laid dormant the last few years of its life. It left our group when we moved out of our building at S. Rogers Street at the end of 2017.
+
+<hr>
+
+
+Our electric wheel chair appears to use a derivative of the CAN bus for it's control network, we need some tools for working on this. There are some different ways to go, however on something like this we need known-good tools to start out with. If anyone wants to go in on a CANUSB cable we can begin hacking on this wheel chair controller. From what I've read this cable essentially gives you a serial interface to the CAN bus, use minicom/hyperterminal/etc. to read data off the bus and to inject commands into it. In theory we could watch the joystick issue commands to the controller and then write some arduino code to mimic the joystick.
+
+== CANUSB interface cable money ==
+We need $150 to buy this, who wants to go in?
+
+* Nathan - $40
+* Jay - $40
+* Jenett - $40
+
+== CAN Interfaces ==
+* CAN-NI-Bus: [http://sine.ni.com/nips/cds/view/p/lang/en/nid/210077]
+* CANUSB cable: [http://www.canusb.com/products.htm]
+* USA reseller $139: [http://www.imagecraft.com/hardware_CAN.html]
+* ATMega162 with CAN interface / development platform: [http://www.candip.com/candip-m162.htm]
+USA reseller appears to be imagecraft again, appears to be the RS232 device on the above page.
+* Sparkfun CAN-BUS Shield ($45): [https://www.sparkfun.com/products/10039]
+* Seeed Studio CAN-BUS Shield ($23): [http://www.seeedstudio.com/depot/canbus-shield-p-1240.html?cPath=132_134]
+** Excellent Documentation: [http://www.seeedstudio.com/wiki/CAN-BUS_Shield]
+* Microchip CAN bus anal. tool ($130): [http://www.newark.com/jsp/search/productdetail.jsp?SKU=63R7680&CMP=KNC-GPLA&mckv=|pcrid|20115736341|plid|]
+* SJA1000 IC used by the [http://www.candip.com/candip-m162.htm CANDIP-M162 board]:
+<pre>http://www.nxp.com/#/pip/pip=[pip=SJA1000]|pp=[t=pip,i=SJA1000]</pre>
+* DX key - parallel port DXBUS interface sold by Dynamic Controls (no longer sold):
+
+== Documents relating to our wheel chair, controller, and the DX Bus protocol ==
+* Ours is the Alante 202: [http://www.discountscooters.com/goldenalante.html]
+* Maker of the controller: [http://www.dynamiccontrols.com]
+* Wheel chair parts list, including Dynamic controller parts: [http://www.invacare.com/doc_files/04_051.pdf]
+* Document including pinouts (see p. 36) from Invacare [https://www.invacare.com/product_files/1110532.pdf]
+
+=== Dolphin after-market joystick made for our wheelchair series ===
+Raptor PS servicemanual_Vedlegg 1_dolphin-installation-manual.pdf [http://www.handicare.com/upload/HCP/Servicemanual/Raptor%20PS%20servicemanual_Vedlegg%201_dolphin-installation-manual.pdf]
+# page 22:
+
+The DX Hand Held Programmer (HHP) is the normal programming tool used
+by dealers, allowing easy adjustment of all commonly adjusted Drive Program
+parameters.
+
+Warning : The DX HHP is for use only by wheelchair manufacturers, their
+authorised dealers and support personnel. It is not intended for use by the
+wheelchair user.
+
+The DX HHP Manual should be read and understood before attempting to use
+it.
+
+Fault codes:
+[http://www.couldnaecare.com/dynamicfault.html]
+
+== Other peoples tribulations on this same subject ==
+Make:
+[http://forums.makezine.com/comments.php?DiscussionID=1644]
+
+Engineering project using DXBUS protocol, they used a DX hardware interface to control the chair via a laptop:
+[http://www.mech.kuleuven.be/stww/results/sharioto_en.phtml]
+
+A Smart Electric Wheelchair Using UPnP
+They used some parallel port interface to insert their laptop into the system to issue commands:
+[http://www.springerlink.com/content/c2084vp3669wgv32/fulltext.pdf]
+
+Others asking about reversing the DX Bus protocol:
+[http://permalink.gmane.org/gmane.comp.hardware.bus.can/6094]
+
+== Hacking ==
+=== Interfacing to DXBUS with a PIC ===
+# PIC dxbus hacking (dosman's note: this search no longer finds schematics for the controller, included for completeness only):
+[http://forums.parallax.com/showthread.php?113820-Decoding-electric-wheelchair-controller]
+...
+Google this --- Dynamic DX Joystick Controller schematic -- and you will get a rather larger [93 page PDF file] that explains the whole specification. This is suppose to be THE 1101 joystick module. 
+...
+
+
+# DXBUS info (SLM integration):
+[http://www.handicare.com/upload/HCP/Servicemanual/Raptor%20PS%20servicemanual_Vedlegg%202_servo-lighting-module-installation-manual.pdf]
+
+# from the manual:
+...
+Programmable parameters relating to the SLM are contained in the DX Remote
+(UCM Remote) and the SLM programs. These programs can be modified using
+the PCD (Programming Configuration Diagnostic) tool.
+...
+
+=== Verification that DXBUS is based on CAN ===
+DXBUS appears to be partially or fully based on the CAN bus based on several references. This is from the Dolphin joystick manual (page 50):
+[http://www.handicare.com/upload/HCP/Servicemanual/Raptor%20PS%20servicemanual_Vedlegg%201_dolphin-installation-manual.pdf]
+
+CAN short fault Cause:
+
+1. Short between CANL and CANH.
+
+Action: < The short may be within a module or within a DX
+Cable, or the exposed DXBUS contacts may be
+shorted by foreign material. Ensure that all DXBUS
+contacts are clean.
+
+----
+
+CAN L fault Cause:
+
+CANL failure.
+
+Action < Check for a short from CANH to another DXBUS
+wire, or a short
+
+-----------------------------
+
+=== More info ===
+Quote from the paper from the paper  Schedulability Analysis of CAN based Systems with
+Precedence Constraints [http://www.can-cia.org/fileadmin/cia/files/icc/7/amaya.pdf]
+
+
+DXBus is a four wire communications system
+(two power lines and two data lines, CANL and
+CANH) with a maximum length of 15 meters
+and a transmission rate of 2/19 Mbits/s.
+Basically, DXBus uses CAN protocol with
+some extensions, i. e. special voltage values
+on the data lines are used for “emergency
+stops” or power up.
+CAN identifiers are assigned to modules and
+not to messages. As a result, 1 byte in the
+message data field must be used to indicate
+the message type, and up to 7 bytes for
+message data.
+During normal operation, DX modules
+communicate using Network Variables (NVs).
+NVs are transmitted periodically (during time
+slot), with period either 20ms (fast NV) or
+200ms (slow NV).
+A more detailed description of DXBus can be
+obtained from [10]. In this paper, we focus on
+the processes associated to DXSIR functions.
+DXSIR is a wheelchair with two driver wheels
+
+
+
+===Using Arduino with CAN Bus===
+
+Perhaps the ''fastest'' way to get started with the CAN Bus is with an Arduino Shield. There's more than one way to lay out a board with the SPI based MCP2551 & MCP2515 chips.
+Access to a Microchip CAN BUS Analyzer tool is nice, but definitely not necessary. Each of these products has a different [[media:Db9-types.png|pinout on the DB9 port]], but that's not really necessary anyway. If you want to connect to your car, then maybe you will care. We are interested in wheelchair hacking, so the shield with the screw terminals may win right off the bat.
+
+[[File:IMG_20130408_234148.jpg|thumb|right| The ''easiest'' way may be using the shield sold by sparkfun, which includes 2 LEDs, a little joystick, and some other goodies.]]
+[[File:IMG_20130410_103821.jpg|thumb|left| The ''cheapest'' way is with the seeed studio shield, which has a nice screw terminal for the CAN bus physical layer connection.]]
+;[[media:canjoy.pde|Code to generate and send CAN messages]]
+: Happens to use the joystick on the sparkfun shield
+;[[media:canblink.pde|Code to receive CAN messages and display them over serial]]
+: Also blinks some LEDs, just for fun.
+;[http://www.seeedstudio.com/wiki/images/5/55/CAN_BUS_Shield.zip Seeed Studio's Source code files for Arduino 1.0] 
+: Including the excellent CAN library, and demos which inspired the code examples above.
+
+
+[[Category:Group projects]]
+[[Category:Pledge]]
+[[Category:History]]

@@ -1,0 +1,35 @@
+Project starter page to design and build a BloomingLabs IoT Bathroom Minder.
+
+[[Category:Projects]]
+
+== Sensors for occupancy detection ==
+
+*Light Sensor*
+*Motion Sensor*
+*Door Open/close sensor (reed switch)*
+*Flush sensor
+*Methane sensor (ew)*
+
+* already have these
+
+== Components that communicate and take action(s) based on occupancy state and transitions ==
+
+*'Occupied' signs (both at the door and in the workshop)
+*Green/red light
+*Talking skull head that communicates: 'Enter - if you dare', 'You may enter', 'None shall pass' when touched (capacitive sensor)
+*Wireless or other communication mechanism reports state that in turn is exposed by a web server via:
+*API for programs
+*Webpage for humans
+*Responds to texts
+*Atomizer can spray a more agreeable scent if methane threshold is triggered:
+
+== Materials ==
+
+*Atomizer: http://www.seeedstudio.com/depot/Grove-Water-Atomization-v10-p-2542.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=EDM1106
+*MCU: Photon, Arduino variant, other?
+
+== Additional fun 'overkill' aspects ==
+
+*Get in a 'queue' if bathroom is occupied, receive text when it's open and you're next in line
+
+TODO: learn enough wiki code to format this.

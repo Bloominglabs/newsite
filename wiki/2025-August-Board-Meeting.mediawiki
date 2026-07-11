@@ -1,0 +1,29 @@
+# Bloominglabs' Board Meeting for August 8th, 2025
+
+
+## Called 1832
+
+## Old Business
+
+I. Digital Ocean
+  A. Credits will run out
+    1. Kevin/Calob will figure out expected cost
+    2. Can tunnel most hosted content to local server
+
+## New Business
+
+I. Comcast
+  A. Sales tax
+    1. They will rescind tax
+II. X-carve is coming back
+  A. currently no Z-probe
+III. Shepoko 3 donation
+  A. will store for now
+IV. Action Day?
+
+## Comments
+
+I. Scout Joe as potential Board Member/President
+II. AC was fixed
+
+## Adjourned @ 1842

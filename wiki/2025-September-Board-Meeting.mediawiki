@@ -1,0 +1,43 @@
+Bloominglabs' Board Meeting
+
+I. Called to order at 18:14
+
+    A. Attendance: Calob, Kyle, Jimmy, Kevin, Joe, Apple, Pete
+
+II. Old Business
+
+    A. Digital Ocean
+
+        1. Credits running out
+
+        2. sent email about extension
+
+        3. moved vaultwarden to vault.bloominglabs.org
+
+        4. old vault is destroyed
+
+    B. X-carve
+
+        1. Came back
+
+        2. Works
+
+        3. dedicated table
+
+        4. portable now
+
+    C. Makevention
+
+        1. Breaking even so far
+
+        2. Day-of manpower
+
+            a. any volunteers for any time periods during the day
+
+III. New Business
+
+    A. Machine Room organization
+
+        1. tentative, discussion ongoing
+
+IV. Adjourned at 18:31

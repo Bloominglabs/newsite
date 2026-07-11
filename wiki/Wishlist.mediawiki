@@ -1,0 +1,24 @@
+<br />
+
+{| class="wikitable" style="margin:auto"
+|+ <span style="font-size:180%">Bloominglabs Wish List</span>
+|-
+! Item/Tool Requested !! Estimated Cost !! Area of Space !! Reason !! Link to Purchase !! Notes
+|-
+| Knee Mill [[File:knee_milling_machine.jpg|100px|thumb|left]]  || $500-10,000 || Metal Shop || General milling, drilling and machining || Example of appropriate size machine:  ||  
+|-
+| Surface Grinder [[File:Reid_Surface_Grinder.jpg|100px|thumb|left]]  || $300-1000 || Metal Shop || creating flat surfaces in our metal shop || Example of appropriate size machine: https://www.machinesales.com/machinery/surface-rotary-grinders-horiz-spdl/0000113474 || While a large table/magchuck would be cool, we don't have the space to fit large machines in our metal shop 
+|-
+| Sailrite LSZ Walking Foot Sewing Machine || $800-1500 (NPO discount?) || Craft Room || Many members have requested a more industrial sewing machine for heavy canvas/backpacks/leather || https://www.sailrite.com/Sailrite-Ultrafeed-LSZ-Walking-Foot-Sewing-Machine-110V || ~$500 of funding is earmarked for this purchase. We should consider calling SailRite and asking if they offer any discounts for NPOs. In the meantime, we have been using Alex's Speed Stitch Awl, which has been fine for small projects with limited numbers of stitches.
+|-
+| Example Item || Example Cost || Example Area || Example Reason || Example Link || Example Note 
+|}
+<br />
+
+
+== Do you have something on our Wish List you're looking to donate? ==
+This is how we process cash donations: [[Donations]].
+<br />
+For hardware donations, please consider getting in contact with us: contact [at] bloominglabs [dot] org 
+<br />
+Alternatively, you can bring it to our public meetings [[Public-meetings]]

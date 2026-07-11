@@ -1,0 +1,93 @@
+This page was related to our activities to organize ourselves as a 501c3 charitable non-profit. This page is now only here for historical purposes. More info can about our charitable and non-profit status can be found here: [[Business-Operations]].
+
+----
+
+[https://www.noisebridge.net/wiki/IRS_Response_2009_06#Request Noisebridge IRS request for more information]
+
+[http://web.hexapodia.org/~adi/noisebridge/irs-letter-2009-05.pdf Actual IRS request]
+ 
+=== Questions ===
+<pre>
+a. What does the activity entail? Include any program materials or distributions you make to the general public to further your exempt purposes.
+b. Who conducts the activity? Indicate the qualification, position descriptions and duties for any parties involved.
+c. Where is the activity conducted?
+d. When is the activity conducted?
+e. Does the activity have any personal interest to any organizational member? If so, please explain. '''No member benefits financially from this activity.'''
+f. How significant is the activity in relation to your total activities? '''Bloominglabs has been created to help people increase their knowledge and apply that knowledge to creative endeavors. It furthers the educational mission of Bloominglabs which is one of the exempt purposes for which it was formed.'''
+g. Who may participate in the activity?
+h. How do you decide who will be participating in your activities or services?
+i. Is there a fee for participation in the activity? If so, please provide a fee schedule.
+j. Please explain if individuals receive personal commission or other financial incentives for running your activities. If so, please explain. '''The instructor of this class is a volunteer. No instructor benefits financially from this activity.'''
+k. Outside of word of mouth, how does your organization advertise its services to the general public?
+l. How does the activity further your charitable purposes?
+m. What percentage of your total funds is dedicated to this activity (total must equal 100%)? 
+n. Do you work with any other individuals or organizations? If so, please explain all relationships to members of your organization and any resources exchanged.
+o. What percentage of your total time is dedicated to this activity (total must equal 100%)?
+</pre>
+
+=== Activities ===
+* Bloominglabs Workshops 
+** Arduino Steve
+** AVR Steve
+** Motor Jenett
+** Machining Heath
+** Laser Dan
+** Barrel Heath
+** Soldering Steve
+ 
+* Classes 
+** AI Jay
+*** [http://bloominglabs.org/index.php?title=AIClass Class Notes]
+** Intro to Programming Jay
+*** [http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/lecture-notes/ Class Notes]
+
+* Public nights Steve
+
+* Open houses
+** Yearly Jenett
+** Holiday workshops Jenett
+** Flea market Jenett
+
+* Events
+** Spark.io Steve
+
+* Library Maker Days [http://mcpl.info/makerdays]
+** Stop Motion movies Jenett [http://mcpl.info/event/making-mad-speakers]
+** Hat making Jenett [http://mcpl.info/event/mending-day-discardia]
+** Speaker making Jenett [http://mcpl.info/event/making-mad-speakers]
+** Circuit Bending Jenett [http://mcpl.info/event/circuit-bending]
+
+* Library Workshops
+** Arduino Steve [http://mcpl.info/event/introduction-arduino-0]
+
+* Library Clubs
+** Arduino club Steve [http://mcpl.info/event/bloominglabs-arduino-club-mcpl-7]
+** Python club Steve [http://mcpl.info/event/bloominglabs-python-club-mcpl-5]
+
+* Wonderlab Programs
+** Scribblebots Jenett [http://wonderlab.org/programs/events-calendar/spacelab-scribblebot.html]
+** Speakers [http://www.wonderlab.org/programs/events-calendar/maker-lab-speakers.html]
+** Bugbots Jenett [http://wonderlab.org/programs/events-calendar/mini-model-workshop-bug-bots.html]
+** Circuit Bending Jenett [https://www.wonderlab.org/programs/events-calendar/circuitbending_2.html]
+
+* Wonderlab Summer Camps [http://www.wonderlab.org/programs/wondercamp/]
+** Squishy circuits Jenett
+** Drawdios Jenett
+** Makey makey Jenett
+** Cardboard simple machine Jenett
+
+* Miscellaneous
+** School Fairs (Pinnacle) Jenett
+** Scratch (Ham Radio) Jay
+** Geek Camp Steve
+** IU partnerships (Critical playshops) Steve
+** Mather's Museum holiday event Jenett
+
+* Fundraising
+** Wonderlab (Laser Maze) Jay [http://wonderlab.org/programs/events-calendar/teen-night-sept2014.html]
+** Pinnacle School (Wiener dog race) Jenett [http://www.pinnacleschool.org/]
+
+* Makevention Jenett [http://www.makevention.org]
+
+
+[[Category:History]]

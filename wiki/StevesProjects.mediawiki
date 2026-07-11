@@ -1,0 +1,52 @@
+==[[The-Bloominglabs-side-lit-LED-sign]]==
+This was a collaborative effort with Sam Cranford, who has a really nice CNC machine. He helped us carve the logo into a sheet of acrylic, Nick chiseled out all the molten plastic gunk that hardened in the grooves, I built a little stand and a black backing for the sign and attached a strip of very bright blue LEDs from AutoZone to the top, and Jenett attached a wall-wart so's we can plug it in. It's been in our front window for months and is still a sight to behold.
+
+==[[Haptic-Belt]]==
+A belt with cell phone vibrator motors distributed around the belt. A compass module and Arduino determine which motor is (closest to) North, and then the motor is turned on, so the wearer is always aware of which direction he/she is facing. I've built a working prototype, but it is clunky looking. I wore it to a meeting and even felt self-conscious in that safe place for nerds. v2 is in the works.
+
+==[[Homing-Geocache-Box]]==
+Based on the 'Reverse Geocache'. This one works pretty nice and was built for the ill-fated 'Wisdom of Play' project connected to TEDxBloomington. Some people played with it at the 2011 Open House. I really need to do a write up.
+
+==[[Shoot-the-Windows-Logo-Win-Candy-Game]]==
+A silly thing I hacked together w/ a 555 timer, one of those 'motion detecting candy dispensers', and some stiff wire and a cardboard box. At the center of the box is a circle with the Windows Logo on it. Hit the circle and it triggers the candy dispenser. Very Pavlovian. Did this for Indy Linuxfest and it was a hit, especially with the kids.
+
+==Hack the Rhinocerous Beetle robot toy==
+General hacking of the toy - make it remote controlled, add sensors, etc.
+[[RhinoBeetleRemote]]
+
+== RFID System ==
+Part of the bigger project I've been working on with dosman for some time. It's been operative and up and running since Fall of 2011. There have been spin-offs like:
+
+=== doorbot ===
+doorbot is the IRC bot that tells us when people badge in. It also records this info and used to record info from a motion sensor in the front room in a SQLite database. It also sends [http://pushingbox.com Pushingbox] notifications to whoever subscribes to them. It also provides info about recent badge-ins and sensor readings (no longer available) to people in the IRC channel who ask '!last sensor' or '!last access 10'. For a while it greeted people as they came in using Festival. What can't doorbot do?
+
+=== SignBot ===
+An offshoot to make 
+
+=== Web Interface ===
+I wrote a site in Django w/ a SQLite backend to manage user RFID info. It also manages Pushingbox notifications.
+
+=== Twisted Networked Server ===
+I used the Twisted networking library (Python language) to turn the Serial interface into a network (TCP) interface. This eliminates a lot of the clunky duct-tabe and bailing wire of the initial logging/admin setup using screen and minicom and looking at a tail of the access log and blah blah blah. With twistd it can be setup as a daemon that runs on start-up of the pogobox.
+
+=== [[VOIP-Phone-Integration]] ===
+Working with Kevin, we added a hook to send doorbot notifications to VOIP phones in the space. This was relatively simple, but somewhat hacky in its current (9/10/2020) form. The reason for this being that the server doorbot lives on, poquito, is very, very old, and thus numerous packages etc. are out of date. This can be addressed in the future.
+
+=== Idea for the future: MQTT Broker ===
+While it was fun to learn about 'Twisted', at the end of the day it'd probably be better to have RFID events logged to an MQTT broker (Mosquito?) which any service using the info could then subscribe to. Just an idea. This would handle all networking aspects neatly, with password protection to boot.
+
+== Pachube (now Cosm) Online Sensor Data ==
+I like taking sensor readings (light, temperature, motion) and putting them on the web. Pachube (now with the pronounceable name Cosm) makes this pretty easy. 
+
+Update 9/10/2020 - this was a good cautionary tale about the short-lived nature of IoT websites and services. None of this works anymore - build your own systems, folks!
+
+== Glitchbox ==
+Project that uses an Arduino, an R2R DAC, an LM386 Op Amp, and plays samples when triggered, and also records rhythms that can be played back. Ideally I attach this to the 'RockBand' drum kit in the junk pile.
+
+= Scrapped or Dormant Projects, Just left here for laffs =
+
+== Bloomington Crime Stats ==
+I've scraped a bunch (12,000+) of local crime reports and geocoded them. Now need to open that up to Bloomington/the world. Actually eventually the crappy 'B-Aware Bloomington' site went subscription only and this project fell by the wayside
+
+== FM (or AM) radio ==
+Get a radio station up and running which will broadcast lots of text-to-speech goofiness, but preferably some useful info too.

@@ -1,0 +1,51 @@
+This will be a 9-week course in [https://blender.org Blender], a free, professional-quality software suite which provides everything necessary to make animated movies, video games, special effects, and more. This class will be useful to people interested in 3D printing, digital art, 2D or 3D animation, digital prototyping, special effects/CGI, or generally learning new computer skills.
+
+The course will cover Blender's user interface, 3D modelling, basic animation, materials and textures, and various useful kinds of output Blender can provide, with the heaviest focus on modelling. Depending on available time and participant interests, the class may also cover physics simulation, video editing, video stabilization, combining 3D models and real video, more advanced materials or animation, and Blender's internal video game engine.
+
+To see some examples of what Blender is capable of, check out:
+
+* Blender's [https://www.blender.org/features/ features] page
+* the [https://www.blender.org/about/projects/ Blender Open Movies] (especially [https://www.youtube.com/watch?v=lqiN98z6Dak Glass Half], [http://youtu.be/41hv2tW5Lc4 Tears of Steel], and [https://www.youtube.com/watch?v=Y-rmzh0PI3c Cosmos Laundromat])
+* the [https://www.reddit.com/r/blender/top/?sort=top&t=all Blender subreddit]
+* The [https://www.youtube.com/watch?v=_si0Fmr0yr4 Makevention 2017 promo video] was created in Blender
+* [https://blenderartists.org/forum/forumdisplay.php?27-Forum-Gallery Blenderartists.org gallery]
+
+Dates: Every Tuesday from 3 April 2018 through 29 May 2018
+
+Time: 7PM to 9PM
+
+Cost: $150 for the entire class (18 hours of instruction)
+
+Location: [[Location| Bloominglabs]] (in the classroom)
+
+Taught by: [[User-Avh-on1| Alex Von Hoene]], a casual user of Blender for 10 years
+
+Participants will need:
+
+* A working laptop made in the last 10 years.
+** Chromebooks will not work unmodified, but will work if they have been modified to have a full linux system.
+
+* A 3-button mouse (left click, right click, and scroll wheel) that works with their laptop.
+**Apple's magic mouse (which has a large touch-sensitive surface) can also work but will be inconvenient to use.
+
+* Basic knowledge of how to use their computer.
+
+Register for the class by paying here:
+
+<html>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ZDV89S9KZLYN2">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</html>
+
+or confirm your seat over email, and pay at the start of the first class. Bloominglabs can take cash, or credit/debit cards via Square.
+
+
+== Resources ==
+
+[http://reprap.org/wiki/File:I2-z-motor-mount.png Bracket modeled during week 3 class]
+
+[https://upload.wikimedia.org/wikipedia/commons/b/b6/Blender_numpad.png Numberpad functions]

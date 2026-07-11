@@ -1,0 +1,6 @@
+This is a miniature 5-axis CNC mill. It can carve complex parts out of plastic and metal.
+
+== External Links ==
+[https://www.pentamachine.com/all-products/p/pocket-nc-v2-10 Product listing]
+
+[https://www.pentamachine.com/post-processor Officially-supported CAM software]

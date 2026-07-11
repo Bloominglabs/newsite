@@ -1,0 +1,71 @@
+'''March 7, 14, & 21... 10:00am -- 12:30pm'''
+
+If you have an old Windows 10 machine you can't upgrade, but need to get more life out of...
+
+If you want a computer that respects your privacy...
+
+If you want to truly control your technology...
+
+If you want to learn more about computers, or specifically Linux...
+
+Join us for three Saturdays of learning Linux and other open source software. This workshop is not focused on the needs of technologists, but on everyday computer users. We'll take you from the install through basic computer skills, productivity and customizing your system, with plenty of help and hand-holding along the way.
+
+The workshop will be led by Susan Sons, a geek with over 30 years of Linux experience, and a cast of helpers.
+
+== Costs ==
+For Bloominglabs members: $10
+
+For non-members: $30
+
+The fee covers snacks for the workshop, and use of the space. That is the total cost for all three days, not a per-session fee.
+
+You can [https://www.paypal.com/ncp/payment/JHPEUFD2KAFDL pay via Paypal], or sign up by DMing HedgeMage on Bloominglabs Slack and paying in person at the space.
+== Logistics ==
+We'll offer some light snacks and bottled water.
+
+You need to bring these things to each session:
+
+# Your computer that you want to install Linux on Don't forget your power supply!
+# A notebook or pad and pen for note taking
+
+'''March 7, 14, & 21... 10:00am -- 12:30pm'''
+
+Be sure to show up on time for each session. The workshop is limited to 8 seats to ensure everyone gets the attention they need.
+
+== Outline ==
+
+=== I. Installfest ===
+''Bring your laptop or desktop to install Linux and learn to use it as your daily driver.''
+
+# Back up your computer (if needed), and install Linux.
+# User accounts, sudo, etc. Understand your login, the super user account, and how they relate to one another.
+# Package management How to install, update, and remove software.
+# Choosing Software How to know what software to try, and what to avoid.
+# Navigating the file system Learn how to work with files on your new system.
+# Fun things to try / Show & tell See the systems of some experienced users, and things they do with Linux. Get ideas for things to try on your own before next week.
+
+=== II. Working With Linux ===
+''Learn to customize your system, choose new software, and do common tasks on Linux.''
+
+# More Bash Basics Review file system skills from last week, and learn more about controlling your computer with commands.
+# Working with config files Using an editor to work with config files (focus on <code>nano</code>), which gives you the power to customize your computer's software.
+# Diagnosing and fixing problems We all break something from time to time. Learn how to figure out what is broken and why, and what to do to make it easy for others to help you.
+# Email & Calendar
+# Organizing your home directory (<code>~/</code>)
+# Note taking and knowledge management
+# Chat, voice, and video conferencing
+# Printing
+# Getting more done
+
+=== III. Making Linux Work For You ===
+''We'll review the basics that you've learned so far, and then introduce ways to protect your privacy, automate common tasks, get more done, and have some fun.''
+
+# Linux skills review (game)
+# Your first shell script
+# Scheduling tasks
+# Backing up
+# Workstation security basics
+# Privacy-respecting applications and services you should know
+# Refining your workflow, a.k.a. what to do when your computer annoys you
+# More fun things to try
+# You can help make open source software happen.

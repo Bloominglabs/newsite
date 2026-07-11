@@ -1,0 +1,18 @@
+[http://spie.org/x34353.xml More information about what this is and what it's used for.] 
+
+Will brought his interferometer rig to the 11/10/09 meeting, he needed a more powerful laser to test with so we used a 5mW green laser pointer and got respectable results. Below are images and video from our tests. Apparently what you want to see are good dark and light bands, this indicates the two laser paths are meeting up correctly at the target. When the distance between the two paths changes the bands appear to ripple as the cancelation area between them changes locations. Brushing your finger on the board where the optics were sitting was enough to cause the bands to ripple. When this rig was working at it's best we could just talk near the rig and see our voices causing the bands to vibrate.
+
+==== Photos ====
+<gallery>
+Image:interferometer01b.jpg|the rig
+Image:interferometer02b.jpg|better shot of the laser
+Image:interferometer03b.jpg|interference pattern
+Image:Interferometer04.mov|Movie of ripples moving in the interference pattern
+</gallery>
+
+
+==== Next steps ====
+Build a detector so we can measure the frequency of change between the laser paths (the ripples) so distance measurements and other experiments can take place.
+
+[[Category:Laser_Interferometer]]
+[[Category: Projects]]

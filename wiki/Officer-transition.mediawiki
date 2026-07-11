@@ -1,0 +1,53 @@
+== New officers ==
+
+This seems silly to have to say but I will: computer access is not required for members but it IS for officers. I'd like to emphasize that Big technical chops should not be requried as these are business-process jobs, but the more technical the person is the easier of a time they will have. I think at present time all officers of Bloominglabs are either software developers or sysadmins, so technical skills will go a long way here.
+
+The officers that keep Bloominglabs running work as a team. Our bylaws define each role to the minimal extent as required by law. This gives us the ability to easily and quickly adjust each position as our needs change over time. A fuller description of duties expected of officers is found in the [[Officers-Guide]]. 
+
+
+== Checklist ==
+This is a list of things that the new officer needs in order for them to do their job. At a minumum the old officer needs to work with the new officer to help transition them into the new role being taken over; however ideally it will be a team effort. 
+
+# Add them to the contact at bloominglabs dot org mail alias
+# Get a login to the RFID system
+# Get a login for the wiki - you may need to update policies and rules and these are stored on our wiki
+# Verify they can login to these systems:
+## Invoice system (Simple Invoices) -- Currently switching to freshbooks as of July 1st, 2017
+## Asset system (Custom)
+## Google Drive - we have a number of documents stored here
+## Box account
+## If officer is technical, create shell account for access to the Bloominglabs Linode/webserver
+# They should receive a copy of the "Hackerspace" document directory (may move this to Box in the future)
+## This gets them a full local copy of all our IRS+State legal docs
+## Gets them past documents we've written: Firehouse RFI, grants, etc.
+## Gets them a copy of all our business operation documents that may need to be reprinted
+# Officers deal with sensitive accounts so use of encryption is required. All officers must have a PGP key. It does not have to be integrated into their email, but that makes life much easier.
+## If the new officer has a PGP key, they need to send it to contact at bloominglabs dot org
+## If they have no key, someone needs to help them generate a key pair, then share their public key - GnuPG is cross-platform and free.
+## Officers should post their public keys to the wiki (on their wiki account pages)
+#If this is a President/Treasurer position, they will need to be a signatory on the Bloominglabs bank account.
+## Must be scheduled with an existing signatory to get this transitioned over
+#*Additionally they need access to these accounts as well:
+## Online Banking account
+## PayPal
+## Square
+#A list of all of our other passwords needs to be provided securely. Also just like step 7, they should only get financial account access if they are the President or Treasurer or else if they are assisting with some aspect of finances. They need a secure way of storing this info if they don't already have a method for this (Truecrypt/Bitlocker volume or similar).
+
+
+== Required reading for new officers ==
+
+# Skim over our Business Operations to see what processes we have documented for future reference:
+#*http://bloominglabs.org/index.php/Business_Operations
+# Need to read this doc (30 pages): IRS Compliance Guide for 501(c)(3) Charities.
+#*This gives clear advice on what activities we can and CAN'T engage in, also what reporting we are required to do:
+#*http://www.irs.gov/pub/irs-pdf/p4221pc.pdf
+# Should look through our official meeting minutes:
+#*http://bloominglabs.org/index.php/Meeting_Minutes
+# Should look through the Bloominglabs Log:
+#*http://bloominglabs.org/index.php/Bloominglabs_Log
+
+
+
+
+
+[[Category:Operations]]

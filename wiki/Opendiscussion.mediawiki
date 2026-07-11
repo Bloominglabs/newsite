@@ -1,0 +1,2 @@
+== Anything that doesn't fit anywhere else ==
+Use this as a community whiteboard, however actual discussions should probably happen on the mailing list.

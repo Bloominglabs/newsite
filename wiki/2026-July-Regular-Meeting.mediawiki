@@ -1,0 +1,220 @@
+<span id="i.-called-to-order-at-on-july-11th-2026"></span>
+== I. Called to order at on July 11th, 2026 ==
+
+<span id="a.-kevin-ratcliff-kyle-dirrim-secretary-nathan-heald-susan-sons-officer-adam-nuwer-jimmy-torres-treasurer-samuel-bowman-adam-ploshay-joeseph-czeslich-president-laserdan-jenett-tillotson-jason-sam-pete-kinne-officer-adam"></span>
+=== A. Kevin Ratcliff, Kyle Dirrim (Secretary), Nathan Heald, Susan Sons (Officer), Adam Nuwer, Jimmy Torres (Treasurer), Samuel Bowman, Adam Ploshay, Joeseph Czeslich (President), LaserDan, Jenett Tillotson, Jason, Sam, Pete Kinne (Officer), Adam ===
+
+<span id="b.-14-members-in-attendance-quorum-achieved"></span>
+=== B. 14 Members in attendance, quorum achieved ===
+
+<span id="ii.-old-business"></span>
+== II. Old Business ==
+
+<span id="a.-motion-to-charge-the-2026-2027-board-to-investigate-whether-the-above-or-another-new-financial-infrastructure-for-bloominglabs-is-viable-to-effect-the-new-infrastructure-if-so-regardless-of-viability-report-back-to-the-membership-the-results-of-the-investigation-on-or-before-2026jul01."></span>
+=== A. Motion to charge the 2026-2027 Board to investigate whether the above or another new financial infrastructure for Bloominglabs is viable; to effect the new infrastructure, if so; regardless of viability, report back to the membership the results of the investigation on or before 2026JUL01. ===
+
+<span id="b.-motion-to-charge-the-board-with-reevaluating-dues-with-the-goal-of-raising-rates-to-at-least-correct-for-inflation-and-fully-cover-recurring-costs-to-be-presented-to-the-membership-by-july-31-2026"></span>
+=== B. Motion to charge the board with reevaluating dues with the goal of raising rates to at least correct for inflation and fully cover recurring costs, to be presented to the membership by July 31 2026? ===
+
+<span id="slide-2-dues-have-not-kept-up-wtih-inflation"></span>
+==== 1. slide 2: dues have not kept up wtih inflation ====
+
+<span id="slide-3-membership-breakdown"></span>
+==== 2. slide 3: membership breakdown ====
+
+<span id="a.-32-class-a-members"></span>
+===== a. 32 Class A members =====
+
+<span id="b.-17-class-b-members"></span>
+===== b. 17 Class B members =====
+
+<span id="slide-4-budget-breakdown"></span>
+==== 3. slide 4: budget breakdown ====
+
+<span id="slide-5-in-the-red"></span>
+==== 4. slide 5: in the red ====
+
+<span id="slide-6-losing-1065month"></span>
+==== 5. slide 6: losing $1065/month ====
+
+<span id="a.-have-lost-3-members"></span>
+===== a. Have lost 3 members =====
+
+<span id="i.-two-passed-away"></span>
+====== i. two passed away ======
+
+<span id="b.-misc.-is-reimbuirsments-to-members-unable-to-track-fully"></span>
+===== b. misc. is reimbuirsments to members, unable to track fully =====
+
+<span id="slide-7-blabs-could-be-kaput-by-december-2026"></span>
+==== 6. slide 7: Blabs could be kaput by December 2026 ====
+
+<span id="slide-9-proposal-breakdown"></span>
+==== 7. slide 9: Proposal breakdown ====
+
+<span id="a.-raise-all-membership-rates-by-30"></span>
+===== a. raise all membership rates by $30 =====
+
+<span id="i.-implemented-september-1st"></span>
+====== i. Implemented September 1st ======
+
+<span id="b.-no-grandfathering-in-old-rates"></span>
+===== b. no grandfathering in old rates =====
+
+<span id="c.-require-6-hours-volunteer-hours-from-class-ii-memberships"></span>
+===== c. require 6 hours volunteer hours from Class II memberships =====
+
+<span id="i.-no-one-knows-whenwho-added-hardship-rate-checkbox-to-membership-form"></span>
+====== i. no one knows when/who added “hardship rate” checkbox to membership form ======
+
+^.will be taken off
+
+<span id="ii.-will-people-be-able-to-do-them"></span>
+====== ii. will people be able to do them ======
+
+<span id="iii.-alternative-we-collect-financial-information-gross"></span>
+====== iii. alternative: we collect financial information, gross ======
+
+<span id="iv.-alternative-scholarship-fund-for-class-ii-members-would-require-bylaws-change"></span>
+====== iv. alternative: “scholarship fund” for Class II members, would require bylaws change ======
+
+<span id="v.-number-of-hours-is-negotiable"></span>
+====== v. number of hours is negotiable ======
+
+<span id="vi.-asking-members-to-ask-the-board-for-class-ii-rate-is-a-concentration-of-responsibility"></span>
+====== vi. asking members to ask the board for Class II rate is a concentration of responsibility ======
+
+^. currently any member can veto potential members
+
+<span id="vii.-can-members-buy-their-way-out-of-volunteer-hours"></span>
+====== vii. can members buy their way out of volunteer hours ======
+
+^. members could bank hours
+
+^. accounting for money for this is only marginally harder
+
+<span id="viii.-adding-volunteer-labor-slack-channel-to-default-slack-channels"></span>
+====== viii. adding volunteer labor slack channel to default slack channels ======
+
+<span id="ix.-self-reporting-of-capabilities-for-volunteer-tasks"></span>
+====== ix. self-reporting of capabilities for volunteer tasks ======
+
+<span id="d.-enforce-rules-about-non-payers"></span>
+===== d. enforce rules about non-payers =====
+
+<span id="i.-slightly-more-likely-to-be-class-b-memberships"></span>
+====== i. slightly more likely to be Class B memberships ======
+
+<span id="e.-3360year-income-vs-2995year-expenses"></span>
+===== e. $3360/year income vs $2995/year expenses =====
+
+<span id="i.-365month-in-the-black-for-the-first-year"></span>
+====== i. $365/month in the black for the first year ======
+
+<span id="f.-97-door-fobs-for-49-members"></span>
+===== f. 97 door fobs for 49 members =====
+
+<span id="slide-10-migrating-to-quickbooks"></span>
+==== 8. slide 10: Migrating to QuickBooks ====
+
+<span id="a.-better-autopay"></span>
+===== a. better autopay =====
+
+<span id="b.-slightly-cheaper-processing-fees"></span>
+===== b. slightly cheaper processing fees =====
+
+<span id="c.-much-cheaper-subscription-costs"></span>
+===== c. much cheaper subscription costs =====
+
+<span id="slide-11-other-suggestions"></span>
+==== 9. slide 11: other suggestions: ====
+
+<span id="a.-clarify-reimbursement-policy"></span>
+===== a. clarify reimbursement policy =====
+
+<span id="b.-selling-surplus-toolsmaterials"></span>
+===== b. selling surplus tools/materials =====
+
+<span id="c.-revenue-through-workshops"></span>
+===== c. revenue through workshops =====
+
+<span id="d.-donations"></span>
+===== d. donations =====
+
+<span id="e.-grants"></span>
+===== e. grants =====
+
+<span id="i.-cannot-fulfill-accounting-requirements"></span>
+====== i. cannot fulfill accounting requirements ======
+
+<span id="ii.-which-grants-align-with-community-values"></span>
+====== ii. which grants align with community values? ======
+
+<span id="iii.-should-start-findingresearching-grants-now"></span>
+====== iii. should start finding/researching grants now ======
+
+<span id="slide-12-recap"></span>
+==== 10. slide 12: recap ====
+
+<span id="c.-brief-recess-from-1440-to-1445"></span>
+=== C. Brief recess from 1440 to 1445 ===
+
+<span id="d.-motion-to-raise-membership-rates-to-80-for-class-i-members-and-55-for-class-ii-members-on-september-01st-2026"></span>
+=== D. MOTION: to raise membership rates to $80 for Class I members and $55 for Class II members on September 01st 2026? ===
+
+<span id="seconded"></span>
+==== 1. seconded ====
+
+<span id="have-we-reached-adequate-consesnsus"></span>
+==== 2. Have we reached adequate consesnsus? ====
+
+<span id="a.-apparently-so"></span>
+===== a. apparently so =====
+
+<span id="the-board-did-not-have-timeresources-to-create-a-perfect-survey"></span>
+==== 2. the board did not have time/resources to create a perfect survey ====
+
+<span id="amount-of-adjustment"></span>
+==== 3. amount of adjustment ====
+
+<span id="a.-culture-dictates-keeping-membersip-rates-low"></span>
+===== a. culture dictates keeping membersip rates low =====
+
+<span id="b.-blabs-is-a-high-value-for-cost"></span>
+===== b. blabs is a high value for cost =====
+
+<span id="ammendment-ammend-motion-from-55-for-class-ii-members-to-40-for-class-ii-members-and-propose-board-investigate-hardship-rates-before-the-next-annual-meeting"></span>
+==== 4. AMMENDMENT: ammend motion from “$55 for Class II members” to “$40 for Class II members” and propose board investigate hardship rates before the next annual meeting? ====
+
+<span id="a.-seconded"></span>
+===== a. seconded =====
+
+<span id="b.-how-does-that-change-financial-state"></span>
+===== b. how does that change financial state? =====
+
+<span id="i.-two-years-of-solvency-instead-of-three"></span>
+====== i. two years of solvency instead of three ======
+
+<span id="ammendment-to-raise-the-full-membership-rate-to-80-usdmo-as-of-sept-1-2026-to-authorize-the-board-to-raise-the-hardship-rate-to-at-least-40-usdmo-and-at-most-55-usdmo-by-sept-1-2026-and-to-require-the-board-to-include-information-on-the-viability-of-membership-rates-in-the-report-at-every-annual-member-meeting-hereafter."></span>
+==== 5. AMMENDMENT: To raise the full membership rate to 80 USD/mo as of Sept 1, 2026, To authorize the board to raise the hardship rate to at least 40 USD/mo, and at most 55 USD/mo by Sept 1, 2026, And to require the board to include information on the viability of membership rates in the report at every annual member meeting hereafter. ====
+
+<span id="a.-seconded-1"></span>
+===== a. seconded =====
+
+<span id="b.-jenett-has-volunteered-to-contact-class-ii-members-to-guage-ability-to-bear-potential-rate-increase"></span>
+===== b. Jenett has volunteered to contact Class II members to guage ability to bear potential rate increase =====
+
+<span id="c.-vote-11-ayes-0-nays-2-abstentions"></span>
+===== c. VOTE: 11 ayes, 0 nays, 2 abstentions =====
+
+<span id="d.-motion-passes"></span>
+===== d. MOTION PASSES =====
+
+<span id="e.-motion-to-charge-the-board-with-proposing-at-the-next-annual-member-meeting-a-process-for-the-review-of-hardship-memberships."></span>
+=== E. MOTION: To charge the board with proposing, at the next annual member meeting, a process for the review of hardship memberships. ===
+
+<span id="vote-unanimously-passes"></span>
+==== 1. VOTE: Unanimously passes ====
+
+<span id="iii.-adjourned-at-1554-on-2026-07-11"></span>
+== III. adjourned at 1554 on 2026-07-11 ==

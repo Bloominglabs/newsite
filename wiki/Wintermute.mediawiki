@@ -1,0 +1,30 @@
+This is our friendly hackerspace AI. It greets people over the audio network when someone uses RFID to connect. It tells users of the space over the scrolling LED sign. It also does various other things.
+
+== Inputs == 
+Wintermute currently can sense these conditions:
+* RFID access
+* Motion events in two rooms
+* WiFi (and hardware) devices connecting to our network
+
+==== Proposed or experimental inputs ====
+* sense light (currently testing with a webcam)
+* sense temp
+
+== Outputs ==
+* [[Audio-Network]]
+* Scrolling LED Sign
+
+==== Proposed outputs ====
+* Control of the thermostat based on whether the space is occupied or not
+* Control of X10 devices based on space occupancy (automatic power off of X10-powered devices like the LED Sign when space is unoccupied)
+
+== Notifications ==
+Wintermute announces various events to occupants of the space.
+
+* RFID access
+* WiFi/Ethernet devices joining the network
+* Members can customize how the space greets them by getting an account on [[Pogo]] and customizing a .wintermute file in their home directory.
+
+
+[[Category:Group projects]] [[Category:StevesProjects]] [[Category:Dosman projects]]
+[[Category: Hackerspace systems]]

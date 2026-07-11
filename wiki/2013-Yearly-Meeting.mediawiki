@@ -1,0 +1,32 @@
+This is the meeting agenda for the 2013 yearly meeting. We should cover our successes for the past year and look at what we have coming up over the next year ahead. Please feel free to add items. 
+
+* Review the RFI
+** Current status and what our proposal consists of
+** Fundraising goals for the building should we be selected, what the city is looking for, etc.
+** Timeline (possibly not until 2014 with our proposed schedule, other factors, etc)
+
+* Review our non-profit status 
+** Get our donate button info from the school factory
+** Increase our "Donate" collection boxes - add one to the front room for non-member donations (at least make it more visible) Keep the one in the workshop for dues & refreshments as before?
+** Cover the official way of stating our status (we're a nonprofit with 503c3 status through the school factory, yata yata) - so folks don't say "we're a 501c3" etc.
+** Possible fund raising goals - Laser cutter??!!
+
+* Officer elections (just to be formal and do things correctly)
+
+* Review our new online systems
+** Dues/invoicing
+** Asset tracking
+** CRM
+** Upcoming wordpress site
+** Pogo & LDAP
+
+*Makevention
+
+* Upcoming outreach events and opportunities
+** Wonderlab bugbot workshop 1pm Saturday, March 30th.
+** Wonderlab summer camp program ideas. Anyone got some?
+** MCPL summer maker workshops - Making speakers and stop motion movies. 
+**Kylie's group at IU has offered to help us staff these and I'll approach them about helping out with the Wonderlab camps
+
+[[Category: Meetings]]
+[[Category:Operations]]

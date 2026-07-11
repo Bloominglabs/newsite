@@ -1,0 +1,25 @@
+== '''Electronics Kits At Bloominglabs''' ==
+
+Bloominglabs is a reseller of adafruit products. We have the following kits available for purchase while supplies last. We will carry other kits according to demand. Let us know what kits you'd like to see. See [http://adafruit.com adafruit] for the complete catalog.
+
+===TV-B-Gone===
+The famous TV-B-Gone allows you to turn off any TV anywhere. 
+$20 + sales tax
+
+===Minty Boost===
+The Minty Boost is a popular USB charger, named for the Altoids (or, in our case, Penguin Mints) case. 
+$20 + sales tax
+
+===Boarduino===
+If you'd like to give the Arduino a try, this Arduino-compatible kit is breadboard friendly and programmable via a USB cable. You don't need a special programmer, and the Arduino IDE really helps with the learning curve of getting started programming microcontrollers and using them in projects.
+$25 + sales tax
+
+===Blinky Grid===
+A fun programmable LED matrix. Programmable, so you can make it display scrolling messages or animations. To program it, instead of connecting it directly to your computer using old fashioned 'wires' - the board is held up directly to your computer screen, and an easy-to-use web page will 'blink' in the text or image you want. $25 + sales tax
+
+==Instructions==
+Very complete and easy to follow instructions are available on the [http://adafruit.com adafruit] web site. You can also bring the kits to Bloominglabs public meetings to work on – if you have questions or need help there's usually somebody there who can lend a hand.
+
+We accept cash, checks, paypal (to treasurer@bloominglabs.org) and credit cards. $1.50 will be added to credit card purchases to cover the fee charged by Square.
+
+[[Category: Support]]

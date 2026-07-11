@@ -1,0 +1,18 @@
+<h2>If you are the last person to leave this room, please take a minute and check the following:</h2>
+
+* All soldering irons turned off
+* All tools returned to their proper places
+* Workspace you were using is clean
+* Window blinds closed
+* All lights turned off
+* Additionally, we remind you: workbenches are NOT project storage. Put your project up in an appropriate storage area.
+
+We thank you for your effort, together we can make Bloominglabs a better place for everyone to use.
+
+
+[[Image:Qrcode_exitprotocol-electronicsroom.png|none|thumb|100px|Link to latest version of this document]]
+
+
+[[Category:Documents]]
+[[Category:The_Space]]
+[[Category:Protocols]]

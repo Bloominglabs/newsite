@@ -1,0 +1,136 @@
+== [[MakerFaire]] ==
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="DLM84J2MGGDF2">
+<table>
+<tr><td><input type="hidden" name="on0" value="Exhibitor Fees">Exhibitor Fees</td></tr><tr><td><select name="os0">
+	<option value="Base Fees (includes 1 table)">Base Fees (includes 1 table) $25.00 USD</option>
+	<option value="Extra Tables ($10 each)">Extra Tables ($10 each) $10.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+== GrokItBot ==
+[http://www.suttree.com/code/GrokItBot/ GrokItBot website]
+
+To train GrokItBot:
+
+* Go to irc.bloominglabs.org #grokitbot
+* Make a post, and when GrokItBot responds with "What do you mean?", type one of the following:
+** it means <script name>
+** <script name>
+
+Example conversation is:
+<pre>
+< ivy> How are you doing?
+< GrokItBot> Sorry, I don't understand. What do you mean?
+< ivy> it means feelings
+< GrokItBot> OK, I grok that
+< ivy> How are you doing?
+< GrokItBot> Bien. Y tu?
+</pre>
+
+* Current scripts are:
+** color
+** feelings
+** goodbye
+** hello
+** thanks
+** tools <- this one includes the command "uptime"
+
+An example script (this one is called feelings.aiml):
+<pre>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<topic name="FEELINGS">
+
+<category>
+<pattern>*</pattern> 
+<template> 
+<srai>FEELINGS</srai>
+</template> 
+</category> 
+ 
+<category>
+<pattern>FEELINGS</pattern>
+<template>
+<random>
+<li>I am fine.</li>
+<li>I've been better.</li>
+<li>I bit under the weather.</li>
+<li>Help! I'm trapped inside a warehouse held by hackers at soldering iron point
+!</li>
+<li>Bien. Y tu?</li>
+</random>
+</template>
+</category>
+
+</topic>
+
+</aiml>
+</pre>
+
+== Catarina's talk ==
+Catarina Mota from [http://www.openmaterials.org openMaterials] came and gave a talk on Smart Materials.
+
+[[CatarinaTalk]] - my notes from the talk
+
+[http://bloominglabs.org/images/a/a6/SmartMaterialsforDIYProjects.ppt A copy of her slides]
+
+== IR Harp ==
+
+[http://instruct1.cit.cornell.edu/courses/ee476/FinalProjects/s2009/kac99/ECE_4760_Final_Project%20saf42%20kac99%20page%20v4.htm#_High-Level_Design Cornell Project Page]
+
+[http://www.lumex.com/specs/OED-EL-1L2.pdf IR emitters]
+
+[http://www.jameco.com/Jameco/Products/ProdDS/1950649.pdf Photo Diode]
+
+[http://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=10001&catalogId=10001&productId=14904& DAC]
+
+[http://www.datasheetdir.com/ATMEGA644+AVR-microcontrollers AVR mega644 Data Sheet Summary]
+[http://www.atmel.com/dyn/resources/prod_documents/doc7674.pdf AVR mega644 Data Sheet]
+
+[http://www.ladyada.net/learn/avr/fuses.html AVR Fuse tutorial]
+
+[http://www.engbedded.com/fusecalc/ AVR Fuse calculator!!!]
+
+== Lights Out Game ==
+
+[http://en.wikipedia.org/wiki/Lights_Out_(game) Lights Out Explanation]
+
+[http://www.vagrearg.org/?p=lightsout Lights Out Implementation with 7400s]
+
+[http://github.com/hdon/avr-light-game Lights Out AVR code]
+
+
+[http://www.instructables.com/id/LED-matrix-using-shift-registers/ How to build the shift register]
+
+== Ferromagnetic Liquid ==
+
+[http://www.instructables.com/id/Make-your-own-ferrofluid-in-5-minutes/ Ferrofluid in 5 Minutes]
+
+== Templeton Science Club ==
+
+[http://madlabs.info/simple_speaker.shtml Speakers]
+
+[http://www.youtube.com/watch?v=3zoTKXXNQIU Speakers meet non-Newtonian fluid]
+
+[[Category:Projects]]
+
+== St. Nick's Holiday Mini-Workshops ==
+
+*[http://www.splitcoaststampers.com/resources/tutorials/dsp_bow/ Paper Bows]
+*[http://wp.robertsabuda.com/make-your-own-pop-ups/ Popup Cards]
+*[http://a.dolimg.com/familyfun/assets/cms/large-files/pdfs/printables/1208a_Christmas_Card.pdf Fancier Tree Popup Card]
+*[http://hubpages.com/hub/popupchristmascards Gift and Trees Popup Cards]
+*[http://familycrafts.about.com/od/easysewin1/ss/beanbags.htm Simple Bean Bags]
+*[http://www.jugglingdb.com/compendium/skills/equipment/making/balls/barnesybags.html Juggling Bean Bags]
+*[http://www.moldmarket.com/molds_unusual_fun.html Interesting Soap Molds]
+*[http://www.notmartha.org/tomake/marblemagnets/ Refrigerator magnets]
+*[http://paper-design.wonderhowto.com/how-to/make-paper-wallet-less-than-two-minutes-124037/ Origami Wallets]
+*[http://www.countryliving.com/crafts/projects/card-wallets Sewn Card Wallets]
+
+== [[TrueScheme]] ==

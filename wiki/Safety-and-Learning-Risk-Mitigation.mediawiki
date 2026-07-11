@@ -1,0 +1,58 @@
+SLRM - Safety and Learning Risk Mitigation
+
+There exist a variety of different ideas of what entails hazardous activity between the various individuals that compose our community. Is it possible that we can create a relatively simple process that both participants and observers of given activities can agree on that allows us to safely do what we need to do without stifling ourselves through fear?
+
+This is a proposed framework that encourages people to think about their own safety and also gives outside observers a chance to feel free to speak up if they are concerned. Part of the process must allow both parties the ability to come to an accord on the issue.
+
+---------------------------------------------
+== The four corners of “SLRM” ==
+Hazard identification, PPE selection, the Participants role, and the Observers role
+
+== Hazard Identification ==
+
+====The harm target ====
+* Internal to yourself - Risk for bodily harm
+* External to yourself - Risk for harm to others
+* External to yourself - Risk of fire/energy/contamination danger
+* External to yourself - Risk for building and property damage
+
+====Kinetic hazards====
+If pressure is being applied, what happens if either the lever or fulcrum suddenly moves? Will any part of your body move into harms way? If you or the object you are working on is suspended mid-air or under another heavy object, what are the consequences of a sudden drop? If a pressure vessel is involved evaluate the most likely failure modes and protect people and property from potential harm?
+
+====Fire/energy hazards====
+* What is connected to or nearby the target? Will any of these components react dangerously if subjected to said energy?
+* What parts are flammable or otherwise affected by the energy being applied?
+* Can self-energiezed reactions occur to the target or nearby objects? How severe may these be?
+
+====Contamination hazards====
+* Fumes or particulate generated from the process
+* Difficulty of cleanup if spills or contamination occurs
+
+==== Work area control ====
+* Is the area clear of non-required people or objects which could contribute to a fire, accident, or other problem?
+* Is this the safest location for the work to happen in?
+
+
+== Personal Protective Equipment Selection==
+Once hazards are identified, select the appropriate PPE to mitigate bodily harm as needed:
+* Safety glasses
+* Hearing protection
+* Protective clothing
+* Specialty gear (welding helmet, aprons, etc)
+* etc.
+
+
+== Participants role ==
+As a participant, take a moment to evaluate and mitigate the risks:
+* Perform hazard identification for your activity
+* Identify ways to mitigate each hazard you identify, including using PPE
+* Change the way you perform the activity to mitigate the risk to an acceptable level
+* Consider and have a plan for the worst case scenario
+
+
+== Observers role ==
+If you think something is not playing out well:
+* That looks dangerous, whacha doin?
+* I suspect I see a hazard which has not been identified, do we agree?
+* Can we mitigate the hazard? Observer needs to help with the mitigation, or obtain assistance if needed.
+* Hopefully both parties can come to an accord. If not, activity should stop until a resolution can be found.

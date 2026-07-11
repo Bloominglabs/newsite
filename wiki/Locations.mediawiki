@@ -1,0 +1,48 @@
+This is the original page we used to discuss a first location for Bloominglabs (2009). It is only still around for historical purposes.
+
+
+==Prospective Locations for the Bloomington Hackerspace==
+So lets collect some locations that may meet our potential needs. If possible post a google-maps reference. Also we can post info on commercial real-estate agents.
+
+====Basic Requirements:====
+* Needs to be inside or close to Bloomington
+** being close to a bus line is a big benefit.  I won't say its a requirement, but it will definitely attract more students who don't have their own transportation.
+* Cheap rent
+* further items as discussed
+*
+
+==== Other things to consider about location:====
+* Probably want something industrial - lower rent and no noise restrictions
+* At least basic parking accommodations, hopefully enough for at least 5-10 cars, more is better
+* Garage entrance might be nice, but certainly not required (allows more ventilation, also car hacking)
+* A restroom may not be mandatory but should be considered
+* A place to put up Ham radio antennas and/or free-to-air dishes outdoors might be nice
+* A fixer-upper might also be in order, up for discussion based on locations found
+*
+
+== Important things to inspect when checking out locations ==
+* verify the roof does not leak, look for freshly repaired ceilings/walls
+* verify utilities available (power, water, trash, restroom a plus, net access)
+* does it have 3-phase power available? Any other types of power? (2phase, current capacity)
+* also apparently industrial power areas can have higher power rates, need to verify with agent or power company
+* who are the neighbors? any problems with burglary or vandalism in the area?
+* do they care if we install outdoor antennas or dishes?
+*
+
+== Potential Locations ==
+The order of the listing presently does not indicate order of preference.
+
+* [http://maps.google.com/maps/ms?hl=en&ie=UTF8&t=h&msa=0&msid=111635535411788622867.000469572935f931db8d6&ll=39.139913,-86.53759&spn=0.157906,0.2108&z=12 BHS Candidates on a shared Google map]
+
+* Fountain Square - Central, basement offices are cheap (like $200/month, includes utils), proximity to other things like Game Preserve, resturants. Smithville has talked about wiring the building with ethernet jacks before.  Downtown may make it easier to get others involved.
+
+* Empty lot on North-East corner of 10th and Walnut for lease: 339-9128 / size: 87'x132'
+
+==== Bloomington Mini-warehouses ====
+ * BHS candidate #1 on google map
+ * 339-4221
+ They (Dirk) called me back on 6-10-09, possibly had a space that could hold 3 cars with electricity, 
+ restroom access, overhead garage door with high ceilings for about $600 a month. He was going to 
+ check with an associate to see if they had any smaller spaces with power for a cheaper price.
+
+[[Category:History]]

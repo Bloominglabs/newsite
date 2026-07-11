@@ -1,0 +1,53 @@
+We have several laser printers (not to be confused with the [[Laser]] cutter) in various locations in the space. They are all connected to our network, and some of them have USB ports for directly attaching your device.
+
+=== Printers ===
+
+{|
+|+Printer Properties
+!Manufacturer
+!Model
+!Location
+!IP Address
+!Duplex
+!USB
+!Color
+!Remarks
+|-
+|Brother
+|HL-2270DW
+|Fabrication Room
+|192.168.1.15
+|Yes
+|Yes
+|No
+|
+|-
+|HP
+|LaserJet 2100TN
+|Lounge
+|192.168.1.19
+|No
+|No
+|No
+|
+|-
+|HP
+|LaserJet Pro 400
+|Craft Room
+|192.168.1.81
+|Yes
+|Yes
+|No
+|
+|-
+|HP
+|Color LaserJet CP2025dn
+|Craft Room
+|192.168.1.80
+|Yes
+|Yes
+|Yes
+|
+|}
+
+[[Category:Tools]]

@@ -1,0 +1,42 @@
+This page is only here for historical purposes, it is way out of date. Any of the mailing lists are much better for organizing tasks that need to be completed anyway.
+
+
+== Overall ToDo List ==
+* <s>Get more people involved in the discussion (mailing list)</s>
+** <s>Tweet, retweet, post to FB, etc..</s>
+**<s> spread flyers across campus (once students come back)</s>
+* <s>Start talking about what we want</s>
+* <s>Start looking for acceptable locations</s>
+* <s>We need a name and a logo at some point :)</s>
+* <s>Begin formal process - start paperwork for a non-profit entity</s>
+* <s>Steal/ Write bylaws, find board members</s>
+* <s>Apply for 501.C3 tax exempt status</s>
+* <s>Get a space rented under the non-profit entity</s>
+* <s>Check on insurance</s>
+* <s>disclaimer forms</s>
+* <s>Move in!</s>
+* <s>Get the joint fixed up to meet our needs (shelving, storage, etc)</s>
+* <s>clean up the place as much as we need</s>
+* <s>define areas for different activities (electronics/soldering, welding, ham area, server/rack space, storage areas)</s>
+* <s>build shelves and storage</s>
+* <s>get work spaces built (desks, work benches, ham shack, tool wall, etc)</s>
+* <s>Get people making projects</s>
+
+== Gear to acquire or build ==
+*<s> mini-fridge</s>
+* <s>air conditioner</s>
+* <s>space heater</s>
+* <s>couch, chairs</s>
+* <s>tables</s>
+* [http://reprap.org/ Rep-Rap rapid prototyper] (multiple members have rep raps already, just ask to get time on one)
+* <s>[http://www.andrewkilpatrick.org/blog/?page_id=914 Laser cutter/etcher]</s>
+* CNC milling machine - for PCB etching and other things (manual lathe and mill acquired)
+
+
+== Metal working - maybe some day ==
+* <s>welding outfits - MIG or TIG, and a stick welder</s>
+* scrap steel (1/4" and 1/8") from JB salvage
+* hydraulic ironworker for cutting & punching 1/4" and 1/8" steel
+* <s>acetylene torch outfit</s>
+
+[[Category:History]]

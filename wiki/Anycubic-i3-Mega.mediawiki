@@ -1,0 +1,28 @@
+Our Anycubic I3 Mega was donated by Ian Douglass around 2018 or so. As of 11-2020 it is fully functional again. It has a SD card for computer-less driven printing as well as a USB port for slicer-driven printing. [https://ultimaker.com/software/ultimaker-cura/ Cura] has settings for this printer.
+
+Printer manual, firmware updates, etc: [https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s]
+
+[[Image:Anycubic-I3-Mega.jpg|none|thumb|200px|Anycubic I3 Mega 3D printer]]
+
+
+== Printer status ==
+As of 11-2020 this printer is fully functional. The firmware was updated to the latest available as of 11-2020. 
+
+
+== Printer features ==
+This printer has the following features:
+
+* Bowden extruder
+* Filament runout sensor
+* Heated bed
+* Anycubic Ultrabase print surface - try not to scratch it by scraping the surface, prints should pop off easily
+* Control panel and SDcard slot for computerless printing
+
+
+== Filament Runout Sensor ==
+This printer has a filament runout sensor below the bowden extruder motor. It is a funky looking thing which is held in place with a ball-bearing magnet which allows the sensor to flop around from whichever direction the filament spool is located. Just make sure you run the filament through the sensor following the direction of the arrow.
+
+
+[[Image:Qrcode anycubic-i3-mega.png|none|thumb|150px|Link to this page on the wiki (Anycubic I3 Mega)]]
+
+[[Category:3D_Printers]] [[Category:Tools]]

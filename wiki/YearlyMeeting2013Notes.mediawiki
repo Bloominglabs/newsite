@@ -1,0 +1,76 @@
+Attendees: Nathan, Steve, Jenett, Jay, Dan, Zach, Mitchell, Barry, Adam, Nick, Owen
+
+== RFI for the firehouse ==
+* Code changes
+** ADA bathrooms
+** Change the swing of the front door
+** Put a platform on the back door
+** Get the ceiling up to a 2 hour fire rating (may already be that way, but probably not)
+* City will review the responses and get back to us
+* Probably won't do anything with the firehouse until 2014
+
+== Fundraising ==
+* Fund raising at Makevention
+* $1200 grant opportunity through the city for art projects
+
+== Non-Profit Status ==
+* Bloominglabs LLC is no more!
+* Bloominglabs Incorporated is born!
+* All donations for tax credit purposes needs to go through the School Factory
+
+== Laser cutter ==
+* 100W laser would be awesome, but expensive
+* Need to have some fund raisers for this
+
+== Officers ==
+* Current officers
+** Nathan, president
+** Steve, secretary
+** Jenett, treasurer
+* The current officers were voted to continue their terms for 2013.
+
+== Fab Lab ==
+* Nicole Jacquard, prof in Fine Arts, wants to relocate her 3D printers from IU at Bloominglabs
+
+== Physical Security ==
+* We should get some better cameras and motion detectors
+* Possibly get insurance for the tools
+* Maybe create a security group 
+
+== New Digital Infrastructure ==
+* Google calendar
+* New WordPress site
+** http://bloominglabs.org/wp
+** This will be our fancy front page and the wiki will be for internal stuff
+* Asset Trackers
+** https://bloominglabs.org/assets
+** Nathan will add asset value
+** Yearly review of our assets
+* Dues/Invoicing system
+** https://bloominglabs.org/dues
+** Will send members invoices when dues are due
+* CRM
+** Customer Relation Manager
+** https://bloominglabs.org/crm
+* Web interface for the RFID system
+** http://{pogolinux}:8000/wsgi-scripts/admin/
+* LDAP server
+** Working towards a single-signon system
+** Jenett will get information on the wiki for how to create accounts
+
+
+== Wonderlab summer camps ideas==
+* throwies
+* led push button lights
+* kylie peppler's group
+* conductive playdough
+* makey-makey
+
+== Workshops Ideas ==
+* We need em!
+* Nick will hold a solar panel workshop
+* Corey will hold a HAM radio workshop
+* Jay has the stuff to do a Raspberry Pi workshop
+
+[[Category: Operations]]
+[[Category: Meetings]]

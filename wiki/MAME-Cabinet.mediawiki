@@ -1,0 +1,74 @@
+Bloominglabs has a homemade arcade cabinet with a computer running [http://mamedev.org/ MAME]. Over 11,000 games are playable on the cabinet.
+
+== How to start? ==
+
+Boot it up!
+Everything should start automatically.
+Right now, the keyboard and mouse are somewhat necessary for navigating the selection of games.
+(For example, switching categories currently requires the mouse).
+You can search for games just by typing letters.
+If you want to play a game that you know works and is fun to play, try the "Favorites" category.
+
+Once you have launched a game, you will be shown a brief technical description.
+Press any keyboard or arcade button to pass this and start the actual game.
+
+The controls should work for most games.
+
+To pause a game, press the escape key on the keyboard.
+
+To leave a game, pres the Escape key on the keyboard twice.
+
+If you have a problem, one of the first places to check is [http://wiki.mamedev.org/index.php/FAQ:Games the official FAQ].
+One useful tidbit within: if the game won't start, try pressing F2.
+(Many emulated machines require this button to be pressed to go through their boot-up sequence.)
+
+== Things to know: ==
+
+Should you need access into the control panel itself, it is held by velcro.
+
+A Key Wiz (perhaps [https://web.archive.org/web/20050307011918/http://www.groovygamegear.com:80/Page2.html this version]?) provides a PS/2 keyboard interface for the controls.
+
+The control panel is on hinges and opens toward you by lifting on the back side, allowing easy access to power on the PC inside. Be careful, the control panel's velcro may let go and try to drop itself on your feet.
+
+The video from the monitor is available on all TVs in Bloominglabs on channel 99.
+
+== What is in the box? ==
+
+AMD Phenom II 6-core CPU @2.7 GHz
+
+16 GB of DDR3 RAM
+
+AMD Radeon HD4670
+
+(Many thanks to the members who donated these high-quality parts to the new arcade cabinet computer!)
+
+MonoPrice 1-to-2 VGA splitter (The product has been retired, but it is the 2-port version of [https://www.monoprice.com/product?p_id=5094 this] splitter.)
+
+Optimus STA-300 radio/amplifier
+
+A little over 11,000 arcade game ROMs.
+
+== Possible improvement projects: ==
+
+(feel free to make this better, you have my permission! Just mark stuff off the list, or add to it)
+
+* find fun games and add them to the "Favorites" category
+* tweak MAME configuration to allow navigating the interface without keyboard or mouse
+* custom Bloominglabs Lit Marquee
+* sturdier (or better yet: modular!) control panel
+* analog joysticks for control panel
+* trackball + 2 buttons for control panel (cshields has a trackball, need to buy a mount for it and an interface, probably from Happ) to play crystal castles, golden tee, and act as a mouse interface
+* external volume control (instead of turning the knob on the amplifier inside the cabinet)
+* external power button
+* add other emulators, ROMs for them, and a launcher to switch between emulators
+
+=== Requested Games ===
+
+Although the MAME cabinet has many arcade games, it does not have every one ever built.
+Games that you want to play but that the cabinet does not have should be added to this list.
+It would be appreciated if ROMs for games on this list were found, downloaded, and installed on the MAME cabinet.
+ROMs can be installed by putting the .zip file in the folder <code>/home/mameplayer/Downloads/MAME 0.185 ROMs (merged)/</code> and restarting MAME.
+
+* [https://en.wikipedia.org/wiki/Ikaruga Ikaruga]
+
+[[Category: Group projects]]

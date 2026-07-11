@@ -1,0 +1,22 @@
+Instructor notes for conducting a machining class, a fair number of tools and materials need to be stocked and setup ahead of time in order for the classes to run smoothly.
+
+===At least 2 weeks before class===
+* Order metal stock if needed
+* Verify we have enough spindle & way oil
+* Verify we have usable cutting bits and end mills
+* Verify calipers all have good batteries (locate all sets of calipers)
+* Verify dial-indicators are all located and working
+* Check that oiling charts, cutting tool grinding charts, and decimal-to-fraction posters are still in place
+** The [[Signage]] page has copies of all shop posters for reprinting if neccessary
+* Send reminder email out for homework
+
+===Weekend before class===
+* Clean up workbenches, make sure machines are in working order and are not missing tools and parts
+* Verify EPO switches are working correctly
+* Locate all oil cans, top them off as needed
+* Sharpen lathe cutting tools for first class
+* Print drawings for part students will make
+* Send reminder email about appropriate attire, workshop fees if not already collected
+
+
+[[Category:Workshops]] [[Category:Workshop prep notes]] [[Category:Signage]]

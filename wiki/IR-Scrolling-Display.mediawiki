@@ -1,0 +1,40 @@
+== Updates ==
+
+March 2, 2011
+Nick clued us in to the handy MAXIM 6953 5x7 LED display driver. After some Googling which at times lead us to MAXIM magazine, Nick and Steve put in an order on MAXIM's site for 3 free samples, which should arrive at Steve's house soon.
+
+March 9, 2011
+Steve gave 2 of the 3 MAXIM 6953 chips to Nick and kept one to experiment with. Nick is gonna get some IR LEDs and make sure they actually are visible thru a digital camera outside during daylight so as to make sure it's worth it to buy all those LEDs.
+
+March 23, 2011
+Nick has a board layout for the 5x7 array. Steve is going to buy some IR LEDs to look into the aforementioned testing.
+
+April 13, 2011
+Rex printed up some circuit boards for the 5x7 array. They look great. Steve obtained some sample IR LEDs. They don't seem to be too visible thru the iPhone camera, but through other cell-phone cameras they were. Steve handed this off to Nick to experiment w/ rubbing a file against the LEDs and using other techniques to make the light more diffuse, and to otherwise experiment to see which part no. works the best.
+
+== Design notes ==
+
+5x7 characters
+Will have 4 characters scrolling
+
+Driver chip: MAXIM 6953
+This uses a pretty basic serial interface to drive the LEDs (I2C)
+There is a character set defined in ROM. Users can define their own symbols or use the user defined characters to implement scrolling, but doing so requires a crudload of code.
+
+Here's a [http://www.youtube.com/watch?v=I-_PLhLF-1g nifty project somebody did]
+
+IR LEDS
+front of box will be covered w/ lens, trashbag, something like that
+
+==Software==
+Programming this is very easy via an Arduino. See
+*http://shieldstudio.com/press/downloads/
+*Much more thorough code example here: http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1285387425/6
+
+==Messages==
+URL
+Bloominglabs
+'Tweet @BloomingLabs to get your message here.' (but we will need a moderator, make sure no dirty words get up there!)
+(add some, people)
+
+[[Category:Group projects]]

@@ -1,0 +1,160 @@
+=4th Of July Parade Projects=
+
+We are planning some big things for the 4th of July parade. It's a way off, but let's not get too complacent - some of these projects will need a lot of coordination and more importantly, a lot of (very fun) work. In the end the coolness will be worth it. Here are some ideas people have brainstormed - feel free to step up as a 'project lead', or at least to schedule some work sessions or flesh out the ideas. We should probably use this page as the 'top level' page. Project leaders (project scribes?) can maintain separate project pages with the in-depth design and schedule details.
+
+== Theme ==
+
+We should have a central float, some walkers (band w/ handmade/hacked instruments), and 2 rideable smaller stunt vehicles.
+
+== [[Float]] ==
+
+Let's build us a [http://www.strandbeest.com/ Straandbeest] (see this for inspiration: http://www.youtube.com/watch?v=37BsADFmHGU) 
+
+===Details===
+This will be a 12 leg version. Legs will be constructed from 1X2s, 1x4s, scraps, nuts, and bolts.
+Some kind engineers have done a little [http://www.scribd.com/doc/31787705/Dynamics-of-Legged-Walking-Mechanism-%E2%80%9CWind-Beast%E2%80%9D prior work] for us in determining "ideal" leg linkage lengths.
+The idea is to make a first leg, to determine reproducibility. We will decide final scale, leg arrangement, and rigging materials based on our experience once we have it.
+
+The first leg is modeled. This is still a draft. 
+*[[Media:1legwalking.avi]]
+*[[Media:Image:1leg.blend.zip]]
+
+The first working set of three legs has been demonstrated. The redesigned crank seems to work well enough.
+
+===Crew===
+*Charles
+*Nathan
+*Steve
+(sign up here, wiki-ites)
+
+===Events===
+March 3, 2011
+Some prototyping with cardboard, bits of tape, tongue depressors, and fluffy pipe cleaners at the March 3rd meeting went well. It was generally acknowledged that the camshaft powering all the legs would present some challenge. We also considered that there might be a 'weakest link' in the leg mechanism, and it should be identified if possible. 
+
+March 10, 2011
+Discussion of working models and vision for the float.
+
+Sunday, June 18
+Bloominglabs members worked together to crank out 9 working legs in great time. We had a great time, too!
+
+Sunday July 3
+Final build party! Everything finished at 6 PM! Hooray!
+
+====Links====
+*http://geogebrawiki.pbworks.com/w/page/11911516/Strandbeest
+*http://www.scribd.com/doc/31787705/Dynamics-of-Legged-Walking-Mechanism-%E2%80%9CWind-Beast%E2%80%9D
+*(IUPUI 2006) http://www.youtube.com/watch?v=37BsADFmHGU
+*(big cardboard) http://www.youtube.com/watch?v=qlNTNjtjInQ
+*(j-papercraft) http://www.youtube.com/watch?v=PWm4VMR8D0w
+*(i-cant-reproduce-in-blender)  http://www.youtube.com/watch?v=b0I65dJMQUc
+*(mathematica) http://demonstrations.wolfram.com/ATheoJansenWalkingLinkage/
+
+== [[Marching-Band]] ==
+This will feature BloomingLabbers and friends playing homemade or circuit bent electronic instruments. This could end up being a real noisy racket, but have you been to the parade? After 4 or 5 ambulance or fire sirens have gone by, any other sound is a welcome change.
+
+We will actually work to come up with a set list. Some possibilities: patriotic Material i.e. Souza, Neil Diamond (we're coming to America), Star Spangled, Metallica’s One, Glen Beck/O’reilly factor theme? 
+
+I think [http://www.youtube.com/watch?v=iP-RFsuv-8Q Eno's 'Here Come The Warm Jets'] would be a fitting song for such a band, although it's not a patriotic tune.
+
+===Crew===
+*Joe
+*Steve
+
+===Instruments===
+*Joe's CigarBox Bass
+*Circuit Bent toys (perhaps have a workshop soon?)
+*8 bit synths
+*Atari Punk Consoles
+*Steve's Arduino/SD Card/DAC sound file player project
+*Drumming with the smoke ring cannons
+
+===Questions===
+How to handle amplification for these? Everybody has their own portable amp? Barry's speaker backpack system?
+
+==[[Mini-Vehicles]]==
+
+===Details===
+We could use these to distribute flyers, maybe even pull some shriner moves, i.e. wheelies, donuts, 360s, driving synchronized circles around each   other, other floats, intersections , Rockford Files.
+
+The main idea that has come up is a rideable BeetleBot, controlled by handgrip antennas, using a PWM foot control(let off foot control, machine stops).
+
+Materials wise among other things we need Electric Motors, and I believe Jenett has indicated she has some good ones we can use.
+
+===Crew===
+*Jenett
+*Nick
+*Joe
+
+==[[Smoke-Ring-Drums]]==
+
+Plastic trash cans + Shower curtain membrane
+Smoke bombs/smoke bomb container (to keep from melting membrane)
+Also used as drums for marching band
+
+===Crew===
+*Jenett
+*Alex
+*Nicky
+
+==[[Twinkie-Launcher]]==
+
+Tested loaner prototype
+Built our own from said prototype
+Bought a bigger barrel for the prototype so it could be borrowed for the parade
+Found out the Jonathan also has a launcher that can be used
+
+So we have 3 tested launchers ready to go!
+
+We have also done some safety testing. We have found that at 40psi the launcher works well and doesn't cause any harm if people are hit by the twinkie directly. 60psi is *way* off! Regulators are required!
+
+===Materials===
+*Compressed air(air compressor)
+*Car batteries carried by float or bike
+*Wadding
+*Felt
+*Mattress foam
+*Possible Confetti Ammo as well
+*Regulators
+
+===Crew===
+?
+
+===Costumes===
+
+Make Ghostbuster costumes and decorate the launchers as proton guns
+Build proton pack backpacks which will hold 2 litre bottles of air that the launchers can be refilled with
+
+==[[IR-Scrolling-Display]]==
+
+This one sparked a lot of discussion and people I've mentioned it to thought it was a great idea. The idea is to make an illuminated sign out of IR LEDs that will only be readable by people photographing or video recording the event. 
+
+===Crew===
+*Nick!
+*Rex
+*Nathan
+*Steve
+
+===Some ideas===
+
+*Check out related art installation: http://www.kyleclements.com/tap/info.php
+*PhotoFlash triggered?
+*[http://en.wikipedia.org/wiki/Charlieplexing CharliePlex?] (Steve suggests hacking an LoL shield - all the Charlieplexing circuitry is already there!)
+*Talk to folks about bulk deals on IR LEDs
+*Transportation-on float
+*How many displays? i.e. one on each side, or just one on the front or back?
+*Non-scrolling cut-out light box
+*Real time type interface
+*Steve still has Nathan's scrolling car window LED sign (which is apparently illegal to use in an automobile). This can be used at least for a visible scrolling sign.
+
+===Message Brainstorm Session===
+*“I’m with stupid”
+*“Made in China”, etc.
+*“Nice Dumptruck”
+*“Nice Campaign Slogan”
+*“Go U.S. Americans!!”
+*"Celebrating 0xEB Years Of American Geeks!"
+*Internet meme stuff
+*Flashing "12:00 AM"
+
+[[Category:Events]]
+[[Category:Group projects]]

@@ -1,0 +1,41 @@
+Bloominglabs' Monthly Board Meeting
+
+I. Called to order at 1801
+
+    A. Attendance: Kevin, Kyle, Calob, Pete
+
+II. Old Business
+
+    A. Digital Ocean Droplet
+
+        1. haven't completely moved off of
+
+        2. nearly done
+
+        3. will cut our spend rate down to approx. $15/month
+
+    B. New Board
+
+        1. Proposed Annual Meeting Date
+
+            a. February 28, 2026
+
+        2. Presidential candidate willing to accept
+
+III. New Business
+
+    A. Liability Waivers
+
+        1. do we need all the pii we collect
+
+            a. Name, Address, Phone Numeber, Signature, Date Signed
+
+        2. Proposed
+
+            b. Name, Email Address, Signature, Date Signed
+
+            c. Name, Email Address/Phone Number, Signature, Date Signed
+
+        3. Wait on more knowledgable advice
+
+IV. Adjourned at 1820

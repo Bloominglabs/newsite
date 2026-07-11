@@ -46,7 +46,7 @@ test('wiki page links both to the live wiki and to the local archive manifest', 
   const wiki = files.find((file) => file.path === 'wiki/index.html');
 
   assert.ok(wiki);
-  assert.match(wiki.contents, /https:\/\/www\.bloominglabs\.org\/Main_Page/);
+  assert.match(wiki.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
   assert.match(wiki.contents, /\/wiki-archive\/latest\/manifest\.json/);
 });
 

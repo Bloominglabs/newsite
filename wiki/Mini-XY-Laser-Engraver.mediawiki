@@ -1,0 +1,30 @@
+== What is this? ==
+We have a Makeblock Mini X/Y Laser Engraver which anyone may use. It is very lightweight and portable so it is easy to borrow or set on larger objects for engraving jobs. It doesn't cut anything besides paper, but is fine for engraving things. 
+* [https://openlab.makeblock.com/topic/57a95d6ec3e2e36a27ec98d7 https://openlab.makeblock.com/topic/57a95d6ec3e2e36a27ec98d7]
+
+==== Safety ====
+A pair of laser safety goggles came with this laser. Laser Dan made a custom enclosure for this machine so it now has a laser-safe enclosure.
+
+==Where did this come from?==
+During the summer of 2016 Instructables had a Makerspace challenge in which [https://www.instructables.com/featured/?keyword=Bloominglabs9189 we competed]. We had over 10 Featured Instructables which was good enough to win a $200 gift certificate to Make Block. Steve, Heath, and Nathan each kicked in some extra funds which allowed us to purchase this device. We also received a $50 3D Hubs Gift Code and 5 Instructables prize packs in this same contest.
+
+
+== How do I hook up to it?==
+You connect your computer to it with a regular A-B USB cable. The laser engraver requires a 6-12v DC power supply with a regular barrel jack. Probably 2A will drive it, verify this. 
+
+
+==Software for controlling it==
+This laser requires different software than our main 40W [[Laser]]. There are several different packages which are supposed to be able to drive this laser engraver:
+* [http://learn.makeblock.com/en/software/#mlaser http://learn.makeblock.com/en/software/#mlaser] - mLaser for OSX and Windows
+** mLaser has a silly password of "123" to open, also a Supervisor password of "makeblock321", both without double quotes
+* [https://github.com/xeecos/LaserXYPlotter/releases https://github.com/xeecos/LaserXYPlotter/releases] - Laser Plotter for OSX and Windows
+
+Other software: BenBox for Windows should also be compatible with this laser:
+* [https://forum.makeblock.com/t/trouble-using-xy-plotter-laser-engraver-with-benbox-software/6838 https://forum.makeblock.com/t/trouble-using-xy-plotter-laser-engraver-with-benbox-software/6838]
+* [http://learn.makeblock.cc/laserxy2/ http://learn.makeblock.cc/laserxy2/]
+* [http://download.makeblock.com/XY%20Plotter%20V2.0%20User%20Guide%20DownLoad%20Pack（English）.zip http://download.makeblock.com/XY%20Plotter%20V2.0%20User%20Guide%20DownLoad%20Pack（English）.zip]
+
+These should take a vector (.svg) file as input and convert to Gcode needed to control the machine. However they can be finicky. It's been reported that sometimes hidden elements in .svg files created in Inkscape can induce undesired lines being engraved in a job. More testing and notes should follow.
+
+
+[[Category:Laser]] [[Category:Tools]]

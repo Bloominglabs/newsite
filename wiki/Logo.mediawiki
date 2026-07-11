@@ -1,0 +1,67 @@
+== Original Flowergear ==
+[[Image:Bloominglabs-logo-nobg.png|frameless|border]]
+
+At some point, [[JoesProjects| Joe]] made our cool blooming-gear logo. You are looking at it now, on the right.
+If you want a really good SVG of the flowergear, maybe ask Joe.
+
+== Bloominglabs with Flowergear ==
+[[Image:Bloominglabs.png|frameless|border]]
+
+If you want images like this, then just download and use that PNG. If you want a half-decent SVG I made of the flowergear, find it in [[File-Bloominglabs-logo-zip-this-zip-file]].
+
+== With Final Frontier Font ==
+[[File:Futuristic-logo.png|frameless|border]]
+
+Created by [[User-Jtillots| Jenett]] with the font "[http://www.fontspace.com/allen-r-walden/final-frontier Final Frontier]".
+
+=== Banner ===
+
+[[Image:Bloominglabs-banner-300.png|frameless|border]]
+
+[[File-Export-banner-png|The full-size image]] is very large because it is 9 feet long and 120dpi.
+
+After ILF 2011, we have our first real banner.
+
+
+
+[[Daniel-s-Projects| DAKMH]] reworked the gears for use as physical objects, including badges for the first Makevention (2013) and revised the logo to include those.  The versions based on that are:
+*[[File-Bloominglabs-logo-revised-flat-svg| flattened svg]]
+*[[File-Bloominglabs-logo-revised-png| 300 DPI .png]]
+*[[File-Bloominglabs-logo-revised-svg| Inkscape SVG]] (for editing; requires Final Frontier font)
+
+== Current BloomingGear ==
+[[Image: BloominglabsGearDeeperTeeth.png|frameless|border]]
+
+Finally, DAKMH provided images of just the gear.
+
+*[[File-BloominglabsGearDeeperTeeth-png| as PNG]]
+*[[File-BloominglabsGearDeeperTeeth-purePaths-2a-alpha-png| as PNG with alpha]]
+*[[File-BloominglabsGearDeeperTeeth-purePaths-2a-svg| as SVG]]
+
+== New Shirt Logo ==
+[[Image: Bloominglabs-logo_ShirtPrint_test1f_large.png|frameless|border]]
+
+In 2016, DAKMH designed an updated logo for Bloominglabs t-shirts.
+*[[File-Bloominglabs-logo-ShirtPrint-test1f-large-png| as PNG]]
+*[[File-Bloominglabs-logo-ShirtPrint-test1f-svg| as SVG]]
+
+== Animated Logo ==
+[[Image:Animated-logo-10fps.gif|frameless|border]]
+
+Created by [[User-Avh-on1| avh.on1]] in the wee hours of the morning on 4 July 2017 from [[#New Shirt Logo | DAKMH's new t-shirt logo]].
+First, the gears in the logo were separated using [https://inkscape.org Inkscape].
+Then the animation was created with [https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language SIML] by editing the svg file in a text editor.
+
+The gif animation seen here was rendered in [http://anigen.org aniGen],
+stitched in [https://imagej.net/Welcome ImageJ],
+and optimized with [https://www.lcdf.org/gifsicle/ gifsicle].
+
+Here is the [[File-Animated-logo-siml-svg| original SVG file]].
+
+Unfortunately, SIML may be killed off by Google in the future, so this may eventually need to be reimplemented using CSS or javascript.
+
+== 2022 Banner ==
+[[image:2022 Bloominglabs banner (created for 4th of July parade) reference image.gif|frameless|border]]
+
+
+[[file:2022 Bloominglabs banner (created for 4th of July parade) printable small.pdf]]

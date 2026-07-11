@@ -1,0 +1,18 @@
+To create Bloominglabs accounts:
+
+* ssh to bloominglabs.org (ask dosman about the specifics)
+* /usr/local/bin/ldapadduser {username} {group} "{gecos}"
+** group can either be the group name or the gid
+** make sure to put gecos info in quotes if there is a space - like between their first and last name
+** you can add a uid at the end of the command if you want to set a particular uid
+** running ldapadduser without any parameters will give you usage info
+* Examples:
+** /usr/local/bin/ldapadduser pvenkman users "Dr. Peter Venkman"
+*** This will create the pvenkman account and assign it the next uid and the gid of the users group
+** /usr/local/bin/ldapadduser rstanz 100 "Dr. Raymond Stanz" 2408
+*** This will create the rstanz account and assign it the uid 2408 and the gid 100
+** /usr/local/bin/ldapadduser
+*** returns: Usage : ./ldapadduser <username> <groupname | gid> "<gecos>" [uid]
+* change the user's password: /usr/local/bin/ldapchangepasswd {username}
+
+[[Category: Operations]]

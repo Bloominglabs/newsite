@@ -1,0 +1,26 @@
+==== Our scanner feeds are down as of  2026-03-20. We are aware of the outage but do not have a status update at this time. ====
+In 2015, Bloominglabs received a donation of a Uniden P25 digital police scanner, and we shared that audio online via an Icecast feed for many years. However, technology evolved, and while we still have the Uniden scanner at the space we now have a more modern and feature-rich scanner feed built from Software Defined Radios (SDRs). It's now possible to listen to live scanner audio as well as archived audio, without missing any radio traffic.
+
+=== Listening Links ===
+
+https://openmhz.com/system/bmgsafet - this is probably the easiest site to use
+
+https://radio.bloominglabs.org - this site has some advanced features and more closely resembles a traditional scanner interface
+
+Both feeds contain radio traffic from in and around Monroe County, Indiana including many agencies in Bloomington as well as some state agencies and the occasional federal agency.
+
+Additional feeds can be found at https://btownscanner.com
+
+=== Technical Details ===
+
+At Bloominglabs:
+
+* 3x RTL-SDRs with indoor antennas
+* Intel NUC running Debian GNU/Linux
+* [https://github.com/robotastic/trunk-recorder Trunk Recorder] software (sends recorded audio to both OpenMHz and radio.bloominglabs.org)
+
+In the cloud at radio.bloominglabs.org
+* VPS running Debian GNU/Linux
+* [https://github.com/chuot/rdio-scanner Rdio Scanner] software
+
+Configuration files for our trunk-recorder and rdio-scanner instances are located on our [https://github.com/Bloominglabs/radio.bloominglabs.org github.] API keys have been redacted.
