@@ -2,14 +2,12 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { execSync } = require('node:child_process');
+const { execFileSync, execSync } = require('node:child_process');
 
 /**
  * GitHub only creates the hidden `repo.wiki.git` backend after a logged-in user
  * saves the first wiki page in the browser. API tokens and CI tokens cannot do
- * that bootstrap step. This script uses a visible browser window so an already
- * logged-in GitHub session can create the Home page, after which the publish
- * workflow can sync the full wiki export.
+ * that bootstrap step.
  */
 async function main() {
   let chromium;
@@ -17,7 +15,7 @@ async function main() {
     ({ chromium } = require('playwright'));
   } catch (error) {
     console.error('Playwright is required for automated wiki bootstrap.');
-    console.error('Install it with: npm install --no-save playwright && npx playwright install chrome');
+    console.error('Install it with: npm install --no-save playwright && npx playwright install chromium');
     process.exitCode = 1;
     return;
   }
@@ -31,34 +29,22 @@ async function main() {
     ? fs.readFileSync(homePath, 'utf8').slice(0, 32000)
     : 'Bloominglabs wiki bootstrap page.';
 
-  const channel = process.env.PLAYWRIGHT_CHANNEL || 'chrome';
-  const profileDir =
-    process.env.CHROME_USER_DATA_DIR ||
-    path.join(process.env.HOME || '', '.config', 'google-chrome');
-
-  let browser;
-  let page;
-  if (process.env.CHROME_USER_DATA_DIR || fs.existsSync(profileDir)) {
-    const context = await chromium.launchPersistentContext(profileDir, {
-      channel,
-      headless: false,
-    });
-    page = context.pages()[0] || (await context.newPage());
-    browser = context;
-  } else {
-    browser = await chromium.launch({ headless: false, channel });
-    page = await browser.newPage();
-  }
+  const browser = await chromium.launch({ headless: false });
+  const page = await browser.newPage();
 
   await page.goto(newPageUrl, { waitUntil: 'domcontentloaded', timeout: 120000 });
   console.log(`Opened ${page.url()}`);
 
   if (page.url().includes('/login')) {
-    console.error('GitHub login is required in the opened browser window.');
-    console.error('Sign in, then re-run this script.');
-    await browser.close();
-    process.exitCode = 1;
-    return;
+    console.log('Sign in to GitHub in the opened browser window.');
+    console.log('Waiting up to 10 minutes for login to complete...');
+    await page.waitForURL(
+      (url) => url.href.includes(`/${owner}/${name}/wiki`) && !url.href.includes('/login'),
+      { timeout: 600000 }
+    );
+    if (!page.url().includes('/wiki/_new')) {
+      await page.goto(newPageUrl, { waitUntil: 'domcontentloaded', timeout: 120000 });
+    }
   }
 
   const titleInput = page.locator('input[name="page[name]"], #gollum-editor-title, [data-testid="wiki-page-title"]');
@@ -68,7 +54,12 @@ async function main() {
   );
 
   if ((await titleInput.count()) === 0) {
-    console.log('Wiki editor not found. If the wiki already exists, re-run the Publish GitHub Wiki workflow.');
+    if (page.url().includes('/wiki/Home') || page.url().endsWith('/wiki')) {
+      console.log('Wiki already exists. Re-run the Publish GitHub Wiki workflow.');
+    } else {
+      console.error(`Wiki editor not found at ${page.url()}`);
+      process.exitCode = 1;
+    }
     await browser.close();
     return;
   }
@@ -81,12 +72,13 @@ async function main() {
   console.log(`Created wiki home page at ${page.url()}`);
   await browser.close();
 
-  try {
-    execSync('gh workflow run publish-wiki.yml --ref master', { stdio: 'inherit' });
-    console.log('Triggered Publish GitHub Wiki workflow.');
-  } catch (error) {
-    console.warn('Could not trigger publish workflow automatically. Run it manually in GitHub Actions.');
-  }
+  const token = process.env.GH_TOKEN || execFileSync('gh', ['auth', 'token'], { encoding: 'utf8' }).trim();
+  const wikiRemote = `https://x-access-token:${token}@github.com/${repo}.wiki.git`;
+  execFileSync('git', ['ls-remote', wikiRemote, 'HEAD'], { stdio: 'inherit' });
+  console.log('GitHub wiki backend is ready.');
+
+  execSync('gh workflow run publish-wiki.yml --ref master', { stdio: 'inherit' });
+  console.log('Triggered Publish GitHub Wiki workflow.');
 }
 
 main().catch((error) => {
