@@ -216,20 +216,18 @@ a:focus-visible,
   padding-bottom: 3.5rem;
   display: grid;
   gap: 1.4rem;
-  max-width: min(46rem, 100%);
   justify-self: center;
 }
 
 .hero-brand {
   margin: 0;
   max-width: 100%;
-  overflow-wrap: anywhere;
+  white-space: nowrap;
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 11vw, 6.5rem);
+  font-size: clamp(2.25rem, 9vw, 6.5rem);
   font-weight: 800;
   line-height: 0.9;
   letter-spacing: -0.03em;
-  text-wrap: balance;
   animation: brand-rise 0.9s ease-out both;
 }
 
@@ -246,6 +244,7 @@ a:focus-visible,
 
 .hero-home h1 {
   margin: 0;
+  max-width: 36rem;
   font-family: var(--font-display);
   font-size: clamp(1.55rem, 3.4vw, 2.35rem);
   font-weight: 700;
