@@ -16,7 +16,8 @@ async function main() {
     basePath: process.env.BASE_PATH || '',
   });
 
-  process.stdout.write(`Wrote ${files.length} site files to ${outputRoot}\n`);
+  const wikiPageCount = files.filter((file) => file.path.startsWith('wiki/pages/')).length;
+  process.stdout.write(`Wrote ${files.length} site files (${wikiPageCount} wiki pages) to ${outputRoot}\n`);
 }
 
 main().catch((error) => {

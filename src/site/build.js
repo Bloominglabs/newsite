@@ -5,13 +5,15 @@ const path = require('node:path');
 
 const { siteContent } = require('./content.js');
 const { siteStyles } = require('./styles.js');
-const { titleToWikiFileStem } = require('../wiki/github-wiki.js');
+const { normalizeBasePath, toPublicHref } = require('./paths.js');
+const { buildWikiSiteFiles, siteWikiPageStemForTitle } = require('../wiki/site-pages.js');
 
 /**
- * GitHub wiki page URLs use hyphenated stems derived from the archived titles.
+ * Internal wiki pages are rendered into the static site under `/wiki/pages/`.
  */
-function wikiPageUrl(title) {
-  return `${siteContent.organization.wikiUrl}/${titleToWikiFileStem(title)}`;
+function siteWikiPageHref(title, basePath) {
+  const stem = siteWikiPageStemForTitle(title);
+  return toPublicHref(`/wiki/pages/${stem}/`, basePath);
 }
 
 /**
@@ -25,34 +27,6 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
-}
-
-/**
- * GitHub Pages repository sites are served beneath a repository-specific base
- * path such as `/newsite`. Normalizing that prefix once keeps link generation
- * consistent across local builds, project Pages URLs, and future custom-domain
- * deployments where the base path becomes empty again.
- */
-function normalizeBasePath(basePath = '') {
-  const trimmedPath = String(basePath).trim();
-
-  if (!trimmedPath || trimmedPath === '/') {
-    return '';
-  }
-
-  return `/${trimmedPath.replace(/^\/+|\/+$/g, '')}`;
-}
-
-/**
- * Internal site links are rooted from `/`, while external URLs and non-HTTP
- * schemes such as `mailto:` must pass through untouched.
- */
-function toPublicHref(href, basePath) {
-  if (!href.startsWith('/')) {
-    return href;
-  }
-
-  return `${normalizeBasePath(basePath)}${href}`;
 }
 
 /**
@@ -293,7 +267,7 @@ function renderVisitPage(basePath) {
     heroText:
       'The easiest first contact is to show up on Wednesday evening, meet the people using the space, and ask direct questions about your interests.',
     actions: [
-      { href: organization.wikiUrl, label: 'Wiki', variant: 'primary' },
+      { href: toPublicHref('/wiki/', basePath), label: 'Wiki', variant: 'primary' },
       { href: `mailto:${organization.email}`, label: 'Email The Space', variant: 'secondary' },
     ],
     signals: [
@@ -331,7 +305,7 @@ function renderVisitPage(basePath) {
           <div class="callout">
             <h2>Key links</h2>
             <p><a href="${toPublicHref(organization.calendarUrl, basePath)}">Calendar</a> for workshops and events.</p>
-            <p><a href="${organization.wikiUrl}">Wiki</a> for deeper operational details.</p>
+            <p><a href="${toPublicHref('/wiki/', basePath)}">Wiki</a> for deeper operational details.</p>
           </div>
         `
       ),
@@ -352,7 +326,7 @@ function renderMembershipPage(basePath) {
       'Bloominglabs treats membership as a relationship. Start by showing up at public night or a workshop, meet people, and let the process unfold in the room.',
     actions: [
       { href: '/visit/', label: 'Come To Public Night', variant: 'primary' },
-      { href: wikiPageUrl('Membership Manual'), label: 'Membership Manual', variant: 'secondary' },
+      { href: siteWikiPageHref('Membership Manual', basePath), label: 'Membership Manual', variant: 'secondary' },
     ],
     signals: [
       'Attend 3 meetings or workshops before joining.',
@@ -401,7 +375,7 @@ function renderSupportPage(basePath) {
     heroText:
       'Bloominglabs is funded primarily by membership dues, but donations, volunteer effort, and event support all materially improve what the space can offer.',
     actions: [
-      { href: wikiPageUrl('Donations'), label: 'Donation Details', variant: 'primary' },
+      { href: siteWikiPageHref('Donations', basePath), label: 'Donation Details', variant: 'primary' },
       { href: '/membership/', label: 'Become A Member', variant: 'secondary' },
     ],
     signals: [
@@ -431,49 +405,64 @@ function renderSupportPage(basePath) {
   }, basePath);
 }
 
-function renderWikiPage(basePath) {
+function renderWikiPage(basePath, manifest = null) {
   const organization = siteContent.organization;
+  const sortedPages = manifest
+    ? [...manifest.pages].sort((left, right) => left.title.localeCompare(right.title))
+    : [];
+  const pageLinks = sortedPages
+    .map((entry) => {
+      const href = siteWikiPageHref(entry.title, basePath);
+      return `<li><a href="${href}">${escapeHtml(entry.title)}</a></li>`;
+    })
+    .join('');
 
   return renderLayout({
-    title: 'Wiki And Archive',
-    description: 'Why the public site and the Bloominglabs wiki are separate, plus access to the live wiki and local archive.',
+    title: 'Wiki',
+    description: 'Browse archived Bloominglabs wiki pages on the public site.',
     navPath: '/wiki/',
-    eyebrow: 'Wiki Split',
-    heroTitle: 'Use the main site to orient yourself, then drop into the wiki when you need depth.',
+    eyebrow: 'Reference',
+    heroTitle: 'Browse the preserved Bloominglabs wiki from the public site.',
     heroText: siteContent.wiki.explanation,
     actions: [
-      { href: organization.wikiUrl, label: 'Open Wiki', variant: 'primary' },
-      { href: '/wiki-archive/latest/manifest.json', label: 'Archive Manifest', variant: 'secondary' },
+      { href: '/wiki/pages/Home/', label: 'Wiki Home', variant: 'primary' },
+      { href: organization.wikiUrl, label: 'GitHub Wiki', variant: 'secondary' },
     ],
-    signals: [
-      'Live wiki for projects, procedures, and history.',
-      'Local archive manifest in this repository.',
-      'Public-facing site for orientation, not exhaustive reference.',
-      'Future ADRs will expand media preservation beyond text.',
-    ],
-    metaNote: 'Separating audiences reduces clutter without discarding institutional memory.',
+    signals: manifest
+      ? [
+          `${manifest.pageCount} archived pages rendered at build time.`,
+          'Internal links stay on the public site.',
+          'JSON manifest remains available for tooling.',
+          'GitHub wiki stays available for editing.',
+        ]
+      : [
+          'Archived pages render during site build.',
+          'Local archive manifest in this repository.',
+          'GitHub wiki for editing and collaboration.',
+          'Future ADRs will expand media preservation beyond text.',
+        ],
+    metaNote: 'Built from the checked-in archive snapshot during site generation.',
     sections: [
       renderSection(
-        'Live Reference',
-        'What stays in the wiki',
-        `
-          <p>${escapeHtml(siteContent.wiki.explanation)}</p>
-          <p>
-            For project logs, meeting minutes, tool details, workshops, and historical pages,
-            use the <a href="${organization.wikiUrl}">Bloominglabs wiki</a>.
-          </p>
-        `
+        'Browse',
+        'Archived pages',
+        manifest
+          ? `<ul class="wiki-index-list">${pageLinks}</ul>`
+          : `<p>Run <code>npm run build</code> with the checked-in archive to generate browsable wiki pages.</p>`
       ),
       renderSection(
-        'Repository Preservation',
-        'What is stored here',
+        'Other formats',
+        'GitHub wiki and raw archive',
         `
+          <p>
+            The editable GitHub wiki lives at
+            <a href="${organization.wikiUrl}">${escapeHtml(organization.wikiUrl)}</a>.
+          </p>
           <p>${escapeHtml(siteContent.wiki.archiveNote)}</p>
           <p>
             The current snapshot is exposed as <a href="${toPublicHref('/wiki-archive/latest/manifest.json', basePath)}">${escapeHtml(
               toPublicHref('/wiki-archive/latest/manifest.json', basePath)
             )}</a>.
-            Each archived page is stored as structured JSON so later migration tooling can consume it without scraping HTML.
           </p>
         `
       ),
@@ -507,7 +496,31 @@ function buildSiteFiles(options = {}) {
  */
 async function writeSite(outputRoot, options = {}) {
   const { archiveRoot, basePath = '' } = options;
-  const files = buildSiteFiles({ basePath });
+  const normalizedBasePath = normalizeBasePath(basePath);
+  let manifest = null;
+  let wikiArticleFiles = [];
+
+  if (archiveRoot) {
+    try {
+      await fs.access(path.join(archiveRoot, 'latest', 'manifest.json'));
+      const wikiBuild = await buildWikiSiteFiles({
+        archiveRoot: path.join(archiveRoot, 'latest'),
+        basePath: normalizedBasePath,
+      });
+      manifest = wikiBuild.manifest;
+      wikiArticleFiles = wikiBuild.files;
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        throw error;
+      }
+    }
+  }
+
+  const files = [
+    ...buildSiteFiles({ basePath: normalizedBasePath }).filter((file) => file.path !== 'wiki/index.html'),
+    { path: 'wiki/index.html', contents: renderWikiPage(normalizedBasePath, manifest) },
+    ...wikiArticleFiles,
+  ];
 
   await Promise.all(
     files.map(async (file) => {
@@ -534,5 +547,8 @@ async function writeSite(outputRoot, options = {}) {
 module.exports = {
   buildSiteFiles,
   normalizeBasePath,
+  renderWikiPage,
+  siteWikiPageHref,
+  toPublicHref,
   writeSite,
 };

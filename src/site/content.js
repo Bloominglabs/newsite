@@ -78,7 +78,7 @@ const siteContent = {
   },
   wiki: {
     explanation:
-      'This public-facing site is intentionally narrow. The GitHub wiki remains the full reference for projects, history, meeting notes, procedures, and other deep organizational material.',
+      'This public-facing site is intentionally narrow. The integrated wiki on this site and the GitHub wiki remain the full reference for projects, history, meeting notes, procedures, and other deep organizational material.',
     archiveNote:
       'A textual preservation snapshot of the current wiki also lives in this repository so Bloominglabs is not dependent on one hosting arrangement.',
   },

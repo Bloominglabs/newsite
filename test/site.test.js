@@ -38,16 +38,17 @@ test('membership page explains the path to joining and member access', () => {
   assert.ok(membership);
   assert.match(membership.contents, /attend 3 meetings or workshops/i);
   assert.match(membership.contents, /24\/7 access/i);
-  assert.match(membership.contents, /public night/i);
+  assert.match(membership.contents, /href="\/wiki\/pages\/Membership-Manual\/"/);
 });
 
-test('wiki page links both to the live wiki and to the local archive manifest', () => {
+test('wiki page links to GitHub wiki, archive manifest, and browsable wiki home', () => {
   const files = buildSiteFiles();
   const wiki = files.find((file) => file.path === 'wiki/index.html');
 
   assert.ok(wiki);
   assert.match(wiki.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
   assert.match(wiki.contents, /\/wiki-archive\/latest\/manifest\.json/);
+  assert.match(wiki.contents, /\/wiki\/pages\/Home\//);
 });
 
 test('normalizeBasePath canonicalizes empty and nested path prefixes', () => {
@@ -125,7 +126,14 @@ test('writeSite copies an existing wiki archive into the deployable output', asy
     await fs.mkdir(path.join(archiveRoot, 'latest', 'pages'), { recursive: true });
     await fs.writeFile(
       path.join(archiveRoot, 'latest', 'manifest.json'),
-      JSON.stringify({ pageCount: 1 }, null, 2),
+      JSON.stringify(
+        {
+          pageCount: 1,
+          pages: [{ title: 'Main Page', file: 'pages/Main_Page.json' }],
+        },
+        null,
+        2
+      ),
       'utf8'
     );
     await fs.writeFile(
@@ -160,6 +168,74 @@ test('writeSite tolerates a missing wiki archive source path', async () => {
 
     const homeContents = await fs.readFile(path.join(tempRoot, 'dist', 'index.html'), 'utf8');
     assert.match(homeContents, /Bloominglabs/);
+  } finally {
+    await fs.rm(tempRoot, { recursive: true, force: true });
+  }
+});
+
+test('writeSite renders archived wiki article pages when an archive is available', async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-wiki-pages-'));
+  const archiveRoot = path.join(tempRoot, 'wiki-archive');
+
+  try {
+    await fs.mkdir(path.join(archiveRoot, 'latest', 'pages'), { recursive: true });
+    await fs.writeFile(
+      path.join(archiveRoot, 'latest', 'manifest.json'),
+      JSON.stringify(
+        {
+          pageCount: 1,
+          pages: [{ title: 'Main Page', file: 'pages/Main_Page.json' }],
+        },
+        null,
+        2
+      ),
+      'utf8'
+    );
+    await fs.writeFile(
+      path.join(archiveRoot, 'latest', 'pages', 'Main_Page.json'),
+      JSON.stringify({
+        title: 'Main Page',
+        revision: { content: '= Welcome =\nVisit [[Location]].' },
+      }),
+      'utf8'
+    );
+    await fs.writeFile(
+      path.join(archiveRoot, 'latest', 'pages', 'Location.json'),
+      JSON.stringify({
+        title: 'Location',
+        revision: { content: '1840 S. Walnut Street' },
+      }),
+      'utf8'
+    );
+
+    const writtenFiles = await writeSite(path.join(tempRoot, 'dist'), { archiveRoot, basePath: '/newsite' });
+    const paths = writtenFiles.map((file) => file.path);
+
+    assert.ok(paths.includes('wiki/pages/Home/index.html'));
+    assert.ok(paths.includes('wiki/index.html'));
+
+    const homePage = await fs.readFile(path.join(tempRoot, 'dist', 'wiki', 'pages', 'Home', 'index.html'), 'utf8');
+    const wikiIndex = await fs.readFile(path.join(tempRoot, 'dist', 'wiki', 'index.html'), 'utf8');
+
+    assert.match(homePage, /<h1>Welcome<\/h1>/);
+    assert.match(homePage, /href="\/newsite\/wiki\/pages\/Location\/"/);
+    assert.match(wikiIndex, /href="\/newsite\/wiki\/pages\/Home\/">Main Page<\/a>/);
+  } finally {
+    await fs.rm(tempRoot, { recursive: true, force: true });
+  }
+});
+
+test('writeSite skips wiki page generation when the archive manifest is absent', async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-no-manifest-'));
+  const archiveRoot = path.join(tempRoot, 'wiki-archive');
+
+  try {
+    await fs.mkdir(archiveRoot, { recursive: true });
+    const writtenFiles = await writeSite(path.join(tempRoot, 'dist'), { archiveRoot });
+    const paths = writtenFiles.map((file) => file.path);
+
+    assert.ok(paths.includes('wiki/index.html'));
+    assert.equal(paths.some((filePath) => filePath.startsWith('wiki/pages/')), false);
   } finally {
     await fs.rm(tempRoot, { recursive: true, force: true });
   }

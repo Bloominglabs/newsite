@@ -10,7 +10,7 @@ This repository contains two related deliverables:
 - `npm test` runs the automated suite with coverage.
 - `npm run archive:wiki` refreshes `wiki-archive/latest/` from the live Bloominglabs wiki.
 - `npm run migrate:github-wiki` generates `wiki/` from the checked-in archive for GitHub wiki publication.
-- `npm run build` writes the deployable site to `dist/` and copies the current `wiki-archive/` snapshot into the build output.
+- `npm run build` writes the deployable site to `dist/`, renders browsable wiki pages from the archive, and copies the current `wiki-archive/` snapshot into the build output.
 - `BASE_PATH=/newsite npm run build` simulates the repository GitHub Pages URL locally.
 
 ## Deployment

@@ -340,6 +340,68 @@ a:hover {
   color: var(--color-brass);
 }
 
+.wiki-page-main {
+  padding-top: 2rem;
+}
+
+.wiki-article h1 {
+  margin-top: 0;
+}
+
+.wiki-backlink {
+  color: var(--color-steel);
+  font-size: 0.95rem;
+}
+
+.wiki-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4,
+.wiki-content h5,
+.wiki-content h6 {
+  margin-bottom: 0.35rem;
+}
+
+.wiki-content p,
+.wiki-content ul,
+.wiki-content ol,
+.wiki-content table {
+  margin: 0;
+}
+
+.wiki-index-list {
+  columns: 2;
+  gap: 2rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.wiki-index-list li {
+  break-inside: avoid;
+  margin-bottom: 0.45rem;
+}
+
+.wiki-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wiki-table td {
+  border: 1px solid var(--color-line);
+  padding: 0.55rem 0.75rem;
+  vertical-align: top;
+}
+
+.wiki-file-ref {
+  color: var(--color-steel);
+  font-style: italic;
+}
+
 @media (max-width: 880px) {
   .hero-inner,
   .grid.columns-2 {
@@ -359,6 +421,10 @@ a:hover {
 
   .header-inner {
     align-items: flex-start;
+  }
+
+  .wiki-index-list {
+    columns: 1;
   }
 }
 `;
