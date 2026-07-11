@@ -26,6 +26,21 @@ The workflow:
 
 The deployment workflow intentionally does not refresh the live wiki archive on every push. Archive refreshes are a separate deliberate action so site publication does not depend on external wiki availability.
 
+## GitHub Wiki
+
+The migrated wiki lives in `wiki/` as `.mediawiki` files generated from `wiki-archive/latest/`.
+
+- `npm run migrate:github-wiki` regenerates `wiki/` locally.
+- `.github/workflows/publish-wiki.yml` publishes `wiki/` to [the repository wiki](https://github.com/Bloominglabs/newsite/wiki).
+
+GitHub creates the hidden `newsite.wiki.git` backend only after the first wiki page is saved in the browser. Until that one-time bootstrap happens, automated publish runs will stop at the backend check. To bootstrap:
+
+1. Open [Create the first wiki page](https://github.com/Bloominglabs/newsite/wiki/_new).
+2. Save a placeholder `Home` page.
+3. Re-run the **Publish GitHub Wiki** workflow (or push another change under `wiki/`).
+
+After bootstrap, the workflow keeps the GitHub wiki in sync with the checked-in export.
+
 ## Repository Layout
 
 - `docs/` holds the design document, ADRs, and after-action reports.

@@ -10,6 +10,7 @@ on:
       - wiki-archive/**
       - src/wiki/**
       - scripts/migrate-github-wiki.js
+      - scripts/check-github-wiki-backend.js
       - .github/workflows/publish-wiki.yml
   workflow_dispatch:
 
@@ -38,8 +39,13 @@ jobs:
       - name: Regenerate wiki export
         run: npm run migrate:github-wiki
 
+      - name: Verify GitHub wiki backend exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/check-github-wiki-backend.js
+
       - name: Publish wiki directory to GitHub wiki
         uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
           path: wiki
-          strategy: init
+          strategy: clone
