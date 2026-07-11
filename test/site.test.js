@@ -137,6 +137,8 @@ test('writeSite materializes the generated files on disk', async () => {
     assert.match(styleContents, /--color-spark:/);
     assert.match(styleContents, /--font-display:\s*"Syne"/);
     assert.match(styleContents, /--font-body:\s*"IBM Plex Sans"/);
+    assert.match(styleContents, /overflow-x:\s*clip/);
+    assert.doesNotMatch(styleContents, /--content-width:[^;]*100vw/);
     assert.match(styleContents, /@keyframes/);
     assert.match(styleContents, /prefers-reduced-motion/);
   } finally {
