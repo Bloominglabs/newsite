@@ -33,13 +33,16 @@ The migrated wiki lives in `wiki/` as `.mediawiki` files generated from `wiki-ar
 - `npm run migrate:github-wiki` regenerates `wiki/` locally.
 - `.github/workflows/publish-wiki.yml` publishes `wiki/` to [the repository wiki](https://github.com/Bloominglabs/newsite/wiki).
 
-GitHub creates the hidden `newsite.wiki.git` backend only after the first wiki page is saved in the browser. Until that one-time bootstrap happens, automated publish runs will stop at the backend check. To bootstrap:
+GitHub creates the hidden `newsite.wiki.git` backend only after the first wiki page is saved in the browser. API tokens and CI cannot perform that one-time bootstrap, so automated publish runs stop at the backend check until it happens.
 
-1. Open [Create the first wiki page](https://github.com/Bloominglabs/newsite/wiki/_new).
-2. Save a placeholder `Home` page.
-3. Re-run the **Publish GitHub Wiki** workflow (or push another change under `wiki/`).
+To bootstrap (pick one):
+
+1. **Browser (manual):** Open [Create the first wiki page](https://github.com/Bloominglabs/newsite/wiki/_new), save a placeholder `Home` page, then re-run **Publish GitHub Wiki** in Actions.
+2. **Browser (script):** Close Chrome, then run `npm install --no-save playwright && npx playwright install chrome && npm run bootstrap:github-wiki`. The script opens your logged-in Chrome profile, saves `Home` from `wiki/Home.mediawiki`, and triggers the publish workflow.
 
 After bootstrap, the workflow keeps the GitHub wiki in sync with the checked-in export.
+
+Until then, browse the migrated wiki on GitHub Pages at [bloominglabs.github.io/newsite/wiki/](https://bloominglabs.github.io/newsite/wiki/).
 
 ## Repository Layout
 

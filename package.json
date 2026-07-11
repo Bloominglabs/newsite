@@ -7,6 +7,7 @@
     "test": "node --test --experimental-test-coverage test/*.test.js",
     "build": "node scripts/build.js",
     "archive:wiki": "node scripts/archive-wiki.js",
-    "migrate:github-wiki": "node scripts/migrate-github-wiki.js"
+    "migrate:github-wiki": "node scripts/migrate-github-wiki.js",
+    "bootstrap:github-wiki": "node scripts/bootstrap-github-wiki-browser.js"
   }
 }
