@@ -30,6 +30,18 @@ function escapeHtml(value) {
 }
 
 /**
+ * Resolve action hrefs so internal paths honor the GitHub Pages base path while
+ * leaving absolute and mailto links untouched.
+ */
+function resolveActionHref(href, basePath) {
+  if (/^(https?:|mailto:)/i.test(href)) {
+    return href;
+  }
+
+  return toPublicHref(href, basePath);
+}
+
+/**
  * The navigation is generated from a single definition so page changes remain
  * synchronized across the whole site.
  */
@@ -55,27 +67,6 @@ function renderNavigation(currentPath, basePath) {
 }
 
 /**
- * Reusable cards keep the content layout consistent while allowing the copy to
- * stay page-specific.
- */
-function renderCardGrid(items) {
-  return `
-    <div class="grid columns-2">
-      ${items
-        .map(
-          (item) => `
-            <article class="card">
-              <h3>${escapeHtml(item.title)}</h3>
-              <p>${escapeHtml(item.body)}</p>
-            </article>
-          `
-        )
-        .join('')}
-    </div>
-  `;
-}
-
-/**
  * Ordered and unordered list rendering is split into dedicated helpers so the
  * page functions can describe structure clearly instead of building raw HTML.
  */
@@ -91,13 +82,11 @@ function renderList(items, type) {
 }
 
 /**
- * Section rendering gives each page a consistent headline treatment and leaves
- * the actual body content to the caller.
+ * Section rendering keeps each block to one purpose: a headline and body.
  */
-function renderSection(kicker, title, bodyHtml) {
+function renderSection(title, bodyHtml) {
   return `
-    <section class="content-panel">
-      <p class="section-kicker">${escapeHtml(kicker)}</p>
+    <section class="section-block">
       <h2>${escapeHtml(title)}</h2>
       ${bodyHtml}
     </section>
@@ -105,11 +94,65 @@ function renderSection(kicker, title, bodyHtml) {
 }
 
 /**
- * The layout owns shared framing, while page functions provide the hero copy
- * and body content. This keeps changes localized and predictable.
+ * CTA buttons share one renderer so home and interior pages stay consistent.
+ */
+function renderActions(actions, basePath) {
+  return `
+    <div class="cta-row">
+      ${actions
+        .map(
+          (action) => `
+            <a class="button ${escapeHtml(action.variant)}" href="${resolveActionHref(action.href, basePath)}">
+              ${escapeHtml(action.label)}
+            </a>
+          `
+        )
+        .join('')}
+    </div>
+  `;
+}
+
+/**
+ * The home hero is brand-first and intentionally sparse: brand, headline,
+ * one sentence, and CTAs on a full-bleed atmospheric plane.
+ */
+function renderHomeHero(page, basePath) {
+  return `
+    <section class="hero hero-home">
+      <div class="hero-home-inner">
+        <p class="hero-brand">${escapeHtml(siteContent.organization.name)}</p>
+        <h1>${escapeHtml(page.heroTitle)}</h1>
+        <p class="hero-lead">${escapeHtml(page.heroText)}</p>
+        ${renderActions(page.actions, basePath)}
+      </div>
+    </section>
+  `;
+}
+
+/**
+ * Interior pages use a compact masthead so Visit, Membership, Support, and Wiki
+ * stay focused without repeating the landing composition.
+ */
+function renderPageMasthead(page, basePath) {
+  return `
+    <section class="page-masthead">
+      <div class="page-masthead-inner">
+        <p class="page-kicker">${escapeHtml(page.kicker)}</p>
+        <h1 class="page-title">${escapeHtml(page.heroTitle)}</h1>
+        <p class="page-lead">${escapeHtml(page.heroText)}</p>
+        ${renderActions(page.actions, basePath)}
+      </div>
+    </section>
+  `;
+}
+
+/**
+ * Shared chrome wraps page-specific intro and body content. Home gets the
+ * brand-first hero; every other public page gets the masthead.
  */
 function renderLayout(page, basePath) {
   const organization = siteContent.organization;
+  const intro = page.layout === 'home' ? renderHomeHero(page, basePath) : renderPageMasthead(page, basePath);
 
   return `<!doctype html>
 <html lang="en">
@@ -131,50 +174,20 @@ function renderLayout(page, basePath) {
           ${renderNavigation(page.navPath, basePath)}
         </div>
       </header>
-      <section class="hero">
-        <div class="hero-inner">
-          <div class="hero-panel">
-            <div class="hero-accent"></div>
-            <div class="hero-copy">
-              <p class="eyebrow">${escapeHtml(page.eyebrow)}</p>
-              <h1>${escapeHtml(page.heroTitle)}</h1>
-              <p>${escapeHtml(page.heroText)}</p>
-              <div class="cta-row">
-                ${page.actions
-                  .map(
-                    (action) => `
-                      <a class="button ${escapeHtml(action.variant)}" href="${toPublicHref(action.href, basePath)}">
-                        ${escapeHtml(action.label)}
-                      </a>
-                    `
-                  )
-                  .join('')}
-              </div>
-            </div>
-          </div>
-          <aside class="signal-panel">
-            <h2>Quick Signals</h2>
-            <ul class="signal-list">
-              ${page.signals
-                .map((signal) => `<li>${escapeHtml(signal)}</li>`)
-                .join('')}
-            </ul>
-            <p class="meta-note">${escapeHtml(page.metaNote)}</p>
-          </aside>
-        </div>
-      </section>
+      ${intro}
       <main class="page-main">
         ${page.sections.join('')}
       </main>
       <footer class="site-footer">
         <div class="site-footer-inner">
-          <p><strong>${escapeHtml(organization.name)}</strong> is Bloomington’s hackerspace.</p>
+          <p><strong>${escapeHtml(organization.name)}</strong> — ${escapeHtml(organization.tagline)}</p>
           <p>
-            Public hours: ${escapeHtml(organization.publicHours)}.
+            Public night: ${escapeHtml(organization.publicHours)}.
+            ${escapeHtml(organization.addressShort)}.
             Email <a href="mailto:${escapeHtml(organization.email)}">${escapeHtml(organization.email)}</a>.
           </p>
           <p class="footer-note">
-            This public-facing site highlights the essentials; the wiki remains the full reference.
+            Deep reference lives in the <a href="${toPublicHref('/wiki/', basePath)}">wiki</a>.
           </p>
         </div>
       </footer>
@@ -184,225 +197,208 @@ function renderLayout(page, basePath) {
 }
 
 /**
- * Each page renderer is kept explicit instead of trying to hide content behind
- * a generic schema too early. That makes the information architecture easier to
+ * Each page renderer is kept explicit instead of hiding content behind a
+ * generic schema too early. That makes the information architecture easier to
  * revise while the site is still being discovered.
  */
 function renderHomePage(basePath) {
   const organization = siteContent.organization;
+  const home = siteContent.home;
 
-  return renderLayout({
-    title: 'Bloomington’s hackerspace',
-    description:
-      'Bloominglabs is a public-facing site for visitors who want to find the space, public hours, membership path, and support information.',
-    navPath: '/',
-    eyebrow: 'Bloomington, Indiana',
-    heroTitle: 'Tools, people, and room to make things that would be hard to build alone.',
-    heroText: `${organization.name} is Indiana’s first hackerspace. ${siteContent.home.intro}`,
-    actions: [
-      { href: '/visit/', label: 'Plan A Visit', variant: 'primary' },
-      { href: '/membership/', label: 'How Membership Works', variant: 'secondary' },
-    ],
-    signals: [
-      `${organization.publicHours}.`,
-      'Public-facing site for first-time visitors.',
-      'Makevention is one of Bloominglabs’ signature public projects.',
-      'The wiki remains the full reference for deep technical material.',
-    ],
-    metaNote: 'Built for clear public orientation while keeping the deeper wiki intact.',
-    sections: [
-      renderSection(
-        'First Visit',
-        'The fastest way to understand Bloominglabs',
-        `
-          <p>${escapeHtml(siteContent.home.intro)}</p>
-          ${renderCardGrid(siteContent.home.quickFacts)}
-        `
-      ),
-      renderSection(
-        'Why This Site Exists',
-        'Public-facing site first, reference wiki second',
-        `
-          <p>
-            This public-facing site is meant to answer the high-value questions quickly:
-            what Bloominglabs is, where it is, when visitors are welcome, and how to get involved.
-          </p>
-          <div class="callout">
-            <h2>What changed?</h2>
+  return renderLayout(
+    {
+      layout: 'home',
+      title: 'Bloomington’s hackerspace',
+      description:
+        'Bloominglabs is Bloomington’s hackerspace: public night hours, location, membership, and ways to support the shop.',
+      navPath: '/',
+      heroTitle: home.headline,
+      heroText: home.lead,
+      actions: [
+        { href: '/visit/', label: home.visitCta, variant: 'primary' },
+        { href: '/membership/', label: home.membershipCta, variant: 'secondary' },
+      ],
+      sections: [
+        renderSection(
+          'Public night',
+          `
             <p>
-              The wiki remains the full reference for projects, procedures, meeting history, and deep institutional knowledge.
-              The main site stays focused on orientation and public access.
+              Visitors are welcome ${escapeHtml(organization.publicHoursDetail)}.
+              Free, all ages, and the best first look at the shop.
             </p>
-          </div>
-        `
-      ),
-      renderSection(
-        'Public Rhythm',
-        'What visitors can expect',
-        `
-          <p>
-            Visitors are welcome during ${escapeHtml(organization.publicHours)}. Public night is free,
-            family-friendly, and the best time to meet members, see active work, and figure out whether you want
-            to come back for workshops or membership.
-          </p>
-          <p>
-            Bloominglabs also organizes <a href="${organization.makeventionUrl}">Makevention</a>, which brings together
-            makers, clubs, artists, and inventive projects from around the region.
-          </p>
-        `
-      ),
-    ],
-  }, basePath);
+            <div class="hours-beacon" aria-label="Public hours">
+              <strong>${escapeHtml(organization.publicHours)}</strong>
+              <span>${escapeHtml(organization.addressShort)} · ${escapeHtml(organization.entranceNote)}</span>
+            </div>
+          `
+        ),
+        renderSection(
+          'What happens here',
+          `
+            <p>${escapeHtml(home.about)}</p>
+            <div class="fact-strip">
+              <article>
+                <h3>Workshop</h3>
+                <p>Shared tools and benches for electronics, fabrication, craft, and repair.</p>
+              </article>
+              <article>
+                <h3>Makevention</h3>
+                <p>
+                  Bloominglabs organizes
+                  <a href="${organization.makeventionUrl}">Makevention</a>,
+                  Bloomington’s annual maker fair.
+                </p>
+              </article>
+              <article>
+                <h3>Membership</h3>
+                <p>Members get 24/7 access and a vote after joining through public nights and workshops.</p>
+              </article>
+            </div>
+          `
+        ),
+        renderSection(
+          'Get involved',
+          `
+            <p>
+              Start with a Wednesday visit, join if you want keys, or
+              <a href="${toPublicHref('/support/', basePath)}">support the space</a>
+              if you want to help keep tools and public programming available.
+            </p>
+            ${renderActions(
+              [
+                { href: '/visit/', label: 'Plan a visit', variant: 'primary' },
+                { href: '/support/', label: 'Support Bloominglabs', variant: 'secondary' },
+              ],
+              basePath
+            )}
+          `
+        ),
+      ],
+    },
+    basePath
+  );
 }
 
 function renderVisitPage(basePath) {
   const organization = siteContent.organization;
 
-  return renderLayout({
-    title: 'Visit Bloominglabs',
-    description: 'Location, access expectations, contact routes, and first-visit notes for Bloominglabs.',
-    navPath: '/visit/',
-    eyebrow: 'Visit',
-    heroTitle: 'Start with public night.',
-    heroText:
-      'The easiest first contact is to show up on Wednesday evening, meet the people using the space, and ask direct questions about your interests.',
-    actions: [
-      { href: toPublicHref('/wiki/', basePath), label: 'Wiki', variant: 'primary' },
-      { href: `mailto:${organization.email}`, label: 'Email The Space', variant: 'secondary' },
-    ],
-    signals: [
-      organization.address,
-      organization.publicHours,
-      'First visits require a liability waiver.',
-      'Suite entrance is around the back next to the garage door.',
-    ],
-    metaNote: 'Use the public visit path unless a member has arranged a different time with you.',
-    sections: [
-      renderSection(
-        'Location',
-        'Where to go',
-        `
-          <p>
-            Bloominglabs is located at <strong>${escapeHtml(organization.address)}</strong>.
-            The entrance to Suite 200 is around the back, near the garage door.
-          </p>
-          <p>
-            Public hours run ${escapeHtml(organization.publicHours)}. If that timing does not work,
-            email the space and ask whether another visit can be coordinated.
-          </p>
-        `
-      ),
-      renderSection(
-        'Before You Arrive',
-        'What to know ahead of time',
-        renderList(siteContent.visit.arrivalNotes, 'bullet')
-      ),
-      renderSection(
-        'Stay In Touch',
-        'How to reach Bloominglabs',
-        `
-          ${renderList(siteContent.visit.contactRoutes, 'bullet')}
-          <div class="callout">
-            <h2>Key links</h2>
-            <p><a href="${toPublicHref(organization.calendarUrl, basePath)}">Calendar</a> for workshops and events.</p>
-            <p><a href="${toPublicHref('/wiki/', basePath)}">Wiki</a> for deeper operational details.</p>
-          </div>
-        `
-      ),
-    ],
-  }, basePath);
+  return renderLayout(
+    {
+      layout: 'page',
+      title: 'Visit Bloominglabs',
+      description: 'Location, public night hours, and first-visit notes for Bloominglabs.',
+      navPath: '/visit/',
+      kicker: 'Visit',
+      heroTitle: 'Come on Wednesday night.',
+      heroText: siteContent.visit.lead,
+      actions: [
+        { href: `mailto:${organization.email}`, label: 'Email the space', variant: 'primary' },
+        { href: '/membership/', label: 'Membership path', variant: 'secondary' },
+      ],
+      sections: [
+        renderSection(
+          'Where to go',
+          `
+            <p>
+              Bloominglabs is at <strong>${escapeHtml(organization.address)}</strong>.
+              ${escapeHtml(organization.entranceNote)}
+            </p>
+            <div class="hours-beacon" aria-label="Public hours">
+              <strong>${escapeHtml(organization.publicHours)}</strong>
+              <span>Free · all ages · first visits need a liability waiver</span>
+            </div>
+          `
+        ),
+        renderSection('Before you arrive', renderList(siteContent.visit.arrivalNotes, 'bullet')),
+        renderSection(
+          'Stay in touch',
+          `
+            ${renderList(siteContent.visit.contactRoutes, 'bullet')}
+            <div class="callout">
+              <h3>Useful links</h3>
+              <p><a href="${organization.calendarUrl}">Upcoming workshops</a> on the wiki.</p>
+              <p><a href="${toPublicHref('/wiki/', basePath)}">Browse the wiki</a> for deeper operational details.</p>
+            </div>
+          `
+        ),
+      ],
+    },
+    basePath
+  );
 }
 
 function renderMembershipPage(basePath) {
-  const organization = siteContent.organization;
-
-  return renderLayout({
-    title: 'Membership',
-    description: 'How to become a Bloominglabs member and what membership provides.',
-    navPath: '/membership/',
-    eyebrow: 'Membership',
-    heroTitle: 'Join by participating, not by filling out a cold form.',
-    heroText:
-      'Bloominglabs treats membership as a relationship. Start by showing up at public night or a workshop, meet people, and let the process unfold in the room.',
-    actions: [
-      { href: '/visit/', label: 'Come To Public Night', variant: 'primary' },
-      { href: siteWikiPageHref('Membership Manual', basePath), label: 'Membership Manual', variant: 'secondary' },
-    ],
-    signals: [
-      'Attend 3 meetings or workshops before joining.',
-      'Members receive 24/7 access after joining.',
-      'The process starts in person at public night.',
-      'Membership is for people who want to contribute to the space as well as use it.',
-    ],
-    metaNote: 'The membership process is intentionally social so expectations stay explicit.',
-    sections: [
-      renderSection(
-        'Joining',
-        'How the path works',
-        `
-          <p>
-            Bloominglabs asks prospective members to attend 3 meetings or workshops before joining.
-            That gives both sides time to ask questions, understand expectations, and see whether the space fits.
-          </p>
-          ${renderList(siteContent.membership.steps, 'numbered')}
-        `
-      ),
-      renderSection(
-        'What Membership Provides',
-        'What changes after you join',
-        `
-          ${renderList(siteContent.membership.benefits, 'bullet')}
-          <div class="callout">
-            <h2>Start simple</h2>
+  return renderLayout(
+    {
+      layout: 'page',
+      title: 'Membership',
+      description: 'How to become a Bloominglabs member and what membership provides.',
+      navPath: '/membership/',
+      kicker: 'Membership',
+      heroTitle: 'Join by showing up.',
+      heroText: siteContent.membership.lead,
+      actions: [
+        { href: '/visit/', label: 'Come to public night', variant: 'primary' },
+        { href: siteWikiPageHref('Membership Manual', basePath), label: 'Membership Manual', variant: 'secondary' },
+      ],
+      sections: [
+        renderSection(
+          'How joining works',
+          `
             <p>
-              If you are unsure whether membership makes sense, begin with a public night visit.
-              That is the intended front door and the best way to see current activity.
+              Prospective members attend 3 meetings or workshops before joining.
+              That gives both sides time to ask questions and see whether the space fits.
             </p>
-          </div>
-        `
-      ),
-    ],
-  }, basePath);
+            ${renderList(siteContent.membership.steps, 'numbered')}
+          `
+        ),
+        renderSection(
+          'What membership provides',
+          `
+            ${renderList(siteContent.membership.benefits, 'bullet')}
+            <div class="callout">
+              <h3>Not sure yet?</h3>
+              <p>
+                Start with public night. That is the front door and the best way to see current activity.
+              </p>
+            </div>
+          `
+        ),
+      ],
+    },
+    basePath
+  );
 }
 
 function renderSupportPage(basePath) {
-  return renderLayout({
-    title: 'Support Bloominglabs',
-    description: 'Donation and support information for Bloominglabs.',
-    navPath: '/support/',
-    eyebrow: 'Support',
-    heroTitle: 'Help keep tools, space, and public programming available.',
-    heroText:
-      'Bloominglabs is funded primarily by membership dues, but donations, volunteer effort, and event support all materially improve what the space can offer.',
-    actions: [
-      { href: siteWikiPageHref('Donations', basePath), label: 'Donation Details', variant: 'primary' },
-      { href: '/membership/', label: 'Become A Member', variant: 'secondary' },
-    ],
-    signals: [
-      'Bloominglabs is a registered 501(c)(3) charitable nonprofit in Indiana.',
-      'Monetary and useful hardware donations are welcome.',
-      'Kroger Community Rewards can benefit the space.',
-      'Volunteer labor is often as valuable as cash.',
-    ],
-    metaNote: 'Support keeps the space usable for members, workshops, and public nights.',
-    sections: [
-      renderSection(
-        'Ways To Help',
-        'Support that keeps the shop open',
-        renderList(siteContent.support.options, 'bullet')
-      ),
-      renderSection(
-        'Why it matters',
-        'Public access depends on shared upkeep',
-        `
-          <p>
-            Space rent, utilities, safety gear, consumables, repair work, and event organizing all require sustained effort.
-            Support is what keeps Bloominglabs from becoming a private club with decaying tools.
-          </p>
-        `
-      ),
-    ],
-  }, basePath);
+  return renderLayout(
+    {
+      layout: 'page',
+      title: 'Support Bloominglabs',
+      description: 'Donation and support information for Bloominglabs.',
+      navPath: '/support/',
+      kicker: 'Support',
+      heroTitle: 'Help keep the shop open.',
+      heroText: siteContent.support.lead,
+      actions: [
+        { href: siteWikiPageHref('Donations', basePath), label: 'Donation details', variant: 'primary' },
+        { href: '/membership/', label: 'Become a member', variant: 'secondary' },
+      ],
+      sections: [
+        renderSection('Ways to help', renderList(siteContent.support.options, 'bullet')),
+        renderSection(
+          'Why it matters',
+          `
+            <p>
+              Rent, utilities, safety gear, consumables, repairs, and events all need sustained support.
+              Donations and volunteer time keep Bloominglabs usable for members, workshops, and public nights.
+            </p>
+          `
+        ),
+      ],
+    },
+    basePath
+  );
 }
 
 function renderWikiPage(basePath, manifest = null) {
@@ -417,57 +413,46 @@ function renderWikiPage(basePath, manifest = null) {
     })
     .join('');
 
-  return renderLayout({
-    title: 'Wiki',
-    description: 'Browse archived Bloominglabs wiki pages on the public site.',
-    navPath: '/wiki/',
-    eyebrow: 'Reference',
-    heroTitle: 'Browse the preserved Bloominglabs wiki from the public site.',
-    heroText: siteContent.wiki.explanation,
-    actions: [
-      { href: '/wiki/pages/Home/', label: 'Wiki Home', variant: 'primary' },
-      { href: organization.wikiUrl, label: 'GitHub Wiki', variant: 'secondary' },
-    ],
-    signals: manifest
-      ? [
-          `${manifest.pageCount} archived pages rendered at build time.`,
-          'Internal links stay on the public site.',
-          'JSON manifest remains available for tooling.',
-          'GitHub wiki stays available for editing.',
-        ]
-      : [
-          'Archived pages render during site build.',
-          'Local archive manifest in this repository.',
-          'GitHub wiki for editing and collaboration.',
-          'Future ADRs will expand media preservation beyond text.',
-        ],
-    metaNote: 'Built from the checked-in archive snapshot during site generation.',
-    sections: [
-      renderSection(
-        'Browse',
-        'Archived pages',
-        manifest
-          ? `<ul class="wiki-index-list">${pageLinks}</ul>`
-          : `<p>Run <code>npm run build</code> with the checked-in archive to generate browsable wiki pages.</p>`
-      ),
-      renderSection(
-        'Other formats',
-        'GitHub wiki and raw archive',
-        `
-          <p>
-            The editable GitHub wiki lives at
-            <a href="${organization.wikiUrl}">${escapeHtml(organization.wikiUrl)}</a>.
-          </p>
-          <p>${escapeHtml(siteContent.wiki.archiveNote)}</p>
-          <p>
-            The current snapshot is exposed as <a href="${toPublicHref('/wiki-archive/latest/manifest.json', basePath)}">${escapeHtml(
-              toPublicHref('/wiki-archive/latest/manifest.json', basePath)
-            )}</a>.
-          </p>
-        `
-      ),
-    ],
-  }, basePath);
+  return renderLayout(
+    {
+      layout: 'page',
+      title: 'Wiki',
+      description: 'Browse archived Bloominglabs wiki pages on the public site.',
+      navPath: '/wiki/',
+      kicker: 'Reference',
+      heroTitle: 'The deep reference lives here.',
+      heroText: siteContent.wiki.explanation,
+      actions: [
+        { href: '/wiki/pages/Home/', label: 'Wiki home', variant: 'primary' },
+        { href: organization.wikiUrl, label: 'GitHub wiki', variant: 'secondary' },
+      ],
+      sections: [
+        renderSection(
+          'Archived pages',
+          manifest
+            ? `<ul class="wiki-index-list">${pageLinks}</ul>`
+            : `<p>Run <code>npm run build</code> with the checked-in archive to generate browsable wiki pages.</p>`
+        ),
+        renderSection(
+          'Other formats',
+          `
+            <p>
+              The editable GitHub wiki lives at
+              <a href="${organization.wikiUrl}">${escapeHtml(organization.wikiUrl)}</a>.
+            </p>
+            <p>${escapeHtml(siteContent.wiki.archiveNote)}</p>
+            <p>
+              The current snapshot is exposed as
+              <a href="${toPublicHref('/wiki-archive/latest/manifest.json', basePath)}">${escapeHtml(
+                toPublicHref('/wiki-archive/latest/manifest.json', basePath)
+              )}</a>.
+            </p>
+          `
+        ),
+      ],
+    },
+    basePath
+  );
 }
 
 /**

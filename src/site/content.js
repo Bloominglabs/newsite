@@ -8,79 +8,75 @@
 const siteContent = {
   organization: {
     name: 'Bloominglabs',
-    tagline: 'A space for sharing tools and knowledge to make stuff',
+    tagline: 'Bloomington’s hackerspace',
     summary:
-      'Bloomington, Indiana’s hackerspace for people who want to build, repair, explore, and learn together.',
+      'A shared workshop where neighbors build, repair, teach, and experiment together.',
     address: '1840 S. Walnut Street, Suite 200, Bloomington, IN 47401',
+    addressShort: '1840 S. Walnut Street, Suite 200',
+    city: 'Bloomington, IN',
     mailingAddress: 'P.O. Box 2443, Bloomington, IN 47402',
     email: 'contact@bloominglabs.org',
-    publicHours: 'Wednesday evenings from 7pm until 10pm',
+    publicHours: 'Wednesdays, 7pm–10pm',
+    publicHoursDetail: 'Every Wednesday from 7pm until 10pm',
+    entranceNote: 'Entrance is around the back, next to the garage door.',
     wikiUrl: 'https://github.com/Bloominglabs/newsite/wiki',
     makeventionUrl: 'https://www.makevention.org/',
-    calendarUrl: 'https://calendar.google.com/',
+    calendarUrl: 'https://github.com/Bloominglabs/newsite/wiki/Upcoming-Workshops',
   },
   home: {
-    intro:
-      'Bloominglabs is Indiana’s first hackerspace. We share tools, space, and practical knowledge so more people can make ambitious things in public.',
-    quickFacts: [
-      {
-        title: 'Public Hours',
-        body: 'Every Wednesday from 7pm until 10pm. Free, all ages, and a good first visit if you want to see the space in action.',
-      },
-      {
-        title: 'Location',
-        body: 'Find us at 1840 S. Walnut Street, Suite 200 in Bloomington. The entrance is around the back next to the garage door.',
-      },
-      {
-        title: 'Makevention',
-        body: 'Bloominglabs organizes Makevention, Bloomington’s annual maker fair and showcase for inventive local work.',
-      },
-      {
-        title: 'Membership',
-        body: 'Members get 24/7 access to the space and most shared tools once they complete the joining process.',
-      },
-    ],
+    headline: 'Shared tools. Open nights. Room to make stuff.',
+    lead:
+      'Indiana’s first hackerspace — a public workshop in Bloomington for building, repairing, teaching, and learning together.',
+    about:
+      'Bloominglabs is a member-run shop full of tools for electronics, fabrication, craft, repair, and experiments that do not fit in a spare bedroom. Come for public night, stay for workshops, or join if you want keys and a stake in the space.',
+    visitCta: 'Come to public night',
+    membershipCta: 'How to join',
   },
   visit: {
+    lead:
+      'Public night is the easiest first visit: free, open to all ages, and the best time to meet members and see the shop in use.',
     arrivalNotes: [
       'Public night is the easiest time to visit for the first time.',
       'Your first visit requires a liability waiver.',
-      'Visitors under 18 need a parent or guardian to sign the waiver, and a responsible adult must remain involved during the visit.',
+      'Visitors under 18 need a parent or guardian to sign the waiver, and a responsible adult must remain with them.',
       'If Wednesday does not work, email the space and ask whether another visit time can be arranged.',
     ],
     contactRoutes: [
-      'Email contact@bloominglabs.org for general questions.',
-      'Ask for a Slack invite if you want to talk with members between events.',
-      'Use the shared calendar to keep track of workshops and public happenings.',
-      'Postal mail should go to P.O. Box 2443, Bloomington, IN 47402.',
+      'Email contact@bloominglabs.org for questions or a Slack invite.',
+      'Check Upcoming Workshops on the wiki for classes and special events.',
+      'Postal mail goes to P.O. Box 2443, Bloomington, IN 47402.',
     ],
   },
   membership: {
+    lead:
+      'Membership is a relationship, not a checkout form. Show up a few times, meet people, then join if the space fits your projects.',
     steps: [
-      'Attend 3 meetings or workshops so members can get to know you and you can decide whether the space fits your projects.',
-      'Tell a member that you want to join so the group can track your visits and answer membership questions directly.',
+      'Attend 3 meetings or workshops so members can get to know you and you can decide whether the space fits.',
+      'Tell a member that you want to join so the group can track your visits and answer questions directly.',
       'After your third public event, complete the membership form and pay the first month of dues.',
     ],
     benefits: [
       '24/7 access to the space and most shared tools.',
       'Voting rights at the annual members meeting.',
-      'The ability to host non-members for informal or organized events at the space.',
-      'A community that can help with fabrication, electronics, software, craft, repair, and weird experiments.',
+      'The ability to host guests for informal or organized events.',
+      'A community that can help with fabrication, electronics, software, craft, repair, and odd experiments.',
     ],
   },
   support: {
+    lead:
+      'Bloominglabs is a 501(c)(3) nonprofit funded mainly by member dues. Donations, useful hardware, and volunteer time keep the shop open to the public.',
     options: [
       'Monetary donations help cover rent, utilities, and tool upkeep.',
       'Hardware donations are welcome when the equipment or materials are useful to the space.',
-      'Kroger Community Rewards can direct a small portion of eligible shopping to Bloominglabs at no additional cost to the shopper.',
-      'The best long-term support is showing up, teaching something, helping with events, or becoming a member.',
+      'Kroger Community Rewards can direct a small portion of eligible shopping to Bloominglabs at no extra cost.',
+      'Showing up, teaching, helping with events, or becoming a member is often the most useful support.',
     ],
   },
   wiki: {
     explanation:
-      'This public-facing site is intentionally narrow. The integrated wiki on this site and the GitHub wiki remain the full reference for projects, history, meeting notes, procedures, and other deep organizational material.',
+      'The wiki holds project notes, procedures, meeting history, equipment docs, and other deep reference material. This public site covers the essentials for visitors.',
     archiveNote:
-      'A textual preservation snapshot of the current wiki also lives in this repository so Bloominglabs is not dependent on one hosting arrangement.',
+      'A textual snapshot of the wiki also lives in this repository so Bloominglabs is not tied to one hosting arrangement.',
   },
 };
 

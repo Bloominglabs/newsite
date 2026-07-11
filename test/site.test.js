@@ -20,15 +20,33 @@ test('buildSiteFiles returns the expected public page set', () => {
   ]);
 });
 
-test('home page highlights public hours, Makevention, and the wiki split', () => {
+test('home page orients visitors with brand-first hero, hours, address, and actions', () => {
   const files = buildSiteFiles();
   const home = files.find((file) => file.path === 'index.html');
 
   assert.ok(home);
-  assert.match(home.contents, /Wednesday evenings from 7pm until 10pm/i);
+  assert.match(home.contents, /class="hero hero-home"/);
+  assert.match(home.contents, /class="hero-brand"/);
+  assert.match(home.contents, /Wednesday/i);
+  assert.match(home.contents, /7\s*(pm|PM).*10\s*(pm|PM)/);
+  assert.match(home.contents, /1840 S\. Walnut Street/);
   assert.match(home.contents, /Makevention/i);
-  assert.match(home.contents, /public-facing site/i);
-  assert.match(home.contents, /wiki remains the full reference/i);
+  assert.match(home.contents, /href="\/visit\/"/);
+  assert.match(home.contents, /href="\/membership\/"/);
+  assert.doesNotMatch(home.contents, /class="signal-panel"/);
+  assert.doesNotMatch(home.contents, /Why This Site Exists/i);
+});
+
+test('visit page leads with location, public night, and contact routes', () => {
+  const files = buildSiteFiles();
+  const visit = files.find((file) => file.path === 'visit/index.html');
+
+  assert.ok(visit);
+  assert.match(visit.contents, /1840 S\. Walnut Street/);
+  assert.match(visit.contents, /garage door/i);
+  assert.match(visit.contents, /liability waiver/i);
+  assert.match(visit.contents, /mailto:contact@bloominglabs\.org/);
+  assert.match(visit.contents, /href="\/membership\/"/);
 });
 
 test('membership page explains the path to joining and member access', () => {
@@ -94,8 +112,12 @@ test('writeSite materializes the generated files on disk', async () => {
     const styleContents = await fs.readFile(path.join(tempRoot, 'assets/site.css'), 'utf8');
 
     assert.match(homeContents, /Bloominglabs/);
-    assert.match(styleContents, /--color-rust:/);
-    assert.match(styleContents, /font-family:\s*"Iowan Old Style"/);
+    assert.match(styleContents, /--color-bloom:/);
+    assert.match(styleContents, /--color-spark:/);
+    assert.match(styleContents, /--font-display:\s*"Syne"/);
+    assert.match(styleContents, /--font-body:\s*"IBM Plex Sans"/);
+    assert.match(styleContents, /@keyframes/);
+    assert.match(styleContents, /prefers-reduced-motion/);
   } finally {
     await fs.rm(tempRoot, { recursive: true, force: true });
   }
