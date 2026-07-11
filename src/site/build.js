@@ -187,7 +187,7 @@ function renderLayout(page, basePath) {
             Email <a href="mailto:${escapeHtml(organization.email)}">${escapeHtml(organization.email)}</a>.
           </p>
           <p class="footer-note">
-            Deep reference lives in the <a href="${toPublicHref('/wiki/', basePath)}">wiki</a>.
+            Longer docs are on the <a href="${toPublicHref('/wiki/', basePath)}">wiki</a>.
           </p>
         </div>
       </footer>
@@ -210,7 +210,7 @@ function renderHomePage(basePath) {
       layout: 'home',
       title: 'Bloomington’s hackerspace',
       description:
-        'Bloominglabs is Bloomington’s hackerspace: public night hours, location, membership, and ways to support the shop.',
+        'Bloominglabs is Bloomington’s hackerspace. Public hours, address, membership, and donations.',
       navPath: '/',
       heroTitle: home.headline,
       heroText: home.lead,
@@ -223,8 +223,7 @@ function renderHomePage(basePath) {
           'Public night',
           `
             <p>
-              Visitors are welcome ${escapeHtml(organization.publicHoursDetail)}.
-              Free, all ages, and the best first look at the shop.
+              Open ${escapeHtml(organization.publicHoursDetail)}. Free. Come build, ask questions, or poke around.
             </p>
             <div class="hours-beacon" aria-label="Public hours">
               <strong>${escapeHtml(organization.publicHours)}</strong>
@@ -233,41 +232,42 @@ function renderHomePage(basePath) {
           `
         ),
         renderSection(
-          'What happens here',
+          'The shop',
           `
             <p>${escapeHtml(home.about)}</p>
             <div class="fact-strip">
               <article>
-                <h3>Workshop</h3>
-                <p>Shared tools and benches for electronics, fabrication, craft, and repair.</p>
+                <h3>Tools</h3>
+                <p>Shared benches and equipment for making and fixing things.</p>
               </article>
               <article>
                 <h3>Makevention</h3>
                 <p>
-                  Bloominglabs organizes
+                  We organize
                   <a href="${organization.makeventionUrl}">Makevention</a>,
                   Bloomington’s annual maker fair.
                 </p>
               </article>
               <article>
-                <h3>Membership</h3>
-                <p>Members get 24/7 access and a vote after joining through public nights and workshops.</p>
+                <h3>Members</h3>
+                <p>Members get keys and 24/7 access after the joining process.</p>
               </article>
             </div>
           `
         ),
         renderSection(
-          'Get involved',
+          'Next steps',
           `
             <p>
-              Start with a Wednesday visit, join if you want keys, or
-              <a href="${toPublicHref('/support/', basePath)}">support the space</a>
-              if you want to help keep tools and public programming available.
+              Visit on Wednesday, read
+              <a href="${toPublicHref('/membership/', basePath)}">membership</a>,
+              or
+              <a href="${toPublicHref('/support/', basePath)}">donate / help</a>.
             </p>
             ${renderActions(
               [
-                { href: '/visit/', label: 'Plan a visit', variant: 'primary' },
-                { href: '/support/', label: 'Support Bloominglabs', variant: 'secondary' },
+                { href: '/visit/', label: 'Visit', variant: 'primary' },
+                { href: '/support/', label: 'Support', variant: 'secondary' },
               ],
               basePath
             )}
@@ -286,38 +286,38 @@ function renderVisitPage(basePath) {
     {
       layout: 'page',
       title: 'Visit Bloominglabs',
-      description: 'Location, public night hours, and first-visit notes for Bloominglabs.',
+      description: 'Address, public hours, and first-visit notes for Bloominglabs.',
       navPath: '/visit/',
       kicker: 'Visit',
-      heroTitle: 'Come on Wednesday night.',
+      heroTitle: 'Wednesday, 7–10pm',
       heroText: siteContent.visit.lead,
       actions: [
-        { href: `mailto:${organization.email}`, label: 'Email the space', variant: 'primary' },
-        { href: '/membership/', label: 'Membership path', variant: 'secondary' },
+        { href: `mailto:${organization.email}`, label: 'Email', variant: 'primary' },
+        { href: '/membership/', label: 'Membership', variant: 'secondary' },
       ],
       sections: [
         renderSection(
-          'Where to go',
+          'Address',
           `
             <p>
-              Bloominglabs is at <strong>${escapeHtml(organization.address)}</strong>.
+              <strong>${escapeHtml(organization.address)}</strong>.
               ${escapeHtml(organization.entranceNote)}
             </p>
             <div class="hours-beacon" aria-label="Public hours">
               <strong>${escapeHtml(organization.publicHours)}</strong>
-              <span>Free · all ages · first visits need a liability waiver</span>
+              <span>Free · all ages · waiver on first visit</span>
             </div>
           `
         ),
-        renderSection('Before you arrive', renderList(siteContent.visit.arrivalNotes, 'bullet')),
+        renderSection('Rules of thumb', renderList(siteContent.visit.arrivalNotes, 'bullet')),
         renderSection(
-          'Stay in touch',
+          'Contact',
           `
             ${renderList(siteContent.visit.contactRoutes, 'bullet')}
             <div class="callout">
-              <h3>Useful links</h3>
-              <p><a href="${organization.calendarUrl}">Upcoming workshops</a> on the wiki.</p>
-              <p><a href="${toPublicHref('/wiki/', basePath)}">Browse the wiki</a> for deeper operational details.</p>
+              <h3>Also</h3>
+              <p><a href="${organization.calendarUrl}">Upcoming workshops</a></p>
+              <p><a href="${toPublicHref('/wiki/', basePath)}">Wiki index</a></p>
             </div>
           `
         ),
@@ -332,35 +332,29 @@ function renderMembershipPage(basePath) {
     {
       layout: 'page',
       title: 'Membership',
-      description: 'How to become a Bloominglabs member and what membership provides.',
+      description: 'How to join Bloominglabs and what membership includes.',
       navPath: '/membership/',
       kicker: 'Membership',
-      heroTitle: 'Join by showing up.',
+      heroTitle: 'How to join',
       heroText: siteContent.membership.lead,
       actions: [
-        { href: '/visit/', label: 'Come to public night', variant: 'primary' },
+        { href: '/visit/', label: 'Public night', variant: 'primary' },
         { href: siteWikiPageHref('Membership Manual', basePath), label: 'Membership Manual', variant: 'secondary' },
       ],
       sections: [
         renderSection(
-          'How joining works',
+          'Steps',
           `
-            <p>
-              Prospective members attend 3 meetings or workshops before joining.
-              That gives both sides time to ask questions and see whether the space fits.
-            </p>
             ${renderList(siteContent.membership.steps, 'numbered')}
           `
         ),
         renderSection(
-          'What membership provides',
+          'What you get',
           `
             ${renderList(siteContent.membership.benefits, 'bullet')}
             <div class="callout">
-              <h3>Not sure yet?</h3>
-              <p>
-                Start with public night. That is the front door and the best way to see current activity.
-              </p>
+              <h3>If you are still looking around</h3>
+              <p>Just come to a Wednesday public night first.</p>
             </div>
           `
         ),
@@ -375,23 +369,22 @@ function renderSupportPage(basePath) {
     {
       layout: 'page',
       title: 'Support Bloominglabs',
-      description: 'Donation and support information for Bloominglabs.',
+      description: 'How to donate to or otherwise support Bloominglabs.',
       navPath: '/support/',
       kicker: 'Support',
-      heroTitle: 'Help keep the shop open.',
+      heroTitle: 'Donations and help',
       heroText: siteContent.support.lead,
       actions: [
         { href: siteWikiPageHref('Donations', basePath), label: 'Donation details', variant: 'primary' },
-        { href: '/membership/', label: 'Become a member', variant: 'secondary' },
+        { href: '/membership/', label: 'Membership', variant: 'secondary' },
       ],
       sections: [
-        renderSection('Ways to help', renderList(siteContent.support.options, 'bullet')),
+        renderSection('Options', renderList(siteContent.support.options, 'bullet')),
         renderSection(
-          'Why it matters',
+          'What it pays for',
           `
             <p>
-              Rent, utilities, safety gear, consumables, repairs, and events all need sustained support.
-              Donations and volunteer time keep Bloominglabs usable for members, workshops, and public nights.
+              Rent, utilities, safety gear, consumables, broken tools, and events.
             </p>
           `
         ),
@@ -417,35 +410,35 @@ function renderWikiPage(basePath, manifest = null) {
     {
       layout: 'page',
       title: 'Wiki',
-      description: 'Browse archived Bloominglabs wiki pages on the public site.',
+      description: 'Bloominglabs wiki pages mirrored onto the public site.',
       navPath: '/wiki/',
-      kicker: 'Reference',
-      heroTitle: 'The deep reference lives here.',
+      kicker: 'Wiki',
+      heroTitle: 'Wiki',
       heroText: siteContent.wiki.explanation,
       actions: [
-        { href: '/wiki/pages/Home/', label: 'Wiki home', variant: 'primary' },
-        { href: organization.wikiUrl, label: 'GitHub wiki', variant: 'secondary' },
+        { href: '/wiki/pages/Home/', label: 'Main page', variant: 'primary' },
+        { href: organization.wikiUrl, label: 'Edit on GitHub', variant: 'secondary' },
       ],
       sections: [
         renderSection(
-          'Archived pages',
+          'Pages',
           manifest
             ? `<ul class="wiki-index-list">${pageLinks}</ul>`
-            : `<p>Run <code>npm run build</code> with the checked-in archive to generate browsable wiki pages.</p>`
+            : `<p>Run <code>npm run build</code> with the checked-in archive to generate wiki HTML.</p>`
         ),
         renderSection(
-          'Other formats',
+          'Sources',
           `
             <p>
-              The editable GitHub wiki lives at
-              <a href="${organization.wikiUrl}">${escapeHtml(organization.wikiUrl)}</a>.
+              Editable copy:
+              <a href="${organization.wikiUrl}">${escapeHtml(organization.wikiUrl)}</a>
             </p>
             <p>${escapeHtml(siteContent.wiki.archiveNote)}</p>
             <p>
-              The current snapshot is exposed as
+              Manifest:
               <a href="${toPublicHref('/wiki-archive/latest/manifest.json', basePath)}">${escapeHtml(
                 toPublicHref('/wiki-archive/latest/manifest.json', basePath)
-              )}</a>.
+              )}</a>
             </p>
           `
         ),

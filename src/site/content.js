@@ -4,13 +4,15 @@
  * Public-site content is centralized here so future content revisions can be
  * reviewed without hunting through rendering logic. The generator imports this
  * module and focuses only on turning structured content into HTML.
+ *
+ * Voice: plain and specific. Prefer facts from the wiki over marketing cadence.
  */
 const siteContent = {
   organization: {
     name: 'Bloominglabs',
-    tagline: 'Bloomington’s hackerspace',
+    tagline: 'A space for sharing tools and knowledge to make stuff',
     summary:
-      'A shared workshop where neighbors build, repair, teach, and experiment together.',
+      'Bloomington’s hackerspace: a shared workshop for projects that need tools, room, and other people.',
     address: '1840 S. Walnut Street, Suite 200, Bloomington, IN 47401',
     addressShort: '1840 S. Walnut Street, Suite 200',
     city: 'Bloomington, IN',
@@ -18,65 +20,62 @@ const siteContent = {
     email: 'contact@bloominglabs.org',
     publicHours: 'Wednesdays, 7pm–10pm',
     publicHoursDetail: 'every Wednesday from 7pm until 10pm',
-    entranceNote: 'Entrance is around the back, next to the garage door.',
+    entranceNote: 'Go around back; the Suite 200 entrance is next to the garage door.',
     wikiUrl: 'https://github.com/Bloominglabs/newsite/wiki',
     makeventionUrl: 'https://www.makevention.org/',
     calendarUrl: 'https://github.com/Bloominglabs/newsite/wiki/Upcoming-Workshops',
   },
   home: {
-    headline: 'Shared tools. Open nights. Room to make stuff.',
+    headline: 'Bloomington’s hackerspace',
     lead:
-      'Indiana’s first hackerspace — a public workshop in Bloomington for building, repairing, teaching, and learning together.',
+      'We rent a shared workshop full of tools for individual and group projects. Open to the public Wednesday nights.',
     about:
-      'Bloominglabs is a member-run shop full of tools for electronics, fabrication, craft, repair, and experiments that do not fit in a spare bedroom. Come for public night, stay for workshops, or join if you want keys and a stake in the space.',
-    visitCta: 'Come to public night',
-    membershipCta: 'How to join',
+      'Bloominglabs is Indiana’s first hackerspace. People use the shop for woodworking, electronics, welding, sewing, 3D printing, software, and whatever else they are building. We also run Makevention each year.',
+    visitCta: 'Visit',
+    membershipCta: 'Membership',
   },
   visit: {
-    lead:
-      'Public night is the easiest first visit: free, open to all ages, and the best time to meet members and see the shop in use.',
+    lead: 'Show up Wednesday evening. It is free. All ages are welcome.',
     arrivalNotes: [
-      'Public night is the easiest time to visit for the first time.',
-      'Your first visit requires a liability waiver.',
-      'Visitors under 18 need a parent or guardian to sign the waiver, and a responsible adult must remain with them.',
-      'If Wednesday does not work, email the space and ask whether another visit time can be arranged.',
+      'First visit: fill out a liability waiver.',
+      'Under 18: a parent or guardian signs the waiver, and an adult stays with them.',
+      'Need a different time? Email contact@bloominglabs.org and ask.',
     ],
     contactRoutes: [
-      'Email contact@bloominglabs.org for questions or a Slack invite.',
-      'Check Upcoming Workshops on the wiki for classes and special events.',
-      'Postal mail goes to P.O. Box 2443, Bloomington, IN 47402.',
+      'Email: contact@bloominglabs.org (ask for a Slack invite too).',
+      'Workshops and one-offs: Upcoming Workshops on the wiki.',
+      'Mail: P.O. Box 2443, Bloomington, IN 47402.',
     ],
   },
   membership: {
     lead:
-      'Membership is a relationship, not a checkout form. Show up a few times, meet people, then join if the space fits your projects.',
+      'Come to three public nights or workshops, tell someone you want to join, then fill out the form and pay the first month of dues.',
     steps: [
-      'Attend 3 meetings or workshops so members can get to know you and you can decide whether the space fits.',
-      'Tell a member that you want to join so the group can track your visits and answer questions directly.',
-      'After your third public event, complete the membership form and pay the first month of dues.',
+      'Attend three meetings or workshops.',
+      'Tell a member you want to join.',
+      'After the third visit, fill out the membership form and pay the first month.',
     ],
     benefits: [
-      '24/7 access to the space and most shared tools.',
-      'Voting rights at the annual members meeting.',
-      'The ability to host guests for informal or organized events.',
-      'A community that can help with fabrication, electronics, software, craft, repair, and odd experiments.',
+      '24/7 access to the space and most tools.',
+      'A vote at the annual members meeting.',
+      'You can bring guests and host events at the space.',
     ],
   },
   support: {
     lead:
-      'Bloominglabs is a 501(c)(3) nonprofit funded mainly by member dues. Donations, useful hardware, and volunteer time keep the shop open to the public.',
+      'We are a 501(c)(3). Most of the budget is member dues. Money, usable tools/materials, and volunteer help all matter.',
     options: [
-      'Monetary donations help cover rent, utilities, and tool upkeep.',
-      'Hardware donations are welcome when the equipment or materials are useful to the space.',
-      'Kroger Community Rewards can direct a small portion of eligible shopping to Bloominglabs at no extra cost.',
-      'Showing up, teaching, helping with events, or becoming a member is often the most useful support.',
+      'Cash, check, or other monetary donations go to rent, utilities, and tools.',
+      'Hardware is welcome if we can actually use it.',
+      'Kroger Community Rewards can send a cut of your shopping to Bloominglabs.',
+      'Or join, teach, or help run events.',
     ],
   },
   wiki: {
     explanation:
-      'The wiki holds project notes, procedures, meeting history, equipment docs, and other deep reference material. This public site covers the essentials for visitors.',
+      'Project notes, equipment docs, meeting minutes, procedures, and other long-form material live on the wiki. This site is the short version for visitors.',
     archiveNote:
-      'A textual snapshot of the wiki also lives in this repository so Bloominglabs is not tied to one hosting arrangement.',
+      'A text snapshot of the wiki is also stored in this git repo.',
   },
 };
 

@@ -54,9 +54,30 @@ test('membership page explains the path to joining and member access', () => {
   const membership = files.find((file) => file.path === 'membership/index.html');
 
   assert.ok(membership);
-  assert.match(membership.contents, /attend 3 meetings or workshops/i);
+  assert.match(membership.contents, /Attend three meetings or workshops/i);
   assert.match(membership.contents, /24\/7 access/i);
   assert.match(membership.contents, /href="\/wiki\/pages\/Membership-Manual\/"/);
+});
+
+test('public site copy stays plain and avoids brochure filler', () => {
+  const files = buildSiteFiles();
+  const pages = files.filter((file) => file.path.endsWith('.html')).map((file) => file.contents);
+  const joined = pages.join('\n');
+
+  for (const banned of [
+    /front door/i,
+    /best way to see current activity/i,
+    /Get involved/,
+    /Stay in touch/,
+    /Why it matters/,
+    /deep reference lives here/i,
+    /Membership is a relationship/i,
+    /checkout form/i,
+    /public programming/i,
+    /Not sure yet\?/,
+  ]) {
+    assert.doesNotMatch(joined, banned);
+  }
 });
 
 test('wiki page links to GitHub wiki, archive manifest, and browsable wiki home', () => {
