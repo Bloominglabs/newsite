@@ -40,6 +40,7 @@ const siteStyles = `
 html {
   scroll-behavior: smooth;
   overflow-x: clip;
+  scroll-padding-top: 5rem;
 }
 
 body {

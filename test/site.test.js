@@ -6,7 +6,7 @@ const path = require('node:path');
 
 const { buildSiteFiles, normalizeBasePath, writeSite } = require('../src/site/build.js');
 
-test('buildSiteFiles returns the expected public page set', () => {
+test('buildSiteFiles returns the single page, stylesheet, and redirect stubs', () => {
   const files = buildSiteFiles();
   const paths = files.map((file) => file.path).sort();
 
@@ -20,43 +20,41 @@ test('buildSiteFiles returns the expected public page set', () => {
   ]);
 });
 
-test('home page orients visitors with brand-first hero, hours, address, and actions', () => {
+test('home page is a single document with anchor sections and GitHub wiki nav', () => {
   const files = buildSiteFiles();
   const home = files.find((file) => file.path === 'index.html');
 
   assert.ok(home);
   assert.match(home.contents, /class="hero hero-home"/);
-  assert.match(home.contents, /class="hero-brand"/);
+  assert.match(home.contents, /id="home"/);
+  assert.match(home.contents, /id="visit"/);
+  assert.match(home.contents, /id="membership"/);
+  assert.match(home.contents, /id="support"/);
+  assert.match(home.contents, /href="#visit"/);
+  assert.match(home.contents, /href="#membership"/);
+  assert.match(home.contents, /href="#support"/);
+  assert.match(home.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
   assert.match(home.contents, /Wednesday/i);
-  assert.match(home.contents, /7\s*(pm|PM).*10\s*(pm|PM)/);
   assert.match(home.contents, /1840 S\. Walnut Street/);
-  assert.match(home.contents, /Makevention/i);
-  assert.match(home.contents, /href="\/visit\/"/);
-  assert.match(home.contents, /href="\/membership\/"/);
-  assert.doesNotMatch(home.contents, /class="signal-panel"/);
-  assert.doesNotMatch(home.contents, /Why This Site Exists/i);
+  assert.match(home.contents, /Attend three meetings or workshops/i);
+  assert.match(home.contents, /24\/7 access/i);
+  assert.match(home.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki\/Membership-Manual/);
+  assert.match(home.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki\/Donations/);
+  assert.doesNotMatch(home.contents, /href="\/wiki\/"/);
+  assert.doesNotMatch(home.contents, /href="\/visit\/"/);
 });
 
-test('visit page leads with location, public night, and contact routes', () => {
+test('legacy paths redirect to anchors or the GitHub wiki', () => {
   const files = buildSiteFiles();
   const visit = files.find((file) => file.path === 'visit/index.html');
-
-  assert.ok(visit);
-  assert.match(visit.contents, /1840 S\. Walnut Street/);
-  assert.match(visit.contents, /garage door/i);
-  assert.match(visit.contents, /liability waiver/i);
-  assert.match(visit.contents, /mailto:contact@bloominglabs\.org/);
-  assert.match(visit.contents, /href="\/membership\/"/);
-});
-
-test('membership page explains the path to joining and member access', () => {
-  const files = buildSiteFiles();
   const membership = files.find((file) => file.path === 'membership/index.html');
+  const support = files.find((file) => file.path === 'support/index.html');
+  const wiki = files.find((file) => file.path === 'wiki/index.html');
 
-  assert.ok(membership);
-  assert.match(membership.contents, /Attend three meetings or workshops/i);
-  assert.match(membership.contents, /24\/7 access/i);
-  assert.match(membership.contents, /href="\/wiki\/pages\/Membership-Manual\/"/);
+  assert.match(visit.contents, /url=#visit/);
+  assert.match(membership.contents, /url=#membership/);
+  assert.match(support.contents, /url=#support/);
+  assert.match(wiki.contents, /url=https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
 });
 
 test('public site copy stays plain and avoids brochure filler', () => {
@@ -80,16 +78,6 @@ test('public site copy stays plain and avoids brochure filler', () => {
   }
 });
 
-test('wiki page links to GitHub wiki, archive manifest, and browsable wiki home', () => {
-  const files = buildSiteFiles();
-  const wiki = files.find((file) => file.path === 'wiki/index.html');
-
-  assert.ok(wiki);
-  assert.match(wiki.contents, /https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
-  assert.match(wiki.contents, /\/wiki-archive\/latest\/manifest\.json/);
-  assert.match(wiki.contents, /\/wiki\/pages\/Home\//);
-});
-
 test('normalizeBasePath canonicalizes empty and nested path prefixes', () => {
   assert.equal(normalizeBasePath(), '');
   assert.equal(normalizeBasePath('/'), '');
@@ -98,19 +86,18 @@ test('normalizeBasePath canonicalizes empty and nested path prefixes', () => {
   assert.equal(normalizeBasePath('org/newsite'), '/org/newsite');
 });
 
-test('buildSiteFiles prefixes internal links and assets for a GitHub Pages project path', () => {
+test('buildSiteFiles prefixes assets and anchors for a GitHub Pages project path', () => {
   const files = buildSiteFiles({ basePath: '/newsite' });
   const home = files.find((file) => file.path === 'index.html');
+  const visit = files.find((file) => file.path === 'visit/index.html');
   const wiki = files.find((file) => file.path === 'wiki/index.html');
 
   assert.ok(home);
-  assert.ok(wiki);
   assert.match(home.contents, /href="\/newsite\/assets\/site\.css"/);
-  assert.match(home.contents, /href="\/newsite\/visit\/"/);
-  assert.match(home.contents, /href="\/newsite\/membership\/"/);
-  assert.match(home.contents, /href="\/newsite\/wiki\/"/);
-  assert.match(wiki.contents, /href="\/newsite\/wiki-archive\/latest\/manifest\.json"/);
-  assert.match(wiki.contents, /href="\/newsite\/"/);
+  assert.match(home.contents, /href="\/newsite#visit"/);
+  assert.match(home.contents, /href="\/newsite#membership"/);
+  assert.match(visit.contents, /url=\/newsite#visit/);
+  assert.match(wiki.contents, /url=https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
 });
 
 test('writeSite materializes the generated files on disk', async () => {
@@ -133,6 +120,7 @@ test('writeSite materializes the generated files on disk', async () => {
     const styleContents = await fs.readFile(path.join(tempRoot, 'assets/site.css'), 'utf8');
 
     assert.match(homeContents, /Bloominglabs/);
+    assert.match(homeContents, /id="visit"/);
     assert.match(styleContents, /--color-bloom:/);
     assert.match(styleContents, /--color-spark:/);
     assert.match(styleContents, /--font-display:\s*"Syne"/);
@@ -156,8 +144,8 @@ test('writeSite renders pages with a provided base path', async () => {
     const wikiContents = await fs.readFile(path.join(tempRoot, 'wiki', 'index.html'), 'utf8');
 
     assert.match(homeContents, /href="\/newsite\/assets\/site\.css"/);
-    assert.match(homeContents, /href="\/newsite\/visit\/"/);
-    assert.match(wikiContents, /href="\/newsite\/wiki-archive\/latest\/manifest\.json"/);
+    assert.match(homeContents, /href="\/newsite#visit"/);
+    assert.match(wikiContents, /url=https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
   } finally {
     await fs.rm(tempRoot, { recursive: true, force: true });
   }
@@ -218,7 +206,7 @@ test('writeSite tolerates a missing wiki archive source path', async () => {
   }
 });
 
-test('writeSite renders archived wiki article pages when an archive is available', async () => {
+test('writeSite no longer emits browsable on-site wiki article pages', async () => {
   const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-wiki-pages-'));
   const archiveRoot = path.join(tempRoot, 'wiki-archive');
 
@@ -244,33 +232,21 @@ test('writeSite renders archived wiki article pages when an archive is available
       }),
       'utf8'
     );
-    await fs.writeFile(
-      path.join(archiveRoot, 'latest', 'pages', 'Location.json'),
-      JSON.stringify({
-        title: 'Location',
-        revision: { content: '1840 S. Walnut Street' },
-      }),
-      'utf8'
-    );
 
     const writtenFiles = await writeSite(path.join(tempRoot, 'dist'), { archiveRoot, basePath: '/newsite' });
     const paths = writtenFiles.map((file) => file.path);
 
-    assert.ok(paths.includes('wiki/pages/Home/index.html'));
+    assert.equal(paths.some((filePath) => filePath.startsWith('wiki/pages/')), false);
     assert.ok(paths.includes('wiki/index.html'));
 
-    const homePage = await fs.readFile(path.join(tempRoot, 'dist', 'wiki', 'pages', 'Home', 'index.html'), 'utf8');
     const wikiIndex = await fs.readFile(path.join(tempRoot, 'dist', 'wiki', 'index.html'), 'utf8');
-
-    assert.match(homePage, /<h1>Welcome<\/h1>/);
-    assert.match(homePage, /href="\/newsite\/wiki\/pages\/Location\/"/);
-    assert.match(wikiIndex, /href="\/newsite\/wiki\/pages\/Home\/">Main Page<\/a>/);
+    assert.match(wikiIndex, /url=https:\/\/github\.com\/Bloominglabs\/newsite\/wiki/);
   } finally {
     await fs.rm(tempRoot, { recursive: true, force: true });
   }
 });
 
-test('writeSite skips wiki page generation when the archive manifest is absent', async () => {
+test('writeSite skips wiki article generation when the archive manifest is absent', async () => {
   const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'blabs-site-no-manifest-'));
   const archiveRoot = path.join(tempRoot, 'wiki-archive');
 
