@@ -56,5 +56,3 @@ The best organization scheme I can think of right now would be to have a storage
 * FrostByte  1 day ago
 
 You are right on all 3 points. Both on easy is nice (because I can then use tools), but also on must know tools to use (because this is safer and better for relaying safety and cleanup info), and the tag out system... if we can make it used.
-
-[[Category:Training]]

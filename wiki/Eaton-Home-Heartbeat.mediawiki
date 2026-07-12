@@ -6,7 +6,6 @@ Once I got my unit I was able to get a perl script running which outputs useful 
 
 I have the base station (comes with a Home key), motion sensor, water sensor, open/close sensor, and power sensor. The "Home key" allows you to receive notifications when you are within range of the base station. When you are out of range this apparently told the base station to call-home and text you when there was a worthy notification. The Home key is also used to program new sensors into the system. Apparently there is a reed-relay in both the sensor and the key which allows for simple ZigBee pairing just by sliding the key into the top of each sensor.
 
-
 == Component List ==
 * Base station
 * Home key (key ring adapter, has multiple purposes)
@@ -22,9 +21,7 @@ I have the base station (comes with a Home key), motion sensor, water sensor, op
 * Range extender
 * Broadband gateway extender
 
-
 Something I did not realize until another Home Heartbeat user clued me in was that the Broadband Gateway Extender also acts like a range extender.
-
 
 == Connecting to the base station's USB port ==
 The base station has a USB port which can be used to extend the systems functionality. So the first gotcha is that the vendor ID for the base station is unique. It's still just an FTDI USB serial device though and that is easy enough to fix (at least on Linux). 
@@ -50,7 +47,6 @@ Now you should be set for the ftdi_sio driver to load and recognize your Home He
  systemctl start fixhh
 
 You should see a new device named similarly to /dev/ttyUSBx where x is a numeric 0-9 depending how many ttyUSB devices you already have attached to your host.
-
 
 === Centos 5/6 method with the updated ftdi driver ===
 Apparently the newer ftdi_sio module (starting in 2015) silently stopped accepting the option flags "vendor" and "product" as they were intended to be debugging features, not end-user features :-P.  So the new way to get the module to work with this device:
@@ -78,7 +74,6 @@ If you find that doing the above doesn't generate a new ttyUSBx device, watch th
 
 This tells you that you are using the newer ftdi_sio module and you need to use the "New method" listed above to add the device.
 
-
 == Hardware ==
 The main board common to all of the sensors uses an Atmel ATMega128 with an Ember (Silicon Labs) EM2420 RF chip for the ZigBee duties.
 
@@ -87,7 +82,6 @@ The main board common to all of the sensors uses an Atmel ATMega128 with an Embe
 
 Additionally, the comments in this thread have some info on getting a serial terminal opened up on an open/close sensor board:
 * [http://buzzdavidson.com/?p=331 http://buzzdavidson.com/?p=331]
-
 
 == Broadband Gateway Extender ==
 There has not been much if any information posted elsewhere about this device so I will contribute what I have learned about it here. Firstly the currently most useful feature is that it acts as a range extender for sensors too far away from the base station. It also has an ethernet port for broadband connection to the Eaton service which is now defunct. The brochure for the device advertises that you can both view the current state of your house via their website (which the gateway merely updates) and ALSO make changes to the configuration of your system from there as well. From a usability standpoint this means the broadband gateway acts as a "Home Key" in that it is a control point for configuring your system. This also means that the broadband gateway accepts inbound connections in addition to exfiltrating data.
@@ -122,10 +116,8 @@ BIND=02 00      L       0A      0A      000D6F00000XXXXX--FFFF
 BIND=12 00      U       0A      0A      000D6F00000XXXXX--77B9   <-- Gateway Extender
 </pre>
 
-
 == Raspberry Pi connectivity ==
 I've discovered that these base stations do not work well with the Raspberry Pi model A. My testing was with Raspbian, I've not tested the RPi2 or other distros with it. The RPi can see the FTDI serial interface and recognizes it as a Home Heartbeat device. However when you open the connection (say, using minicom), it's just dead. Sometimes you will get a few garbage characters. The most I've seen is a single incomplete string come across. A powered hub was being used too to prevent power issues common to the model A.
-
 
 == Wireless Protocol ==
 One thing I am interested in is being able to build my own sensors which can interface to the system. I already am working on a separate environmental monitoring system for my house however I'd love to reduce its footprint by expanding this nice system. I received a Freakduino for Christmas 2013 and I've already been able to sniff some of the ZigBee traffic from the system. The ZigBee protocol is really IEEE 802.15.4 and is pretty low level. I will need quite a bit more time doing some parameter sweeps before I can decode any of it. Also an Atmel Raven can sniff the wireless traffic as well if you have one of those instead.
@@ -147,7 +139,7 @@ ZigBee channel 9 is a 900MHz frequency (channels 1-10). However the RF chip bein
 The initial appearance after capturing some of of the wireless traffic it appears that it uses a ZigBee star topology. This makes sense in the way this system operates. As I have time to hack away at the wireless protocol I will post more info here.
 
 == Perl script for talking to the base station ==
-* [[File:Hh.tgz]] - hh.pl - digests the state table from a USB connected base station. It accepts flags for raw output, extended output, and can also generate an html file for easy viewing from a phone. Simply plug into cron using the correct flag and home status can be viewed any time via a home web server.
+* <img src="https://www.bloominglabs.org/Special:FilePath/Hh.tgz" alt="Hh.tgz"> - hh.pl - digests the state table from a USB connected base station. It accepts flags for raw output, extended output, and can also generate an html file for easy viewing from a phone. Simply plug into cron using the correct flag and home status can be viewed any time via a home web server.
 
 The default output only includes sensors, not other devices which are part of the network but do not change state. Example of default output:
 <pre>
@@ -178,16 +170,12 @@ Tilt Sensor                Garage Door Sensor  1 hours    9 mins   no alert     
 Broadband Gateway Extender Gateway Extender    2 secs     2 secs   no alert     N/A                                            0D        00    00C2          00    0000   FF        00             0C         000D6F0000079B21
 </pre>
 
-
-
 == Request for more data ==
 I would be very interested in seeing some output from a base station with a Range Extender (not the Broadband Gateway Extender) or especially the Water Shutoff Controller connected to the system. If you have either of these components please email me (address is at bottom of page). The state table output for these components would allow me to complete my perl scripts to properly identify every component of the system. Also there are some unused fields in the base station state table which I suspect are only used by the water shutoff controller and it would be nice to identify those. More importantly this could also unlock additional functionality in future modifications to the Home Heartbeat system. The water shutoff controller is the only existing "sensor" in the system which can be activated by other sensors in the network which would be a useful feature to be able to unlock in home-made sensor add-ons. In theory I could possibly figure this out by fuzzing the base station with a ZigBee stack loaded onto my Freakduino but it's always easier to have known good examples to work with. 
-
 
 == Mister House ==
 I would like to work on adding Home Heartbeat support for Mister House if possible. I've never used Mister House but I've been waiting until I had enough sensors (any type, not just Home Heartbeat specific). 
 * [http://misterhouse.sourceforge.net/ http://misterhouse.sourceforge.net/]
-
 
 == Other sites with info ==
 This site has the base station state table protocol decoded. My script follows their definitions so it should support any sensor I don't have yet.
@@ -209,9 +197,5 @@ If you are new to reading raw ZigBee traffic you will want to read the IEEE 802.
 This paper is a good companion to read along with the IEEE spec to better understand why you are seeing the data you are seeing in the spec and in the traffic dump.
 * [http://staff.ustc.edu.cn/~ustcsse/papers/SR10.ZigBee.pdf SR10.ZigBee.pdf]
 
-
 == Contact ==
 I can be reached at dosman at bloominglabs dot org, thanks!
-
-
-[[Category:Dosman projects]]

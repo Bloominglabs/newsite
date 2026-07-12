@@ -52,20 +52,6 @@ You will need a laptop in order to configure the Pi. Bloominglabs will provide l
 
 Registration for this workshop is now open. Please have all of the required equipment on-hand, or at least ordered, prior to signing up for the workshop (see list above).
 
-<html>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="MB3NQLP87CVPS">
-<table>
-<tr><td><input type="hidden" name="on0" value="Are you a Bloominglabs member?">Are you a Bloominglabs member?</td></tr><tr><td><select name="os0">
-	<option value="Non-member">Non-member $50.00 USD</option>
-	<option value="Bloominglabs member">Bloominglabs member $25.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</html>
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MB3NQLP87CVPS Donate with PayPal]
 <!--'''FULL - [https://docs.google.com/forms/d/13wAPJM4NrCulRTFiXLjjgis0Q1FtasEvVNXEo2dMoX0/ Waitlist Sign-up Link] 
 We will notify the waitlist for future sessions when opened, as well as if any spots in this session open up. Please also sign up to our Announcement mailing list to be notified for new workshops. You may also e-mail contact@bloominglabs.org to be put on a waitlist.'''-->

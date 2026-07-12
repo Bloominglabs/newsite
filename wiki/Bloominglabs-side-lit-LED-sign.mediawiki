@@ -7,7 +7,6 @@ The current plan is to come up with a side-lit LED sign. There are numerous site
 * [http://www.instructables.com/id/Edge-Lit-Mobile-Night-Light/step10/ENJOY/ You know, for the kids!]
 * [http://www.adafruit.com/blog/2009/09/22/making-an-edge-lit-acrylic-sign/ On Adafruit - gave us the idea]
 
-
 === Materials ===
 * [http://www.mcmaster.com/#catalog/117/3540/=fr3qdh Machinable PETG (recommended for indoors)]
 * [http://www.mcmaster.com/#acrylic/=frlf1x Machinable acrylic]
@@ -19,6 +18,3 @@ The current plan is to come up with a side-lit LED sign. There are numerous site
 * Aluminum for the case
 * Power Supply (12VDC)
 * Arduino or microcontroller to make the display do cool things.
-
-[[Category:Group projects]]
-[[Category: The Space]]

@@ -1,7 +1,6 @@
 == Satellite Networked Open Ground Station ==
 A no-rotator station is just what it sounds like: a SatNOGS client connected to stationary antennas which provide horizon-to-horizon RX coverage as satellites pass overhead. This requires the use of a couple of specialized types of antennas of course. Here are details of the no-rotator station I've built and operate at Bloominglabs.
 
-
 == No-rotator Antenna types ==
 * Turnstile - UHF/VHF
 * Lindenblad - UHF/VHF
@@ -9,21 +8,18 @@ A no-rotator station is just what it sounds like: a SatNOGS client connected to 
 
 These are all good choices as they can capture polarized RF coming from overhead positions. The Turnstile and Lindenblads have some tricky impedance matching requirements though which boils down to careful coax assembly. For UHF, there is a variant of the Lindenblad referred to as a "paralindy" which is a parasitic element di-pole that looks similar but is even easier to build. A friend and I both built and tested a pair of UHF paralindy's, these proved to work good enough to continue testing.
 
-
 == 2m Lindenblad ==
 I went head and built a full 2-meter Lindenblad. It was not a super fun experience, but it was pulling in decodable sat transmissions from indoors so it seems like it works. I assembled both the UHF Paralindy and this 2m Lindenblad onto a single mast pole, then attached my water tight enclosure below them both.
 
-[[Image:20190127_114510.jpg|none|thumb|200px|Two antennas on 1 mast]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/20190127_114510.jpg" alt="Two antennas on 1 mast">
 
 == Multiple SatNOGS Clients from one antenna set ==
 Obviously you don't need a rotator controller to use this setup. All you need is an RPi3 and an RTL-SDR. This opens up the possibility of running multiple clients off a single set of antennas. 
-[[Image:20190127_143649.jpg|none|thumb|200px|Two clients on one antenna set]]
+<img src="https://www.bloominglabs.org/Special:FilePath/20190127_143649.jpg" alt="Two clients on one antenna set">
 
 I picked up some wide-band power dividers (high quality splitters) off of Ebay to test with. Make sure they cover the bands your antennas are for, in this case 144MHz-450MHz. Both antennas are connected into a single feed-line with the first power divider. Next is a [https://www.ebay.com/itm/Wideband-LNA-with-FM-notch-filter-Low-noise-RTL-SDR-Airband-Vorverstarker-USB/113622729531?hash=item1a7471433b:g:krwAAOSwUKxYYAhO:rk:4:pf:0 wide-band LNA]. The LNA then feeds into another wide-band power divider which feeds two separate RTL-SDRs. Obviously an RPi3 hooks up to each RTL-SDR. I use the native [https://gitlab.com/librespacefoundation/satnogs/satnogs-pi-gen/-/jobs/artifacts/2018080300/download?job=release SatNOGS Raspbian build] for both RPi's.
 
 With so much custom coax work happening in the Bloominglabs ham shack I picked up crimper dies for several coax sizes late last year. That has saved a ton of money, but coax, ends, and crimpers are still a significant source of cost in this project. I made up 3" jumpers for a number of the interconnects. For SMA male ends I've found that soldering the center pin is more reliable than crimping those. At this point I've crimped around 30 male SMA for RG-8x and a handful of LMR-400 ends.
-
 
 == Build-Of-Materials ==
 
@@ -35,7 +31,6 @@ The UHF Paralindy I built for this project:
 * 1/2" PVC water pipe
 * 3/4" OD aluminum tupe, much cheaper to source at the hardware store than ordering online
 * 2x ferrites - Mouser
-
 
 The 2 meter Lindenblad I built:
 One piece of advice I'd pass along is to figure out how you want to attach the main arms that cross first. After that, most of the info you need is included in the linked article.
@@ -70,14 +65,10 @@ One piece of advice I'd pass along is to figure out how you want to attach the m
 ==== Other random parts ====
 The mast pole was some random part donated to our ham shack. I had the tri-pod on-hand for other testing purposes. You'll need as much ethernet as is required to run to your station from an available ethernet jack. I ran 2 runs of it, one for ethernet and one for power since I have multiple voltages involved. You'll also need some 5v power supplies that can supply around 5A. I used a 9v supply for the LNA, since multiple SDR's are connected to the LNA I did not opt to try a bias-T. 
 
-
 == Current project status ==
 As of February 2019 I'm still testing out this dual-station (dual-client) setup. Both stations are in testing mode until I'm ready to mount them on the roof. I have a few small bugs I'm still working on, but at the moment both stations have been able to make successful reception and decodes of satellite transmissions. My intent is to connect a 3rd client/station to this setup before I'm done if possible.
 
 * [https://network.satnogs.org/stations/405/ https://network.satnogs.org/stations/405/]
 * [https://network.satnogs.org/stations/471/ https://network.satnogs.org/stations/471/]
 
-
-[[Image:Qrcode_SatNOGS-norotator.png|none|thumb|100px|Link to latest version of this document]]
-
-[[Category:Dosman projects]] [[Category:Radio]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_SatNOGS-norotator.png" alt="Link to latest version of this document">

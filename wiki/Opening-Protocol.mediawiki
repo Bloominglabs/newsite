@@ -10,11 +10,9 @@ Space Rangers are primarily responsible for completion of this Protocol and the 
 # Sweep the floor, especially along walkways.
 # Empty trash cans if over half-full.
 # Clean dishes in kitchen sink and store out of sight.
-# Ensure at least 10 [[File:RELEASE_AND_WAIVER_OF_LIABILITY.pdf|waivers]] are on a clipboard with a working pen and sitting on a prominent table.
+# Ensure at least 10 [https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf waivers] are on a clipboard with a working pen and sitting on a prominent table.
 # If anything smells weird, set up floor fans to ventilate the room and open a window as well.
 
 ===Elsewhere===
 # Note exits and bathroom locations. 
 ## Communicate these to all guests.
-
-[[Category:Protocols]]

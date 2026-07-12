@@ -69,9 +69,9 @@ Options for software include:
 
 The following members have pledged a total of $300 (as of Sunday, 21 November 2021) in donations to improve the X-Carve and make it a good machine for people to use at Bloominglabs. Thank you all!
 * Adam Stitcher (contributed shielded endstop wires)
-* [[User-Jpt4|jpt4]]
-* [[User-Dosman|dosman]] (contributed Wide Makerslide for X-Axis upgrade)
-* [[User-Kinnimari|Kyle]]
+* jpt4
+* dosman (contributed Wide Makerslide for X-Axis upgrade)
+* Kyle
 * Christopher Tiwari
 
 So far, $54 (not including shipping) have been spent on the X-Carve.
@@ -224,9 +224,9 @@ Universal Gcode Sender has all of the controls necessary to move the machine aro
 
 === Endstop mounting and wiring ===
 
-For some reason, the endstops for the Y and X axes were mounted on the moving parts, requiring that their wires run through a lot of cable chain. [[User-Avh-on1|Alex]] made simple laser-cut mounts for the microswitches, and mounted them on the non-moing parts of the machine. This substantially reduced the amount of wire needed for the endstops.
+For some reason, the endstops for the Y and X axes were mounted on the moving parts, requiring that their wires run through a lot of cable chain. Alex made simple laser-cut mounts for the microswitches, and mounted them on the non-moing parts of the machine. This substantially reduced the amount of wire needed for the endstops.
 
-In between the Y and X cable chains, and after the X cable chain, Alex and [[User-Joshgiem|Josh Giem]] connected all of the endstop wires with DuPont connectors. This should mean nobody has to fish endstop wires through the cable chain in the future, and the microswitches can easily be removed and replaced.
+In between the Y and X cable chains, and after the X cable chain, Alex and Josh Giem connected all of the endstop wires with DuPont connectors. This should mean nobody has to fish endstop wires through the cable chain in the future, and the microswitches can easily be removed and replaced.
 
 To dampen vibration from the spindle, the Z-axis endstop is mounted on a bandsawed-off slice of a cork.
 
@@ -234,15 +234,12 @@ To dampen vibration from the spindle, the Z-axis endstop is mounted on a bandsaw
 
 During the first tests of the machine, the most serious problem was that the Z-axis endstop would very often trigger when the spindle was started, causing the machine to panic and halt. The likely cause of this was electromagnetic interference between the spindle power wires and the endstop wires. Both were very long, unshielded and unfiltered, and ran parallel to each other for several feet.
 
-Vibration was also suspected, but [[User-Joshgiem|Josh Giem]] replaced the Z-axis endstop with a similar one salvaged from a board in the electronics room, and the issue persisted.
+Vibration was also suspected, but Josh Giem replaced the Z-axis endstop with a similar one salvaged from a board in the electronics room, and the issue persisted.
 
 Adam Stitcher purchased 9 feet of shielded two-conductor wire. This, along with an extra 4-conducter stepper motor cable in the box, was used to replace the wiring to the X- and Z-axis endstops.
 
-Even with the shielded cable, the Z-axis endstop still sometimes triggered when the spindle started. To settle that forever, [[User-Avh-on1|Alex]] cut a slice off a cork and used it as a vibration-absorbing washer for the microswitch, and wired a big capacitor into the spindle motor. This seems to have settled the problem.
+Even with the shielded cable, the Z-axis endstop still sometimes triggered when the spindle started. To settle that forever, Alex cut a slice off a cork and used it as a vibration-absorbing washer for the microswitch, and wired a big capacitor into the spindle motor. This seems to have settled the problem.
 
 === More Rigid X-Axis ===
 
-[[User-Dosman|Dosman]] contributed a 1000mm piece of [https://www.inventables.com/technologies/wide-makerslide Wide MakerSlide]. Besides being a single wide piece instead of two thinner pieces, the Wide MakerSlide's walls are also thicker than the original [https://www.inventables.com/technologies/makerslide MakerSlide] rails. The upgrade was done during public hours on 13 July 2022. Should have measured how much twist the old gantry had, but just pressing on it by hand makes it clear the new gantry is ''far'' stiffer.
-
-[[Category: Pledge]]
-[[Category: Tools]]
+Dosman contributed a 1000mm piece of [https://www.inventables.com/technologies/wide-makerslide Wide MakerSlide]. Besides being a single wide piece instead of two thinner pieces, the Wide MakerSlide's walls are also thicker than the original [https://www.inventables.com/technologies/makerslide MakerSlide] rails. The upgrade was done during public hours on 13 July 2022. Should have measured how much twist the old gantry had, but just pressing on it by hand makes it clear the new gantry is ''far'' stiffer.

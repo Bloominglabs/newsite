@@ -28,7 +28,6 @@ The intent is to produce a PCB which can facilitate a reliable basic configurati
 ** sub-1GHz RF tranceivers
 ** RFID
 
-
 == Related projects ==
 College dorm project:
 * [http://diyistheway.blogspot.com/2009/03/thermosmart.html http://diyistheway.blogspot.com/2009/03/thermosmart.html]
@@ -54,6 +53,3 @@ Some PID thermostat code:
 ==HVAC References==
 Wiring Colors Code 
 *http://highperformancehvac.com/thermostat-wiring-colors-code/
-
-[[Category:Projects]]
-[[Category:Group projects]]

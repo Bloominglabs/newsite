@@ -18,7 +18,6 @@ Our [https://www.google.com/calendar/embed?src=bloominglabs%40gmail.com&ctz=Amer
 <br>[https://twitter.com/Bloominglabs @Bloominglabs on Twitter]
 <br>Send mail to contact at bloominglabs dot org to coordinate access to our social media accounts, and/or Steve for Twitter
 
-
 Word of mouth (you can’t beat it)
 
 Flyers (both in the space and in public) - we can always use people with mad design skills to help with this
@@ -67,7 +66,6 @@ Flyers (both in the space and in public) - we can always use people with mad des
 
 ==Radio and TV==
 This is the real bull-horn for advertising events. A little known secret is that most Radio and TV stations do free on-air spots for non-profit event announcements, this helps them too by showing community involvement. If your workshop or event can handle more than a handful of attendees you should consider advertising through these methods too. In addition to on-air announcements, most Radio and TV stations also host online community event calendars which should be utilized as well.
-
 
 '''WFIU event submission''' (web calendar with some/most events read on the air)
 <br>https://www.ipm.org/community-calendar/events/create
@@ -172,6 +170,3 @@ The CBB is the home for approved notices from not-for-profit community organizat
 <br>http://posting.nuvo.net/indianapolis/Events/AddEvent - requires free login, events possibly get in their hardcopy
 <br>http://thingstodo.indystar.com/events - Indy Star calendar
 <br>http://www.indianapolisrecorder.com/calendar/
-
-
-[[Category: Operations]] [[Category:Advertising]]

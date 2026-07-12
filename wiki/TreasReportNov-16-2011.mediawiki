@@ -21,7 +21,6 @@ Report from Oct-18-2011 to Nov-16-2011
 |11/15/2011||	 	||Deposit  	        || $124.00	|| $142.79
 |}
 
-
 {|border="1"
 |+Current Unpaid Bills of $138.16
 |-
@@ -31,7 +30,6 @@ Report from Oct-18-2011 to Nov-16-2011
 |-
 |Duke    ||$39.49
 |}
-
 
 {|border="1"
 |+Incoming Income of $840.00
@@ -44,6 +42,5 @@ Report from Oct-18-2011 to Nov-16-2011
 |-
 |Thirteen people owe Nov dues ||$520.00
 |}
-
 
 If everyone pays up their dues and pays their November dues, we will easily pay all our bills including December rent and have $240.00 in the bank thanks to a couple of people who have paid their dues several months in advance.

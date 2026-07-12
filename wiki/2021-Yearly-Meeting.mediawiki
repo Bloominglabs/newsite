@@ -23,7 +23,6 @@ Attendees:
 * Cam
 * phone person just joined 2:04pm
 
-
 == 2020 Annual Report ==
 The 2020 Annual Report contains a good summary of the major events we faced in 2020.
 * [https://docs.google.com/document/d/1KR07xWXA1jKnalMgwwuITNDVp3CESn6Td0r-m_OHOWc/edit https://docs.google.com/document/d/1KR07xWXA1jKnalMgwwuITNDVp3CESn6Td0r-m_OHOWc/edit]
@@ -41,6 +40,3 @@ Quorum was achieved consisting of at least 25% of our voting membership.
 I don't have any detailed notes from the agenda. See the Annual Report for more details.
 * Dues rates increase in 2020 - old rates were grandfathered, won’t be issued ever again
 ** New rates: $50 for full memberships, $25 for reduced rate memberships
-
-
-[[Category:Meetings]]

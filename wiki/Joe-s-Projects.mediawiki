@@ -55,7 +55,7 @@ Throwing spear
 Laser cut plane schematics 
 
 [https://github.com/TheRobotStudio/SO-ARM100 SO-ARM100] 
-[[File:20250927 092130 720.jpg|thumb|none]] 
+<img src="https://www.bloominglabs.org/Special:FilePath/20250927_092130_720.jpg" alt="20250927 092130 720.jpg"> 
 
 ==Abandoned==
 
@@ -118,5 +118,3 @@ Pirate/Library Box
 [http://hackaday.com/2016/02/09/vhs-tape-plasma-mirror-drives-tiny-particle-accelerator/ VHS tape particle accelerator]
 
 [https://www.cumberlandrover.com/boat-plans/p/solo-pirogue-12-plans-7yhfj Solo Pirogue]
-
-[[Category:Projects]]

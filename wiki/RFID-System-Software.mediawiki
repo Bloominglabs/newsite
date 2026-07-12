@@ -16,7 +16,3 @@ So at this point communication was unidirectional but there was still a lot we c
 
 === Version 2 ===
 To address the business of 2-way communication I looked into changing the serial port interface to a network service. The obvious tool to use for this (given my preference for Python) was the Twisted library. It took a bit of time to 'get' the Twisted library given the asynchronous heavily callback-oriented nature of Twisted but eventually I came up w/ the daemon network service in the rfid_network_server/rfid_proxy.tac file. When it is running it's a proper UNIX daemon and a user (or process) can connect on port 6666 (not Satanic because of the last 6). A program (like doorbot) can communicate via sockets or a network library (like Twisted) instead of dealing with minicom and screen and so on. This version was installed 7/15/2012 and appears to work fine but as with everything it will be enhanced and improved over time. It really opens up the possibilities for the web interface as well.
-
-[[Category:Projects]]
-[[Category:The Space]]
-[[Category:Hackerspace systems]]

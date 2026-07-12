@@ -6,7 +6,7 @@ Centrifuge ✓
 
 Incubator(Shaker/agitator currently not working) ✓
 
-OpenPCR or a [[https-tequals0-wordpress-com-2014-04-05-lightbulb-pcr-build-documentation-Lightbulb-PCR]]
+OpenPCR or a [https://tequals0.wordpress.com/2014/04/05/lightbulb-pcr-build-documentation/ Lightbulb PCR https://tequals0.wordpress.com/2014/04/05/lightbulb-pcr-build-documentation/ Lightbulb PCR]
 
 Computer ✓
 

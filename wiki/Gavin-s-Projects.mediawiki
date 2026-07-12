@@ -4,7 +4,7 @@ The idea is to get some introductory videos on our Youtube channel.
 == Bloominglabs CMS ==
 Building a simple website to keep track of Bloominglabs internal documents, such as liability waivers and membership forms.
 
-[[File:Bloominglabs_cms.png]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs_cms.png" alt="Bloominglabs_cms.png">
 
 == Internal Street View of Bloominglabs ==
 Once we move to the new space, I'm going to try and get some 360 degree photos of the interior to put on our Google maps listing.

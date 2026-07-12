@@ -1,6 +1,5 @@
 This page is only here for historical purposes, it is way out of date. Any of the mailing lists are much better for organizing tasks that need to be completed anyway.
 
-
 == Overall ToDo List ==
 * <s>Get more people involved in the discussion (mailing list)</s>
 ** <s>Tweet, retweet, post to FB, etc..</s>
@@ -32,11 +31,8 @@ This page is only here for historical purposes, it is way out of date. Any of th
 * <s>[http://www.andrewkilpatrick.org/blog/?page_id=914 Laser cutter/etcher]</s>
 * CNC milling machine - for PCB etching and other things (manual lathe and mill acquired)
 
-
 == Metal working - maybe some day ==
 * <s>welding outfits - MIG or TIG, and a stick welder</s>
 * scrap steel (1/4" and 1/8") from JB salvage
 * hydraulic ironworker for cutting & punching 1/4" and 1/8" steel
 * <s>acetylene torch outfit</s>
-
-[[Category:History]]

@@ -6,6 +6,3 @@ Here is the [https://www.shapeoko.com/wiki/index.php/ShapeOko_2 official wiki pa
 Here is the [https://www.shapeoko.com/wiki/index.php/Materials official list of materials and cutting settings].
 
 Here is a [https://www.shapeoko.com/wiki/index.php/CAM list of known-working software].
-
-
-[[Category:Tools]]

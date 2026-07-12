@@ -23,12 +23,7 @@ Finish filling out our part of the membership application. Find their signed lia
 
 Ask them if they have any questions. Also run through the list of items on the back of the membership form clip board with them (showing them where the first-aid kit is, fire extinguishers, how to get help, etc).
 
-
-
 == Removing Members==
 This is much simpler. First have the officer in charge of handling invoices stop their invoice recurrences. Once that is done they will no longer receive monthly invoices. This also causes them to be automatically be removed from the members mailing list within a week (only this list though, they can remain signed up to the announce and discuss list). Currently we still have to manually disable their RFID. If they are behind on their invoices try to work with them to collect the over-due invoices. Lastly remove them from the Google spreadsheet. That gets them out of the business systems.
 
 If there is a problem with the member things can be expidited as needed. If they had any online access that can be removed as well if needed (wiki, servers in the space, etc). Also our ByLaws have provisions for handling member problems.
-
-
-[[Category:Operations]]

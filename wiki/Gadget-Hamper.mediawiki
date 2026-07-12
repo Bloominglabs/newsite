@@ -8,20 +8,18 @@ The latest version of this project is always available on GitHub: https://github
 This project is also on Thingiverse: [https://www.thingiverse.com/thing:3670668 https://www.thingiverse.com/thing:3670668]
 
 {|
-| [[Image:Gadget hamper010.jpg|none|thumb|200px|Left-to-right radio gang charging]]
-| [[Image:Gadget hamper009.jpg|none|thumb|150px|Front-to-back radio gang charging]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper010.jpg" alt="Left-to-right radio gang charging">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper009.jpg" alt="Front-to-back radio gang charging">
 |}
 
 {|
-| [[Image:Gadget hamper004.jpg|none|thumb|182px|Base - without the rear deck or device cradle]]
-| [[Image:Gadget hamper008.jpg|none|thumb|300px|Interlocked bases]]
-| [[Image:Gadget hamper002.jpg|none|thumb|240px|More interlocked bases]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper004.jpg" alt="Base - without the rear deck or device cradle">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper008.jpg" alt="Interlocked bases">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper002.jpg" alt="More interlocked bases">
 |}
-
 
 == Resources for supporting more devices ==
 Please see the page [[Modeling-Notes-for-the-Gadget-Hamper]] for information and suggestions on how to support new devices. I also have information tucked in here for simplifying battery cases and contacts since this goes hand-in-hand with the topic.
-
 
 == Components ==
 * Base - the bottom shell everything plugs info
@@ -41,7 +39,6 @@ Anyone who dabbles in commercial radio equipment knows about gang chargers. This
 
 ==Non-charger uses==
 Since the system is modular, and most people keep their charging cradle on their desk, I went ahead and added non-charging accessories to the lineup. I’ve added some office supply organizer components as well. Also, sometimes a piece of equipment just needs a clear place to sit on a desk even it’s not for charging.
-
 
 ==I have a 3D printer, but 3D modeling isn’t my bag - can I still use the Gadget Hamper for my device?==
 See the included Universal Cradle which can be manually trimmed to fit after it's printed! Print it out, trim the ribs to fit your device, make up some battery contacts, and bobs your uncle!
@@ -66,9 +63,9 @@ See the included Universal Cradle which can be manually trimmed to fit after it'
 Print it as-is, then trim the ribs down to fit your device. For devices with charging contacts on the side of the battery, you will most likely want the device to fit flush against the back wall so positive connection will be made with your battery contacts. The rear outside of the Universal Cradle is flat, the other three sides are tapered near the bottom. The bottom of this cradle has open channels (requires support), if your device requires contacts on the bottom of the battery these open channels facilitate the installation of contacts here.
 
 {|
-| [[Image:Universal cradle002.jpg|none|thumb|300px|Universal Cradle - trim the ribs to fit your device]]
-| [[Image:Universal cradle003.jpg|none|thumb|105px|Tapered at the bottom on 3 sides]]
-| [[Image:Universal cradle004.jpg|none|thumb|350px|Channels on the bottom to allow installation of contacts]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle002.jpg" alt="Universal Cradle - trim the ribs to fit your device">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle003.jpg" alt="Tapered at the bottom on 3 sides">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle004.jpg" alt="Channels on the bottom to allow installation of contacts">
 |}
 
 ==Designed to be printed using minimal support material==
@@ -82,13 +79,8 @@ Print it as-is, then trim the ribs down to fit your device. For devices with cha
 * Organizer trays, bases, and other inserts included in the design
 * Can be used as a device holder and organizer along with battery charging
 
-
 ==Print settings==
 My setup is a Hesine M505 cartesian printer (cousin to the Anet A8) with a .8mm nozzle. I've experimented with different layer heights, but .1mm and .2mm work fine with my nozzle size. I mostly use PET-G filament as it's stronger than PLA and I don't need a HEPA filter to avoid lung cancer from the fumes. Support everywhere is needed for the "base with chad holes". The Universal Cradle needs support from build platform for the open channels on the bottom. No other models currently require support. Any filament should work.
 
-
 ==Please Remix!==
 It would be cool to see compatible blank cradles modeled in other formats than Blender (OpenSCAD, FreeCAD, etc). For better or for worse Blender is the only 3D modeling tool I can use for now so I can't provide other formats.
-
-
-[[Category:Dosman projects]] [[Category:Radio]] [[Category:3D Printing Projects]]

@@ -34,6 +34,4 @@ Instructor notes for conducting a welding workshop, a fair number of materials n
 
 ===Other resources===
 This is a material-intensive workshop. Make sure you don't end up charging too little to cover all the expenses. This is a spreadsheet which can assist you in determining the full cost of the wokrshop. Make sure your net is in the positive, even if you want to just break even there will probably be extra expenses at the last minute so get that price set appropriately.
-* [[File:Welding_workshop_cost_analysis.xls]]
-
-[[Category:Workshops]] [[Category:Workshop prep notes]]
+* <img src="https://www.bloominglabs.org/Special:FilePath/Welding_workshop_cost_analysis.xls" alt="Welding_workshop_cost_analysis.xls">

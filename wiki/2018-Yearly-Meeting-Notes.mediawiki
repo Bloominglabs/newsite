@@ -1,10 +1,9 @@
 These are the notes for the [[2018-Yearly-Meeting]].
 
-
 The meeting was called at 1:13 PM on Sunday, 18 Feb 2018, with 10 members present.
 
 == Finances ==
-Presented by [[User-Heath| Heath]] (2017 [[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]])
+Presented by Heath (2017 [[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]])
 
 === Bank Account Holdings ===
 {| class="wikitable"
@@ -52,7 +51,7 @@ We will be paying electric and gas starting next month (March 2018). We will als
 |}
 
 === 2017 Expense Report ===
-Presented by [[User-Jtillots| Jenett]] ([[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]] [[2016-Yearly-Meeting#Officer-Elections| before 2017]])
+Presented by Jenett ([[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]] [[2016-Yearly-Meeting#Officer-Elections| before 2017]])
 {| class="wikitable"
 |liability insurance||$850
 |-
@@ -85,11 +84,11 @@ Presented by [[User-Jtillots| Jenett]] ([[Bylaws#Section-4-Duties-of-the-Treasur
 |'''total 2017 expenses'''||$18,900
 |}
 
-[[User-Gavwhela| Gavin]] purchased secure boxes from [https://www.govdeals.com/ GovDeals]; we can have a donation box in every room now. [[User-Dosman| Nathan]] has identically-keyed locks that can be used on the boxes.
+Gavin purchased secure boxes from [https://www.govdeals.com/ GovDeals]; we can have a donation box in every room now. Nathan has identically-keyed locks that can be used on the boxes.
 
 === Sales Tax Information ===
 
-[[User-Gavwhela| Gavin]] (2017 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) shows and explains the binder with sales tax exempt registrations.
+Gavin (2017 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) shows and explains the binder with sales tax exempt registrations.
 * All information necessary to register with new stores is in the front of the binder (and on the [[Business-Operations]] page).
 * The Menard's card is updated to show ZIP code of P.O. box.
 * The contents of this binder are for making tax-exempt purchases on behalf of Bloominglabs.
@@ -100,7 +99,7 @@ Presented by [[User-Jtillots| Jenett]] ([[Bylaws#Section-4-Duties-of-the-Treasur
 
 Only 1 exit survey was filled in during 2017-8.
 
-Before the meeting, [[User-Sdcharle| Steve]] sent out a survey to all members. There were only 7 responses, probably because the survey was only sent out 1 week in advance.
+Before the meeting, Steve sent out a survey to all members. There were only 7 responses, probably because the survey was only sent out 1 week in advance.
 
 All 7 responders said that they:
 * have used the woodshop
@@ -124,7 +123,7 @@ Multiple responders asked for more workshops.
 The survey will remain open to attract more responses.
 
 == 2017 Year in Review ==
-Presented by [[User-Dakmh| Dan]] (2017 [[Bylaws#Section-2-Duties-of-the-President| president]])
+Presented by Dan (2017 [[Bylaws#Section-2-Duties-of-the-President| president]])
 
 === Collaborations with Other Organizations ===
 Monroe County Public Library
@@ -154,7 +153,7 @@ Several Bloominglabs members have been keeping up with [https://nationofmakers.u
 * net $300 loss
 * suggestion for 2018: site map
 
-We want to do Makevention again in 2018! [[User-Jtillots| Jenett]] cannot lead it as she has done in the past, but [[User-Jpt4| Jimmy]] has volunteered to head it. The first goal is to reserve the convention center ASAP.
+We want to do Makevention again in 2018! Jenett cannot lead it as she has done in the past, but Jimmy has volunteered to head it. The first goal is to reserve the convention center ASAP.
 
 === Other Public Activities ===
 ==== Pumpkin Trebuchet ====
@@ -162,7 +161,7 @@ We had 2 public test launches at [https://www.facebook.com/Fowler-Pumpkin-Patch-
 
 At the event, we placed 2nd for accuracy. Unfortunately, due to being overloaded, the trebuchet suffered a mechanical failure. The trebuchet is damaged and worn enough the future participation should be done with a new trebuchet.
 
-[[User-Sdcharle| Steve]] volunteered to be on the trebuchet crew this year.
+Steve volunteered to be on the trebuchet crew this year.
 
 == Miscellaneous Topics ==
 === Donation Procedure===
@@ -180,7 +179,7 @@ Unfortunately, we aren't a type of organization that Crane or the Navy can donat
 Although we didn't get accepted for the grant we applied for, we did get good feedback. Bloominglabs has remained in communication with the Community Foundation, and will have more chances to apply for different grants from them in the future.
 
 === Move-Out ===
-[[User-Jpt4| Jimmy]] and Pete were applauded for organizing and executing the move-out.
+Jimmy and Pete were applauded for organizing and executing the move-out.
 
 We managed to get rid of a lot of junk!
 
@@ -190,24 +189,24 @@ It's great! We just need to get it the rest of the way ready to move our stuff i
 == Officer Elections ==
 We did have a [[Bylaws#Section-4-Quorum| quorum]], with 13 of the 14 present members having voting privileges.
 
-[[User-Gavwhela| Gavin]] (2017 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) pointed out that the odd member out, [[User-Avh-on1| Alex]] (2017 [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]] board member) can't be a board member because he is at the non-voting hardship rate, and [[Bylaws#Section-1-Role-2C-Number-2C-Qualification-2C-Term-and-Compensation| the bylaws state that board members must be voting members]]. This was somehow missed at the 2017 annual members' meeting, when [[User-Avh-on1| Alex]] was [[2017-Yearly-Meeting-Notes#Elections| elected onto the board]]. [[User-Avh-on1| Alex]] rectified this by escalating himself to the voting member tier / dues rate.
+Gavin (2017 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) pointed out that the odd member out, Alex (2017 [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]] board member) can't be a board member because he is at the non-voting hardship rate, and [[Bylaws#Section-1-Role-2C-Number-2C-Qualification-2C-Term-and-Compensation| the bylaws state that board members must be voting members]]. This was somehow missed at the 2017 annual members' meeting, when Alex was [[2017-Yearly-Meeting-Notes#Elections| elected onto the board]]. Alex rectified this by escalating himself to the voting member tier / dues rate.
 
-[[User-Dakmh| Dan]] (2017 [[Bylaws#Section-2-Duties-of-the-President| president]]) read out the [[Bylaws#Article-V-The-Officers| roles and duties]] of the officers.
+Dan (2017 [[Bylaws#Section-2-Duties-of-the-President| president]]) read out the [[Bylaws#Article-V-The-Officers| roles and duties]] of the officers.
 
-[[User-Willrobot| Will]] (2017 [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]] member) did not run for re-election. Pete said he will run for the position.
+Will (2017 [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]] member) did not run for re-election. Pete said he will run for the position.
 
-[[User-Dakmh| Dan]] ran unopposed for [[Bylaws#Section-2-Duties-of-the-President| president]]. (14 "yes" votes out of 14 members)
+Dan ran unopposed for [[Bylaws#Section-2-Duties-of-the-President| president]]. (14 "yes" votes out of 14 members)
 
-[[User-Gavwhela| Gavin]] ran unopposed for [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]. (14/14)
+Gavin ran unopposed for [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]. (14/14)
 
-[[User-Heath| Heath]] ran unopposed for [[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]]. (14/14)
+Heath ran unopposed for [[Bylaws#Section-4-Duties-of-the-Treasurer| treasurer]]. (14/14)
 
-[[User-Avh-on1| Alex]] ran unopposed for [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]]. (14/14)
+Alex ran unopposed for [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]]. (14/14)
 
 Pete ran unopposed for [[Bylaws#Section-5-Duties-of-the-at-large-officers| at-large]]. (14/14)
 
 == Bylaw Amendment Petitions ==
-[[User-Gavwhela| Gavin]] (2018 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) petitioned for 2 amendments to the [[Bylaws| bylaws]]:
+Gavin (2018 [[Bylaws#Section-3-Duties-of-the-Secretary| secretary]]) petitioned for 2 amendments to the [[Bylaws| bylaws]]:
 
 === Amendment to the Amendment Process ===
 The bylaws [[Bylaws#Article-VIII-Amendments| currently require]] that amendments be signed by 100% of voting members. This makes it nearly impossible to amend the bylaws because some members are rarely in Bloomington and don't keep up with their e-mail.
@@ -224,7 +223,7 @@ This amendment would add some boilerplate to the bylaws, stating that
 
 The purpose of this amendment is just to make clear that the board ''does'' have the power to sign contracts, and that they can allow someone else to do the same when convenient or required. If we realize later on that somebody signed something for us, and although we wanted them to do that we did not explicitly grant them permission to do so in advance, the board can clarify that they were signing on behalf of Bloominglabs.
 
-There was discussion of the text and no opposition to it. There was discussion on where this text would best fit into the bylaws. After some discussion, [[User-Gavwhela| Gavin]] petitioned to add this text to [[Bylaws#Article-V-The-Officers| article 5 of the bylaws]] as "section 7". There were 13 "yes" votes out of the 13 present members.
+There was discussion of the text and no opposition to it. There was discussion on where this text would best fit into the bylaws. After some discussion, Gavin petitioned to add this text to [[Bylaws#Article-V-The-Officers| article 5 of the bylaws]] as "section 7". There were 13 "yes" votes out of the 13 present members.
 
 == 2018 Goals and Discussion Topics ==
 === The New Space ===
@@ -249,7 +248,7 @@ There was discussion of the text and no opposition to it. There was discussion o
 ** we may be able to epoxy the floors ourselves; it would cost ~$1000
 *Mark will add baseboards and doorknobs
 * The attic insulation will not be blown in until we've run 220V lines through the attic.
-** [[User-Dosman| Nathan]] has met with an electrician. Once we have gotten some plans from the electrician, we will be able to install it ourselves and get it signed off by the electrician.
+** Nathan has met with an electrician. Once we have gotten some plans from the electrician, we will be able to install it ourselves and get it signed off by the electrician.
 * The sink in the biochem area needs to move. Maybe out into the crafting room?
 * A plumbing access panel for the eyewash station needs to be cut so it can be plumbed in.
 * Hot water needs to be run into the biochem room. It was originally going to have a mini water heater under the sink, but it won't quite fit under the sink. Maybe the hot water from the rest of the building could be plumbed into the biochem room?
@@ -261,36 +260,34 @@ There was discussion of the text and no opposition to it. There was discussion o
 * [[Soldering-Workshop| Soldering]]
 ** Maybe schedule two or more this year? It's easy to run and always popular.
 ** Maybe get sponsorship and promotion from [http://stansiferradio.com/ Stansifer Radio Company].
-** [[User-Gavwhela| Gavin]] volunteered to run a soldering workshop.
+** Gavin volunteered to run a soldering workshop.
 * Arduino
-** [[User-Sdcharle| Steve]] and [[User-Jtillots| Jenett]] are interested in planning and running one
+** Steve and Jenett are interested in planning and running one
 * Neopixel or Addressable RGB LED
-** [[User-Dakmh| Dan]] would like to help with a workshop on this
+** Dan would like to help with a workshop on this
 * IoT
-** [[User-Dakmh| Dan]] would like to help with a workshop on this
+** Dan would like to help with a workshop on this
 * Raspberry Pi (maybe a RetroPi arcade cabinet?)
 * Oscilloscope
-** [[User-Gavwhela| Gavin]] is interested in offering this (and owns several oscilloscopes)
+** Gavin is interested in offering this (and owns several oscilloscopes)
 * Blender 3D Modelling and Animation
-** will be offered starting in late March-ish by [[User-Avh-on1| Alex]]
+** will be offered starting in late March-ish by Alex
 ** 10 weeks, 2 hours per week
 * Video Editing
 * Powerpoint Roulette
 * [[RainBarrels| Rain Barrel]]
-** [[User-Heath| Heath]] volunteered to run this
+** Heath volunteered to run this
 * Amateur Radio
-** [[User-Gavwhela| Gavin]] is interested in helping with this
+** Gavin is interested in helping with this
 ** members of the [https://www.indiana.edu/~k9iu/ IU radio club K9IU] have expressed interest in helping with this
 * [[Welding-Workshop| Welding]]
-** [[User-Dosman| Nathan]] has offered to organize this again
+** Nathan has offered to organize this again
 * [[Machining-Workshop-I| Machining]]
-** [[User-Dosman| Nathan]] has offered to run this again
+** Nathan has offered to run this again
 
-[[User-Dakmh| Dan]] spoke about how we should try to gather more information and feedback from our workshops as we run them, so that we can demonstrate and measure our community impact (and how we could benefit from grants). We should also do this at our public nights and collaboration events.
+Dan spoke about how we should try to gather more information and feedback from our workshops as we run them, so that we can demonstrate and measure our community impact (and how we could benefit from grants). We should also do this at our public nights and collaboration events.
 
 === Improve the Clutter Situation ===
-[[User-Anuwer| Adam]] has offered to issue "parking tickets" to projects that are left in the open for too long. We also discussed to possibility of having per-room stewards.
+Adam has offered to issue "parking tickets" to projects that are left in the open for too long. We also discussed to possibility of having per-room stewards.
 
 The meeting was adjourned at 5:14 PM.
-
-[[Category:Meetings]]

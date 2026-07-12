@@ -1,12 +1,10 @@
 Jesse brought in a Craftsman 4" jointer on 03/16/2016.  This tool has been in a barn for a couple decades and will need significant work to be truly operational.  However the basic functionality is there - the motor runs and the blades cut.
 
-
 == Photos ==
 '''Before restoration'''
 <gallery>
 Image:IMG 20160316 205019462.jpg|On arrival
 </gallery>
-
 
 == Usability ==
 The jointer needs a fair bit of work before it can be effectively used:
@@ -21,7 +19,5 @@ The jointer needs a fair bit of work before it can be effectively used:
 * Add a belt guard
 * Add a starter switch
 
-
 == Restoration resources ==
 [http://vintagemachinery.org/photoindex/detail.aspx?id=13633 Completed restoration @ Vintage Machinery]
-[[Category:Former Tools]]

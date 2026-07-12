@@ -46,7 +46,6 @@ In addition to the asset tags, we use <span style="color:#ff0000">RED</span> tag
 * [https://github.com/sdcharle/Bloominglabs Bloominglabs Github repository for group code projects]
 * [https://www.flightradar24.com Flight Radar24] - We host an [http://bloominglabs.org/index.php/Radio_Activities#ADS-B_receiving_station ADS-B receiving station] and have a Premium Flight Radar24 account, contact an officer for the login.
 
-
 We also have presences on social media sites, please feel free to follow, 'like', and otherwise stay connected with Bloominglabs:
 * [http://twitter.com/Bloominglabs Twitter]
 * [http://www.facebook.com/pages/BloomingLabs/123873197660062?ref=ts Facebook]
@@ -55,7 +54,7 @@ We also have presences on social media sites, please feel free to follow, 'like'
 If you want to get involved with our social media outreach, please contact the officers (contact at bloominglabs dot org). They usually know the logins to these services ;-). Lastly please tell your friends and neighbors about us! You can use contact at bloominglabs dot org as a point of contact for anyone who wishes to reach us.
 
 ==== Having guests (non-members) in the space ====
-Often new members ask if it is ok to have friends and family members in the space with them outside of our public meetings. This is totally ok, we encourage folks to show their friends and family around Bloominglabs. We just ask two things. First, they must sign a liability waiver [[File:RELEASE_AND_WAIVER_OF_LIABILITY.pdf]]. Second, your guests are your responsibility. If you are having kids in the space it's your responsibility to make sure they don't get hurt if they are in the workshop. If they make a mess or cause a problem (whether they are kids or adults) it is your responsibility to handle it. That's it!
+Often new members ask if it is ok to have friends and family members in the space with them outside of our public meetings. This is totally ok, we encourage folks to show their friends and family around Bloominglabs. We just ask two things. First, they must sign a liability waiver [https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf RELEASE_AND_WAIVER_OF_LIABILITY.pdf]. Second, your guests are your responsibility. If you are having kids in the space it's your responsibility to make sure they don't get hurt if they are in the workshop. If they make a mess or cause a problem (whether they are kids or adults) it is your responsibility to handle it. That's it!
 
 ==== Using the big tools ====
 If you wish to use the larger tools like the laser cutter and the machine tools please see our [[Training]] category. We generally require training or we verify your experience before turning people loose on those. Otherwise please email the members list if you are unsure who to ask or where to get started.
@@ -77,11 +76,6 @@ There are some things in the space which may not be immediately obvious how to u
 * <s>There is a TV above the door in the workshop. The remote to operate it is next to the light switch. This TV is setup to help align vehicles as they pull into the car lift. It can also be used to watch laser jobs while working in the workshop.<s>
 * <s>There are separate stereo's in the office and workshops. Feel free to use these. Usually there are bluetooth adapters connected to these if that is useful for folks.</s>
 
-
 ==== And when you leave, please follow the [[Exit-Protocol|Exit Protocol]]. ====
 
 Thanks!
-
-
-
-[[Category:Operations]]

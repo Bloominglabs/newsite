@@ -42,8 +42,4 @@ Be aware that there are several strands of CAT5 which are NOT ethernet running t
 == Link to this page online ==
 If you are viewing hard-copy, check out the latest version of this page.
 
-[[Image:Qrcode_Bloominglabs_Network.png|thumb|100px|Link to latest version of this doc]]
-
-
-
-[[Category:Hackerspace systems]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_Bloominglabs_Network.png" alt="Link to latest version of this doc">

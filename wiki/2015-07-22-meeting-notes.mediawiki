@@ -14,7 +14,6 @@ Joey,
 Derek -left early,
 Apple
 
-
 == BLabs Expansion ==
 
 3 buidlings
@@ -43,7 +42,6 @@ appoint a building steward
 * alan nominated by derek  
 * derek nominated by jenett, alan seconded
 
-
 == Finances ==
 * rent:	 	1050
 * electricity:	120
@@ -54,7 +52,6 @@ appoint a building steward
 * divided by      40
 * equals            33
 * 6 extra members bringing in $240/month extra
-
 
 == Misc. ==
 
@@ -86,17 +83,14 @@ Shelves
 
 people are willing to lend tools, but not leave them -Nick & Chris
 
-
 == Chris Dadds ==
 
 with unlimited access to space next door, chris will up monthly dues by ~$200 and bring woodworking shop
-
 
 == Jenett's C class ==
 * $50 member price
 * $125 nonmember price
 * in the fall after Makevention
-
 
 == Classes ==
 
@@ -109,13 +103,8 @@ do we do enough classes to make that worthwhile
 
 Special interest groups
 
-
 == Inventory ==
 
 QR codes exist -Nathan
 
-
 Trailer is available to all BLabs members -Neal
-
-
-[[Category:Meetings]]

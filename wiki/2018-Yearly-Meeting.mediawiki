@@ -104,6 +104,3 @@ $2,987.75	Checking Account Balance
 * Techniques to deal with clutter
 
 * Anything else?
-
-
-[[Category:Meetings]]

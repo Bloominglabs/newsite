@@ -13,7 +13,6 @@ Right-side drive systems put a small motor on the right side of the bicycle, wit
 
 Left-side drive systems put the same kind of motor on the left side of the bicycle, and attach an additional sprocket to that side of the wheel, usually by interlacing it into the spokes.
 
-
 I am trying [https://www.aliexpress.us/item/3256808107651679.html this left-side drive kit], which I bought on 3 Feb 2025 for $68.70 (including shipping and taxes). This is an unusually good price; these kits usually sell for about $90.
 
 == Kit Contents ==

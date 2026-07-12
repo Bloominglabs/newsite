@@ -21,13 +21,11 @@ This page is for having a public resource for documenting Meshtastic activity in
 * Low power and long distance - 1-2 miles at ground level, can go hundreds of miles with high elevation line-of-sight
 * Meshing capability means the more nodes that are in range of each other extends the overall range of the network in the local area
 
-
 == Bloomington Coverage ==
 There are several nodes placed around Bloomington that provide good high-altitude wide-area coverage:
 * IMU
 * CIB
 * Bloominglabs
-
 
 == Building a Solar Node ==
 

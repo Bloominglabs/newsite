@@ -36,5 +36,3 @@ URL
 Bloominglabs
 'Tweet @BloomingLabs to get your message here.' (but we will need a moderator, make sure no dirty words get up there!)
 (add some, people)
-
-[[Category:Group projects]]

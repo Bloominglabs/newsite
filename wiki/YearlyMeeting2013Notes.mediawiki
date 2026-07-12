@@ -58,7 +58,6 @@ Attendees: Nathan, Steve, Jenett, Jay, Dan, Zach, Mitchell, Barry, Adam, Nick, O
 ** Working towards a single-signon system
 ** Jenett will get information on the wiki for how to create accounts
 
-
 == Wonderlab summer camps ideas==
 * throwies
 * led push button lights
@@ -71,6 +70,3 @@ Attendees: Nathan, Steve, Jenett, Jay, Dan, Zach, Mitchell, Barry, Adam, Nick, O
 * Nick will hold a solar panel workshop
 * Corey will hold a HAM radio workshop
 * Jay has the stuff to do a Raspberry Pi workshop
-
-[[Category: Operations]]
-[[Category: Meetings]]

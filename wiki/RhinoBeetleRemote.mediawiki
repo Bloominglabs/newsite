@@ -42,7 +42,6 @@ const long LEFT_STATE = 0x77E19064;
 const long RIGHT_STATE = 0x77E16064;
 const long IGNORE_CODE = 0xFFFFFFFF;
 
-
 long current_state = STOP_STATE;
 
 void setup()

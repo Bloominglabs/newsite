@@ -437,5 +437,3 @@ Jenett really loved the HacDC approach of putting the VP in charge of IT for the
 ===Links===
 https://github.com/nation-of-makers/funding-gateway/blob/master/Funding%20Opportunities%20for%20Making.csv
 TODO - more including resources being shared following the meeting.
-
-[[Category:Meetings]]

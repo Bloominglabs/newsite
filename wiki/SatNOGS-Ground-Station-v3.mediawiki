@@ -7,8 +7,6 @@ Info on the work I did on the v2 rotator ground station can be found here: [[Sat
 == No-Rotator Station ==
 I have a UHF "paralindy" antenna I've built with cshields, we did some preliminary testing and found they work well enough to continue testing. I've also mostly completed a 2m Lindenblad that the paralindy was loosely based on, that seems to work too.
 
-
-
 == v3.1 Rotator Station ==
 Piecing together a complete build-of-materials for the latest version of the rotator is a little challenging. As of February 2019 a good summary can be found in this forum post: [https://community.libre.space/t/ground-station-hardaware-report/3235 https://community.libre.space/t/ground-station-hardaware-report/3235].
 
@@ -27,9 +25,5 @@ When looking for documentation it's important to remember that information can l
 ==== ====
 *
 
-
 == Also See ==
 * [[SatNOGS-no-rotator-Ground-Station]]
-
-
-[[Category:Dosman projects]] [[Category:Radio]]

@@ -7,12 +7,10 @@ Check out [[Past-Workshops]] to see more workshops Bloominglabs has held.
 * Come to <span style="text-decoration:line-through;">the dark side, we have cookies!</span> our Slack group call to chat and bake cookies
 * https://bloominglabs.slack.com/ -- Email contact@bloominglabs.org if you need an invite to Slack
 
-
 '''Discardia: Trashion Refashion Workday'''
 '''May 2nd, 2021 -- Noon-4pm'''
 
 In collaboration with [https://discardia.org Discardia], in preparation for their [https://bloomingtontrashion.org Trashion] event: Come to Bloominglabs at 1840 S. Walnut on Sunday, May 2nd, for a Trashion Refashion work day. Put those last touches on your outfit to get ready for the submission deadline. Bring materials to share. There will be a few sewing machines available, but feel free to bring your own. We have lots of room at Bloominglabs to spread out and will open the doors and windows to get good airflow. If the weather is nice, we can even work outdoors. To find Bloominglabs, go down the driveway beside the liquor store to park. We're around the back of the white building. Please send email to contact@bloominglabs.org if you need more information. Get those Trashion designs started soon!
-
 
 '''Pick It Up Day'''
 ** [https://www.bloomingtonparkour.com/ Bloomington Parkour] and Bloominglabs will be participating in Bloomington's [https://bloomington.in.gov/neighborhoods/grants/pick-it-up Pick It Up] litter reduction initiative. Meet at Bloominglabs at 3p and pick up trash around the creek and Switchyard Park.
@@ -23,14 +21,12 @@ In collaboration with [https://discardia.org Discardia], in preparation for thei
 '''Pi-Day!'''
 * Slack group call to chat and to show off pie photos Sunday, March 14th, 2021 7-8p. <!-- 5 people attended, all members -->
 
-
 '''Radio Fox Hunt 2'''
 January
 
 = 2020 =
 
 '''[[Coronavirus]] Call to Action'''
-
 
 '''Radio Fox Hunt'''
 
@@ -48,17 +44,17 @@ When: Sunday, November 10th from 1 to 4pm
 
 Who: Family friendly and all ages welcome. Under 12 need a parent or guardian.
 
-[[File:Scribblebots.jpg|400px]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Scribblebots.jpg" alt="Scribblebots.jpg">
 
 ----
 
-[[File:Boominglabs.jpg|400px]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Boominglabs.jpg" alt="Boominglabs.jpg">
 
 [http://www.bloominglabs.org/index.php/Boo!minglabs_Halloween Boo!minglabs More information]
 
 '''Book Binding Workshop - Sunday 27th October 2019'''
 
-[[File:BindExample1.jpeg|400px]]
+<img src="https://www.bloominglabs.org/Special:FilePath/BindExample1.jpeg" alt="BindExample1.jpeg">
 
 Come learn how to create a hand-bound hard-cover journal, and take yours home! We will fold our pages, sew them, and make our own covers from just boards and decorative cover paper. Learn about the components of a book, how they hold together, and take away the skills to make many more on your own.
 
@@ -71,23 +67,9 @@ When: Sunday, 27th October 2019 1pm-4pm.
 Location: Bloominglabs
 
 Registration required. Register here:
-<html>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="22ZWVXUS7KBKS">
-<table>
-<tr><td><input type="hidden" name="on0" value="Member/Non-member">Are you a member?</td></tr><tr><td><select name="os0">
-	<option value="Non-Member">Non-Member $50.00 USD</option>
-	<option value="Bloominglabs Member">Bloominglabs Member $45.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</html>
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=22ZWVXUS7KBKS Donate with PayPal]
 
-[[File:BindExample0.jpeg|400px]]
+<img src="https://www.bloominglabs.org/Special:FilePath/BindExample0.jpeg" alt="BindExample0.jpeg">
 
 '''Plant Tower Workshop - 9/29'''
 
@@ -98,7 +80,7 @@ Participants will build their own plant tower and compost tube from a recycled f
 Cost: $40 for members, $50 for non-members
 Time: 1pm - 4pm
 
-[[File:plant tower small.jpg]]
+<img src="https://www.bloominglabs.org/Special:FilePath/plant_tower_small.jpg" alt="plant tower small.jpg">
 
 ----
 
@@ -119,7 +101,7 @@ Time: 2pm - 3pm<br>
 Description: Learn how to make your own essential oil body care products.
 
 Nabors Holistic (Jessica Nabors) will be leading a class where you learn the science behind how essential oils can support a healthy lifestyle. You will also learn how to make 3 of your own body care products, which can save you money in the future. This would also be an excellent opportunity to use what you learn to create awesome, non-toxic Christmas gifts. The cost is $15 for members and $20 for non-members. There are only 10 spots available for this workshop, so sign up quick as it will fill up fast!<br><br>
-[[File:Essential_Oils.jpeg|200px]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Essential_Oils.jpeg" alt="Essential_Oils.jpeg">
 <br>
 
 <b>Halloween Workshop: Freaky Felting</b><br />
@@ -135,13 +117,12 @@ This workshop will run for approximately 2 hours, costs $15, and includes projec
 
 The streets will flow with the blood of needle felters!
 
-
 <b>Make a Plant Tower</b><Br>
 November 18th<br>
 Cost: $40 for members, $50 for non-members<br>
 Time: 1 pm - 4 pm<br>
 Description: Plant towers are a vertical garden that can house 50+ plants in 4 sq ft of space. Plant towers also contain a composting tube to allow users to easily return their vegetative waste back to their plants. Participants will build their own plant tower and compost tube within a 3 hour class.<br>
-[[File:with flowers.jpg]]
+<img src="https://www.bloominglabs.org/Special:FilePath/with_flowers.jpg" alt="with flowers.jpg">
 
 *'''Makevention!'''
 ** Our annual celebration of local makers
@@ -153,7 +134,6 @@ Description: Plant towers are a vertical garden that can house 50+ plants in 4 s
 ** Get hands-on with soap, puzzles, locks, lasers, and robots
 ** Fun for all ages and degrees of nerdery
 ** Check out more at [http://makevention.org http://makevention.org]
-
 
 * '''[[Blender-Class| Blender 3D Modeling and Animation]]'''
 ** Nine weeks, April 3rd - May 29th
@@ -193,7 +173,6 @@ Description: Plant towers are a vertical garden that can house 50+ plants in 4 s
 ** You need to bring your own laptop, preferably with Arduino software installed: https://www.arduino.cc/en/Main/Software 
 ** No programming experience needed (but it's always nice) - this is introductory level.
 
-
 * '''Welding Day'''
 ** June 23rd
 ** This is a beginners workshop, come learn MIG, TIG, Arc, and torch welding, and use a plasma cutter in this half-day workshop. 
@@ -211,23 +190,8 @@ Description: Plant towers are a vertical garden that can house 50+ plants in 4 s
 ** Come learn to solder! No prior experience necessary. You will assemble a fun working electronic circuit. 
 ** Cost is $20 per person, class runs from 7-9pm.
 <!--
-<html>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BLJVMDX6J26R8">
-<table>
-<tr><td><input type="hidden" name="on0" value="Soldering Workshop">Soldering Workshop</td></tr><tr><td><select name="os0">
-	<option value="Non-member">Non-member $20.00 USD</option>
-	<option value="Member">Member $5.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</html>
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BLJVMDX6J26R8 Donate with PayPal]
 -->
-
 
 = 2017 = 
 
@@ -620,7 +584,7 @@ Our annual Holiday workshops are lots of fun. This year we're holding it on a Sa
 ** Questions?  Contact jsissom@bloominglabs.org
 
 *[[OpenHouse]] July 23rd from 10am-4pm at the new space! 3927 W. Roll Avenue. Tell your friends! See you there!
-[[Image:Bloominglabs-2011-open-house-individual-flyer.jpg‎]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-2011-open-house-individual-flyer.jpg‎" alt="Bloominglabs-2011-open-house-individual-flyer.jpg‎">
 
 *4th of July parade float
 ** Suggestions:
@@ -644,7 +608,7 @@ Participate in the discussion and contribute your ideas at the [[4th-Of-July-Pro
 ** March 25th, 26th, and 27th
 ** http://www.indianalinux.org
 
-*February 16 from 6pm to 11:00pm [[Image:BloomingLabs-ContactMicrophoneResize2_copy.jpg|400px|thumb|right|click to see huge version]]‎
+*February 16 from 6pm to 11:00pm <img src="https://www.bloominglabs.org/Special:FilePath/BloomingLabs-ContactMicrophoneResize2_copy.jpg" alt="click to see huge version">‎
 ** Contact Microphone Building Workshop with the DeKalb Hackerspace CMKT4
 ** CMKT4 will show you how to solder up a piezo-electric pickup and house it sturdily in a recycled bottle-cap housing.
 ** CMKT4's band will be performing after the workshop
@@ -659,6 +623,3 @@ Participate in the discussion and contribute your ideas at the [[4th-Of-July-Pro
 *** We buy the Mabuchi FA-130 motors from Hobby Engineering - http://www.hobbyengineering.com/H2242.html
 *** We buy the AA battery holders from Digikey - http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SBH-321AS-ND
 *** We buy the SPDT switches from Digikey - http://search.digikey.com/scripts/DkSearch/dksus.dll?vendor=0&keywords=SW764-ND
-
-[[Category: Events]]
-[[Category: History]]

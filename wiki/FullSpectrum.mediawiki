@@ -1,6 +1,4 @@
 [https://fslaser.com/Products/View/0 Full  Spectrum Laser cutter]
-[[file:FSlaser.jpeg]]
+<img src="https://www.bloominglabs.org/Special:FilePath/FSlaser.jpeg" alt="FSlaser.jpeg">
 
 More information can be found at the [[Laser]] page.
-
-[[Category:Projects]]

@@ -3,7 +3,6 @@ Please respect this.  '''Feel free to turn it on and tune in to any frequency an
 
 http://www.bloomingtonradio.org/index.php/info/ve-testing
 
-
 == RadioShack HTX-212, 2m (144mhz) Amateur Radio ==
 (currently setup in the front room)
 
@@ -26,5 +25,3 @@ I have set Low power (10w) on the local repeaters to reduce RFI on the mag-mount
 The receive end of this radio seems to have bouts of sensitivity that will open the squelch.  To get around this I’ve set the memories to only open squelch when the PL tone comes with the signal.  Note that these repeaters do not send the PL tone when they ID every 12 minutes, so you will not hear those.  Tune to the repeaters in VFO mode without T-SQL to listen to everything coming from it.
 
 Any questions please contact Corey (KB9JHU), cshields on irc
-
-[[Category: Group projects]] [[Category:Radio]]

@@ -105,7 +105,6 @@ Catarina Mota from [http://www.openmaterials.org openMaterials] came and gave a 
 
 [http://github.com/hdon/avr-light-game Lights Out AVR code]
 
-
 [http://www.instructables.com/id/LED-matrix-using-shift-registers/ How to build the shift register]
 
 == Ferromagnetic Liquid ==
@@ -117,8 +116,6 @@ Catarina Mota from [http://www.openmaterials.org openMaterials] came and gave a 
 [http://madlabs.info/simple_speaker.shtml Speakers]
 
 [http://www.youtube.com/watch?v=3zoTKXXNQIU Speakers meet non-Newtonian fluid]
-
-[[Category:Projects]]
 
 == St. Nick's Holiday Mini-Workshops ==
 

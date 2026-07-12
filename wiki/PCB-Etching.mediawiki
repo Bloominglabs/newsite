@@ -2,8 +2,6 @@ We need a fast and reliable method of PCB etching for the space, I intend to bui
 
 Presently we have an acrylic "window bubbler" system where the etching solution can be filled in without having to handle the solution as much as well as allowing much less fluid to be used. It also incorporates a bubbler for agitation. It needs to be tested and directions need to be written up for it.
 
-
-
 Some research:
 
 ==== Chemicals ====
@@ -38,5 +36,3 @@ which seems to do the trick for me.
 ==== Bubbler Bath ====
 * [http://www.youtube.com/watch?v=DXjWZ9gJ4XE http://www.youtube.com/watch?v=DXjWZ9gJ4XE]
 * [http://www.instructables.com/id/DIY-PCB-Bubble-Etch-Tank/ http://www.instructables.com/id/DIY-PCB-Bubble-Etch-Tank/]
-
-[[Category:dosman projects]] [[Category:tools]]

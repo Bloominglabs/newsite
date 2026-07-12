@@ -1,6 +1,6 @@
 Bloominglabs has acquired a new mill!
 
-[[Image:Mill1.jpg]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Mill1.jpg" alt="Mill1.jpg">
 
 The Mill was bought in 2012 by Jenett, we are no longer soliciting funds for this.
 
@@ -11,6 +11,3 @@ The Mill was bought in 2012 by Jenett, we are no longer soliciting funds for thi
 * Nathan - $100
 * Charles - $20
 * Jesse - $50
-
-[[Category: Pledge]]
-[[Category:Former Tools]]

@@ -46,10 +46,6 @@ test('convertWikiLinks rewrites internal links to GitHub wiki page names', () =>
     convertWikiLinks('Legacy link: [[Main_Page#Stay informed]]', titleMap),
     'Legacy link: [[Home#Stay-informed]]'
   );
-  assert.equal(
-    convertWikiLinks('Image: [[File:Bloominglabsaerial.png]]', titleMap),
-    'Image: [[File:Bloominglabsaerial.png]]'
-  );
 });
 
 test('expandTransclusions inlines archived page content for include directives', () => {
@@ -63,6 +59,65 @@ test('expandTransclusions inlines archived page content for include directives',
   assert.equal(
     expandTransclusions('Events:\n{{:Upcoming Workshops}}\nEnd.', pagesByTitle),
     'Events:\n== March 2026 ==\n* Linux workshop\nEnd.'
+  );
+});
+
+test('convertHtmlEmbeds turns PayPal forms into donate links', () => {
+  const {
+    convertHtmlEmbeds,
+  } = require('../src/wiki/github-wiki.js');
+
+  const classic = convertHtmlEmbeds(`<html>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="hosted_button_id" value="J7WBD5CUBZWVN">
+</form>
+</html>`);
+
+  assert.equal(
+    classic,
+    '[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J7WBD5CUBZWVN Donate with PayPal]'
+  );
+
+  const ncp = convertHtmlEmbeds(
+    '<html><form action="https://www.paypal.com/ncp/payment/F8W7EWDGDPPN2" method="post"></form></html>'
+  );
+  assert.equal(ncp, '[https://www.paypal.com/ncp/payment/F8W7EWDGDPPN2 Donate with PayPal]');
+});
+
+test('convertFileLinks rewrites media to absolute Bloominglabs URLs', () => {
+  const { convertFileLinks } = require('../src/wiki/github-wiki.js');
+
+  assert.equal(
+    convertFileLinks('[[File:Bloominglabsaerial.png]]'),
+    '<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">'
+  );
+  assert.equal(
+    convertFileLinks('[[File:Plant tower.jpg|thumb|200px|Plant tower]]'),
+    '<img src="https://www.bloominglabs.org/Special:FilePath/Plant_tower.jpg" alt="Plant tower">'
+  );
+  assert.equal(
+    convertFileLinks('[[File:RELEASE AND WAIVER OF LIABILITY.pdf|waiver]]'),
+    '[https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf waiver]'
+  );
+});
+
+test('markup cleanup converts bracketed URLs, users, categories, and presentation tags', () => {
+  const {
+    convertBracketedExternalUrls,
+    convertUserLinks,
+    stripCategoryLinks,
+    convertPresentationHtml,
+  } = require('../src/wiki/github-wiki.js');
+
+  assert.equal(
+    convertBracketedExternalUrls('See [[http://example.com/path|example]].'),
+    'See [http://example.com/path example].'
+  );
+  assert.equal(convertUserLinks('Signed [[User:Avh.on1|A.V.]]'), 'Signed A.V.');
+  assert.equal(stripCategoryLinks('Body\n[[Category: Operations]]\n').trim(), 'Body');
+  assert.equal(
+    convertPresentationHtml("<big>'''Welcome'''</big> <font color=\"red\">note</font>"),
+    "'''Welcome''' note"
   );
 });
 

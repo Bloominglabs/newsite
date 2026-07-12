@@ -2,7 +2,6 @@ This page is to document a set of bylaw amendments at the 2019 Yearly Meeting.
 
 Firstly, a long-standing issue has apparently been that our bylaws refer to something called "Standing Rules", and Standing Rules have never been defined. Please see the page [[Standing-Rules]] for further discussion of this issue.
 
-
 == 2018 proposed bylaw changes ==
 At the 2018 yearly meeting board member Gavin petitioned for two proposed bylaw changes. There was discussion brought up about amending the proposed amendments which should be further discussed, see below.
 
@@ -12,7 +11,6 @@ At the 2018 yearly meeting board member Gavin petitioned for two proposed bylaw 
 These bylaws may be amended only when an amendment proposal petition is approved at a membership meeting and the amendment is signed by all (100%) of responding voting members. A good-faith attempt must be made to contact all voting members with notice of such petition in solicitation of a response vote. This attempt may be made electronically.
 
 Voting members must be given at least two weeks to give a response vote. If a response vote is not received from a voting member during the voting period, their absence of vote will not affect the result of the vote.
-
 
 * This would replace the existing Article VIII, Sections 1. which follow.
 
@@ -39,6 +37,3 @@ ratified by the corporation.
 Context:
 * This amendment is just some legal boilerplate, with the intent to make the authority to enter contracts on the behalf of Bloominglabs explicit and flexible. Currently the authority of the board to enter contracts on the behalf of Bloominglabs is rather implicit in the nature of the corporation. This amendment makes it explicit that a resolution of the board can allow the board to authorize any individual to enter into a contract on the behalf of Bloominglabs, for whatever range of authority the board grants. The text of the amendment follows.
 * Bolded text has been added to satisfy concerns raised by a member during the original amendment proposal.
-
-
-[[Category:Operations]] [[Category:Meetings]]

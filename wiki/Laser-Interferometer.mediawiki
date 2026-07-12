@@ -10,9 +10,5 @@ Image:interferometer03b.jpg|interference pattern
 Image:Interferometer04.mov|Movie of ripples moving in the interference pattern
 </gallery>
 
-
 ==== Next steps ====
 Build a detector so we can measure the frequency of change between the laser paths (the ripples) so distance measurements and other experiments can take place.
-
-[[Category:Laser_Interferometer]]
-[[Category: Projects]]

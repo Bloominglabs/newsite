@@ -3,8 +3,6 @@ This is a guide to strategic communication with signs.
 == Signs, signs, everywhere the signs ==
 While the song contemplates the cultural degredation induced by signs, there is no cheaper force multiplier when it comes to communication with people. "Force multiplier"? Yes. Want everyone to know about a workshop happening? You can tie up one person at the front door all evening to give a message to every person entering the building, or you can post a sign. Or, you can do both if it's an important enough message.
 
-
-
 == Draft the Message ==
 Write up what you want to say. Then revise it to use fewer words. Then revise it again with fewer words. Remember that every sentence that is added to a sign reduces the chances someone will read it. If your sign simply can't work without a page of text, you MUST include a stand-out TL;DR sentence or exactly 0% of your audience will read it.
 
@@ -16,7 +14,6 @@ Images can make a sign funny or annoying. There is a double-edged sword with fun
 ==== Sign Color ====
 For most flyers in Bloominglabs and such I tend to just use plain white paper. However, if this is a yard sign or otherwise REALLY has to be seen, there is only one choice as far as I'm concerned: Flourescent red paper with black text. The outline of the sign can be seen from over 100' away as drivers approach an intersection. Yes it's annoying, but it will be seen even if there are 20 other signs at that same intersection.
 
-
 == The reader and time investment ==
 The easier a sign is to read, the more likely your audience will read it. Conversely, the harder it is for the audience to read it, the fewer of them will take the time to. Mentally walk past your sign and think about how long it takes to read. Does a person have to slow down or stop to read it? Can they get the message without even slowing down? There are two parts to this:
 
@@ -27,7 +24,6 @@ Also, remember the age of your target audience. Youths can read smaller fonts. A
 
 ==== Wordiness ====
 TL;DR is a real world problem. Signs are usually there to get out small bursts of information, not teach the fundamentals of a new subject. On the other hand, sometimes a wall of text is part of the mission. Consider mixing the two: an 8x10" sheet of paper that says "Network Settings for This Building", posted right next to a printoff of all the info someone seeking this info may need.
-
 
 == Location, location, location ==
 When posting signs and flyers, you need to think strategicly. Observe an area and look for bottle-necks in peoples movement. Doorways are great. You can post flyers on doors, or on walls next to doors. Also notice, does a door stay open for periods of time? Will this hide a flyer if it's only on one side of a door? Should the flyer be posted on both sides of the door? It all depends on what you are communicating. Conversely, putting a sign above or below eye-level will reduce the number of people who see it. This could be part of the plan, just have another plan for the 70% who didn't look up. Don't forget the snack area, refrigerator, and back doors.
@@ -48,7 +44,6 @@ Assembly: Use rubber cement. It dries clear, and excess glue can be rubbed off w
 ==== Workshop Posters ====
 Often workshop walls are blocked by shelving or hanging tools, a poster board can be tucked into a space with the majority of the sign sticking out into view. Also, sometimes information needs to be dense. Printing imperial/metric conversion charts and attaching to poster board helps keep information at your finger-tips but out of the way when not needed. The entire board can be wrapped in saran-wrap to keep finger prints and dust at bay. The same can be done with machine tool instructions.
 
-
 ==== Events - The Posting of Strategic Information ====
 At our maker faire event (Makevention), I make extensive use of poster board signs in the Bloominglabs booth. While we have people manning the booth at all times, they can only engage a limited number of people at a time. There are hundreds of people passing through who don't get the chance to talk to anyone. It's important to strategize what info you want to get out to those people. Generally I try to cover these messages:
 
@@ -60,16 +55,13 @@ At our maker faire event (Makevention), I make extensive use of poster board sig
 
 The public goal of Makevention is to communicate those things. Signage is invaluable for getting this information out.
 
-
 ==== Community Memory ====
 Groups like hackerspaces/makerspaces face a unique challenge with member turnover. The group as a whole can begin to forget who it was and where it came from. Sometimes this is acceptable, after all every group needs to be free to shift and bend with the needs of the current members. But often this means loosing memory of the amazing things the group did in its earlier years. As founders and members leave and new ones fill their places, the community memory starts to fade. One way to combat this is to make poster boards commemorating events and projects and place them on the walls of your hackerspace. This is similar to a trophy case in the front hall at a public high school. While not everyone will pay attention to it, those new people that wish to learn more about your group can start to get a feel for your groups accomplishments as they walk through. Some people might argue that a wiki does this virtually, and they are partially right. But how many times has a website been lost to disk failure or aged out of usefulness? The sign can just continue to hang on the wall and tell the world what happened.
-
 
 == Stencil Construction ==
 Making a bunch of large signs that requires a stencil? Use the laser cutter. Our current laser will hold material as large as 12"x20". You can tape sheets of construction paper together to fill that 12"x20" bed. You can also cut each word individually if 12x20 is too small. DO NOT CUT CARDBOARD! It catches fire much easier than paper. Watch your job very carefully though as paper can ignite too. Always use 100% speed when cutting paper, and 40% power is plenty even for heavier card-stock.
 
 We also have a paper craft cutter which can do this job.
-
 
 == Yard Signs ==
 I've already mentioned this earlier, but yard signs require strategic placement also. Remember: your audience is going to be at least 15 feet away if not further. Use clear bold fonts, and make the text as large as possible. Remember to think about where cars bottleneck at an intersection. You probably want the sign back a ways from the intersection where people will be stopped. Even those stopping ahead of it will be moving slowly and are more likely to see it.
@@ -83,5 +75,3 @@ Look for parts of an intersection that are public land or that often get signs p
 You can post a sign in your yard and that's great if you want your neighbors to know something. If you want to use all your signs at round-abouts and neighborhood intersections, that's fine if you only want to reach a few people that live in that area. Garage sales are a good candidate for this. 
 
 However if you want to reach more people though, post signs at higher traffic intersections. An in-town intersection is ok. But an intersection at a major highway for the city will reach WAY more people then that. Twice a day many hundreds of people if not more will pass each ingress/egress point for the city. Take advantage of that if you want the word to get out as wide as possible.
-
-[[Category:Operations]] [[Category:Advertising]]

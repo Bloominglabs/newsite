@@ -6,6 +6,3 @@
 * You need to be committed to attending every week and there will be assignments to work on outside of class (but no exams!).
 * Send an email to contact]at[bloominglabs.org if you are interested in attending.
 * See class notes at http://harold.uits.indiana.edu/~jtillots/IntroToProgramming/
-
-
-[[Category:Workshops]]

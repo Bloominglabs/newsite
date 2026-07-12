@@ -8,8 +8,6 @@ Email list - truescheme ]at[ bloominglabs ]dot[ org.
 
 [http://www.bloominglabs.org/mailman/listinfo/truescheme truescheme {at} bloominglabs {dot} org SignUp]
 
-
-
 == Story Line ==
 * Room 1: Lion's heads mounted to the wall that play tones when you stick your hand into them. The players have to collectively play a tune to proceed.
 * Room 2: Easy combat - perhaps a slime? 

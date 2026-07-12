@@ -4,7 +4,6 @@ This seems silly to have to say but I will: computer access is not required for 
 
 The officers that keep Bloominglabs running work as a team. Our bylaws define each role to the minimal extent as required by law. This gives us the ability to easily and quickly adjust each position as our needs change over time. A fuller description of duties expected of officers is found in the [[Officers-Guide]]. 
 
-
 == Checklist ==
 This is a list of things that the new officer needs in order for them to do their job. At a minumum the old officer needs to work with the new officer to help transition them into the new role being taken over; however ideally it will be a team effort. 
 
@@ -33,7 +32,6 @@ This is a list of things that the new officer needs in order for them to do thei
 ## Square
 #A list of all of our other passwords needs to be provided securely. Also just like step 7, they should only get financial account access if they are the President or Treasurer or else if they are assisting with some aspect of finances. They need a secure way of storing this info if they don't already have a method for this (Truecrypt/Bitlocker volume or similar).
 
-
 == Required reading for new officers ==
 
 # Skim over our Business Operations to see what processes we have documented for future reference:
@@ -45,9 +43,3 @@ This is a list of things that the new officer needs in order for them to do thei
 #*http://bloominglabs.org/index.php/Meeting_Minutes
 # Should look through the Bloominglabs Log:
 #*http://bloominglabs.org/index.php/Bloominglabs_Log
-
-
-
-
-
-[[Category:Operations]]

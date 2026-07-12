@@ -8,10 +8,8 @@ A pair of laser safety goggles came with this laser. Laser Dan made a custom enc
 ==Where did this come from?==
 During the summer of 2016 Instructables had a Makerspace challenge in which [https://www.instructables.com/featured/?keyword=Bloominglabs9189 we competed]. We had over 10 Featured Instructables which was good enough to win a $200 gift certificate to Make Block. Steve, Heath, and Nathan each kicked in some extra funds which allowed us to purchase this device. We also received a $50 3D Hubs Gift Code and 5 Instructables prize packs in this same contest.
 
-
 == How do I hook up to it?==
 You connect your computer to it with a regular A-B USB cable. The laser engraver requires a 6-12v DC power supply with a regular barrel jack. Probably 2A will drive it, verify this. 
-
 
 ==Software for controlling it==
 This laser requires different software than our main 40W [[Laser]]. There are several different packages which are supposed to be able to drive this laser engraver:
@@ -25,6 +23,3 @@ Other software: BenBox for Windows should also be compatible with this laser:
 * [http://download.makeblock.com/XY%20Plotter%20V2.0%20User%20Guide%20DownLoad%20Pack（English）.zip http://download.makeblock.com/XY%20Plotter%20V2.0%20User%20Guide%20DownLoad%20Pack（English）.zip]
 
 These should take a vector (.svg) file as input and convert to Gcode needed to control the machine. However they can be finicky. It's been reported that sometimes hidden elements in .svg files created in Inkscape can induce undesired lines being engraved in a job. More testing and notes should follow.
-
-
-[[Category:Laser]] [[Category:Tools]]

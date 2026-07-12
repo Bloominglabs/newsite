@@ -12,7 +12,6 @@ There is also the [[Dues-Collection-QuickStart]] which is a short set of directi
 
 From here on out we call this Invoicing.
 
-
 == Hard Rules of Invoicing ==
 
 ====First rule of invoicing ====
@@ -41,7 +40,6 @@ On the morning of the 5th of each month nanny emails are sent nagging folks who 
  If members have more than 1 outstanding invoice, we fully enforce the 15th as a cut-off date.
 The members have been trained to expect this. Adhere to this and there will be less confusion.
 
-
 == What we use for invoicing and why ==
 We use an open source web-based invoicing system called Simple Invoices. At the time (early 2012) when I was looking for an automatic invoicing solution SI was the only one which was 1) free, 2) web-based (so members could check their balances without having to consult the accounts receivable dude), 3) actually worked, and 4) is automatically updated when payments are made via PayPal. There were two other projects which I recall testing out and were completely DOA (code was incomplete and projects were dead). SI, while having some quirks, was the only solution at that time. In practice, item 2 (letting users keep track of their dues balance on their own) has turned out to not be needed because everyone still asks the accounts receivable dude for their balance.
 
@@ -54,12 +52,10 @@ Lessons learned:
 * Automated nag emails that show how far they are behind are another big time saver
 * Chaining other actions by setting an end-date on their invoice recurrence can save even more time when members leave
 
-
 == Wait, there's a spreadsheet too?? ==
 Because of the single fact that SI does not handle payments well which have been paid in advance, we have to keep the spreadsheet. The moment SI starts handling payments in advance aka credit balances properly we can ditch the spreadsheet. So, we have to keep the spreadsheet updated when people pay their dues. Once a month the accounts receivable person (by the 4th of the month) has to go through and see which members have "paid ahead" which means the current month's dues are already paid for. Go down the list and then mark the invoice for each member in this condition as being paid.
 
 * [https://docs.google.com/spreadsheet/ccc?key=0AvA-xEu5NlJCdC1IVW9wSkJMVU1jY2x1U19RTEN2aFE&pli=1#gid=6 Google spreadsheet]
-
 
 == SI Nomenclature ==
 * User - The account you log in with
@@ -68,12 +64,10 @@ Because of the single fact that SI does not handle payments well which have been
 * Recurrence - This is an entry, linked to an initial invoice, which generates new invoices on a periodic basis as specified in the entry. 
 * Statement of invoices - Report listing invoices for a specified member for a given date range
 
-
 == Quirks of Simple Invoices ==
 Something to understand about SI is that there is no native way through the native web interface to remove Customers, paid invoices, payments, and recurrences. Unpaid invoices are one of the few things which can be removed easily as there is a menu item for that. On the same vein, Customers, unpaid invoices, and recurrences may all be edited. However once a payment is registered for an invoice, neither item may be changed.
 
 If there is a screw up in entering something, then phpmyadmin/mysql client can be used to manually clean things up. But don’t make mistakes as it takes time to fix.
-
 
 == Personal Preferences ==
 The world will not stop spinning if these things are not done as described, it just makes things cleaner for us down the road.
@@ -82,14 +76,12 @@ I prefer that when manually marking someone’s invoice as paid, from the Paymen
 
 I also only enter the Members name and email in the invoicing system. This is to prevent technical debt later on in the form of outdated address info. I really don’t want to maintain member home addresses across a half-dozen separate systems. This info is fine to live only on their membership app for the time being.
 
-
 == Marking an invoice as paid ==
 This is done via the “Money/Payments” menu. When someone pays with cash, check, or by square you must manually update their invoice as paid. Also if someone makes what I call a “manual paypal payment” you must also go in and update their invoice as paid. This occurs when someone does not use the PayPal link in their invoice, but rather initiates a direct payment to invoices@bloominglabs.org for their dues. Currently the default behavior in the default PDF viewer in OSX Mavericks and above is to not open URL’s in PDF’s so there are legitimate reasons some members don’t use the PDF link in their invoice (however they can choose to use an alternative PDF viewer to circumvent this).
 
 Please note that once an invoice is marked as paid it is “locked in”. Before it is paid it can be deleted or the amount changed. However SI does not allow backing out changes though once a payment occurs. If a mistake is made here then phpmyadmin must be used to manually delete the bogus invoice
 
 Lastly, if someone pays more than the dues amount specified on their invoice I edit their invoice amount to match the payment before marking it paid. This keeps things straight and correct with regards to their total balance over time. Also, as in rule of invoicing #2, marking an invoice as paid more than the amount is a nightmare. It will throw off their balance from that point forwards - forever. The next monthly invoice they get will ignore their credit balance even though the system knows it's there. Don't be tempted to do this. 
-
 
 == Changing someone from one dues rate to another rate ==
 Lets say a member wants to change their monthly dues rate from $40 a month to $20. So their current recurrence is normally based on their very first invoice in the system. However, to do this properly we have to make a new invoice with his new monthly dues rate ($20 from $40). This is because there are no existing invoices for them in the amount of $20 which we can change this recurrence to.
@@ -98,7 +90,6 @@ I could have just changed their February invoice to be $20, then update their re
 
 Also, finding recurrences is tricky because they are only listed by invoice number, the member name is only listed on the edit panel for each one. I lookup someones “statement of invoices” from the “Home/Dashboard” panel to find their very first invoice number then I can find their recurrence from the “Money/Recurrence” panel. It’s a minor nuisance which hopefully will be fixed in a future version of SI.
 
-
 == Making a change to an invoice recurrence ==
 Sometimes you need to make a change to an invoice recurrence for a member. One situation is when you need to change the start date of a new member. This can happen when a new member joins at the end of the month and we agree to apply their first dues towards the coming month. If the person filling out the new-member application didn’t get the memo and leaves in the default date, it will set the new member up to get an automatic invoice at the first of the next month (which they have already paid). Also, there can be an intermittent bug in the new-member app where even though you’ve changed the start-date correctly, it still just uses the next month as the starting date. Either way, you need to manually change the start date of the invoice. 
 
@@ -106,10 +97,8 @@ Another situation is when someone changes the amount of dues they are paying mon
 
 Ok, so here is how we find the correct invoice recurrence. Figuring out which recurrence belongs to which member is tricky because they are only listed by invoice number, the member name is only listed on the edit panel for each recurrence. First I lookup someones “statement of invoices” from the “Home/Dashboard” panel to find their very first invoice number. Then I usually open a second browser tab and go to the recurrence panel under “Money/Recurrence”. Now you can move through the pages until you find the correct invoice number. If you are correcting a recurrence which was just created for a new member then you can probably avoid all of this and just edit the very first recurrence listed. Once you go into the recurrence edit panel, the name of the member will be listed in a drop-down box. This will verify if you have the correct recurrence. You can now make the necessary changes and save them.
 
-
 == Changing the start date of an invoice recurrence ==
 See [[#Making a change to an invoice recurrence]]
-
 
 == Ending a membership - Stopping automatic invoicing ==
 ====There are two ways someone’s membership ends====
@@ -126,10 +115,8 @@ Once the recurrence is handled, if necessary there may be further cleanup needed
 
 Lastly, I don’t recommend disabling the member name under the “Customer” menu. The reason is that certain functions are disabled when you do that, like being able to run a statement of invoices for the member (to see how many outstanding invoices they have).
 
-
 == Resending an invoice to a member  ==
 Sometimes a member looses track of old unpaid invoices and needs them resent. First, you need to locate their unpaid invoices so run a “Statement of invoices”. Then I like to open a second browser window and then look for their specific invoice number. Note: invoice id’s are different from invoice numbers. Invoice id’s are SI internal references to the invoice, some menus show this number for some reason, don’t get confused. Also, sadly you will have to page through the invoice list to find their invoice number. Once found, from the invoice list there is an email icon next to the invoice which can be clicked, this will take you to another menu where you can complete this process. Also, if you click and view the invoice, there is also an email option from within this menu that can be used.
-
 
 == Manually adding someone to Simple Invoices ==
 This should normally be handled by the new members web page. However it may be required to add new members manually for some reason. This is how to do this.
@@ -140,10 +127,8 @@ This should normally be handled by the new members web page. However it may be r
 
 Lastly, setup a recurrence for them. This way they will get a new invoice every month. Go to the “Money/Recurrence” menu and choose to create a new recurrence. From this menu, choose the new members invoice which should be at the very top of the list in the drop-down menu. Set a start date for the recurrence of the following month. If desired, you can bump the start date up by 2 months if they are joining at the end of a month. This makes it more fair by not penalizing them for joining late in the month.
 
-
 == Updating a members email address ==
 This is simple. Go to “People/Customers” and find the members name. Click to edit their info, and update their email address. Obviously this is important to get right or else the member will not get their monthly dues invoice, nor will they get any nag reminders that they are behind.
-
 
 == Adding a new member who is/was a former Bloominglabs member ==
 This is not a common thing to happen, but it does sometimes. More than likely they already have a "Customer" entry in the system. In this case, when using the New Member Application, un-check the boxes to create a new SI account and recurrence for them. You may need to manually create their first new invoice for this "go-around" and also manually create a new recurrence for them. It's likely they already have a recurrence setup though and it just has an end-date set. You should find their old recurrence and just remove the end-date. Most of the time this will take care of everything, assuming they are paying the same dues rate as they were before. If they are paying a different dues amount now you will need to point the recurrence to a new invoice for them with the current dues rate. See [[#Changing someone from one dues rate to another rate]]. Also, it's ok if they have multiple recurrences (one old one that has an end-date and one new one for the current active membership). However I advise you to avoid this just to keep the system free of cruft. But it's not a problem as far as I know.
@@ -152,18 +137,14 @@ Also, as stated somewhere in the above directions, you should not mark the SI ac
 
 Last but not least, if you accidentally create a 2nd SI account for them then there are two options. 1) ignore it. 2) dredge up phpmyadmin and edit the database to remove the 2nd account. There is no native way in SI to do this. The same goes for recurrences, phpmyadmin is the only way to remove duplicate entries.
 
-
 == Weird problems ==
 ==== #1: The case of the double payments  ====
 Once I started running into a problem where someone had invoices due but their balance was different from the total of the outstanding invoices. I finally figured out how it kept happening each month. At the time I didn't even realize you could make multiple payments to a single invoice. But anyway, this member had paid ahead in cash. So at the first of the month I marked their invoice as paid per the usual custom of reconciling the spreadsheet to SI as in Rule #3. However afterwords, the member was still paying their invoice through PayPal via the link in their invoice and I didn't notice this. So now there were two $40 payments on a single $40 invoice. I believe they got one month behind at one point. The nag system spotted this and emailed them about the unpaid invoice, but it showed their balance in the system which did not match the outstanding invoices, this is how I found the problem to begin with.
 
 To fix this I had to use phpmyadmin to remove the second payments to each invoice. Since they missed a month and they were actually paid ahead a month that stopped the problem in this case. But it's a weird edge-case to know about - even if you mark an invoice as paid manually, the member can accidentally cause a problem by paying their invoice AGAIN through PayPal if you haven't communicated what you are doing with them.
 
-
 == Our extensions to SI ==
 This is not intended to be a technical document so I've put this info on the technical [[Simple-Invoices]] page at the bottom (Scripts we have bolted on to SI). This is basically a number of external helper scripts that provides the nag emails and other notification functionality that is lacking in SI.
-
-
 
 == So you wanna switch to something else ==
 Some words of advice for anyone coming in who wants to make things better. If there's something better than SI that's great (I'm sure it has to exist out there). Just make sure these things are handled when you go-live or else you are signing yourself up for many hours of additional work each month:
@@ -176,8 +157,3 @@ Some words of advice for anyone coming in who wants to make things better. If th
 * Ability to chain events off of memberships that end - automatic disabling of RFID and removal from the members email list is a time saver, but not a huge deal as our turnover isn't that huge.
 
 If you have those things worked out then you are in reasonable shape. I can't tell you how important the nag emails are though.
-
-
-
-
-[[Category:Operations]]

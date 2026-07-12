@@ -2,5 +2,3 @@ Here are some of the projects I have worked on or am currently working on:
 
 *[[SDGPSLogger]]
 *[[Adafruit32x16RGB]]
-
-[[Category:Projects]]

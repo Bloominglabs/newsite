@@ -1,12 +1,10 @@
 Quorom: Achieved
 
-
 == 501c3 status and what that means for us ==
 
 past gifts are tax deductable, NOT DUES
 
 Register with IN, get tax id number
-
 
 == Discuss severing ties to the School Factory ==
 
@@ -20,7 +18,6 @@ Jennett knows more tax law than they do
 
 Quarterly reporting  Nathan
 
-
 == Treasurers report ==
 
 Financial status, discuss a process for spending surplus dues money
@@ -30,7 +27,6 @@ Priority of 3 months operating expenses(~$1400 monthly)
 * will write into the bylaws(?), unlikely
 
 quarterly financial discussions on how to spend excess money
-
 
 == Switchyard Park and what that means for how long we can stay here ==
 
@@ -50,7 +46,6 @@ Possible handouts: wooden nickels, good for 5 minutes of laser time
 
 ticker tape, glitter cannon, Makevention cards,foam cannon, pyrotechnics, smoke grenades(saltpeter and sugar), sound limits(?)
 
-
 == Painting logo on our building – Allen? ==
 
 No Advertisements
@@ -58,7 +53,6 @@ No Advertisements
 Logo on the side of the building, old sign over the door
 * clean the building first, mask at night, use oil based paint
 * schedule before it gets too hot, mid june
-
 
 == Upcoming workshops with other groups ==
 
@@ -89,7 +83,6 @@ August 22: Resale Trail
 * B-labs Flee Market
 * will be on their advertising
 * something near the road(windsock)
-
 
 == Car lift ==
 
@@ -124,7 +117,6 @@ Needs 4" deep floors
 
 Will come back to this in several weeks
 
-
 == Members temporarily suspending memberships, how do we want to handle this? ==
 
 Members have asked to suspend membership
@@ -135,7 +127,6 @@ Penalties?
 * minimum duration (3 months?)
 * only allowed on starving hacker memberships, & only over the summer (students)
 * one month memberships at a higher rate
-
 
 == Vote: ==
 

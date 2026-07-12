@@ -1,4 +1,2 @@
 == Berry Boot ==
 [http://berryterminal.com/doku.php/berryboot Easy Boot Installer]
-
-[[Category:Events]]

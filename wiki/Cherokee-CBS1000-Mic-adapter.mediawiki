@@ -1,13 +1,9 @@
-[[Image:20190103_cherokeecbs1000.jpg|none|thumb|300px|Cherokee CBS1000 base station]]
+<img src="https://www.bloominglabs.org/Special:FilePath/20190103_cherokeecbs1000.jpg" alt="Cherokee CBS1000 base station">
 
 I picked up one of these off of CL in the summer of 2018, but I did not have a chance to try it out for nearly 6 months or so. Apparently the mic it came with was not compatible (a Cobra 5-pin), while it allowed the radio to receive (most CB's don't even receive without the mic plugged in), no audio was transmitted when keying down. The rig would TX, but there was no modulation on the output. In AM mode there was the carrier noise but no audio. In sideband mode there was nothing at all which helped corroborate a mic wiring problem since sideband has no carrier, and no modulation means no output on the sideband.
 
-
-[[Image:20190103_cherokeecbs1000-micjack.jpg|none|thumb|200px|Cherokee 5 pin mic jack]]
+<img src="https://www.bloominglabs.org/Special:FilePath/20190103_cherokeecbs1000-micjack.jpg" alt="Cherokee 5 pin mic jack">
 
 I found a single reference to the pinout for the CBS1000 mic jack online, but it only referenced the wire colors which is useless. This radio came with a schematic thankfully so it wasn't too hard to decode.
 
 I will post the pinout here when I the scrap of paper it was written on turns back up.
-
-
-[[Category:Dosman_projects]] [[Category:Radio]]

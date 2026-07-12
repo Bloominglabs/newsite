@@ -1,6 +1,6 @@
 == Bloominglabs Soldering Workshop ==
 
-<big>'''Description:'''</big>
+'''Description:'''
 
 Come and learn the basics of soldering and de-soldering for electronics. Soldering is your key to entering the world 
 of building, altering, and repairing electronics! In this workshop, participants will use their newfound skills to 
@@ -8,15 +8,13 @@ assemble “phaser” electronics kits to take home (flashing lights, buzzing bu
 No prior experience necessary! All tools and hardware provided! All ages are welcome; children ages 15 and 
 younger should be accompanied by an adult. 
 
+'''Handouts'''
+* Phasor schematic [https://www.bloominglabs.org/Special:FilePath/Phaser01.pdf Phaser01.pdf]
+* Phasor batch pcb transparency <img src="https://www.bloominglabs.org/Special:FilePath/Phasor_v1.0-sheet.bmp" alt="PCB Transparency">
+* Phasor zip file with EagleCAD schematic, pcb, and gerber files <img src="https://www.bloominglabs.org/Special:FilePath/Phasor_eagle_pcb-v1.0.zip" alt="Phasor_eagle_pcb-v1.0.zip">
+* Soldering workshop questionnaire [https://www.bloominglabs.org/Special:FilePath/Questionnaire-Soldering.pdf Questionnaire-Soldering.pdf]
 
-<big>'''Handouts'''</big>
-* Phasor schematic [[Image:Phaser01.pdf]]
-* Phasor batch pcb transparency [[Image:Phasor_v1.0-sheet.bmp|none|thumb|100px|PCB Transparency]]
-* Phasor zip file with EagleCAD schematic, pcb, and gerber files [[Image:Phasor_eagle_pcb-v1.0.zip]]
-* Soldering workshop questionnaire [[Image:Questionnaire-Soldering.pdf]]
-
-
-<big>'''Course Outline'''</big>
+'''Course Outline'''
 <pre>
 I. Tools - Go ahead and plug in your irons now
 
@@ -55,7 +53,6 @@ I. Tools - Go ahead and plug in your irons now
 	G. Solder sucker/vacume tool
 		1. have a bowl handy to discharge waste solder into, do not discharge into general purpose trash can - could cause fire
 
-
 II. A few pointers before you begin
 
 	A. You know the iron is warm enough when you can melt solder to the tip
@@ -65,7 +62,6 @@ II. A few pointers before you begin
 		2. scrape sludge and carbon build-up off with a utility knife if you have to
 
 	C. Heat the part and apply solder to the part, not your iron
-
 
 III. Lets solder!
 
@@ -82,7 +78,6 @@ III. Lets solder!
 		2. You want to apply solder to the component, not the iron
 		3. It's ok to cheat and put the solder just a little on the iron tip to get it flowing, then move solder to the component
 
-
 IV. Now De-solder!
 
 	A. Advice:
@@ -91,7 +86,6 @@ IV. Now De-solder!
 		3. It's fun, don't fret your mistakes!
 	B. Use the solder-sucker tool
 	C. Use desoldering braid - careful, it gets hot
-
 
 V. Kit Assembly
 
@@ -105,7 +99,6 @@ V. Kit Assembly
 		1. Verify component orientation (IC1 & LED)
 		1. Check power - use a voltmeter to verify the IC has 9V on the correct pins
 		2. Check for solder bridges
-
 
 VI. World Domination - Some parting words
 
@@ -134,5 +127,3 @@ I have a simple variable LED flasher+piezo buzzer circuit in mind for this. It o
 * 1x 4.7k ohm
 * 1x 2.2k ohm
 * 2" of wire
-
-[[Category: Workshops]]

@@ -1,1 +1,1 @@
-A project with [[User-Jpt4|Jpt4]] to build an ultralight aircraft with a [https://en.wikipedia.org/wiki/Rogallo_wing rogallo wing] and a snowmobile engine.
+A project with Jpt4 to build an ultralight aircraft with a [https://en.wikipedia.org/wiki/Rogallo_wing rogallo wing] and a snowmobile engine.

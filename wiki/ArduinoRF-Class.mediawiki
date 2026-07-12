@@ -1,28 +1,23 @@
 == Bloominglabs Arduino RF/Wireless Class ==
-[[Category: Workshops]]
 
-<big>'''Description:'''</big>
+'''Description:'''
 
 This is a simple beginners course in which participants will learn how to use simple+cheap RF modules to communicate wirelessly with microcontrollers. We will focus on the Arduino platform although the RF modules and techniques are easily applied to most microcontrollers. Time will be spent both working on hardware as well as writing simple software routines. Participants will also spend time troubleshooting basic reception problems and learn techniques to eliminate noise and spurious signals. At the end of the course we will connect components such as potentiometers and light sensors to the transmitter and receive the data both on the receiving Arduino as well as the computer it is connected to. Lastly we will see what kind of range can be expected and how to get the best possible distance with these RF boards.
 
+'''Handouts:'''
+* Arduino RF code samples <img src="https://www.bloominglabs.org/Special:FilePath/ArduinoRF.2010-07-27.zip" alt="ArduinoRF.2010-07-27.zip">
+* Arduino RF/wireless workshop outline (handout) [https://www.bloominglabs.org/Special:FilePath/ArduinoRF_outline.pdf ArduinoRF_outline.pdf]
+* Arduino RF/wireless workshop questionnaire [https://www.bloominglabs.org/Special:FilePath/Questionnaire-ArduinoRF_workshops.pdf Questionnaire-ArduinoRF_workshops.pdf]
 
-<big>'''Handouts:'''</big>
-* Arduino RF code samples [[Image:ArduinoRF.2010-07-27.zip]]
-* Arduino RF/wireless workshop outline (handout) [[Image:ArduinoRF_outline.pdf]]
-* Arduino RF/wireless workshop questionnaire [[Image:Questionnaire-ArduinoRF_workshops.pdf]]
-
-
-<big>'''Requirements:'''</big>
+'''Requirements:'''
 
 We will provide all required hardware to participate in this course however attendees are encouraged to bring their own gear if they have it. A microcontroller, RF board (TX and RX), and computer will be used by each pair of participants. Participants should already be somewhat familiar with the process of breadboarding circuits and loading code onto microcontrollers, however this is not a requirement.
 
-
-<big>'''Age group:'''</big>
+'''Age group:'''
 
 15 to adult, anyone under 15 should be accompanied by an adult
 
-
-<big>'''Instructor notes:'''</big>
+'''Instructor notes:'''
 
 Participants should be setup in pairs where each individual has either a transmitter or a receiver on their breadboard. Students will work together to send and receive data reliably between their Arduino boards. If you have an odd number of students, then you should issue the odd student a receiver board and combine them with another group.
 
@@ -44,16 +39,14 @@ Required hardware for class - you need a complete set of these components these 
 ~12x 4" breadboarding wires per Arduino
 </pre>
 
-
-<big>'''Additional hardware operated by instructor to assist participants with learning:'''</big>
+'''Additional hardware operated by instructor to assist participants with learning:'''
 <pre>
 Receiver or police scanner with TX frequencies pre-programmed into it (315.01MHz, 433.92MHz)
 Oscilloscope connected to data output of a working receiver board (no Arduino required)
 </pre>
 These two pieces will allow students to get audio and visual feedback to help them in understand some of the problems they will encounter in section III.
 
-
-<big>'''Sample Arduino code provided in this course'''</big>
+'''Sample Arduino code provided in this course'''
 
 Section II code (borrowed from [http://www.sparkfun.com/datasheets/RF/KLP_Walkthrough.pdf KLP_Walkthrough.pdf]):
 <pre>

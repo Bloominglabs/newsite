@@ -1,6 +1,5 @@
 This is a page to organize our relocation in 2017.
 
-
 == Things we have currently ==
 * $4 per square foot
 * 3200 square feet
@@ -12,13 +11,11 @@ This is a page to organize our relocation in 2017.
 * RFID access
 * 
 
-
 == Potential Space Candidates ==
 * South Walnut location
 * South Rogers location
 * Downtown location/Kiln building
 *
-
 
 == Things we Need ==
 This assumes basic minimums of a usable property are met such as non-leaky roof, working HVAC, cold+hot water, etc.
@@ -34,7 +31,6 @@ This assumes basic minimums of a usable property are met such as non-leaky roof,
 * Ability to install through-exterior-wall vents for laser (minimum), also for welding and laboratory areas if possible
 * 
 
-
 == Things we Want ==
 * Access to B-line trail
 * More space
@@ -49,7 +45,6 @@ This assumes basic minimums of a usable property are met such as non-leaky roof,
 * Pneumatic lines ran from compressor to useful areas in wood shop, metal shop, labratory, etc
 * Ceiling hung retractable extension cords in workshop('s) - we have a number of these ready to be installed
 * 
-
 
 == Materials from current building which belong to Bloominglabs or members ==
 Anything we leave behind would be considered an informal donation towards the Switch Yard park project (much like our rent). Mid-wall refers to the long wall that divides the office from the workshop.

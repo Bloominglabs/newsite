@@ -11,6 +11,3 @@ It should also be in the moneroworld.com lists.
 It collects no logs. 
 
 Updated to 0.13.0.2 Beryllium Bullet as of 14.10.2018.
-
-
-[[Category:Hackerspace systems]]

@@ -109,14 +109,10 @@ We require a brief [[Safety-qualifications]] walk through before using any power
 
 == Borrowable Equipement ==
 
-* Keg tap: contact [[User-Kinnimari|Kyle]]
+* Keg tap: contact Kyle
 
 <!--
 Neal hasn't been a member since 2019 or so, but if you ask nicely he would probably still let you borrow his trailer  ;-)
 * 5' x 8-1/2' Utility Trailer: contact Neal
-[[File:Utilty_trailer.JPG|200px|thumb|right|Neal's Trailer]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Utilty_trailer.JPG" alt="Neal's Trailer">
 -->
-
-
-[[Category: Tools]]
-[[Category: The Space]]

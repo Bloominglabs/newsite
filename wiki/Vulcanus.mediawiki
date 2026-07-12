@@ -24,8 +24,4 @@ To get models into Octoprint you will need to install a slicer program on your l
 * Send the g-code to Vulcanus/Octoprint
 * Back over in Octoprint, find and load the model you sent to it and then start the print
 
-
-
-[[Image:Qrcode_vulcanus.png|none|thumb|120px|QR link to the latest version of this page]]
-
-[[Category:3D Printers]] [[Category:Tools]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_vulcanus.png" alt="QR link to the latest version of this page">

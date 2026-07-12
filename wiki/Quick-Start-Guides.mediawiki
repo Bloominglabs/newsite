@@ -7,15 +7,10 @@ When writing a Quick Start Guide, assume the user knows almost nothing about the
 * [[PrintrBot-Simple-Quick-Start]] - needs to be written
 * [[PrintrBot-Play-Quick-Start]] - needs to be written
 
-
 == Shop Equipment ==
-* [[File:Quick Start - Combined Metal+Gas Tags-v5.doc]] - Laminated tags for the welders, lathes, mill, horizontal bandsaw, plasma cutter, and acetylene torch outfit
-* [[File:Howto-Mill.doc]] - More howto infor for the mill
-* [[File:Quick_Start_-_Car_Lift.doc]]
+* <img src="https://www.bloominglabs.org/Special:FilePath/Quick_Start_-_Combined_Metal+Gas_Tags-v5.doc" alt="Quick Start - Combined Metal+Gas Tags-v5.doc"> - Laminated tags for the welders, lathes, mill, horizontal bandsaw, plasma cutter, and acetylene torch outfit
+* <img src="https://www.bloominglabs.org/Special:FilePath/Howto-Mill.doc" alt="Howto-Mill.doc"> - More howto infor for the mill
+* <img src="https://www.bloominglabs.org/Special:FilePath/Quick_Start_-_Car_Lift.doc" alt="Quick_Start_-_Car_Lift.doc">
 
 == Electronics and Radio ==
-* [[File:Radio_QA.doc]]
-
-
-
-[[Category:Documents]] [[Category:Quick Start Guides]] [[Category:Training]]
+* <img src="https://www.bloominglabs.org/Special:FilePath/Radio_QA.doc" alt="Radio_QA.doc">

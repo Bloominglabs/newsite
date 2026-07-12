@@ -6,5 +6,3 @@
 
 == Power Racing Series ==
 [http://powerracingseries.org/ Mod a kid's Power Wheel and race it!]
-
-[[Category: Events]]

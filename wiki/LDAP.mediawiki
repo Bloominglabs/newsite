@@ -14,5 +14,3 @@ To create Bloominglabs accounts:
 ** /usr/local/bin/ldapadduser
 *** returns: Usage : ./ldapadduser <username> <groupname | gid> "<gecos>" [uid]
 * change the user's password: /usr/local/bin/ldapchangepasswd {username}
-
-[[Category: Operations]]

@@ -1,6 +1,5 @@
 <strong> This page is here only for historical purposes. We successfully funded and obtained this machine in 2016 - and sold it off in 2024. The design had a lot of problems and it needed more TLC than Bloominglabs could provide, it spent most of its life non-functional sadly.</strong>
 
-
 Project page to raise money for a new 3d printer. If you would like to discuss the exact model to purchase please see the email thread in the member's list. The point of contact for this project is Joseph Cieslik.
 
 The new printer was received on Thursday, 20 October 2016. Further information is on the page about the [[Makerfarm-12-Inch-Pegasus-3D-Printer]].
@@ -91,5 +90,3 @@ Joseph Cieslik
 ==Final Decision==
 
 We have decided to purchase a 12" Makerfarm Pegasus, 12v 30amp power supply, some acrylic to make side panels, and an improved hot end for ~795USD. All the money has been pledged now it will need to be collected and then all items purchased, shipped, and assembled.
-
-[[Category:Pledge]] [[Category:3D Printers]] [[Category:History]]

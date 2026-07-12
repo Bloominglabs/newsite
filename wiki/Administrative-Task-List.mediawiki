@@ -7,12 +7,3 @@ These are tasks for the officers to keep track of. FWIW, this page has gotten pr
 
 * Integrate our CRM system into our new-member page so that we can have the membership applications stored digitally
 **Currently we have the open source version of SugarCRM deployed for managing contacts. I have it configured to allow storing our active member list along with all of the info on the membership application. The down side is that the free version of SugarCRM does not support an API interface. Some day I'd like to have the new-member page update this with their info.
-
-
-
-
-
-
-
-
-[[Category:Operations]]

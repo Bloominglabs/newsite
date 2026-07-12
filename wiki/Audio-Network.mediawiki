@@ -24,8 +24,6 @@ Done using the sound system? Please power it off. You can leave the external Blu
 == Old Information ==
 EDIT - As of 8-2014 we have relocated to a new building. The below information is out of date and currently invalid. Thanks!
 
-
-
 Bloominglabs has a speaker network throughout the space. An audio input also made of CAT5 is available in the front room. The excellent noise rejection capabilities of CAT5 helps keep 60Hz noise to a minimum as long as the input is connected to an output device.
 
 === How to use the stereo ===
@@ -35,5 +33,3 @@ Bloominglabs has a speaker network throughout the space. An audio input also mad
 
 ==== Future upgrades ====
 We have a 4 channel mixer which we plan to use to link both the [[CCTV-Network]] and this audio network, as well as our friendly in-space AI called Wintermute. Wintermute currently has the ability to greet members as they use their RFID both with text-to-speech and by using our scrolling LED sign in the front room. Wintermute also watches our WiFi network and other signs of life in the space.
-
-[[Category:Group projects]] [[Category:A/V]] [[Category:Dosman projects]]

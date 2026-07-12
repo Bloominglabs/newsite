@@ -4,9 +4,7 @@ We have a limited number of lockers now available for rent. Each unit is 12 inch
 
 The rental rate for members is $10 a month in addition to monthly dues. For non-members, the rate is $20 per month. Please let us know if you are interested, you can see us in person at a weekly meeting or send mail to contact at bloominglabs dot org. Thanks!
 
-
-[[Image:Bloominglabs_Locker_Rental_Agreement.doc]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs_Locker_Rental_Agreement.doc" alt="Bloominglabs_Locker_Rental_Agreement.doc">
 
 == Availability ==
 
@@ -48,13 +46,9 @@ The rental rate for members is $10 a month in addition to monthly dues. For non-
 | style="border-style: solid; border-width: 1px"| 
 |}
 
-
 == Pics! ==
 
 {|
-| [[Image:IMG_2429.JPG|none|thumb|200px|Lockers]]
-| [[Image:IMG_2430.JPG|none|thumb|200px|Inside]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2429.JPG" alt="Lockers">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2430.JPG" alt="Inside">
 |}
-
-[[Category: Support]]
-[[Category: History]]

@@ -21,6 +21,3 @@ Safety qualification means you have been shown basic safety precautions regardin
 
 === Bench Grinder ===
 * Nathan
-
-[[Category: Operations]]
-[[Category: Tools]]

@@ -24,11 +24,11 @@ Like most stepper-motor-and-belt-driven 3D printers, the Printrbot Play can repr
 ==Slicing Settings==
 [https://ultimaker.com/en/products/ultimaker-cura-software Cura] is the [[3D-Printers#Slicing| slicing]] program recommended by Printrbot. It has a built-in profile for the Printrbot Play.
 
-[[File:PrintrbotPlaySlic3rSettings20171120.ini.zip]] is a profile for [http://slic3r.org/ Slic3r] and [https://www.prusa3d.com/slic3r-prusa-edition/ Slic3r Prusa Edition]. It is based roughly off of the profile [https://github.com/Ultimaker/Cura/blob/master/resources/definitions/printrbot_play.def.json included] in Cura.
+<img src="https://www.bloominglabs.org/Special:FilePath/PrintrbotPlaySlic3rSettings20171120.ini.zip" alt="PrintrbotPlaySlic3rSettings20171120.ini.zip"> is a profile for [http://slic3r.org/ Slic3r] and [https://www.prusa3d.com/slic3r-prusa-edition/ Slic3r Prusa Edition]. It is based roughly off of the profile [https://github.com/Ultimaker/Cura/blob/master/resources/definitions/printrbot_play.def.json included] in Cura.
 
 ==Original Condition==
 When the Printrbot Play was donated, it was nonfunctional.
-On February 23, 2017, [[User-Apple| Apple]] reloaded the bootloader and firmware using:
+On February 23, 2017, Apple reloaded the bootloader and firmware using:
 * avrdude
 * a USBtinyISP programmer.
 * the RepRap wiki page on the Printrbot's control board: [http://reprap.org/wiki/Printrboard reprap.org/wiki/printrboard]
@@ -48,8 +48,3 @@ The controller board, new firmware, steppers, and sensors seem to be working fin
 * build an enclosure to keep dust out
 * set up a webcam for viewing progress and creating timelapses
 * build a heated bed
-
-     
-
-
-[[Category:Tools]] [[Category:3D Printers]]

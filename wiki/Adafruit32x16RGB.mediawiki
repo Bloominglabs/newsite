@@ -116,7 +116,7 @@ I tried the sample programs with 2 cascaded displays and they were mirrored for 
 
 I have started working on refreshing the display using a [http://www.xess.com/prods/prod047.php Xula-50] FPGA board.  Here is the [http://www.jaysissom.com/rgb/rgb.html Timing Diagram] I am using in the FPGA code.  More videos and Verilog code will be coming soon.
 
-Here is the circuit board I created to interface the RGB panel with the Xula-50: [[Image:Xula rgb circuit.jpg]]
+Here is the circuit board I created to interface the RGB panel with the Xula-50: <img src="https://www.bloominglabs.org/Special:FilePath/Xula_rgb_circuit.jpg" alt="Xula rgb circuit.jpg">
 
 (yes there are 7 holes I didn't drill because my 2nd drill bit broke so I gave up!  Fortunately, I didn't need them for this.)
 

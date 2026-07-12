@@ -36,7 +36,7 @@ Pat East, the executive director at The Mill] was brainstorming with execs at Co
 Contact:
 pat.east@cofoundventures.com
 
-[[File:Masks.png]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Masks.png" alt="Masks.png">
 <br>
 ----
 <br>
@@ -75,7 +75,6 @@ Ventilators, splitters, etc:
 I’m all for helping, but this is a highly critical part could easily cause someone to die if it's not made right. Hell, even if a 3D printable ventilator design is approved by the FDA, your print could have hidden filament globules stuck in the Venturi component which could affect air-flow and kill someone. I don’t subscribe to FUD, but these parts have a very high degree of liability both for the creators and those relying on them to stay alive. I would warn folks to be very wary of making parts in this area until more information becomes available.
 
 There are still other ways individuals could help though. This effort still needs assistance with the science guiding it. Design a process to accurately test and measure air-flow through a printed ventilator and other parts. Other areas could also likely use folks with a real eye for science and manufacturing. But please still be careful, this all needs much vetting. You absolutely don’t want to design a faulty testing or certification process.
-
 
 I would also recommend the MasksForDocs Slack for those who want to get involved, new info is rapidly iterating there in real time on all DIY efforts. Also there are channels for regional assistance, coordination, and who needs what resources:
 [https://masksfordocs.slack.com https://masksfordocs.slack.com]

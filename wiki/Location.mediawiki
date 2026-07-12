@@ -8,8 +8,6 @@ Additionally, all mail should be sent to our mailing address (mail should NOT be
 
 <br>Thanks!
 
-[[File:Blabs_main_entrance.jpg]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Blabs_main_entrance.jpg" alt="Blabs_main_entrance.jpg">
 
-[[File:Bloominglabsaerial.png]]
-
-[[Category:The Space]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">

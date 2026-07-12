@@ -1,9 +1,8 @@
 With the termination of Amazon Smile (a charitable giving program that would donate a portion of one's purchases on Amazon to a charity of your choice), one way to passively fundraise for Bloominglabs is through Kroger Community Rewards.
 
-
 == Signup Details ==
 
-[[Image:QR_KrogerCommunityRewards.png|none|thumb|150px|Kroger Community Rewards URL]]
+<img src="https://www.bloominglabs.org/Special:FilePath/QR_KrogerCommunityRewards.png" alt="Kroger Community Rewards URL">
 * https://www.kroger.com/i/community/community-rewards
 
 * Create a Kroger account

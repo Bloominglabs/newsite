@@ -17,6 +17,3 @@ Instructor notes for conducting a machining class, a fair number of tools and ma
 * Sharpen lathe cutting tools for first class
 * Print drawings for part students will make
 * Send reminder email about appropriate attire, workshop fees if not already collected
-
-
-[[Category:Workshops]] [[Category:Workshop prep notes]] [[Category:Signage]]

@@ -125,11 +125,4 @@ Periodically new unique bed surfaces pop up as people try new things. There are 
 
 Last but not least once you get a system that works you stick with it. The more rare opposite problem of getting filaments to stick to the bed is when they stick too well. Be careful that you don't damage the bed in these cases. Usually people resort to using a razor scraper of some kind. Just be careful and don't hurt yourself or the printer if you end up having to do this. 
 
-
-
-
-[[Image:Qrcode 3Dprinting.png|none|thumb|150px|Link to the latest version of this page on the wiki]]
-
-
-
-[[Category:3D Printers]] [[Category:Tools]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_3Dprinting.png" alt="Link to the latest version of this page on the wiki">

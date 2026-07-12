@@ -23,7 +23,6 @@ Doing further digging I found a company called Rheem which has a home automation
 Their documentation says their system only works with Rheem water heaters, but these just use Honeywell gas valves and I am confident it should talk to any other Honeywell controller. However the way the system works it may only talk with the Rheem website and phone app so this is probably a bust without subscribing to their service. Last but not least, at the end of the manual there are a number of statements about trademarks. Then there is this statement: "Rheem Home Comfort WiFi Module for Gas Water Heaters is compatible with Honeywell’s Enviracom 1.1 protocol". So now we have a smoking gun, this is the protocol. But what is the 3-wire protocol? The only thing I had found so far was the serial adapter protocol. Some forum searching turned up this doc on the Internet Archive which has a tiny amount of info about the hardware interface:
 * [http://web.archive.org/web/20040605034809/http://content.honeywell.com/yourhome/buscon/enviracom/EnviraCom.htm EnviraCom.htm]
 
-
 EnviraCOM physical layer:
 * Dominant/recessive bit representation
 * Each bit synchronized to line half cycle
@@ -33,14 +32,12 @@ EnviraCOM physical layer:
 * 300 ft. max end-to-end length
 * Star wired with stubs at remote locations
 
-
 EnviraCOM adapter wires:
 * 1 - To EnviraCOM(TM) network terminal 1 (data).
 * 2 - To EnviraCOM(TM) network terminal 2 (24 Vac).
 * 3 - To EnviraCOM(TM) network terminal 3 (24 Vac).
 
-[[Image:Honeywell_Enviracom_adapter.png|none|thumb|200px|Honeywell EnviraCOM Adapter]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/Honeywell_Enviracom_adapter.png" alt="Honeywell EnviraCOM Adapter">
 
 Data link layer:
 * Peer-to-peer communications
@@ -51,9 +48,7 @@ Data link layer:
 ** Cyclic redundancy check
 ** Reliable broadcast via reporting of detected errors
 
-
 So I have some clues now on how to talk to the gas valve. Maby some day I'll have time to dig deeper on this. It's a shame they don't make the W8735 RS232 adapter any more, however it looks like it sold for over $100. Reportedly a couple resistors in these adapters were undersized and overheat and fail when used 24x7. I have a sacrificial gas valve which I can experiment on, I'm hopeful I can make some progress on this some day as a fun house monitoring project.
-
 
 == Update #1 - July 2017‎ ==
 Looks like someone wrote a unix daemon that speaks Enviracom: [https://sourceforge.net/projects/enviracom/ https://sourceforge.net/projects/enviracom/]
@@ -83,7 +78,4 @@ So, this is all very interesting, maby an open source EnviraCOM USB adapter can 
 Someone named Patrick reached out to me to let me know that Aquanta has a device that interacts with the EnviraCOM bus now:
 * [https://portal.aquanta.io/images/install/Aquanta_Installation_Instruction.pdf Aquanta_Installation_Instruction.pdf]
 
-[[Image:Aquanta controller-enviracom.png|none|thumb|800px|Aquanta EnviraCOM Connection]]
-
-
-[[Category:dosman projects]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Aquanta_controller-enviracom.png" alt="Aquanta EnviraCOM Connection">

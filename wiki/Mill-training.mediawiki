@@ -1,11 +1,9 @@
 This is reference material for people interested in using our mill. This material is collected here in order to assist a workshop on using the mill as well as for people to teach themselves how to use this machine.
 
 {|
-| [[Image:Mill-info_diagram.png|none|thumb|300px|Mill Info Diagram]]
-| [[Image:Mill_oiling_chart.png|none|thumb|300px|Mill Oiling Chart]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Mill-info_diagram.png" alt="Mill Info Diagram">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Mill_oiling_chart.png" alt="Mill Oiling Chart">
 |}
-
-
 
 == Reading Material ==
 This is a scan of two chapters from the book Machining Fundamentals on mills. This is a highly illustrated book with lots of different mill configurations and ways of using a mill.
@@ -15,15 +13,11 @@ Here are some scans from an older book called the "Metal Working Handbook". I re
 * [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip]
 * [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-MillingMachines-chapter13+14.pdf.zip MetalWorkingHandbook-MillingMachines-chapter13+14.pdf.zip]
 
-
-
 This site has some more reading material on using mills:
 * [http://jjjtrain.com/vms/library.html http://jjjtrain.com/vms/library.html]
 
-
 == Supplementary books ==
 * [http://books.google.com/books?id=pPoNZB4xqHoC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false Machinery's Handbook Pocket Companion]
-
 
 == Videos ==
 We have a set of training videos physically in Bloominglabs for the official machining workshop.
@@ -40,9 +34,5 @@ However in the mean-time if you are waiting to take the machining workshop, thes
 More videos:
 * [http://archive.org/search.php?query=subject%3A%22Machining%22] - A listing of milling videos from archive.org
 
-
 == Replacement Shop Posters and Oiling Charts ==
-Each machine tool station should have a poster board with a detailed oiling chart for the machine and a decimal/millimeter conversion chart among posters. If a machine tool like the lathe or mill is missing necessary posters they should all be available from the [[Signage]] page/category on this wiki for re-printing. 
-
-
-[[Category:Training]]
+Each machine tool station should have a poster board with a detailed oiling chart for the machine and a decimal/millimeter conversion chart among posters. If a machine tool like the lathe or mill is missing necessary posters they should all be available from the [[Signage]] page/category on this wiki for re-printing.

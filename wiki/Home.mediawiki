@@ -1,6 +1,6 @@
-<big>'''Welcome to Bloominglabs, Bloomington's very own hackerspace!'''</big>
+'''Welcome to Bloominglabs, Bloomington's very own hackerspace!'''
 
-<big>''A space for sharing tools and knowledge to make stuff''</big>
+''A space for sharing tools and knowledge to make stuff''
 
 Bloominglabs is Indiana's first hackerspace (also known as a makerspace). We are a group of group of people who rent a shared workshop full of tools for our individual and collective projects. 
 
@@ -16,7 +16,7 @@ A hackerspace is a physical location where people can share resources for their 
 
 = Location & Parking =
 
-[[File:Bloominglabsaerial.png]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">
 
 = [[Public-hours|Public Hours]] =
 * Every Wednesday from 7pm until 10pm at our [[Location]]

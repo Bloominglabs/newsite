@@ -21,5 +21,3 @@ A fun programmable LED matrix. Programmable, so you can make it display scrollin
 Very complete and easy to follow instructions are available on the [http://adafruit.com adafruit] web site. You can also bring the kits to Bloominglabs public meetings to work on – if you have questions or need help there's usually somebody there who can lend a hand.
 
 We accept cash, checks, paypal (to treasurer@bloominglabs.org) and credit cards. $1.50 will be added to credit card purchases to cover the fee charged by Square.
-
-[[Category: Support]]

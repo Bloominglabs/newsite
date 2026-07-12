@@ -19,13 +19,11 @@ Subject to and within the limits of Section 2, the Corporation shall:
 * Share our developments and ideas with the world at large.
 * Facilitate communication with other spaces and colleagues nationally and internationally. Invite experts and other creative individuals to share their ideas and projects.
 
-
 == Article II: Location ==
 
 === Section 1: Location ===
 
 The Corporation shall continuously maintain in the State of Indiana a registered office and a registered agent whose business office, for the purposes of this corporation, is identical with such registered office. The registered office shall be the physical location of our workspace. In the event that we do not have a physical workspace, the registered office shall be determined by the board of directors.
-
 
 == Article III: Who We Are ==
 
@@ -85,7 +83,6 @@ When a quorum is present, all issues, except when otherwise specified in these b
 === Section 6: Conduct of Meetings ===
 
 The conduct of all meetings shall follow the rules of order as specified in the [[Standing-Rules]].
-
 
 == Article V: The Officers ==
 
@@ -175,7 +172,6 @@ Voting members must be given at least two weeks to give a response vote. If a re
 
 If Corporation is forced to dissolve due to unfortunate circumstances, court order, or planned dissolution, the remaining assets and funds of the Corporation will be dispersed to a 501(c)(3) organization with similar purpose, as determined by the board of directors.
 
-
 == Adoption and amendment history ==
 
 * Amended 2019-05-22
@@ -191,6 +187,3 @@ If Corporation is forced to dissolve due to unfortunate circumstances, court ord
 ** added Location and Nature of Conflicting Interest articles
 
 * Bylaws adopted 12-17-2012 (Corporation formation date)
-
-
-[[Category: Operations]]

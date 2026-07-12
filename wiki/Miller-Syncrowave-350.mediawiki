@@ -1,3 +1,3 @@
 Powerful and multi-functional TIG welder.
 
-[[File-Miller-syncrowave-350-pdf|manual]]
+[https://www.bloominglabs.org/Special:FilePath/Miller-syncrowave-350.pdf manual]

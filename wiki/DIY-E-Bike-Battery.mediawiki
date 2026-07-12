@@ -1,5 +1,4 @@
-A project by [[User-Jpt4|Jpt4]] and [[User-Avh-on1|AVH]] to homebuild batteries for their personal ebikes.
-
+A project by Jpt4 and AVH to homebuild batteries for their personal ebikes.
 
 == Cells ==
 120 (total) LiFePO₄ 26650 cells purchased from [https://batteryhookup.com/products/full-case-of-120-k2-26650-3800mah-lifepo4-cells Battery Hookup] for the $228. Their specifications are as follows:

@@ -112,11 +112,9 @@
 ==== March 21st, 2018 Members Meeting ====
 [[2017-03-21-meeting-minutes]]
 
-
 ==== February 18th, 2018 ====
 [[2018-Yearly-Meeting]] - Meeting agenda
 <br>[[2018-Yearly-Meeting-Notes]] - Meeting notes
-
 
 ==== February 11th, 2017 ====
 [[2017-Yearly-Meeting]] - Meeting agenda
@@ -192,7 +190,6 @@ Meeting agenda:
 
 ==== September 11th, 2013 ====
 Met with Adam Nahas at a warehouse he intends to rent and sublet on West 11th street. Open meeting for any Blabs members who want to check it out.
-
 
 ==== July 17th, 2013 ====
 
@@ -300,8 +297,6 @@ July 4th Parade
 * july 4 project proposal: giant smoke ring generators from barrels and shower curtain
 * cupcake challenge: send a cupcake 1000km away, get points for packaging, presentation, cupcake itself, etc. gps+ez-bake? 
 * video cameras at the 4th: manipulate the videographers with infrared. Make something that only video cameras can see using far-ir leds. 
-
-
 
 ==== October 13, 2010 ====
 Attendees: Jenett, Nathan, Brent, Justin, Barry, Jenn, and others
@@ -432,7 +427,3 @@ location and potential hacker space.
 
 ==== June 6th, 2009 ====
 First meeting (Bakehouse), 4 attendees. Discussed forming a group of people before moving forwards with the space. Also discussed having an informal "group tool sharing" program.
-
-[[Category: Meetings]]
-[[Category: History]]
-[[Category: Operations]]

@@ -1,8 +1,4 @@
 In early 2024 several members purchased a Sovol SV04 printer for the space. This page provides documentation for this printer.
 
-
 == Sovol SV04 information ==
 https://wiki.sovol3d.com/en/QUICKSTART
-
-
-[[Category:3D Printers]] [[Category:Tools]]

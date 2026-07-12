@@ -2,7 +2,6 @@ Once upon a time in our early history we had a working electric wheel chair in t
 
 <hr>
 
-
 Our electric wheel chair appears to use a derivative of the CAN bus for it's control network, we need some tools for working on this. There are some different ways to go, however on something like this we need known-good tools to start out with. If anyone wants to go in on a CANUSB cable we can begin hacking on this wheel chair controller. From what I've read this cable essentially gives you a serial interface to the CAN bus, use minicom/hyperterminal/etc. to read data off the bus and to inject commands into it. In theory we could watch the joystick issue commands to the controller and then write some arduino code to mimic the joystick.
 
 == CANUSB interface cable money ==
@@ -72,7 +71,6 @@ Others asking about reversing the DX Bus protocol:
 Google this --- Dynamic DX Joystick Controller schematic -- and you will get a rather larger [93 page PDF file] that explains the whole specification. This is suppose to be THE 1101 joystick module. 
 ...
 
-
 # DXBUS info (SLM integration):
 [http://www.handicare.com/upload/HCP/Servicemanual/Raptor%20PS%20servicemanual_Vedlegg%202_servo-lighting-module-installation-manual.pdf]
 
@@ -111,7 +109,6 @@ wire, or a short
 Quote from the paper from the paper  Schedulability Analysis of CAN based Systems with
 Precedence Constraints [http://www.can-cia.org/fileadmin/cia/files/icc/7/amaya.pdf]
 
-
 DXBus is a four wire communications system
 (two power lines and two data lines, CANL and
 CANH) with a maximum length of 15 meters
@@ -135,23 +132,16 @@ obtained from [10]. In this paper, we focus on
 the processes associated to DXSIR functions.
 DXSIR is a wheelchair with two driver wheels
 
-
-
 ===Using Arduino with CAN Bus===
 
 Perhaps the ''fastest'' way to get started with the CAN Bus is with an Arduino Shield. There's more than one way to lay out a board with the SPI based MCP2551 & MCP2515 chips.
 Access to a Microchip CAN BUS Analyzer tool is nice, but definitely not necessary. Each of these products has a different [[media:Db9-types.png|pinout on the DB9 port]], but that's not really necessary anyway. If you want to connect to your car, then maybe you will care. We are interested in wheelchair hacking, so the shield with the screw terminals may win right off the bat.
 
-[[File:IMG_20130408_234148.jpg|thumb|right| The ''easiest'' way may be using the shield sold by sparkfun, which includes 2 LEDs, a little joystick, and some other goodies.]]
-[[File:IMG_20130410_103821.jpg|thumb|left| The ''cheapest'' way is with the seeed studio shield, which has a nice screw terminal for the CAN bus physical layer connection.]]
+<img src="https://www.bloominglabs.org/Special:FilePath/IMG_20130408_234148.jpg" alt="The ''easiest'' way may be using the shield sold by sparkfun, which includes 2 LEDs, a little joystick, and some other goodies.">
+<img src="https://www.bloominglabs.org/Special:FilePath/IMG_20130410_103821.jpg" alt="The ''cheapest'' way is with the seeed studio shield, which has a nice screw terminal for the CAN bus physical layer connection.">
 ;[[media:canjoy.pde|Code to generate and send CAN messages]]
 : Happens to use the joystick on the sparkfun shield
 ;[[media:canblink.pde|Code to receive CAN messages and display them over serial]]
 : Also blinks some LEDs, just for fun.
 ;[http://www.seeedstudio.com/wiki/images/5/55/CAN_BUS_Shield.zip Seeed Studio's Source code files for Arduino 1.0] 
 : Including the excellent CAN library, and demos which inspired the code examples above.
-
-
-[[Category:Group projects]]
-[[Category:Pledge]]
-[[Category:History]]

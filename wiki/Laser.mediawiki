@@ -4,7 +4,6 @@ The specific model we have is a [https://web.archive.org/web/20150330082530/http
 
 This page contains essential information about operating our laser cutter and engraver.
 
-
 == Safety ==
 
 '''Don't cut anything particularly flammable or noxious. Absolutely NO chlorinated plastics (PVC).''' Check the [[Laser-infobase#Things-you-should-not-put-in-the-laser-cutter| Laser Infobase page for the complete list]]
@@ -106,7 +105,7 @@ After you clean the laser, it's a good idea to check alignment of the optics.  [
 
 === Gantry ===
 
-Optics aren't the only things that need alignment: we had a problem with the lens gantry being off-square.  It was producing parallelograms instead of rectangles in some cases.  There appear to be a couple potential methods to fix this.  The one [[User-Dakmh| I]] found easiest was to [http://www.fullspectrumengineering.com/forums/viewtopic.php?f=3&t=7768&p=12203 de-couple the drive shaft between left and right rails].  This method only requires loosening one setscrew (right side of the right coupler), and allows the sides of the gantry to be adjusted independently without messing with anything else.
+Optics aren't the only things that need alignment: we had a problem with the lens gantry being off-square.  It was producing parallelograms instead of rectangles in some cases.  There appear to be a couple potential methods to fix this.  The one I found easiest was to [http://www.fullspectrumengineering.com/forums/viewtopic.php?f=3&t=7768&p=12203 de-couple the drive shaft between left and right rails].  This method only requires loosening one setscrew (right side of the right coupler), and allows the sides of the gantry to be adjusted independently without messing with anything else.
 
 Make sure you realign the optics after aligning the gantry.  You should be able to just adjust mirror 2 to bring the spot back in line with mirror 3, but it's good to check the whole optical path.
 
@@ -144,9 +143,5 @@ From another user:
 Another tip: if your object is flat (say a 2ft x 2ft piece of acrylic) you will need to remove the rubber feet to get the laser low enough to cut/engrave. Those are held in with M5 cap screws (4mm hex key). Again, do not remove the 4 cap screws that hold the plates onto the framing.
 </blockquote>
 
-
 == Replacement Shop Posters and Cleaning Charts ==
 There are detailed posters near the laser that explain how to clean the light-path among other important tasks. If something is missing they should be available from the [[Signage]] page/category on this wiki for re-printing.
-
-
-[[Category:Training]] [[Category:Laser]]

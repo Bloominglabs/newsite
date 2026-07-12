@@ -12,8 +12,4 @@
 
 We thank you for your effort, together we can make Bloominglabs a better place for everyone to use.
 
-[[Image:Qrcode_blabs_exit_protocol.jpg|none|thumb|100px|Link to latest version of this document]]
-
-[[Category:Documents]]
-[[Category:The_Space]]
-[[Category:Protocols]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_blabs_exit_protocol.jpg" alt="Link to latest version of this document">

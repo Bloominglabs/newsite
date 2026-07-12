@@ -32,7 +32,6 @@ If pressure is being applied, what happens if either the lever or fulcrum sudden
 * Is the area clear of non-required people or objects which could contribute to a fire, accident, or other problem?
 * Is this the safest location for the work to happen in?
 
-
 == Personal Protective Equipment Selection==
 Once hazards are identified, select the appropriate PPE to mitigate bodily harm as needed:
 * Safety glasses
@@ -41,14 +40,12 @@ Once hazards are identified, select the appropriate PPE to mitigate bodily harm 
 * Specialty gear (welding helmet, aprons, etc)
 * etc.
 
-
 == Participants role ==
 As a participant, take a moment to evaluate and mitigate the risks:
 * Perform hazard identification for your activity
 * Identify ways to mitigate each hazard you identify, including using PPE
 * Change the way you perform the activity to mitigate the risk to an acceptable level
 * Consider and have a plan for the worst case scenario
-
 
 == Observers role ==
 If you think something is not playing out well:

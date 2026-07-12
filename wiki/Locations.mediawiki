@@ -1,6 +1,5 @@
 This is the original page we used to discuss a first location for Bloominglabs (2009). It is only still around for historical purposes.
 
-
 ==Prospective Locations for the Bloomington Hackerspace==
 So lets collect some locations that may meet our potential needs. If possible post a google-maps reference. Also we can post info on commercial real-estate agents.
 
@@ -44,5 +43,3 @@ The order of the listing presently does not indicate order of preference.
  They (Dirk) called me back on 6-10-09, possibly had a space that could hold 3 cars with electricity, 
  restroom access, overhead garage door with high ceilings for about $600 a month. He was going to 
  check with an associate to see if they had any smaller spaces with power for a cheaper price.
-
-[[Category:History]]

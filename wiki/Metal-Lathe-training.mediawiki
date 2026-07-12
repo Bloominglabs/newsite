@@ -3,9 +3,7 @@ This is reference material for people interested in using our metal lathes. This
 == Diagram ==
 This is a diagram of the parts of a lathe. Please note that this picture was taken before our Atlas lathe was restored to full working condition. See that process here: [[Atlas-Lathe-Restoration]].
 
-
-[[Image:AtlasLathe_diagram-small.jpg|600px|Atlas TH42 Lathe]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/AtlasLathe_diagram-small.jpg" alt="Atlas TH42 Lathe">
 
 == Reading Material ==
 Here are some scans from books very much worth reading. First are three chapters from "Machining Fundamentals" on lathes and lathe operations. It's a highly illustrated book which shows many variations in lathes and how to use them.
@@ -23,17 +21,14 @@ I also recommend reading chapter 2 on measuring tools from the Metal Working Han
 * [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip MetalWorkingHandbook-MeasuringTools-chapter2.pdf.zip]
 * [http://www.bloominglabs.org/downloads/MetalWorkingHandbook-Turning-chapter18.pdf.zip MetalWorkingHandbook-Turning-chapter18.pdf.zip]
 
-
 For additional material on the subject of running and using a lathe use these links. The MIT guide is a single page with a good overview of lathe parts and operations. The WE Williams site contains complete PDF's of older books on using lathes. I have two expensive classroom books which cover lathe work which I will provide to Bloominglabs members in the near future.
 
 * [http://web.mit.edu/2.670/www/Tutorials/Machining/lathe/Description.html http://web.mit.edu/2.670/www/Tutorials/Machining/lathe/Description.html]
 * [http://www.americanmachinetools.com/how_to_use_a_lathe.htm http://www.americanmachinetools.com/how_to_use_a_lathe.htm] - A deeper read on lathes and how to use them
 * [http://www.wewilliams.net/SBLibrary.htm http://www.wewilliams.net/SBLibrary.htm] - Complete PDF's of older lathe manuals, all still relavent information.
 
-
 == Supplementary books ==
 * [http://books.google.com/books?id=pPoNZB4xqHoC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false Machinery's Handbook Pocket Companion]
-
 
 == Video Tutorials ==
 We have a set of training videos physically in Bloominglabs for the official machining workshop.
@@ -44,10 +39,8 @@ However in the mean-time if you are waiting to take the machining workshop, thes
 * [http://techtv.mit.edu/videos/134-machine-shop-9] - MIT video 2 for the lathe
 * [http://techtv.mit.edu/collections/ehs-videos/videos/172-machine-shop-10] - MIT video 3 for the lathe
 
-
 More videos on running a lathe:
 * [http://www.youtube.com/results?search_query=%22tubalcain%22+-tips&aq=f] - Youtube search for "Tubalcain" machining videos, many different videos on different aspects of using a lathe.
-
 
 ==== Tool Grinding ====
 Tool grinding is just as important as knowing how to use the lathe. You grind a small bar of high quality tool steel down to the correct shape you need for the cuts you need to make. Each of the book downloads in the "Reading Material" section contain good info on tool grinding. However here is some more info on the subject.
@@ -55,10 +48,5 @@ Tool grinding is just as important as knowing how to use the lathe. You grind a 
 * [http://www.youtube.com/watch?v=rZbr7Sh8jQw&playnext=1&list=PL374A335C7EFD3E0C&feature=results_video] - Tool grinding video from "Tubalcain"
 * [http://jjjtrain.com/vms/library.html] - Various pages on lathe info including tool grinding
 
-
 == Replacement Shop Posters and Oiling Charts ==
-Each machine tool station should have a poster board with a detailed oiling chart for the machine and a decimal/millimeter conversion chart among posters. If a machine tool like the lathe or mill is missing necessary posters they should all be available from the [[Signage]] page/category on this wiki for re-printing. 
-
-
-
-[[Category:Training]]
+Each machine tool station should have a poster board with a detailed oiling chart for the machine and a decimal/millimeter conversion chart among posters. If a machine tool like the lathe or mill is missing necessary posters they should all be available from the [[Signage]] page/category on this wiki for re-printing.

@@ -14,7 +14,6 @@ Heath,
 Vic & Hans,
 and Derek.
 
-
 == Concerns about subletting: ==
 
 Possibly threatens our nonprofit status
@@ -67,12 +66,9 @@ Adam Nahaus has other things going on, we will see what happens
 Lift Placement
 * general consensus is 45°
 
-
 == Vote: ==
 
 To rent the warehouse
 * Aye:  Heath, Dave, Joey
 * Nay: Chris, Nathan, Neal, Steve, David, Kyle, Jay
 * Not voting: Apple
-
-[[Category:Meetings]]

@@ -1,6 +1,6 @@
 My personal printer is a Hesine M-505 3D printer which is one of the Chinese Prusa i3 clones that came onto the market around 2015. 
 
-[[Image:M505-01.jpg|none|thumb|300px|Hesine M-505]]
+<img src="https://www.bloominglabs.org/Special:FilePath/M505-01.jpg" alt="Hesine M-505">
 
 By photograph it appears to be nearly the exact same machine as the Zonestar/Tronxy P802M. Its close cousin is the Anet A8 which seems to be the most popular of all the Chinese clones. The frame appears to be nearly the exact the same as the Anet A8, however this is a distinct printer. The Anet A8 has developed a reputation for catching fire, and after going over most of the reasons for this, the M-505 seems to be much safer out of the box. There are several reasons the A8’s catch fire:
 
@@ -14,7 +14,6 @@ The Hesine M-505 does not have these issues:
 * State of thermal runaway detection code is unknown as the M-505 firmware, but is likely intact. It's NOT the same code the A8 ships with (A8 uses Marlin code-base, M505 uses the Repetier code-base).
 ** As of at least 12-2018, OctoPrint now gives a warning that this printer is known to lack thermal-runaway protection (firmware string "OMNI 1.5")
 * Heated bed wires come from the factory soldered directly to the heated bed, prevents thermal failure of an under-rated connector
-
 
 All this being said, the Hesine M-505 still has some deficiencies. Namely, the routing of the heated bed wiring is prone to breaking loose due to very poor cable management. There are other smaller issues, but that is the biggest. The acrylic frames on these printers also gets a bad rap, but this is a fairly low priority compared to other issues I've had with my printer. However I don't drive my printer at the full limit of it's print speeds like a lot of people do.
 
@@ -93,35 +92,30 @@ There is also an online configuration tool for Repetier firmware. The board mine
 
 There's quite a bit configuration required, I plan to add an update with the options needed once I get time to work on this.
 
-
 == Alignment and printing square ==
 After resolving all of the above issues, I've still had one critical problem with this printer: printing square. My printer has always had a slight skew it adds to parts. This was mainly an issue for mechanical parts that have to mesh together, statues and toys are not noticeably affected unless they are made of multiple parts. If a square of 4" was printed, the skew was about 1/4" which was way worse than anything I had seen described elsewhere for these Chinese printers. 
 
 ==== Checking your alignment ====
 Use a square or a block of wood. Push it up against the left-right carriage rods and scoot the bed so the front aligns to the edge of the measurement tool. Now move the tool to the other side. If the bed doesn't line up you've found your problem. Unfortunately I took these pictures after I corrected my skew problem, it clearly showed up with this method. But here you can see what I'm describing.
 {|
-| [[Image:M505-02.jpg|none|thumb|300px|Left side of bed]]
-| [[Image:M505-03.jpg|none|thumb|300px|Right side of bed]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/M505-02.jpg" alt="Left side of bed">
+| <img src="https://www.bloominglabs.org/Special:FilePath/M505-03.jpg" alt="Right side of bed">
 |}
 
 ==== Fixing your alignment ====
 I spent a month tinkering with attaching the printer to the table and forcing the bed to skew in the other direction, this did nothing to fix the problem which was a puzzler for me. I finally thought through how the bed is attached to the frame, using two "rails" that run horizontally under the bed. The thread rods pass through these two acrylic parts of the frame at the mid section and rear of the printer. So, if forcing the front of the printer to the left is not doing anything, I should be able to achieve the same action by moving one of the horizontal frame components. The mid-frame rail connects to the vertical axis steppers. I decided I did not want to mess with this one. The rear rail however is much less messy to move. By moving it to the right about 1/4" I was able to completely eliminate the skew. 
 
-[[Image:M505_realignment.jpg|none|thumb|300px|Diagram showing alignment adjustment]]
+<img src="https://www.bloominglabs.org/Special:FilePath/M505_realignment.jpg" alt="Diagram showing alignment adjustment">
 
 Doing this requires some surgery on the printer though. First, remove the four screws that hold the "rear rail" to the frame on the left and right side. You will have to work the belt off the stepper too. Gently pull the rear frame rail off the printer. You probably have wires routed through this piece, so this may be tricky, but also shouldn't be too bad. I was able to do this operation with only undoing the stepper belt.
 
 Next, you will need to saw off the plastic tabs from the left and right chassis pieces which extend into the rear rail. A hacksaw or wood saw with small/fine teeth works fine (don't use a ripping saw or one with large teeth or it could crack the acrylic). If any pieces of acrylic remain which are not flush with the rear side then you will need to file them off so the rear rail can sit flush. Next, you will need to drill new screw holes next to the existing screw holes which attach the rear rail. You are moving the rear rail towards the "skew gap". Again, be gentle as we don't want to crack the acrylic. I recommend doing one side then attaching that side again with the original screws and nuts. This way when you do the other side the spacing will be correct. Your goal is to move the rear rail without adjusting the rest of the chassis.In my case there was just enough "extra" space on the rear rail to correct my skew. In fact, I had to drill another set of holes as I had created a small amount of skew in the opposite direction. Thankfully my adjustments landed on a position which was perfectly square on my 2nd try.
 
 {|
-| [[Image:M505-04.jpg|none|thumb|300px|Rear view - adjustment of side with power supply]]
-| [[Image:M505-05.jpg|none|thumb|300px|Rear view - adjustment of side with controller board]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/M505-04.jpg" alt="Rear view - adjustment of side with power supply">
+| <img src="https://www.bloominglabs.org/Special:FilePath/M505-05.jpg" alt="Rear view - adjustment of side with controller board">
 |}
 
 Once you get the rear rail reattached you may need to make some adjustments to the front bed rails and thread rod nuts to get the front straight, but this is mostly for aesthetics as this does not affect the skew.
 
 Final notes on fixing the alignment: I'll be the first to admit I don't understand how my frame came to be warped so badly. I assembled it myself and everything went together just fine, all assembly screws were snug and fit correctly. It *looks* square when looking top-down. I had hoped that replacing my belts would fix the skew issue as others had reported, but that had no affect on the problem of course. And I couldn't make it square with force. Regardless, this mod worked perfectly for my particular alignment problem.
-
-
-
-[[Category:Dosman projects]] [[Category:3D_Printers]]

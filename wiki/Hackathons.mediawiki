@@ -36,8 +36,6 @@ All Bloominglabs entries including other contests can be seen [http://www.instru
 * [http://www.instructables.com/id/How-to-Replace-a-Faulty-Toilet-Tank-Valve/ How-to-Replace-a-Faulty-Toilet-Tank-Valve]
 * [http://www.instructables.com/id/Durango-Rear-Hatch-Antenna-Mount/ Durango-Rear-Hatch-Antenna-Mount]
 
-
-
 == Raspberry Pi 2 hackathon ==
 We were selected for an Instructables hackathon using the NEW Raspberry Pi 2.
 {| class="wikitable"
@@ -78,10 +76,6 @@ We were selected for an instructables hackathon using the SparkIO microcontrolle
 |11-15-2014
 |}
 
-
 * Instructables writeups from this hackathon
 ** http://www.instructables.com/id/IoT-Bathroom-Vacancy-Indicator-For-Hackers/
 ** http://www.instructables.com/id/Super-cheap-Wireless-Doorbell/
-
-
-[[Category:Group projects‏‎]] [[Category:Projects]] [[Category:Workshops]]

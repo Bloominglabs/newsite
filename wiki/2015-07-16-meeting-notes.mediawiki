@@ -14,7 +14,6 @@ Safety
 	
 We could do it on a 6 month trial basis
 
-
 == Where is it going to go ==
 
 18" from stress relief scores
@@ -37,7 +36,6 @@ At the end
 * woodworking tools can fairly easily be moved around
 * must be ~10-12' from the wall
 
-
 == Policies (waste oil, etc) ==
 	
 insurance
@@ -54,6 +52,3 @@ Must be a member to be certified to use it
 Space
 * Contain your project to its associated area
 * Should set up a storage area
-
-
-[[Category:Meetings]]

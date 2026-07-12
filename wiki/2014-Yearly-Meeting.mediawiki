@@ -152,6 +152,3 @@ Things we will probably need to pick back up in a future meeting because we did 
 * Children under 18 in the space
 * What is allowed and what is not allowed during public nights? How do we know when people are "taking advantage" of our open public nights? Is there a line to cross in this area where we feel like we need to start charging membership dues?
 * Membership dues (specifically a tiered membership?)
-
-
-[[Category:Meetings]]

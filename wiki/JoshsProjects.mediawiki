@@ -1,9 +1,7 @@
-Greetings Bloominglabs Members and all enterprising makers! I am [[User-Josh| Josh Crawley]], one of the newest members of Bloominglabs.
+Greetings Bloominglabs Members and all enterprising makers! I am Josh Crawley, one of the newest members of Bloominglabs.
 My interests that brought me here revolve around 3d vision, objects, Atmel, Arduino, programming and the like.
 
 * I am currently working on my own [[RepRap-Prusa-i2]] which I shall try better to update.
 * My next project will be a 3d laser line scanner. Parts used will be printed by my printer.
 
 * From 3/15 to 3/17, I also attended the [[Midwest-RepRap-Festival]], held in Elkhart.
-
-[[Category:Projects]]

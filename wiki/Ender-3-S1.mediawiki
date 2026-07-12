@@ -4,7 +4,7 @@ By upgrading our equipment (as measured according to the metric of Low Cognitive
 
 OEM product listing: https://www.creality.com/products/creality-ender-3-s1-3d-printer
 
-[[Image:Ender3_20240109_160554.jpg|none|thumb|300px|Ender 3-S1]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Ender3_20240109_160554.jpg" alt="Ender 3-S1">
 
 == Printer Features ==
 
@@ -41,5 +41,3 @@ PLA, ABS, TPU, PETG
 Status: Functional
 
 Printer assembled, bed leveled, z-offset set to -3.15 mm, first test print.
-
-[[Category:3D Printers]] [[Category:Tools]]

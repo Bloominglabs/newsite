@@ -18,7 +18,6 @@ This is still in the brainstorming process, but I'm thinking 4-part series.
 * Building a 1-Watt Amplifier
 * Building a Fuzz Box
 
-
 ==Tools for BloomingLabs==
 
 ----
@@ -27,5 +26,3 @@ Prototyping Board(heres a vid of [http://www.youtube.com/watch?v=PczY-g5cMCI min
 * plank o' wood w/mounted breadboard, terminal strips, battery box and angle-aluminum pre-drilled for pots/led/power/IO jacks/switches.
 * designed for use with audio projects, but might be useful in other areas.
 * the benefits of a protoboard is sturdiness and efficiency... no dangling jacks/pots/switches/batteries, allowing a more robust test of yr new circuit. yay!
-
-[[Category: Projects]]

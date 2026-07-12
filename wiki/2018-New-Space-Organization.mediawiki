@@ -3,7 +3,6 @@ This page is an attempt to decentralize knowledge about what needs to be done ye
 
 If you complete a task here, please mark it out with a strike-through. 
 
-
 == Points of Contact ==
 This is meant to point people in a direction for coordination and assistance, not to appoint people as owners or take control from anyone. These are people who have become proficient in these areas and have already been doing a lot of these activities. If you feel you should be on this list please add yourself, and vice-versa. Also this list is incomplete for areas of the space, if you have been minding an area, or desire to, please add your name. Just ping the members mailing list to reach any of these people. Thanks!
 
@@ -18,7 +17,6 @@ This is meant to point people in a direction for coordination and assistance, no
 * Pete/Adam/Nathan - Metal fab shop
 * Nathan/Alex/Jimmy/etc. - Biohacking room
 
-
 {| class="wikitable"
 !colspan="3"|Legend
 |-
@@ -29,8 +27,6 @@ This is meant to point people in a direction for coordination and assistance, no
 |<span style="color:#ff0000">Red tasks: specific people likely need to be involved, if you want to help on this just ask! Members mailing list is good place to start.</span>
 |}
 
-
-
 {| class="wikitable"
 !colspan="2"|Decisions to be made by the hive-mind
 |-
@@ -38,8 +34,6 @@ This is meant to point people in a direction for coordination and assistance, no
 |-
 |Identify a location for the black chemical cabinet - repopulate with the chemical stuff - these are still in the storage unit as of 3-29
 |}
-
-
 
 {| class="wikitable"
 !colspan="2"|Non-room specific tasks
@@ -56,8 +50,6 @@ This is meant to point people in a direction for coordination and assistance, no
 |-
 |Install missing outlet and light switch covers. Covers are on the chrome wire shelving in the workshop at the end of one row of the beige shelves.
 |}
-
-
 
 {| class="wikitable"
 !colspan="2"|Organization Tasks

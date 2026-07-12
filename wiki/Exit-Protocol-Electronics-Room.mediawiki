@@ -9,10 +9,4 @@
 
 We thank you for your effort, together we can make Bloominglabs a better place for everyone to use.
 
-
-[[Image:Qrcode_exitprotocol-electronicsroom.png|none|thumb|100px|Link to latest version of this document]]
-
-
-[[Category:Documents]]
-[[Category:The_Space]]
-[[Category:Protocols]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_exitprotocol-electronicsroom.png" alt="Link to latest version of this document">

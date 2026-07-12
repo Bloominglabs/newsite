@@ -26,5 +26,3 @@ Succeeded in downloading an example UART app by [https://github.com/NordicSemico
 ----
 [[Welder-s-Lock]] 
 ----
-
-[[Category:Projects]]

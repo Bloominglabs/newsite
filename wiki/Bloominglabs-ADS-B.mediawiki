@@ -1,6 +1,5 @@
 This is a page of info on getting aircraft data out of our ADS-B / MLAT receiving station at Bloominglabs. See [[Radio-Activities#ADS-B-receiving-station]] for more info on the station itself and to get access to our FlightRadar24 Premium Account.
 
-
 ==== Downloading aircraft data from our receiver ====
 To download a static log of aircraft data from our receiver, use a web browser and connect to the unit (only from within Bloominglabs: http://192.168.1.3 ). There is no login required. You can also use wget to download a static copy of the log:
 <pre>
@@ -16,7 +15,6 @@ A quick note on extracting just the MLAT lines from the log: This is a unix one-
 <pre>
 egrep -v "Pinging|Stats|sent|Registered|synchronized|Synchronizing|Cached|syncing|ping|removed|Connected to|Response|MLAT timestamp|Too many connection|[feed]|main" aircraft.log
 </pre>
-
 
 ==== Real Time Stream ====
 A real-time stream of the data can be captured from port 30003:
@@ -50,7 +48,6 @@ socat - TCP:192.168.1.3:30003
 
 Dates are in UTC, so subtract 4 hours to convert all timestamps to EDT (or -5 hours for EST). A raw/binary data stream is available on port 30334. There are 3rd party tools which can be used to digest the cooked and raw streams for visualizing some of this data.
 
-
 ==== Notes on data ====
 Our receiver regularly pulls in beacons from aircraft over 200 nautical miles away. Technically most of the aircraft data we receive are MLAT beacons (S-mode identifiers) which is different from ADS-B. MLAT signals are usually only receivable from the ground if the aircraft is above 5k-10k feet unless direct line-of-sight was obtained. The S-mode identifier is a 24-bit hex address unique to every aircraft. Not all aircraft have beacons, although after the year 2020 the FAA will require all aircraft to have some type of identifier. 
 
@@ -66,11 +63,6 @@ We only see occasional beacons from aircraft, so when the beacons pop-up behind 
 ==== Real Time Stream Data Format ====
 The data format is documented here: [http://woodair.net/sbs/Article/Barebones42_Socket_Data.htm http://woodair.net/sbs/Article/Barebones42_Socket_Data.htm].
 
-
 ==== Further Reading ====
 There is some useful info here about different ways to digest the live streams:
 * [http://wiki.modesbeast.com/Radarcape:Software_Features http://wiki.modesbeast.com/Radarcape:Software_Features]
-
-
-
-[[Category:Radio]] [[Category:Dosman_projects]] [[Category:ADS-B]]

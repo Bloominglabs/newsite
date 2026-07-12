@@ -27,8 +27,6 @@ I also ordered my hotend (where the plastic is heated and comes out) from IRC us
 
 I attended the MRRF and got my last few parts on my printer assembled. I spend quite a while calibrating the E Steps, which translates motor motion to exact measurements. So if I print a 25mm square, it actually prints 25mm by 25mm. I got calibration done. And I start trying to print, and nothing...
 
-
-
 * 3/20/2013
 
 I end up aimlessly trying to figure out what's wrong. I pack away from MRRF, and head back to Bloomington. I get on IRC, and JollyGrimReap is there. He helps me by discussing PID tuning. PID controls are for adjusting when to turn on and off to maintain a constant heat. It stands for proportional, integral, derivative. I tune my PID, with a GCode M303 S150 and off it goes. In console, after 10-ish minutes, it spits back the numbers for my hotend, which are drastically different than the "standard". I put them in, and... and.. HOTEND JAM. What the hell?! Back to IRC. While chatting, I'm removing the jam manually with toothpicks and gently using a screwdriver bit to pick out bits. I had raised the temp to make the print easier, but succeeded in burning the plastic in the hotend. Bummer.
@@ -44,10 +42,6 @@ Next - I need to buy some high heat thread tape, clean out the end again (this t
 Up next: This printhead was equipped with a .5 mm tip, using a standard M6 thread attachment. I have ordered a .35mm and a .4mm tip to allow finer printing. 
 I have also bought from an aluminum caster a Cast Wade Extruder. You can see that [http://www.ebay.com/itm/RepRap-3D-Printer-Prusa-Mendel-Wades-Extruder-Aluminum-Unfinished-NEW-/321093128300?pt=LH_DefaultDomain_0&hash=item4ac2a4506c here]
 
-
-
 * 3/22/2013
 
 I showed back up, and cleaned out the bits of PLA in my hotend this afternoon, and got the PTFE tape applied. I'm now currently in the building, preparing to heat the bed and the hotend to the appropriate temp to start this run. I'm nigh sure I will succeed. Pictures will be made :)
-
-[[Category: Projects]]

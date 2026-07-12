@@ -2,16 +2,13 @@
 
 Hacklights is a Bloominglabs blog to showcase events, projects, accomplishments, and demonstrate that this group is still active. As of March 2021 we are very much still busy and making in Bloomington, Indiana.
 
-
 == Articles ==
 <!-- I think a blog type in a wiki needs an extension. In theory it would be nice to have a way to search these by tags (project/event/person) not just list by date. -->
 <!-- ===May 2021=== -->
 
-
 ===April 2021===
 
 DATE (Event/Project) Event Title Text [[pagetitle]]
-
 
 <!-- Articles Ideas
 - A decade of Bloominglabs
@@ -33,8 +30,6 @@ publish by apr 11
      about planning remote workshops
      how they went
      future plans (eg build a scanner)
-
-
 
 - overview of reorg
 - craftroom reorg and tour

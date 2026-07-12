@@ -1,8 +1,5 @@
 <strong>This page is way out of date, it is just here for historical purposes at this point.</strong>
 
-
-
-
 == Establishing business entity ==
 <strike>Bloominglabs LLC was established in July 2010 to operate the space.</strike>
 
@@ -65,6 +62,3 @@ Most of the other non-profit hacker spaces have their bylaws posted online, here
 * [http://wiki.hacdc.org/index.php?title=Bylaws HackDC's Bylaws]
 * [http://wiki.pumpingstationone.org/index.php/Bylaws PumpingStationOne's Bylaws]
 * [http://hackerspaces.org/wiki/Documentation More Information at hackerspaces.org]
-
-[[Category: Operations]]
-[[Category: History]]

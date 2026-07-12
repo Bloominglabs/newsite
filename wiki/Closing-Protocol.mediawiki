@@ -14,13 +14,6 @@
 ## If there are any non-members left inside the space, escort them outside
 ## If the Bloominglabs sign is still hung on the dumpster, on the wheelbarrow, or in the PVC ground holes, bring it inside
 
-
-
-
 Additionally, we remind you: '''workbenches are NOT project storage'''. Put your project up in an appropriate storage area or take it with you. Be mindful that many other people use the space and your project may get inadvertently covered in sawdust, metal shavings, oil, etc if you do not properly store it.
 
-We thank you for your effort, together we can make Bloominglabs a better place for everyone to use.[[Image:Qrcode_blabs_exit_protocol.jpg|none|thumb|100px|Link to latest version of this document]]
-
-[[category:Documents]]
-[[Category:The_Space]]
-[[Category:Protocols]]
+We thank you for your effort, together we can make Bloominglabs a better place for everyone to use.<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_blabs_exit_protocol.jpg" alt="Link to latest version of this document">

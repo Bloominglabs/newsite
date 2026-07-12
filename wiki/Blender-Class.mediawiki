@@ -18,7 +18,7 @@ Cost: $150 for the entire class (18 hours of instruction)
 
 Location: [[Location| Bloominglabs]] (in the classroom)
 
-Taught by: [[User-Avh-on1| Alex Von Hoene]], a casual user of Blender for 10 years
+Taught by: Alex Von Hoene, a casual user of Blender for 10 years
 
 Participants will need:
 
@@ -32,17 +32,9 @@ Participants will need:
 
 Register for the class by paying here:
 
-<html>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="ZDV89S9KZLYN2">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</html>
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZDV89S9KZLYN2 Donate with PayPal]
 
 or confirm your seat over email, and pay at the start of the first class. Bloominglabs can take cash, or credit/debit cards via Square.
-
 
 == Resources ==
 

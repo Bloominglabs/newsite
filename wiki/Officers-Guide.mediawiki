@@ -10,7 +10,6 @@ Our bylaws describe the official duties of our officers: [[Bylaws#Article-V-The-
 ** Paying bills
 ** Handling annual business and tax filing requirements at the county, state, and federal levels
 
-
 * Other duties shared as needed:
 * Dues processing & tracking
 ** Handle dues processing for electronically paid dues
@@ -29,7 +28,6 @@ Our bylaws describe the official duties of our officers: [[Bylaws#Article-V-The-
 
 * Make sure regular stuff is getting done - trash being taken out, junk accumulation is not out of control, workshop cleanups, etc. Not necessarily your job to do these things, delegate as needed. But make sure it’s getting done one way or another.
 
-
 ==Periodically through the year==
 http://bloominglabs.org/index.php/Business_Operations#Yearly_Dates_to_Remember
 
@@ -47,7 +45,6 @@ http://bloominglabs.org/index.php/Business_Operations#Yearly_Dates_to_Remember
 
 == Irregular issues ==
 Periodically irregular issues come up out of the blue that must be dealt with. When this happens, handle them. The buck stops with you if no one else is getting involved. Get help and delegate as necessary, but don’t ignore. Also it’s your job to determine if something is a real issue or not. The other side of this coin is that not everything is your job, and you are not here to make everyone happy. Members occaisonally want you to do things for them, you have to decide if it’s really your job or not. Also remember, when someone suggests something extra for you to do, you are free to remind them that they are free to do it themselves (we are a do-ocracy - assuming it’s not something that only you or the board can do like handling money or banking type things).
-
 
 == Processes to Know ==
 Members will need your assistance throughout the year. It's your job to know how to help folks with their questions. Ultimately someone else on the board will probably have the answer if you don't, but the more you can do yourself the easier the load is for all of the officers :-).
@@ -89,11 +86,7 @@ We call member meetings only as often as is needed, but it is generally good to 
 == Board Meetings ==	
 It is completely up to the board to decide where and when to meet. Anyone is welcome to attend.
 
-
 == QR code URL==
 If you are viewing hard-copy, the latest version of this document is always available online:
 <br>http://bloominglabs.org/index.php/Officers_Guide
-[[Image:Qrcode Officers Guide.jpg|none|thumb|150px|URL for this page]]
-
-
-[[Category:Operations]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_Officers_Guide.jpg" alt="URL for this page">

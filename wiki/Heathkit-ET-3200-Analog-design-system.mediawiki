@@ -1,1 +1,1 @@
-Here is the manual for the ET-3200: [[File:Et-3200.pdf]]
+Here is the manual for the ET-3200: [https://www.bloominglabs.org/Special:FilePath/Et-3200.pdf Et-3200.pdf]

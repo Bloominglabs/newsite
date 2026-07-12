@@ -64,5 +64,3 @@
 : SE parking area at end of storage building to be used for parking (can include cars to be worked on soon), not long-term/large projects
 ; Dumpster (not discussed)
 : Mark wants to share dumpster location/pay in the interest of keeping more parking area free, making trash pickup logistics easier, and decreasing cost for both parties
-
-[[Category:Meetings]]

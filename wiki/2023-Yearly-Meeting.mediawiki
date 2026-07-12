@@ -21,7 +21,6 @@ Attendees:
 * Pete
 * others which certainly were missed, there was an attendee list taken on hard-copy
 
-
 == Agenda ==
 
 * Treasurers Report: (contained in the 2022 annual report - [https://docs.google.com/document/d/1FvXt71O0sTQZ6S4XClGgo3XOmMYHQ-dZKfK5dSbMb7c/edit?usp=sharing https://docs.google.com/document/d/1FvXt71O0sTQZ6S4XClGgo3XOmMYHQ-dZKfK5dSbMb7c/edit?usp=sharing])
@@ -41,7 +40,3 @@ Attendees:
 * April 11th - potential first Makevention committee meeting suggested by Apple
 * Proposed first board meeting for 2023: March 21st
 ** Proposed 3rd Tuesday of every month
-
-
-
-[[Category:Meetings]]

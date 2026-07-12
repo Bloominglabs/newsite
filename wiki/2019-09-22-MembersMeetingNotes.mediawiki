@@ -56,15 +56,9 @@
 |
 |}
 
-
-
 '''Quorum of voting members needed: 10'''
 
-
-
 '''Agenda:'''
-
-
 
 {|
 | '''Time'''
@@ -111,8 +105,6 @@
 | Internal infrastructure updates
 | All
 |}
-
-
 
 '''Notes:'''
 
@@ -168,8 +160,6 @@
 <li><blockquote><p>Effective date will be Nov 1. 2019</p></blockquote></li></ol>
 </li></ol>
 
-
-
 {|
 | '''Member'''
 | '''Vote'''
@@ -219,8 +209,6 @@
 | Steve Backs
 | Yes (Proxy)
 |}
-
-
 
 <ol style="list-style-type: decimal;">
 <li><p>Website working group</p>
@@ -274,8 +262,4 @@
 </li>
 <li>Discussion followed regarding Bloominglabs neighbors, site security, and dumpster access</li></ol>
 
-
-
 Adjourned at 3:10 PM
-
-[[Category:Meetings]]

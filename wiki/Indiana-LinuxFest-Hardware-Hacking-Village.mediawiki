@@ -1,6 +1,5 @@
 The ILF hardware hacking village was a great success, we had a lot of fun and met a lot of great people. Below is information we had used to help organize ourselves for the event.
 
-
 == Old info ==
 We've been invited to host the hardware hacking village at the first [http://www.indianalinux.org Indiana LinuxFest]. The event is March 25th through the 27th at the Wyndam Indianapolis West Hotel.
 
@@ -15,5 +14,3 @@ We've been invited to host the hardware hacking village at the first [http://www
 * Arduino clones
 * Soldering kits?
 * Other kits to tell?
-
-[[Category: Events]]

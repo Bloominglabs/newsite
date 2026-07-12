@@ -1,7 +1,5 @@
 Project starter page to design and build a BloomingLabs IoT Bathroom Minder.
 
-[[Category:Projects]]
-
 == Sensors for occupancy detection ==
 
 *Light Sensor*

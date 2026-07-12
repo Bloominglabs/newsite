@@ -1,6 +1,5 @@
 == Timeline ==
-We have signed our new lease and informed our current landlord we are moving out. We have access to our current space through the end of July. Our new lease begins August 1st however  we have access to the new space starting the week of July 1. If we aim to do the bulk of the weekend of <b><font color="red">July 26th</font></b> that will give us the last week of July to clean up the old location.
-
+We have signed our new lease and informed our current landlord we are moving out. We have access to our current space through the end of July. Our new lease begins August 1st however  we have access to the new space starting the week of July 1. If we aim to do the bulk of the weekend of <b>July 26th</b> that will give us the last week of July to clean up the old location.
 
 == Quick list of changes ==
 This is a list of things we need to do to the warehouse so that we can move in and be able to operate as we currently do. We can divide out the larger projects in their own sections down below.
@@ -11,15 +10,12 @@ This is a list of things we need to do to the warehouse so that we can move in a
 * Exhaust hole for the laser cutter - exhaust vent in 2nd non-bathroom should work for this
 * 
 
-
-
 ==== Additional changes ====
 * physical security - spend an hour or two reinforcing the doors with simple but effective security upgrades (security strikes, 3" screws, reinforcement plates, etc.)
 * Air conditioning - if we can get by this August without it then we can save up over the next year for this
 * 
 * 
 * 
-
 
 == Walls ==
 We need to section the warehouse into at least 2 or more rooms so we can have a quiet/clean room area and the noisy/messy workshop area.
@@ -28,13 +24,11 @@ Supplies we need:
 * 
 * 
 
-
 == Electrical ==
 In this spreadsheet is a map of the breaker box plus an itemized list of electrical changes we should consider making. The photo is a physical map showing where each current outlet and junction box (minus anything hiding in the bathrooms).
 
-[[File:Breakerbox+wiring changes.xls]]
-[[Image:S.rogers_electric_map-resize.jpg|none|thumb|100px|Physical wiring map]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/Breakerbox+wiring_changes.xls" alt="Breakerbox+wiring changes.xls">
+<img src="https://www.bloominglabs.org/Special:FilePath/S.rogers_electric_map-resize.jpg" alt="Physical wiring map">
 
 Supplies we need:
 * 12Ga stranded THHN wire
@@ -49,11 +43,8 @@ Supplies we need:
 ** conduit hangers
 * conduit splice connectors
 
-
-
 == Lighting ==
 We have 18 8' fluorescent light fixtures plus additional 14x 48" 4-bulb fixtures available to install where needed.
-
 
 == Air Conditioning ==
 By the numbers it looks like we need a 100k BTU AC unit (8 tons) to cool the entire space. Since that is getting pretty pricey, we might consider just cooling the office/clean room areas. This would get us down to potentially a 4 ton AC unit. More info on [http://www.ebay.com/gds/What-Size-Air-Conditioning-Unit-Do-I-Need-for-My-Business-/10000000177634486/g.html AC sizing here].

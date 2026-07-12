@@ -9,7 +9,7 @@
 ** [[serialbitwisealu|serial bitwise ALU]]
 * [[JoesProjects|Joe's Projects]]
 * [[NicksProject|Nick's Projects]]
-* [[User-Avh-on1|Alex's Projects]]
+* Alex's Projects
 * [[CharliesProjects|Charlie's Projects]]
 * [[JaysProjects|Jay's Projects]]
 * [[JoshsProjects|Josh's Projects]]
@@ -45,6 +45,3 @@
 * design and build, and (market?) a bathroom monitor. [[BloomingLabs-Bathroom-Minder]]
 * build a [http://www.instructables.com/id/A-Word-Clock/ word clock]
 * [http://instruct1.cit.cornell.edu/courses/ee476/FinalProjects/ Cornell AVR Projects Page]
-
-
-[[Category:Projects]]

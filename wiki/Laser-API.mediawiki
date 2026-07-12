@@ -1,6 +1,5 @@
 Our full spectrum 5th gen laser has a network connection. Currently it has ip 192.168.1.5 and accepts telnet sessions to port 12345. There is no authentication, we have to be careful not to clobber each other when users have multiple sessions of Retina Engrave running on multiple laptops. Also care needs to be taken when directly playing with this interface as it appears bad things can be done (TM) to the laser when manually fiddling around in the network interface.
 
-
 == Laser API ==
 There is a published API for the laser's network interface here:
 * [http://www.fullspectrumengineering.com/forums/viewtopic.php?f=7&t=1534 http://www.fullspectrumengineering.com/forums/viewtopic.php?f=7&t=1534]
@@ -80,6 +79,3 @@ E..?..@.@.............09.~.*..>.P.......SET.IPADDR.192.168.1.5.E..0.z....5w.....
 @..s..........09.~.|..>.P.......E..-J.@.@.l-..........09.~.|..>.P....[..BURN.E..0......5p........09..
 ..>..~..P....=..102.OK..E..(6.@.@.............09.~....>.P.......
 </pre>
-
-
-[[Category:Laser]]

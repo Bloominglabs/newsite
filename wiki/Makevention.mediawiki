@@ -1,6 +1,5 @@
 These are notes for the first and second Makeventions held (2013 & 2014)
 
-
 = Makevention 2014=
 == Communication ==
 * [http://www.makevention.org/ Website]
@@ -158,5 +157,3 @@ These are notes for the first and second Makeventions held (2013 & 2014)
 * [http://makerfairelou.org/ Louisville Mini Maker Faire]
 * DerbyCon
 * [https://sites.google.com/site/4thstreetfestival/ 4th Street Art Festival]
-
-[[Category:Events]] [[Category:Makevention]]

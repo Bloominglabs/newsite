@@ -1,12 +1,10 @@
 == Overview ==
 I made this as an early birthday present for my father. Both he and his brother love their fireworks and do a pretty awesome show for the 4th every year. I wanted to do something nice for him and got interested in building an electric firing system. I had used nichrome wire to ignite fireworks in the past for one-off projects, but this scaled things up to a respectable level. I learned a lot about the pyro community and different designs available to use. In the end I really like how this project turned out, it has a home-made look to it, works great, and remains a compact unit for easy use by a hobbiest. 
 
-
 {|
-| [[Image:Launcher00.jpg|none|thumb|350px|Firing System control panel]]
-| [[Image:Launcher01.jpg|none|thumb|350px|Firing system and slat combined]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher00.jpg" alt="Firing System control panel">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher01.jpg" alt="Firing system and slat combined">
 |}
-
 
 == Some terminology ==
 The firework scene has some unique terminology I was not aware of until I started hanging out on related forums:
@@ -26,21 +24,17 @@ I found some 12 position rotary switches from Jameco and based the design around
 
 Most electric firing system designs use tons of switches, this is a minimalist's design using a single fire button in series with the 12 position switches. The Aux switch allows two cues on the same "bank" to be selected at once when fired. I used a 1/4" jack as a safety key, it's nice and heavy which makes it feel solid (and easy to replace if necessary). The test switch automatically runs low current through the ignitor which allows you to quickly cycle through positions noting if the lamp goes out. A lot of folks building firing systems use a pair of 12V sealed-lead-acid batteries for 24V, I just kept this design simple by using 8 D-cell batteries. There's also an auxillary power terminal strip on the outside as a backup power source. The white surfaces are glow in the dark, and lastly I ordered a bag of Falcon ignitors to finish the project off. I originally intended to just give my dad a spool of nichrome wire, but the clip-on ignitors are very cheap and WELL worth the cost. Sure you can manually wind nichrome on a couple fuses, but doing more than a couple dozen would easily take hours, and with hundreds of fireworks to launch, there's just no way to go with anything less than the clip-on's.
 
-
 {|
-| [[Image:Launcher02.jpg|none|thumb|300px|Rear]]
-| [[Image:Launcher03.jpg|none|thumb|250px|Insides]]
-| [[Image:Launcher04.jpg|none|thumb|250px|Slat top]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher02.jpg" alt="Rear">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher03.jpg" alt="Insides">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher04.jpg" alt="Slat top">
 |}
 
-
-
 {|
-| [[Image:Launcher05.jpg|none|thumb|300px|Slat diode matrix]]
-| [[Image:Launcher06.jpg|none|thumb|250px|Home made pyroclips]]
-| [[Image:Launcher07.jpg|none|thumb|250px|Falcon ignitor hooked to fuse]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher05.jpg" alt="Slat diode matrix">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher06.jpg" alt="Home made pyroclips">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Launcher07.jpg" alt="Falcon ignitor hooked to fuse">
 |}
-
 
 == Further Reading and other designs ==
 There's a bustling fireworks community online which I had no idea about until I started digging. 
@@ -50,8 +44,4 @@ There's a bustling fireworks community online which I had no idea about until I 
 * [http://fireworksland.com/forum/index.php Fireworksland forums]
 * [http://www.pyrouniverse.com/forum/forum.php Pyro Universe forums]
 
-
 Something I found out after building this system is that professional firing systems have to ground the ignition wires when not in use to prevent stray RF interference from generating current on the wires and causing accidental ignitions. While the chances are pretty slim that this would happen, it's worth considering in future designs.
-
-
-[[Category:dosman projects]]

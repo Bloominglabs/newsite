@@ -34,11 +34,8 @@ SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{serial}=="A7006QeX"
 SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{serial}=="FTCBW2W2"
 </pre>
 
-
 == Notes on pulseaudio setup ==
 There were some pulse audio notes here, but the final fix to get audio working again on pogo was to uninstall pulse-audio. That's it.
 
 = RIP pogo =
 Pogo was retired when we moved to the new space. Poquito (RFID system) is still kicking for now.
-
-[[Category:Hackerspace systems]]

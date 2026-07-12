@@ -54,6 +54,3 @@ UzU=
 =BCxW
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-
-
-[[Category:Operations]]

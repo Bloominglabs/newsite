@@ -1,6 +1,5 @@
 This page is only around for historical purposes, the final name decided on was Bloominglabs.
 
-
 == Name Possibilities ==
 
 We've discussed choosing a name other than 'bloomington hackerspace'. Go nuts and add your suggestions below. As the song goes, 'ain't no bad ideas when you're brainstorming'. Eventually we'll find one everybody likes.
@@ -65,5 +64,3 @@ We've discussed choosing a name other than 'bloomington hackerspace'. Go nuts an
 * Plug (P.L.U.G.)
 * Resonator
 * Techno
-
-[[Category:History]]

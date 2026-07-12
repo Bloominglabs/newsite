@@ -38,7 +38,7 @@ Old Business:
 The 2023 Annual Report (composed by Treasurer Apple Muncy) was
 received and reviewed. 
 
-See Report here: [[File:2023AnnualReport.pdf]]
+See Report here: [https://www.bloominglabs.org/Special:FilePath/2023AnnualReport.pdf 2023AnnualReport.pdf]
 
 Section by section commentary follows:
 
@@ -273,7 +273,3 @@ Agenda and notes for the 2024 Yearly Meeting. This meeting is scheduled for Febr
 ** Secretary - Kyle
 ** At-Large #1 - Nathan
 ** At-Large #2 - Apple
-
-
-
-[[Category:Meetings]]

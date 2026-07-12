@@ -17,7 +17,3 @@ Start: 10AM
 Finish: No later than 12PM. Let's go somewhere for lunch
 
 == Meeting Minutes ==
-
-
-
-[[Category:Meetings]]

@@ -5,24 +5,21 @@ ATMega8 microprocessor in this painless, tears-free workshop. Not only that, but
 “breadboarding” – building prototype circuits. You will upload your program to the microprocessors 
 to tell it what to do – the first step in harnessing the power of this pervasive technology. 
 
-<big>'''Handouts'''</big>
-* AVR pinout worksheet [[http-irc-bloominglabs-org-images-c-c2-AVR-handout-pdf]]
-* AVR RGB LED+button schematic [[http-irc-bloominglabs-org-images-1-1a-AVR-rgb-2Bbutton-handout-pdf]]
-* AVR workshop questionnaire [[http-irc-bloominglabs-org-images-9-95-Questionnaire-AVR-workshops-pdf]]
+'''Handouts'''
+* AVR pinout worksheet [http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf]
+* AVR RGB LED+button schematic [http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf]
+* AVR workshop questionnaire [http://irc.bloominglabs.org/images/9/95/Questionnaire-AVR_workshops.pdf http://irc.bloominglabs.org/images/9/95/Questionnaire-AVR_workshops.pdf]
 
-<big>'''Data Sheets'''</big>
+'''Data Sheets'''
 * [http://www.datasheetcatalog.org/datasheet2/9/0p4t1g1lw0spoo5ukh2s1uxchzky.pdf 7805 Voltage Regulator]
 
-<big>'''Outline:'''</big>
-*AVR examples, Makefile, and avrdude.conf files in gzip format[[http-bloominglabs-org-images-e-ee-Avr-tgz-Avr-tgz]]
-*Avr examples, Makefile, and avrdude.conf files in zip format [[http-bloominglabs-org-index-php-Image-Avr2-zip-Avr2-zip]]
+'''Outline:'''
+*AVR examples, Makefile, and avrdude.conf files in gzip format[http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz]
+*Avr examples, Makefile, and avrdude.conf files in zip format [http://bloominglabs.org/index.php/Image:Avr2.zip Avr2.zip http://bloominglabs.org/index.php/Image:Avr2.zip Avr2.zip]
 *[http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf AVR atmega8 datasheet]
 
-
-<big>'''Links:'''</big>
+'''Links:'''
 *[http://www.obdev.at/products/crosspack/index.html CrossPack AVR for Mac OS X] 
 *[http://winavr.sourceforge.net/ WinAVR for Microsoft Windows] 
 *[http://www.avrfreaks.net/wiki/index.php/Documentation:AVR_GCC AVR for Linux] (mine just came with Fedora)
 *To find cool AVR projects and info check out [http://www.avrfreaks.net/ AVR Freaks].
-
-[[Category: Workshops]]

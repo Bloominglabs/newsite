@@ -1,50 +1,41 @@
 This is an Atlas TH42 lathe made by the Atlas Press Company, made at the Kalamazoo Michigan plant. The model number indicates it was made after 1947, has roller-bearings in the head-stock, and uses changewheel screwcutting. It has a 42 inch bed with 30" capacity between the centers. More info on Atlas lathes is available here: [http://www.lathes.co.uk/atlas/ http://www.lathes.co.uk/atlas/]. I inherited this from my Great Uncle Wilfred. He was concerned about his shop tools going to good use after he left us, I think this one will go to very good use.
 
-
 ==Original condition==
 {|
-| [[Image:IMG_0560.JPG|none|thumb|200px|Lathe as it was received]]
-| [[Image:IMG_0561.JPG|none|thumb|150px|Down the bed]]
-| [[Image:IMG_0563.JPG|none|thumb|200px|Boiler Plate]]
-| [[Image:IMG_0562.JPG|none|thumb|150px|Drive section - mounts behind the lathe]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0560.JPG" alt="Lathe as it was received">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0561.JPG" alt="Down the bed">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0563.JPG" alt="Boiler Plate">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0562.JPG" alt="Drive section - mounts behind the lathe">
 |}
 
 {|
-| [[Image:IMG_0565.JPG|none|thumb|200px|Drive pulleys]]
-| [[Image:IMG_0567.JPG|none|thumb|150px|An old repair]]
-| [[Image:IMG_0569.JPG|none|thumb|200px|Box of lathe tools]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0565.JPG" alt="Drive pulleys">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0567.JPG" alt="An old repair">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0569.JPG" alt="Box of lathe tools">
 |}
-
 
 ==Initial cleanup==
 A couple folks immediately took to the lathe with a wire brush and some 3-in-1 oil:
-[[Image:IMG_0571.JPG|none|thumb|200px|Oil applied, debris cleared off]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0571.JPG" alt="Oil applied, debris cleared off">
 
 ==Electrolysis rust removal==
 In order to facilitate major rust removal, we built an [[Electrolysis-Rust-Removal-System]]. Simply leave the part in the bucket of solution for 24 hours with voltage applied and out comes clean parts. Amazing! Here are some of the early results, compare to the very first photo at the top of this page. Also notice the tailstock center, the rust is removed but the missing metal can't be helped - but you can read the indicators on the shaft now.
 {|
-| [[Image:Rust_03.jpg|none|thumb|200px|Rust gone from chuck]]
-| [[Image:IMG_0644.JPG|none|thumb|200px|Tailstock cleaned up]]
-| [[Image:IMG_0607.JPG|none|thumb|200px|Before: tailstock center, dial indicator, and thread counter]]
-| [[Image:IMG_0642.JPG|none|thumb|200px|After: tailstock center]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Rust_03.jpg" alt="Rust gone from chuck">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0644.JPG" alt="Tailstock cleaned up">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0607.JPG" alt="Before: tailstock center, dial indicator, and thread counter">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0642.JPG" alt="After: tailstock center">
 |}
 
-[[Image:IMG_0701.JPG|none|thumb|200px|After: cross-slide components]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0701.JPG" alt="After: cross-slide components">
 
 == Getting it running ==
 This project fell onto the back burner for a while but it has finally come to completion. I acquired a heavy duty WWII-era table off craigslist which is large enough to properly support the lathe. I picked up a Power-twist V-belt and an EPO switch from Amazon as finishing touches and we're up and running. 
 
-
-
 {|
-| [[Image:IMG_2281.JPG|none|thumb|200px|Getting bolted to the table]]
-| [[Image:IMG_2395.JPG|none|thumb|200px|Lathe in working order]]
-| [[Image:IMG_2388.JPG|none|thumb|200px|Turning aluminum]]
-| [[Image:IMG_2396b.JPG|none|thumb|150px|Glory shot of the tools]]
-| [[File:Thread_chart.jpg|none|thumb|200px|Thread Chart on Head stock cover ]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2281.JPG" alt="Getting bolted to the table">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2395.JPG" alt="Lathe in working order">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2388.JPG" alt="Turning aluminum">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2396b.JPG" alt="Glory shot of the tools">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Thread_chart.jpg" alt="Thread Chart on Head stock cover">
 |}
-
-[[Category:dosman projects]]
-[[Category: Tools]]

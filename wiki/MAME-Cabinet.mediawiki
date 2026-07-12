@@ -70,5 +70,3 @@ It would be appreciated if ROMs for games on this list were found, downloaded, a
 ROMs can be installed by putting the .zip file in the folder <code>/home/mameplayer/Downloads/MAME 0.185 ROMs (merged)/</code> and restarting MAME.
 
 * [https://en.wikipedia.org/wiki/Ikaruga Ikaruga]
-
-[[Category: Group projects]]

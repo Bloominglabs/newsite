@@ -40,7 +40,3 @@ You can find an [http://wiki.bloominglabs.org/images/7/7c/P2PU_Badges.zip SVG te
 The badges site is hosted by cshields.  The code is based on Mozilla's code for a badge-issuing site, and is open source - [https://github.com/mozilla/badges.mozilla.org github.com/mozilla/badges.mozilla.org] .  Feel free to contribute.  It is all written in Python, based on Playdoh which is an extended Django codebase.
 
 Authentication is handled by [http://www.mozilla.org/en-US/persona/ Persona], which is a new identity management service for the web.  (in other words, passwords are not stored by the site).
-
-[[Category: Group projects]]
-[[Category: Operations]]
-[[Category:History]]

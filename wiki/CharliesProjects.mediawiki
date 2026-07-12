@@ -1,4 +1,3 @@
-[[Category:Projects]]
 == CAN Bus Stuff ==
 
 I'm starting to play around with small agri-vehicles, starting with commercially available stuff that resembles the OSE Microtrac. It seemed like a good idea to familiarize myself with the CAN Bus architecture to make things easy when that showed up. So, I got a few arduino shields and a Microchip piece of junk that doesn't even pretend to be a serial device. pff. On with the [[Can-hacking]]!!

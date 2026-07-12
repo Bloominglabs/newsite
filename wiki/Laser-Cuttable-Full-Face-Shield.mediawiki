@@ -12,7 +12,6 @@ It is incredibly important that these are sterilized before being shipped to the
 V3 of the assembly directions. Because we have to use the shorter headband a length of elastic meterial is also required for this design:
 * [https://github.com/madmaxbr5/faceshield/blob/master/shield_assembly_instructions_v3_web.pdf https://github.com/madmaxbr5/faceshield/blob/master/shield_assembly_instructions_v3_web.pdf]
 
-
 == Files ==
 Our laser can only cut a single face shield at a time and headbands must be cut from a separate sheet. I have multiple files here, grab them all but ideally you only should need the face shield file and the batch-headband file. The single head-band file is included because nothing ever goes perfectly and you can probably cut some extra headbands from scrap material.
 
@@ -23,20 +22,14 @@ Last but not least, some web browsers do not present/draw SVG's 100% correctly, 
 <br>
 * Single face shield file: 
 **Testing is still needed, but should take ~4.5 minutes at 30% speed for 1 face shield cut
-**"Full origami mask with retention tabs for high volume production": [[File:Shield_laser_template_v15-blabs-face_shield_v02.svg]]
+**"Full origami mask with retention tabs for high volume production": <img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-face_shield_v02.svg" alt="Shield_laser_template_v15-blabs-face_shield_v02.svg">
 
 <br><br>
 * Batch of 10 headbands: 
 **Testing is still needed, but estimated at 21 minutes at 30% speed 
-**[[File:Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg]]
-
+**<img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg">
 
 <br><br>
 * Single headband: 
 ** Testing is still needed, but estimated at 2 minutes at 30% speed 
-**[[File:Shield_laser_template_v15-blabs-elastic_headband_v02.svg]]
-
-
-
-
-[[Category:Covid19]] [[Category:Projects]]
+**<img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-elastic_headband_v02.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02.svg">

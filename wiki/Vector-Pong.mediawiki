@@ -16,9 +16,9 @@ While building the resistor ladders, I learned a little bit [[On-the-Topic-of-Re
 
 On the night of March 30-31, 2017, I built pong 2.0
 Having lost all of the original code (and the controllers), I build everything except the DAC over again.
-This time, the code as been uploaded as [[File:Pong-v2.zip]].
+This time, the code as been uploaded as <img src="https://www.bloominglabs.org/Special:FilePath/Pong-v2.zip" alt="Pong-v2.zip">.
 
 ---
 
 On the night of 25 August 2017, the night before Makevention, I improved the code some more.
-The new code is at [[File:Pong-v3.zip]].
+The new code is at <img src="https://www.bloominglabs.org/Special:FilePath/Pong-v3.zip" alt="Pong-v3.zip">.

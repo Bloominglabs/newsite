@@ -32,7 +32,6 @@ This is the original Noisebridge page I took the original content from, not know
 '''[https://www.noisebridge.net/wiki/Lasercutter#Things_you_should_not_put_in_the_laser_cutter (from Noisebridge)]'''
 -->
 
-
 '''WARNING''': Because many plastics are dangerous to cut, it is important to know what kind you are planning to use. Make has a How-To for identifying unknown plastics with [http://blog.makezine.com/archive/2011/09/identifying-unknown-plastics.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+makezineonline+%28MAKE%29&utm_content=Google+Reader a simple process]. 
 
 {| cellspacing="0" cellpadding="5" border="1" align="center"
@@ -164,7 +163,6 @@ Much of this is directly stolen from NYC Resistor's laser page!
 | Plywood, birch, 1/4"  || || 12 || 100 || 100% Current || 18 || 70 || || focused just below the surface of the wood for vector, on surface for raster
 |-
 
-
 ! colspan="9" bgcolor="#cccccc" | Plastics
 
 |-
@@ -245,7 +243,6 @@ Much of this is directly stolen from NYC Resistor's laser page!
 !                                Speed  !! Power !! Freq !! Speed !! Power !! DPI
 |-
 
-
 |-
 | Chocolate     ||  ||  ||  ||  || 100 || 30    || 300   || It melts. Don't cut! (via [http://www.instructables.com/id/Pure-Decadence---Laser-Etched-Chocolate-Bar Squid Labs])
 |-
@@ -291,5 +288,3 @@ Much of this is directly stolen from NYC Resistor's laser page!
 == Kerf ==
 
 For 1/8" Birch, average kerf is ~0.233mm or ~0.009in
-
-[[Category:Laser]]

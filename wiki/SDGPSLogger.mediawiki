@@ -201,7 +201,6 @@ void writeData() {
   feedgps();
 }
 
-
 </pre>
 
 Here is the source code for a perl program that will read the data file on the SD card and generate a kml file that can be read by google earth:
@@ -332,5 +331,3 @@ if __FILE__ == $0
   tk.generate_kml(ARGV[0],ARGV[1])
 end
 </pre>
-
-[[Category:Projects]]

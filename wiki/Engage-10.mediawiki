@@ -61,7 +61,6 @@ Output of dmesg when the internally removed dongle is plugged in:
 
 (That serial number looks awwwwfully suspect....)
 
-
 idVendor of 13cf does also show a Wisair, however that idProduct isn't known yet. This should be solved by simply binding the device to the appropriate driver, heeding caution to load the modules in the link above in the prescribed order. Follow how to do that [http://unix.stackexchange.com/questions/134878/make-linux-load-specific-driver-for-given-device-realtek-nic link Here]
 
 This seems to be the best document on how to use the WUSB subsystem: [https://www.kernel.org/doc/ols/2007/ols2007v2-pages-127-134.pdf link PDF].
@@ -159,7 +158,7 @@ The two unused ports are available at R115-116 and R303-304.
 Removing R311 (near CN5 pin 1) and connecting pins 1 of the USB ports together provides power on the external port, suitable for a pi. 
 For higher current needs you might need to get +5v from a different source...
 
-[[File:USB_hack.jpg|300px|thumb|right|]] 
+<img src="https://www.bloominglabs.org/Special:FilePath/USB_hack.jpg" alt="USB_hack.jpg"> 
 
 Turning it into a downstream high speed USB port takes a bit more work. 
 * Remove R303 and R304

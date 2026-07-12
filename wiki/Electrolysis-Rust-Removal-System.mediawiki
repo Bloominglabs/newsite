@@ -4,26 +4,21 @@ Notice that the steel slats are all connected around the outside of the bucket w
 
 {|
 |-
-| [[Image:IMG_0578-b.JPG|none|thumb|200px|Mah Bucket]]
-| [[Image:IMG_0591-b.JPG|none|thumb|200px|System running]]
-| [[Image:IMG_0592.JPG|none|thumb|200px|Rust floating on the water]]
-| [[Image:IMG_0601.JPG|none|thumb|200px|Misc. parts in the drink]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0578-b.JPG" alt="Mah Bucket">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0591-b.JPG" alt="System running">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0592.JPG" alt="Rust floating on the water">
+| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0601.JPG" alt="Misc. parts in the drink">
 |}
 
-
 A lot of folks use a car battery charger which is fine, however we did not have one of those on-hand. I grabbed a little 13V power supply off the shelf and ran it through a power regulator I built a while back. The regulator is just an LM317 mounted inside this enclosure along with Amp and Voltage indicators. It allows you to turn just about any common fixed-voltage DC power supply into a regulated, variable-voltage supply. It also is an easy way to monitor and limit current output. Since I wasn't sure how much current this would draw I decided I wanted to view and control that:
-[[Image:IMG_0593.JPG|none|thumb|200px|Power supply and a power regulator]]
-
+<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0593.JPG" alt="Power supply and a power regulator">
 
 The first thing we used this on was the lathe chuck. You can see how dark and rusted it was before, and after 24 hours of running it came out nearly as you see in the picture. A small amount of wire-brush time was spent after taking it out of the electrolysis bath but that mostly removed grime which did not want to come off before the bath.
 {|
 |-
-| [[Image:Rust_00.jpg|none|thumb|200px|Lathe chuck - before]]
-| [[Image:Rust_02.jpg|none|thumb|200px|Lathe chuck - in the drink]]
-| [[Image:Rust_03.jpg|none|thumb|200px|Lathe chuck - after]]
+| <img src="https://www.bloominglabs.org/Special:FilePath/Rust_00.jpg" alt="Lathe chuck - before">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Rust_02.jpg" alt="Lathe chuck - in the drink">
+| <img src="https://www.bloominglabs.org/Special:FilePath/Rust_03.jpg" alt="Lathe chuck - after">
 |}
 
-
 I have to throw a shout out to this guy's project, I really liked the way he did his version, you may notice a similarity: [http://ct-web2.unh.edu/lee/electrolysis.htm http://ct-web2.unh.edu/lee/electrolysis.htm]
-
-[[Category:dosman projects]] [[Category:tools]]

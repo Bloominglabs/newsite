@@ -45,5 +45,3 @@ Projects I've worked on at Bloominglabs:
 *Tons of laser cutting
 
 *Updates to asset management system
-
-[[Category:Projects]]

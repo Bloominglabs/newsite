@@ -1,4 +1,3 @@
 As of July 17, 2024 Bloominglabs has a new weather station! It is a Weatherflow Tempest system on our roof and can be accessed at https://tempestwx.com/station/147126/grid.
 
 We plan to integrate it with APRS and home-assistant soon.
-[[Category:Hackerspace_systems]] [[Category:Dosman_projects]]

@@ -6,7 +6,6 @@ Agenda:
 * The new parking ticket stickers provided by Adam
 * Pete provided dust collection system maps for people to submit their preferred layout
 
-
 Hidden agenda: Post meeting activities organized after 7pm:
 * Secure member storage area setup with shelves
 * Air compressor moved to final location in wood shop
@@ -14,7 +13,6 @@ Hidden agenda: Post meeting activities organized after 7pm:
 * Good progress in moving smaller stuff back into space
 * Discarded some junk which made the move.
 * Car lift stood up in final location
-
 
 Treasurers report - all for prior month
 {| class="wikitable"
@@ -64,7 +62,6 @@ Discussion occurred about the high electric bill, no determination was found for
 |$1,072.55
 |}
 
-
 {| class="wikitable"
 !colspan="3"|Buildout Funds Report
 |-
@@ -95,7 +92,6 @@ Discussion occurred about the high electric bill, no determination was found for
 |}
 Buildout funds are funds raised in 2017 specifically for the move and buildout in our current location. These funds are part of the checking account balance. 
 It's also important to note that the electrical buildout in the metal fab area is going to cost quite a bit yet to finish.
-
 
 -----
 Workshop discussion notes:
@@ -144,7 +140,4 @@ TBD workshops and other notes: ones which did not yet have solid dates lined up.
 
 * August Laser workshop - Dan - TBD
 
-
 * Pete - wanted 4 workshop slots held for auction at Girls Inc
-
-[[Category:Meetings]]

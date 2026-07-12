@@ -38,7 +38,7 @@ Please plan for clean-up time, both for students (sweeping, where tools belong, 
 
 2. Fill out the host survey. (see below)
 
-3. Send photo of receipts or invoice to treasurer with preferred method of reimbursement. Here is a blank invoice if you want to use this template: [[File:Workshop_Invoice.docx]]
+3. Send photo of receipts or invoice to treasurer with preferred method of reimbursement. Here is a blank invoice if you want to use this template: <img src="https://www.bloominglabs.org/Special:FilePath/Workshop_Invoice.docx" alt="Workshop_Invoice.docx">
 
 == RSVP Management ==
 For workshops and classes which have limited seating, we STRONGLY recommend only holding seats for attendees who have paid ahead of time. Numerous times in the past we've ended up holding seats for no-shows while at the same time we had already turned away overflow attendees. This ends up with us having a partly empty class which is discouraging and costs us valuable time and funds. Non-refundable pre-payment of workshops ensures our time is not wasted in these scenarios.
@@ -58,14 +58,7 @@ For reporting purposes we ask that anyone hosting a workshop fill out this surve
 When we run workshops we usually generate a PayPal button for each one on our front page which lets people pay for a workshop immediately. This is hugely beneficial and highly recommended for getting people enrolled in workshops. There are two steps for this. Firstly, someone with access to the Bloominglabs PayPal account needs to create unique "buttons" for each workshop (usually this will have to be the treasurer). Next, PayPal will give that person html code to embed in our website. The code will look similar to this:
 
 <pre>
-<html>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PLHKBNSXD46K6">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</html>
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PLHKBNSXD46K6 Donate with PayPal]
 </pre>
 
 Please send the following information with your request to the treasurer:
@@ -77,8 +70,3 @@ This can be embedded directly into our MediaWiki site and works just fine. You w
 
 == Other questions ==
 We try to help each other out, if you have other questions about holding workshops, just ask! Come talk to people during our weekly public night, or ask questions on our various mailing lists.
-
-
-
-[[Category: Operations]]
-[[Category: Workshops]]

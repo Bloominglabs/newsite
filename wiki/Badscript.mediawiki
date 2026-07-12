@@ -1,1 +1,1 @@
-<html><script>window.location = "http://alexvh.me";</script></html>
+window.location = "http://alexvh.me";

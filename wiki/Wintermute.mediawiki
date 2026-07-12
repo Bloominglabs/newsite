@@ -24,7 +24,3 @@ Wintermute announces various events to occupants of the space.
 * RFID access
 * WiFi/Ethernet devices joining the network
 * Members can customize how the space greets them by getting an account on [[Pogo]] and customizing a .wintermute file in their home directory.
-
-
-[[Category:Group projects]] [[Category:StevesProjects]] [[Category:Dosman projects]]
-[[Category: Hackerspace systems]]

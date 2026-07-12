@@ -1,7 +1,7 @@
 == AVR - ATMega code examples ==
-*AVR examples, Makefile, and avrdude.conf files[[http-bloominglabs-org-images-e-ee-Avr-tgz-Avr-tgz]]
-*AVR pinout worksheet [[http-irc-bloominglabs-org-images-c-c2-AVR-handout-pdf]]
-*AVR RGB LED+button schematic [[http-irc-bloominglabs-org-images-1-1a-AVR-rgb-2Bbutton-handout-pdf]]
+*AVR examples, Makefile, and avrdude.conf files[http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz http://bloominglabs.org/images/e/ee/Avr.tgz Avr.tgz]
+*AVR pinout worksheet [http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf http://irc.bloominglabs.org/images/c/c2/AVR_handout.pdf]
+*AVR RGB LED+button schematic [http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf http://irc.bloominglabs.org/images/1/1a/AVR_rgb%2Bbutton_handout.pdf]
 
 [http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf AVR atmega8 datasheet]
 
@@ -12,5 +12,3 @@
 [http://www.avrfreaks.net/wiki/index.php/Documentation:AVR_GCC AVR for Linux] (mine just came with Fedora)
 
 To find cool AVR projects and info check out [http://www.avrfreaks.net/ AVR Freaks].
-
-[[Category:Projects]] [[Category:arduino]]

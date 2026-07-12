@@ -3,7 +3,7 @@ Meeting held on January 23rd from 5-9pm.
 == Meeting Agenda ==
 * Lets get an acceptable pizza order sorted out before we start
 
-* [[Image:2015AnnualReport.pdf]] 
+* [https://www.bloominglabs.org/Special:FilePath/2015AnnualReport.pdf 2015AnnualReport.pdf] 
 ** Includes a year-end Financial report, member count stats, workshop summary, and summary for the year.
 ** Where are we on our savings goal?
 ** When can dues funds start being used for space improvements?
@@ -58,7 +58,3 @@ Meeting held on January 23rd from 5-9pm.
 * Workshop plans? Volunteers?
 * Pursuit of Grants?
 * What are we shooting for, member wise? Hitting a certain number? Maintaining a 'sweet spot' (say around 45?) What is some of the feedback we've gotten from people who've left?
-
-
-
-[[Category:Meetings]]

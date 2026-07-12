@@ -47,8 +47,3 @@ And here's where it went off the rails
 
 == Owners, Usage, and Safety ==
 Bloominglabs will be the owner, donors receive a tax deduction. We are an awesome group and all play well together, I think we can craft usage guidelines as usage evolves.
-
-
-[[Category: Pledge]]
-[[Category: Tools]]
-[[Category: CNC Mill]]

@@ -26,7 +26,6 @@ My project listing, probably always out of date.
 * [https://www.instructables.com/member/dosman33/ My Instructables] - most of these were for hackathons
 * [https://github.com/dosman33 Github] - Occasionally I do some script/code related projects
 
-
 === Active projects and ToDo List ===
 * [[Bloomington-Meshtastic]] - Tracking Meshtastic activity in Bloomington
 * [[Gadget-Hamper]] - The Universal Device Charging Cradle
@@ -64,6 +63,3 @@ My project listing, probably always out of date.
 === Miscellaneous one-offs ===
 These are some simple things I've done that don't each require their own page.
 * [[Dosmans-miscellaneious-projects]]
-
-
-[[Category:Projects]]

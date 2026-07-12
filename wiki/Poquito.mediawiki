@@ -9,5 +9,3 @@ Also on poquito there is a 'server' connected to the serial port of the aforemen
 It would not be a terrible idea to update/upgrade poquito, as it is now in a bit of an 'it runs, don't touch it' state.
 
 There is possibly more stuff on poquito, but checking it recently these are the things definitely running on there.
-
-[[Category: Hackerspace systems]]

@@ -2,12 +2,12 @@ Edit: This info has become a little out of date after our move to a new building
 
 We have a closed circuit TV network in our space. We have several video sources which can deliver video to the network and hope to support multiple methods of output. The most practical use is to keep an eye on the laser cutter while it's running (fire kills lasers). A number of input sources are available which can deliver the content to all the other rooms in the space. Also the system can be used to play music throughout the space, as well as watch movies and other fun things.
 
-[[Image:Cctv_rack01.jpg|none|thumb|200px|A/V Rack]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Cctv_rack01.jpg" alt="A/V Rack">
 
 == Diagram ==
-[[File:BLabs_CCTV_Network_-_today.pdf]]
+[https://www.bloominglabs.org/Special:FilePath/BLabs_CCTV_Network_-_today.pdf BLabs_CCTV_Network_-_today.pdf]
 
-[[Image:Blabs_CCTV_Network-today.png|none|thumb|300px|Network Diagram]]
+<img src="https://www.bloominglabs.org/Special:FilePath/Blabs_CCTV_Network-today.png" alt="Network Diagram">
 
 == How to use the A/V rack ==
 # If it's not already on, turn on the power strip in the bottom of the rack, it is dark grey and may be somewhat buried - the cord and strip are labled, the cord runs into the front of the rack.
@@ -15,7 +15,6 @@ We have a closed circuit TV network in our space. We have several video sources 
 # Power on the A/V source if required (DVD player, VCR, etc)
 # Turn on the TV in the room you wish to view the A/V feed
 # When you are the last person out of the space or done with the A/V rack please turn it off (along with any TV’s or projectors)
-
 
 == Video sources ==
 * Pop Corn Hour network streaming device
@@ -45,9 +44,5 @@ A 4-way low-noise video splitter is being used to feed the TV's throughout the s
 * RF Modulators waiting to be installed - ChannelPlus 5525 dual channel agile modulator, a Blonder Tongue agile modulator, and modulator factory set for channel 10.
 * 16 input Bosch Video multiplexor - video only, can combine multiple video feeds into a single display (4x4, 8x8, etc)
 
-
 === Possible additions: ===
 * Video to IP so members outside the space can see what is on the CCTV network
-
-[[Category:Group projects]] [[Category:A/V]] [[Category:Dosman projects]]
-[[Category: The Space]]
