@@ -3,6 +3,8 @@ Tape backups? In 2026? Most people are not even aware tape is still a viable bac
 The point of tape is that once you get past the initial drive investment cost, it gives you multiple backup rotations for much less than having another spinning disk array, plus it's much safer to have sitting idle on a shelf than hard drives. However tape has gotten expensive as capacities keep ratcheting up to keep up with big data. In the realm of tape backup, LTO is king for most folks, and to backup a typical multi-TB home NAS system you really need a LTO-7, 8 or 9 system which can pack data dense enough to be plausibly useful for a 10-60TB NAS. LTO-8 can handle 12TB native per tape, but these drives still go for $1000-$2000 on ebay. 
 
 === IBM 3592 ===
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/3592_E08_front.png" alt="3592-E08_front.png">
+
 This is where the IBM 3592 comes in. At the time of this writing, IBM 3592-E08 (TS1150) tape drives can be had for around $380 by themselves on ebay. These drives can backup to tapes with 10GB of native capacity. 
 
 The challenge is that the drive does not ship from IBM with a power supply - the power supply is always part of another product line - either a TS3500 tape library or the even more rare 19" rack drawer enclosure. These drives are only designed to operate in a tape library, standalone use is not really a consideration. But, there's no reason the drives CAN'T work standalone, it's just not done... until now.

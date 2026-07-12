@@ -18,10 +18,10 @@ Activities
 ===Previous Workshop Activities===
 
 ==Molding soap== 
-<img src="https://www.bloominglabs.org/Special:FilePath/Soap.jpg" alt="Soap.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Soap.jpg" alt="Soap.jpg">
 *We make our own molds with our vacuum former!
 ==Shopping bags==
-<img src="https://www.bloominglabs.org/Special:FilePath/Bags3.jpg" alt="Bags3.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bags3.jpg" alt="Bags3.jpg">
 *[http://www.morsbags.com/get-involved/pattern-download-links/ Make a Mors Bag]
 
 ==Denim purse== 
@@ -29,13 +29,13 @@ Activities
 
 ==Popup cards==
 *[http://wp.robertsabuda.com/make-your-own-pop-ups/ Robert Sabuda's Popup Cards]
-*Christmas Tree<p><img src="https://www.bloominglabs.org/Special:FilePath/Pop_make_tree_final.jpg" alt="Pop_make_tree_final.jpg">
+*Christmas Tree<p><img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Pop_make_tree_final.jpg" alt="Pop_make_tree_final.jpg">
 **[http://wp.robertsabuda.com/pop-make-christmas-tree/ Template]
-*Stack of gifts<img src="https://www.bloominglabs.org/Special:FilePath/Gift-popup-cards.jpg" alt="Gift-popup-cards.jpg">
+*Stack of gifts<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gift_popup_cards.jpg" alt="Gift-popup-cards.jpg">
 **[http://bloominglabs.org/index.php/File:Popup-presents.pdf Template]
 
 ==Paper bows==
-<img src="https://www.bloominglabs.org/Special:FilePath/DSPBowTutorial_11.jpg" alt="DSPBowTutorial_11.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/DSPBowTutorial_11.jpg" alt="DSPBowTutorial_11.jpg">
 *[http://www.splitcoaststampers.com/resources/tutorials/dsp_bow/ Paper bow instructions]
 
 ==Refrigerator magnets==

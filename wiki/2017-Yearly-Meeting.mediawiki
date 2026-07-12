@@ -4,7 +4,7 @@ Meeting will be held Saturday, February 11th, from 5pm-9pm.
 
 * Get a pizza order figured out and funds collected, when we are ready to order just pull the lever
 
-* [http://bloominglabs.org/images/2/2a/2016AnnualReport.pdf 2016 Annual Report] presented by the existing board
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2016AnnualReport.pdf 2016 Annual Report] presented by the existing board
 * Insurance - what we have, what it covers, cost
 * How we handle donations
 ** Cash

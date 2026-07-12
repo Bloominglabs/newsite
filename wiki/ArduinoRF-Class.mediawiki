@@ -5,9 +5,9 @@
 This is a simple beginners course in which participants will learn how to use simple+cheap RF modules to communicate wirelessly with microcontrollers. We will focus on the Arduino platform although the RF modules and techniques are easily applied to most microcontrollers. Time will be spent both working on hardware as well as writing simple software routines. Participants will also spend time troubleshooting basic reception problems and learn techniques to eliminate noise and spurious signals. At the end of the course we will connect components such as potentiometers and light sensors to the transmitter and receive the data both on the receiving Arduino as well as the computer it is connected to. Lastly we will see what kind of range can be expected and how to get the best possible distance with these RF boards.
 
 '''Handouts:'''
-* Arduino RF code samples <img src="https://www.bloominglabs.org/Special:FilePath/ArduinoRF.2010-07-27.zip" alt="ArduinoRF.2010-07-27.zip">
-* Arduino RF/wireless workshop outline (handout) [https://www.bloominglabs.org/Special:FilePath/ArduinoRF_outline.pdf ArduinoRF_outline.pdf]
-* Arduino RF/wireless workshop questionnaire [https://www.bloominglabs.org/Special:FilePath/Questionnaire-ArduinoRF_workshops.pdf Questionnaire-ArduinoRF_workshops.pdf]
+* Arduino RF code samples <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/ArduinoRF_2010_07_27.zip" alt="ArduinoRF.2010-07-27.zip">
+* Arduino RF/wireless workshop outline (handout) [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/ArduinoRF_outline.pdf ArduinoRF_outline.pdf]
+* Arduino RF/wireless workshop questionnaire [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Questionnaire_ArduinoRF_workshops.pdf Questionnaire-ArduinoRF_workshops.pdf]
 
 '''Requirements:'''
 

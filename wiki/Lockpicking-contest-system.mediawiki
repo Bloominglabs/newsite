@@ -6,29 +6,29 @@ When the drinking-mode is activated, each time a lock is opened an air-pump trig
 == Hardware ==
 First I mocked-up a vibration motor to a lock stand to see if it would be enough to actually interfere with picking. The first tests were very promising, so I went ahead and geared the project up to full speed.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0858.JPG" alt="Vibration motor mockup">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0858.jpg" alt="Vibration motor mockup">
 
 Where the bolt slides out and contacts the 1"x2" plank is a small lever switch embedded into the wood. I used hot glue to embed the switches into the plank, a hole is drilled to the rear where the wires are ran. I carved a channel down the plank to hide the wires under the plexiglass which will be added soon to cover the area around the bolt.
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0879.JPG" alt="Boards">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0880.JPG" alt="Roughed out deadbolt mounts">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0896.JPG" alt="Stained and polyurethaned">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0879.jpg" alt="Boards">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0880.jpg" alt="Roughed out deadbolt mounts">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0896.jpg" alt="Stained and polyurethaned">
 |}
 
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0897b.JPG" alt="Rumble motor attached - final configuration">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0897b.jpg" alt="Rumble motor attached - final configuration">
 
 == Drinking Game Mode ==
 Another motivation for building this was to have a nice drinking game; a switch on top selects one of three modes including drinking mode. I incorporated a formerly-battery powered aquarium pump into the case for dispensing liquids. It was intended to be powered by 1.5V, I run it at 5V via a 7805 regulator and a huge heat sink. The air is pumped into a sealed carboy which contains the liquid, a copper pipe transfers liquid pumped out of the carboy into a manifold and on to the shot glasses. Of course our locksport group already has logo'ed shot glasses so this was a natural extension to the system. 
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0908.JPG" alt="Top">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0909b.JPG" alt="Side">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0910.JPG" alt="Insides">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0908.jpg" alt="Top">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0909b.jpg" alt="Side">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0910.jpg" alt="Insides">
 |}
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0925.JPG" alt="Lock stands and shot dispensers">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0928.JPG" alt="Carboy">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0925.jpg" alt="Lock stands and shot dispensers">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0928.jpg" alt="Carboy">
 |}
 
 The drinking game mode works like this: Each time a lock is picked open all players get a shot. Each shot consumed by players still in the game gets a shot bonus (including the person who caused the shot to be dispensed). When the shot is dispensed the clock stops and all players must remove their pick from the lock - tensioners may stay in the lock. Shots are consumed, and then the GO! button is pressed on the box to resume the clock. The shot bonus scoring is setup so that the last person to get their lock open has a chance to get the best score since they can potentially get all 6 shot bonuses. Players who have already opened their locks will still get shots dispensed, but no points are awarded for consumption.
@@ -39,22 +39,22 @@ I used an Arduino to prototype the circuit. It's so simple to get an ATMega runn
 This schematic is merely a suggestion, the only reason I used various pins was because they were free. There are probably a lot of ways to do this better, this is just the way I built it. Some gotchas, the Arduino pins have to be translated to ATMega328 pins, that's usually documented below. The air-pump should run at 1.5V but I'm running it at 5V. You will need a large heat-sink on your power regulator if you do this. I tested the motor before going with this setup, it draws between 300mA and 400mA at 5V which is well within the regulators 1A max. Also, you may enjoy adding things like a reset switch to the microcontroller.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Rumble_challenge_schematic.jpg" alt="Schematic">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0889.JPG" alt="Top: prototype, Bottom: final circuit">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0900.JPG" alt="Left: lock stand, Right: electronics in enclosure">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rumble_challenge_schematic.jpg" alt="Schematic">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0889.jpg" alt="Top: prototype, Bottom: final circuit">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0900.jpg" alt="Left: lock stand, Right: electronics in enclosure">
 |}
 
 == Debugging ==
 One major problem I ran into with this system is noise from the electric motors causing spurious CPU corruption and lockups. This was a head scratcher for a long time but the answer turned out to be simple in the end. First I isolated the motors to have their own power supply independent from the CPU power supply. This didn't do much, but then I realized I had connected the grounds between the CPU and motor power. I cut these apart on the PCB so the grounds were completely isolated. This helped a lot however it would still lock up often enough to cause major headaches. Also running the air pump/shot dispenser would still lock up the CPU about 80% of the time. Finally a friend suggested putting capacitors on the motors. There are multiple ways to do this, I added two 105 caps to each motor, one cap going from each power lead to the motor case. I also did this on the air pump motor along with a cap across the power leads (in parallel to the motor) since this motor was the worst offender. This solved all of the corruption and lockup problems, the system is 100% reliable now.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Rumble_challenge_motor_caps01.jpg" alt="Motor caps installed">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rumble_challenge_motor_caps01.jpg" alt="Motor caps installed">
 
 Also, for drinking mode, I need to do some work on the "liquid delivery system" by adding fish-tank ball-values on each output tube. Getting even flow of liquid to each shot glass is difficult with the tubing spralled out across a table, differences in tube length, and differences in height. The biggest problem is over-filling shot glasses and having to stop delivery to stations which are missing a player for a round.
 
 == Visualisation ==
 The last component of Rumble Challenge is something to make a nice visualization of how the contest is progressing on the projector. The receiver will feed raw data to a tty on the PC, an application written in Processing will make for a simple visualization system on a projector. Fellow Bloominglabs member Steve wrote up a very nice app which does just this for the project.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Rr_screenshot01.jpg" alt="Rumble Challenge display - Processing">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rr_screenshot01.jpg" alt="Rumble Challenge display - Processing">
 
 == Code ==
 Email me if you are interested in code (dosman [at] bloominglabs [dot] org).
@@ -63,9 +63,9 @@ Email me if you are interested in code (dosman [at] bloominglabs [dot] org).
 The first run of the game was during DerbyCon 2011 at LVL1's party. We setup the system in full drinking-game-mode with Malibu Rum as the potion of choice. Many thanks for the awesome folks at LVL1 for letting us run the game at their space (hotel rules prohibited drinking in the lock picking village at DerbyCon).
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0952.JPG" alt="The thirsty lock pickers">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0953.JPG" alt="Scoring system">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0952.jpg" alt="The thirsty lock pickers">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0953.jpg" alt="Scoring system">
 |}
 
 On Saturday we ran the Rumble Challenge in non-drinking mode to satisfy hotel requirements, lots of fun was still had:
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0959b.JPG" alt="Test round">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0959b.jpg" alt="Test round">

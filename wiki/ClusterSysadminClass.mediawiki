@@ -2,14 +2,14 @@
 
 Meeting: Tuesdays, starting January 24th until March 7th, from 7:00pm to 9:30pm
 
-* [http://bloominglabs.org/images/a/a3/Bloominglabs-ClusterSysAdmin-syllabus.pdf Syllabus]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_ClusterSysAdmin_syllabus.pdf Syllabus]
 * [https://access.redhat.com/documentation/en/red-hat-enterprise-linux/6/?version=6/ RHEL 6 documentation]
 * [https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/index.html RHEL Installation Guide]
 
 === March 7th ===
 * Setup TORQUE
-* [http://bloominglabs.org/images/6/65/Torque-5.1.3-1-rpms.tar.gz TORQUE rpms]
-* [http://bloominglabs.org/images/5/51/SysadminClass-Lecture4.pdf Lecture Notes for TORQUE]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Torque_5_1_3_1_rpms_tar.gz TORQUE rpms]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass_Lecture4.pdf Lecture Notes for TORQUE]
 
 === February 21st and 28th, 2017 ===
 * Setup iptables
@@ -20,8 +20,8 @@ Meeting: Tuesdays, starting January 24th until March 7th, from 7:00pm to 9:30pm
 * Re-configure kickstart
 * Re-install nodes
 * Set nodes to boot off local disk
-* [http://bloominglabs.org/images/0/0e/SysadminClass-Lecture3.pdf Lecture Notes]
-* [http://bloominglabs.org/images/0/0f/SysadminClass3.tar.gz Config Files]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass_Lecture3.pdf Lecture Notes]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass3_tar.gz Config Files]
 
 === February 7th and 14th, 2017 ===
 * Disable iptables/selinux
@@ -34,19 +34,19 @@ Meeting: Tuesdays, starting January 24th until March 7th, from 7:00pm to 9:30pm
 * Setup PXE server 
 * Modify DHCP to PXE boot
 * Configure Kickstart config file
-* [http://bloominglabs.org/images/8/88/SysadminClass-Lecture2.pdf Lecture Notes]
-* [http://bloominglabs.org/images/b/b8/SysadminClass2.tar.gz Config Files]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass_Lecture2.pdf Lecture Notes]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass2_tar.gz Config Files]
 
 === January 31st, 2017 ===
 
 * Reinstall mgmt nodes with more full featured install
 * Setup wireless networking on mgmt node
 * Networking
-** [http://bloominglabs.org/images/5/55/SysadminClass-Lecture1.pdf Lecture notes]
+** [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass_Lecture1.pdf Lecture notes]
 ** [http://www.escotal.com/osilayer.html OSI Model]
 ** [http://wintelguy.com/subnetcalc.pl IP Subnet Calculator]
-* [http://bloominglabs.org/images/5/55/SysadminClass-Lecture1.pdf Lecture Notes]
-* [http://bloominglabs.org/images/b/be/SysadminClass1.tar.gz Config Files]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass_Lecture1.pdf Lecture Notes]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SysadminClass1_tar.gz Config Files]
 ** #Errata: In dhcpd.conf, change the domain-name-server on line 30 to be 192.168.2.30
 *** This is fixed in current version of the tarball
 

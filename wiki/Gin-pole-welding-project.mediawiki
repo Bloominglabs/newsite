@@ -1,13 +1,13 @@
 So what is a Gin Pole you may ask? And why would you want to build one? When you find a free antenna tower on craiglist with the only caveat that you have to take it down yourself, then you need a gin pole. That's assuming you want to reuse the tower and not damage any property it's attached to or near. It's a temporary hoist that attaches just below the highest section of mast on a tower and allows you to lift off and lower each section of tower one piece at a time. You use it the in reverse to assemble a tower.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Tower01.jpg" alt="Antenna tower">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gin_pole_diagram.png" alt="Gin pole">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Tower01.jpg" alt="Antenna tower">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gin_pole_diagram.png" alt="Gin pole">
 |}
 
 == Commercial gin pole kits and usage ==
 Gin pole kits go from $150 to $250 and on up (no pole included). I found this gin pole kit on ebay and almost bought it. Then I realized we have everything at Bloominglabs I needed to make my own, so I decided to make one after this design:
-<img src="https://www.bloominglabs.org/Special:FilePath/Ebay_gin_pole_kit.png" alt="Ebay gin pole kit">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Ebay_gin_pole_kit.png" alt="Ebay gin pole kit">
 
 The large piece in the upper left attaches just below the highest section of the tower and a pole (most likely 10 feet long) attaches here. The part in the upper right with the pulley on top sits on top of the pole and this should be near the top of the tower. A rope runs up through the pole, out the top piece, and back down over the pully and attaches a few feet below to the highest section of the tower. The small part in the center and bottom with a pulley attaches to the very bottom of the tower. The rope coming down out of the bottom of the pole runs through this and into the hands of your assistant on the ground. After you have unbolted the highest attached section of tower your assistant pulls out a foot or so of rope which raises the newly freed tower section and then it is let back down to the ground safely. 
 
@@ -38,22 +38,22 @@ The large piece in the upper left attaches just below the highest section of the
 I took a welding class a couple years ago but I spent most of my time then doing MIG. Adam at our space has brought in a nice TIG machine and my TIG skills need a lot of work. Adam was kind enough to give me a thorough TIG lesson on a slow Sunday. I was able to knock out 99% of this project in a half day with his help.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Tig_welder.jpg" alt="TIG Welder"> 
-| <img src="https://www.bloominglabs.org/Special:FilePath/Metal_cutting_bandsaw.jpg" alt="Metal cutting/horizontal band saw">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Tig_welder.jpg" alt="TIG Welder"> 
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Metal_cutting_bandsaw.jpg" alt="Metal cutting/horizontal band saw">
 |}
 
 I made extensive use of our horizontal bandsaw to get my raw material sectioned into the right sizes. All of the metal stock I used came from a local mega home store and another hardware store in town. I sized my kit to support a 1-1/4" rigid conduit pole. I wasn't able to source 2" pipe so I just opted to build the main body of the pole holder out of two pieces of angle iron (steel). 
 
 Here are some of my first welds on this project:
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Ginpole02.jpg" alt="Gin pole bottom pully">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Ginpole01.jpg" alt="Gin pole mast attachment">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Ginpole02.jpg" alt="Gin pole bottom pully">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Ginpole01.jpg" alt="Gin pole mast attachment">
 |}
 
 You can see nicer welds along the 2nd pic, of course those are Adam's ;-)
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Ginpole03.jpg" alt="Gin pole kit">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Ginpole04.jpg" alt="Gin pole kit">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Ginpole03.jpg" alt="Gin pole kit">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Ginpole04.jpg" alt="Gin pole kit">
 |}
 
 There are a couple things that may not be immediately obvious about construction. First, the pulley cap that sits at the top of the pole has a hole drilled into the top horizontal plate the pulley is welded to. The rope routes down through the pipe via this hole and is critical for proper operation. Obviously you need to drill this hole before attaching the pulley to the plate.
@@ -64,9 +64,9 @@ Lastly, in the photos I have the pulley cap sitting on a 5" 1-1/4" pipe as a tes
 
 == Finished ==
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_4431.JPG" alt="Gin pole kit parts">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_4440.JPG" alt="Gin pole assembled with rope">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_4436.JPG" alt="Gin pole top pully">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_4431.jpg" alt="Gin pole kit parts">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_4440.jpg" alt="Gin pole assembled with rope">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_4436.jpg" alt="Gin pole top pully">
 |}
 
 As you can see, I've over-engineered this device because I really really don't want anything to go wrong when using it. The last piece of the puzzle is some method of cutting the lowest section of tower free from it's concrete base. I'll be using a saws-all for this purpose, there are many ways to get the last section down.

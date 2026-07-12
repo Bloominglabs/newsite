@@ -23,10 +23,10 @@ This [http://satnogs.dozuki.com/Guide/SatNOGS+Ground+Station+v2+Mechanical+Assem
 
 Further finishing details: red lines on any parts should only be ran at minimal power for marking purposes only. All other colors should cut all the way thorugh the material. The axis sides require 6 screw holes plus two long holes drilled for the stepper motors to mount. The homing ring must have the "nose" filed or sanded down so that it can fit between the optical sensor lobes. The bearing holder cup requires hand filing between the tabs so that the axis gear can fit closely to the worm gear. Also the bearing hole needs to be counter-sunk deep enough to completely hold the bearing. Technically it is possible to laser this hole out but it would be a slow process. As I mentioned earlier, on all of these parts there are markings (in red in the drawings) to give you easy indicators for manually finishing the parts out.
 
-* [http://bloominglabs.org/images/4/40/Part_sheet_01-.375.svg Part_sheet_01-.375.svg http://bloominglabs.org/images/4/40/Part_sheet_01-.375.svg Part_sheet_01-.375.svg]
-* [http://bloominglabs.org/images/e/ed/Part_sheet_02-.25.svg Part_sheet_02-.25.svg http://bloominglabs.org/images/e/ed/Part_sheet_02-.25.svg Part_sheet_02-.25.svg]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Part_sheet_01_375.svg Part_sheet_01-.375.svg https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Part_sheet_01_375.svg Part_sheet_01-.375.svg]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Part_sheet_02_25.svg Part_sheet_02-.25.svg https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Part_sheet_02_25.svg Part_sheet_02-.25.svg]
 
 Additionally, all of the individual parts are here if you want to reconfigure how they are cut.
-* [http://bloominglabs.org/images/e/e5/TrackingBoxV2.zip TrackingBoxV2.zip http://bloominglabs.org/images/e/e5/TrackingBoxV2.zip TrackingBoxV2.zip]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/TrackingBoxV2.zip TrackingBoxV2.zip https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/TrackingBoxV2.zip TrackingBoxV2.zip]
 
 I did not include the azimuth axis pillar for two reasons. First, laser cutting this part is futile as it would require being turned on a wood lathe afterwords which may not be everyones cup of tea. Second, the PVC holes on these parts are sized for 1 1/4" exactly which is not an actual PVC outside diameter. Wooden dowel rods will fit so for now that is what I'm using, I plan to fabricate my own equivelant part for the axis pillar.

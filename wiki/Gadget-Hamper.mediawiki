@@ -8,14 +8,14 @@ The latest version of this project is always available on GitHub: https://github
 This project is also on Thingiverse: [https://www.thingiverse.com/thing:3670668 https://www.thingiverse.com/thing:3670668]
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper010.jpg" alt="Left-to-right radio gang charging">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper009.jpg" alt="Front-to-back radio gang charging">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gadget_hamper010.jpg" alt="Left-to-right radio gang charging">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gadget_hamper009.jpg" alt="Front-to-back radio gang charging">
 |}
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper004.jpg" alt="Base - without the rear deck or device cradle">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper008.jpg" alt="Interlocked bases">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Gadget_hamper002.jpg" alt="More interlocked bases">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gadget_hamper004.jpg" alt="Base - without the rear deck or device cradle">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gadget_hamper008.jpg" alt="Interlocked bases">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gadget_hamper002.jpg" alt="More interlocked bases">
 |}
 
 == Resources for supporting more devices ==
@@ -63,9 +63,9 @@ See the included Universal Cradle which can be manually trimmed to fit after it'
 Print it as-is, then trim the ribs down to fit your device. For devices with charging contacts on the side of the battery, you will most likely want the device to fit flush against the back wall so positive connection will be made with your battery contacts. The rear outside of the Universal Cradle is flat, the other three sides are tapered near the bottom. The bottom of this cradle has open channels (requires support), if your device requires contacts on the bottom of the battery these open channels facilitate the installation of contacts here.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle002.jpg" alt="Universal Cradle - trim the ribs to fit your device">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle003.jpg" alt="Tapered at the bottom on 3 sides">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Universal_cradle004.jpg" alt="Channels on the bottom to allow installation of contacts">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Universal_cradle002.jpg" alt="Universal Cradle - trim the ribs to fit your device">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Universal_cradle003.jpg" alt="Tapered at the bottom on 3 sides">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Universal_cradle004.jpg" alt="Channels on the bottom to allow installation of contacts">
 |}
 
 ==Designed to be printed using minimal support material==

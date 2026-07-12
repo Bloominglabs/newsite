@@ -1,8 +1,8 @@
 This is reference material for people interested in using our mill. This material is collected here in order to assist a workshop on using the mill as well as for people to teach themselves how to use this machine.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Mill-info_diagram.png" alt="Mill Info Diagram">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Mill_oiling_chart.png" alt="Mill Oiling Chart">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Mill_info_diagram.png" alt="Mill Info Diagram">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Mill_oiling_chart.png" alt="Mill Oiling Chart">
 |}
 
 == Reading Material ==

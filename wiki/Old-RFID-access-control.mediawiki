@@ -23,13 +23,13 @@ Steve has done a number of server side tweaks. See [[RFID-System-Software]].
 
 == Completed Controller ==
 Here you can see the ATMega328 which makes up an [http://itp.nyu.edu/physcomp/Tutorials/ArduinoBreadboard Arduino on a breadboard]. Five volt regulator sits at the top in the middle. The headers just above the ATMega is for a [http://www.sparkfun.com/commerce/product_info.php?products_id=8772 SparkFun FTDI breakout] for programming the Arduino and logging to a PC. The relays on the left side of the board enable the electric door strikes. On the right are RJ45 ports which allow the CAT5 to be used to connect the RFID reader and door strikes (one port for each door).
-<img src="https://www.bloominglabs.org/Special:FilePath/Rfid001.jpg" alt="RFID board">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rfid001.jpg" alt="RFID board">
 
 Board is installed in the enclosure. You can see an Adafruit I2C real-time-clock hanging off to the left and an SD card reader board sitting on top of the relays. 
-<img src="https://www.bloominglabs.org/Special:FilePath/Rfid002.jpg" alt="RFID board">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rfid002.jpg" alt="RFID board">
 
 Enclosure sealed up with SD card reader sticking out through it's hole. The two buttons on top are manual override releases for the door strikes.
-<img src="https://www.bloominglabs.org/Special:FilePath/Rfid003.jpg" alt="RFID controller enclosure - SD card reader">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rfid003.jpg" alt="RFID controller enclosure - SD card reader">
 
 Enclosure showing power jack and RJ45 connectors for connecting external components.
-<img src="https://www.bloominglabs.org/Special:FilePath/Rfid004.jpg" alt="RFID controller enclosure - power and RJ45 jacks">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rfid004.jpg" alt="RFID controller enclosure - power and RJ45 jacks">

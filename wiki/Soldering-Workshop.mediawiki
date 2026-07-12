@@ -9,10 +9,10 @@ No prior experience necessary! All tools and hardware provided! All ages are wel
 younger should be accompanied by an adult. 
 
 '''Handouts'''
-* Phasor schematic [https://www.bloominglabs.org/Special:FilePath/Phaser01.pdf Phaser01.pdf]
-* Phasor batch pcb transparency <img src="https://www.bloominglabs.org/Special:FilePath/Phasor_v1.0-sheet.bmp" alt="PCB Transparency">
-* Phasor zip file with EagleCAD schematic, pcb, and gerber files <img src="https://www.bloominglabs.org/Special:FilePath/Phasor_eagle_pcb-v1.0.zip" alt="Phasor_eagle_pcb-v1.0.zip">
-* Soldering workshop questionnaire [https://www.bloominglabs.org/Special:FilePath/Questionnaire-Soldering.pdf Questionnaire-Soldering.pdf]
+* Phasor schematic [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Phaser01.pdf Phaser01.pdf]
+* Phasor batch pcb transparency <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Phasor_v1_0_sheet.bmp" alt="PCB Transparency">
+* Phasor zip file with EagleCAD schematic, pcb, and gerber files <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Phasor_eagle_pcb_v1_0.zip" alt="Phasor_eagle_pcb-v1.0.zip">
+* Soldering workshop questionnaire [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Questionnaire_Soldering.pdf Questionnaire-Soldering.pdf]
 
 '''Course Outline'''
 <pre>

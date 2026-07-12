@@ -84,20 +84,43 @@ test('convertHtmlEmbeds turns PayPal forms into donate links', () => {
   assert.equal(ncp, '[https://www.paypal.com/ncp/payment/F8W7EWDGDPPN2 Donate with PayPal]');
 });
 
-test('convertFileLinks rewrites media to absolute Bloominglabs URLs', () => {
+test('convertFileLinks rewrites media to archived wiki-repo URLs', () => {
   const { convertFileLinks } = require('../src/wiki/github-wiki.js');
+  const mediaPathIndex = new Map([
+    ['bloominglabsaerial.png', 'media/Bloominglabsaerial.png'],
+    ['plant tower.jpg', 'media/Plant_tower.jpg'],
+    ['plant_tower.jpg', 'media/Plant_tower.jpg'],
+    ['release and waiver of liability.pdf', 'media/RELEASE_AND_WAIVER_OF_LIABILITY.pdf'],
+    ['release_and_waiver_of_liability.pdf', 'media/RELEASE_AND_WAIVER_OF_LIABILITY.pdf'],
+  ]);
 
   assert.equal(
-    convertFileLinks('[[File:Bloominglabsaerial.png]]'),
-    '<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">'
+    convertFileLinks('[[File:Bloominglabsaerial.png]]', { mediaPathIndex }),
+    '<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">'
   );
   assert.equal(
-    convertFileLinks('[[File:Plant tower.jpg|thumb|200px|Plant tower]]'),
-    '<img src="https://www.bloominglabs.org/Special:FilePath/Plant_tower.jpg" alt="Plant tower">'
+    convertFileLinks('[[File:Plant tower.jpg|thumb|200px|Plant tower]]', { mediaPathIndex }),
+    '<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_tower.jpg" alt="Plant tower">'
   );
   assert.equal(
-    convertFileLinks('[[File:RELEASE AND WAIVER OF LIABILITY.pdf|waiver]]'),
-    '[https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf waiver]'
+    convertFileLinks('[[File:RELEASE AND WAIVER OF LIABILITY.pdf|waiver]]', { mediaPathIndex }),
+    '[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/RELEASE_AND_WAIVER_OF_LIABILITY.pdf waiver]'
+  );
+});
+
+test('convertBloominglabsPageUrls remaps archived article links', () => {
+  const { convertBloominglabsPageUrls } = require('../src/wiki/github-wiki.js');
+  const titleMap = new Map([
+    ['donations', 'Donations'],
+    ['location', 'Location'],
+  ]);
+
+  assert.equal(
+    convertBloominglabsPageUrls(
+      'See [https://www.bloominglabs.org/Donations donation info] and https://bloominglabs.org/Location',
+      titleMap
+    ),
+    'See [[Donations|donation info]] and [[Location]]'
   );
 });
 
@@ -178,7 +201,8 @@ test('writeGitHubWikiTree writes Home.mediawiki and one file per archived page',
     JSON.stringify({
       title: 'Main Page',
       revision: {
-        content: 'Welcome [[Location|here]].\n{{:Upcoming Workshops}}',
+        content:
+          'Welcome [[Location|here]].\n{{:Upcoming Workshops}}\n[[File:Aerial.png]]\nSee https://www.bloominglabs.org/Location',
       },
     }),
     'utf8'
@@ -203,17 +227,40 @@ test('writeGitHubWikiTree writes Home.mediawiki and one file per archived page',
     }),
     'utf8'
   );
+  await fs.mkdir(path.join(archiveRoot, 'media'), { recursive: true });
+  await fs.writeFile(path.join(archiveRoot, 'media', 'Aerial.png'), 'PNG');
+  await fs.writeFile(
+    path.join(archiveRoot, 'media-manifest.json'),
+    JSON.stringify({
+      files: [
+        {
+          title: 'Aerial.png',
+          localPath: 'media/Aerial.png',
+          sourceUrl: 'https://www.bloominglabs.org/images/a/a1/Aerial.png',
+        },
+      ],
+    }),
+    'utf8'
+  );
   await fs.writeFile(path.join(archiveRoot, 'pages', 'README.txt'), 'ignore me', 'utf8');
 
   const summary = await writeGitHubWikiTree({ archiveRoot, outputRoot });
 
   assert.equal(summary.pageCount, 2);
-  assert.equal(summary.fileCount, 2);
+  assert.equal(summary.mediaCount, 1);
 
   const home = await fs.readFile(path.join(outputRoot, 'Home.mediawiki'), 'utf8');
   const location = await fs.readFile(path.join(outputRoot, 'Location.mediawiki'), 'utf8');
+  const media = await fs.readFile(path.join(outputRoot, 'media', 'Aerial.png'), 'utf8');
 
   assert.match(home, /Welcome \[\[Location\|here\]\]/);
   assert.match(home, /== March ==/);
+  assert.match(
+    home,
+    /raw\.githubusercontent\.com\/wiki\/Bloominglabs\/newsite\/media\/Aerial\.png/
+  );
+  assert.match(home, /\[\[Location\]\]/);
+  assert.doesNotMatch(home, /https?:\/\/(?:www\.)?bloominglabs\.org\/Location/);
   assert.equal(location.trim(), '1840 S. Walnut Street');
+  assert.equal(media, 'PNG');
 });

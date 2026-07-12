@@ -11,11 +11,11 @@ These are all good choices as they can capture polarized RF coming from overhead
 == 2m Lindenblad ==
 I went head and built a full 2-meter Lindenblad. It was not a super fun experience, but it was pulling in decodable sat transmissions from indoors so it seems like it works. I assembled both the UHF Paralindy and this 2m Lindenblad onto a single mast pole, then attached my water tight enclosure below them both.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/20190127_114510.jpg" alt="Two antennas on 1 mast">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/20190127_114510.jpg" alt="Two antennas on 1 mast">
 
 == Multiple SatNOGS Clients from one antenna set ==
 Obviously you don't need a rotator controller to use this setup. All you need is an RPi3 and an RTL-SDR. This opens up the possibility of running multiple clients off a single set of antennas. 
-<img src="https://www.bloominglabs.org/Special:FilePath/20190127_143649.jpg" alt="Two clients on one antenna set">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/20190127_143649.jpg" alt="Two clients on one antenna set">
 
 I picked up some wide-band power dividers (high quality splitters) off of Ebay to test with. Make sure they cover the bands your antennas are for, in this case 144MHz-450MHz. Both antennas are connected into a single feed-line with the first power divider. Next is a [https://www.ebay.com/itm/Wideband-LNA-with-FM-notch-filter-Low-noise-RTL-SDR-Airband-Vorverstarker-USB/113622729531?hash=item1a7471433b:g:krwAAOSwUKxYYAhO:rk:4:pf:0 wide-band LNA]. The LNA then feeds into another wide-band power divider which feeds two separate RTL-SDRs. Obviously an RPi3 hooks up to each RTL-SDR. I use the native [https://gitlab.com/librespacefoundation/satnogs/satnogs-pi-gen/-/jobs/artifacts/2018080300/download?job=release SatNOGS Raspbian build] for both RPi's.
 
@@ -71,4 +71,4 @@ As of February 2019 I'm still testing out this dual-station (dual-client) setup.
 * [https://network.satnogs.org/stations/405/ https://network.satnogs.org/stations/405/]
 * [https://network.satnogs.org/stations/471/ https://network.satnogs.org/stations/471/]
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_SatNOGS-norotator.png" alt="Link to latest version of this document">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_SatNOGS_norotator.png" alt="Link to latest version of this document">

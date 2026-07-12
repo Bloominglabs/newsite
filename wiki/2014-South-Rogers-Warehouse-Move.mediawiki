@@ -27,8 +27,8 @@ Supplies we need:
 == Electrical ==
 In this spreadsheet is a map of the breaker box plus an itemized list of electrical changes we should consider making. The photo is a physical map showing where each current outlet and junction box (minus anything hiding in the bathrooms).
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Breakerbox+wiring_changes.xls" alt="Breakerbox+wiring changes.xls">
-<img src="https://www.bloominglabs.org/Special:FilePath/S.rogers_electric_map-resize.jpg" alt="Physical wiring map">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Breakerbox_wiring_changes.xls" alt="Breakerbox+wiring changes.xls">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/S_rogers_electric_map_resize.jpg" alt="Physical wiring map">
 
 Supplies we need:
 * 12Ga stranded THHN wire

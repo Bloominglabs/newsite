@@ -1,4 +1,4 @@
-This is a listing of manuals, information on consumables such as bandsaw blades, and other information needed to keep our machine tools in good operation. Also if shop posters or other hard-copy needs to be reprinted this is a good source for these items. We have a proper [http://bloominglabs.org/index.php/Training training category] and pages for machines and classes that require further information, please do not populate this page with training notes.
+This is a listing of manuals, information on consumables such as bandsaw blades, and other information needed to keep our machine tools in good operation. Also if shop posters or other hard-copy needs to be reprinted this is a good source for these items. We have a proper [[Training|training category]] and pages for machines and classes that require further information, please do not populate this page with training notes.
 
 To replace signage for the workshop, specific tools, etc. see this page: [[Signage]].
 
@@ -17,23 +17,23 @@ Model HL40-5g
 
 We have multiple spare tubes and a spare power supply for this machine (2015). 
 
-* [https://www.bloominglabs.org/Special:FilePath/Laser_Manual-hobby-adv-manual-r0.2.pdf Laser_Manual-hobby-adv-manual-r0.2.pdf] Manual
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Laser_Manual_hobby_adv_manual_r0_2.pdf Laser_Manual-hobby-adv-manual-r0.2.pdf] Manual
 
 == JET Horizontal (metal cutting) Bandsaw  ==
 Model HVBS-56M
 
 The blade is 64 1/2" long and 1/2" wide, thickness of .025". Needs to be a small toothed blade. How small should the teeth be? A minimum of 2-3 teeth should be in contact with the material you are cutting. Unless you are cutting thin-walled tubing this shouldn't be a huge concern, a regular metal cutting blade will be fine.
 
-* [https://www.bloominglabs.org/Special:FilePath/JET_5x6_bandsaw.pdf JET_5x6_bandsaw.pdf] Manual
-* [https://www.bloominglabs.org/Special:FilePath/Bandtroubleshootingchart.pdf Bandtroubleshootingchart.pdf] Bandsaw blade troubleshooting chart
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/JET_5x6_bandsaw.pdf JET_5x6_bandsaw.pdf] Manual
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bandtroubleshootingchart.pdf Bandtroubleshootingchart.pdf] Bandsaw blade troubleshooting chart
 
 == Delta vertical bandsaw ==
 Model BS100
 
 The blade is 59 1/2" long, it will accept narrow blades as well blades up to ?? wide. When changing blades remember that there is a tracking adjustment knob on the back of the machine, use this if the blade keeps wandering off the wheels. This is why I got this bandsaw for $10 at the pawn shop - they didn't know how to use the tracking adjustment to keep the blade from coming off.
 
-* [https://www.bloominglabs.org/Special:FilePath/Bandsaw_manual-BDBS100.pdf Bandsaw_manual-BDBS100.pdf] Manual (note: the manual is for a Black & Decker, however our Delta is EXACTLY the same machine)
-* [https://www.bloominglabs.org/Special:FilePath/Bandtroubleshootingchart.pdf Bandtroubleshootingchart.pdf] Bandsaw blade troubleshooting chart
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bandsaw_manual_BDBS100.pdf Bandsaw_manual-BDBS100.pdf] Manual (note: the manual is for a Black & Decker, however our Delta is EXACTLY the same machine)
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bandtroubleshootingchart.pdf Bandtroubleshootingchart.pdf] Bandsaw blade troubleshooting chart
 
 == Craftsman Bench Sander ==
 Model 137.215360
@@ -56,7 +56,7 @@ Standard tool post
 </pre>
 
 *  [http://www.bloominglabs.org/downloads/AtlasLatheOperationManual.pdf.zip AtlasLatheOperationManual.pdf.zip] (254MB)
-*  [http://bloominglabs.org/images/c/c9/Atlas_TH42_oiling_chart.pdf TH42 Oiling Chart]
+*  [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Atlas_TH42_oiling_chart.pdf TH42 Oiling Chart]
 *  [http://bloominglabs.org/index.php/File:AtlasLathe_diagram.jpg] Full size printable TH42 lathe diagram
 
 == Blue Metal Lathe ==
@@ -70,7 +70,7 @@ C-type tool holder
 </pre>
 
 *  [http://www.bloominglabs.org/downloads/blue_lathe-9x20.pdf blue_lathe-9x20.pdf] (6MB)
-*  [http://bloominglabs.org/images/2/28/Blue_lathe-oiling_chart.pdf Blue Lathe oiling chart
+*  [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Blue_lathe_oiling_chart.pdf Blue Lathe oiling chart
 
 Main consumable on this tool is the translucent-yellow V-belt, Grizzly ref# 237 and part number P4000237 (V-BELT 5 X 710MM).
 Can be ordered here ($35 plus shipping):
@@ -93,4 +93,4 @@ Uses R8 collets
 It's worth checking our list of [[Quick-Start-Guides]] if you can't find the information you are looking for on this page.
 
 == QR code link to this page ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_machine_manuals.jpg" alt="Link for this page">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_machine_manuals.jpg" alt="Link for this page">

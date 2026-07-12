@@ -1,23 +1,23 @@
-<img src="https://www.bloominglabs.org/Special:FilePath/1_whole_radio.jpg" alt="Baofeng UV-82">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/1_whole_radio.jpg" alt="Baofeng UV-82">
 Because I could not find any instructions on the internet, here are instructions on how to disassemble the Baofeng UV-82 handheld transceiver.
 ==Remove Belt Clip==
-<img src="https://www.bloominglabs.org/Special:FilePath/2_remove_belt_clip.jpg" alt="2 small philps screws">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2_remove_belt_clip.jpg" alt="2 small philps screws">
 ==Unclip Battery==
-<img src="https://www.bloominglabs.org/Special:FilePath/3_unclip_battery.jpg" alt="3_unclip_battery.jpg">
-<img src="https://www.bloominglabs.org/Special:FilePath/4_remove_battery.jpg" alt="4_remove_battery.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/3_unclip_battery.jpg" alt="3_unclip_battery.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/4_remove_battery.jpg" alt="4_remove_battery.jpg">
 ==Remove Antenna and Volume Knob==
-<img src="https://www.bloominglabs.org/Special:FilePath/5_unscrew_antenna.jpg" alt="5_unscrew_antenna.jpg">
-<img src="https://www.bloominglabs.org/Special:FilePath/6_remove_volume_knob.jpg" alt="It just pulls straight off.">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/5_unscrew_antenna.jpg" alt="5_unscrew_antenna.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/6_remove_volume_knob.jpg" alt="It just pulls straight off.">
 ==Unscrew Retaining Rings==
-<img src="https://www.bloominglabs.org/Special:FilePath/7_remove_antenna_retainer.jpg" alt="7_remove_antenna_retainer.jpg">
-<img src="https://www.bloominglabs.org/Special:FilePath/8_remove_volume_retainer.jpg" alt="8_remove_volume_retainer.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/7_remove_antenna_retainer.jpg" alt="7_remove_antenna_retainer.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/8_remove_volume_retainer.jpg" alt="8_remove_volume_retainer.jpg">
 ==Pry Open Case==
-<img src="https://www.bloominglabs.org/Special:FilePath/9_unpry_bottom_clips.jpg" alt="9_unpry_bottom_clips.jpg">
-<img src="https://www.bloominglabs.org/Special:FilePath/10_bottom_popped_out.jpg" alt="10_bottom_popped_out.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/9_unpry_bottom_clips.jpg" alt="9_unpry_bottom_clips.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/10_bottom_popped_out.jpg" alt="10_bottom_popped_out.jpg">
 ==Remove Rear Case and Circuit Board==
-<img src="https://www.bloominglabs.org/Special:FilePath/11_remove_back.jpg" alt="11_remove_back.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/11_remove_back.jpg" alt="11_remove_back.jpg">
 ==Remove Rubber Pieces==
-<img src="https://www.bloominglabs.org/Special:FilePath/12_rubber_jack_seal.jpg" alt="12_rubber_jack_seal.jpg">
-<img src="https://www.bloominglabs.org/Special:FilePath/13_keypad.jpg" alt="13_keypad.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/12_rubber_jack_seal.jpg" alt="12_rubber_jack_seal.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/13_keypad.jpg" alt="13_keypad.jpg">
 ==Disassembled==
-<img src="https://www.bloominglabs.org/Special:FilePath/14_disassembled.jpg" alt="14_disassembled.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/14_disassembled.jpg" alt="14_disassembled.jpg">

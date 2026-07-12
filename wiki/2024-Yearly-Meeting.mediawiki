@@ -38,7 +38,7 @@ Old Business:
 The 2023 Annual Report (composed by Treasurer Apple Muncy) was
 received and reviewed. 
 
-See Report here: [https://www.bloominglabs.org/Special:FilePath/2023AnnualReport.pdf 2023AnnualReport.pdf]
+See Report here: [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2023AnnualReport.pdf 2023AnnualReport.pdf]
 
 Section by section commentary follows:
 

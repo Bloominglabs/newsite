@@ -36,7 +36,7 @@ Pat East, the executive director at The Mill] was brainstorming with execs at Co
 Contact:
 pat.east@cofoundventures.com
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Masks.png" alt="Masks.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Masks.png" alt="Masks.png">
 <br>
 ----
 <br>

@@ -8,9 +8,9 @@ When writing a Quick Start Guide, assume the user knows almost nothing about the
 * [[PrintrBot-Play-Quick-Start]] - needs to be written
 
 == Shop Equipment ==
-* <img src="https://www.bloominglabs.org/Special:FilePath/Quick_Start_-_Combined_Metal+Gas_Tags-v5.doc" alt="Quick Start - Combined Metal+Gas Tags-v5.doc"> - Laminated tags for the welders, lathes, mill, horizontal bandsaw, plasma cutter, and acetylene torch outfit
-* <img src="https://www.bloominglabs.org/Special:FilePath/Howto-Mill.doc" alt="Howto-Mill.doc"> - More howto infor for the mill
-* <img src="https://www.bloominglabs.org/Special:FilePath/Quick_Start_-_Car_Lift.doc" alt="Quick_Start_-_Car_Lift.doc">
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Quick_Start_Combined_Metal_Gas_Tags_v5.doc" alt="Quick Start - Combined Metal+Gas Tags-v5.doc"> - Laminated tags for the welders, lathes, mill, horizontal bandsaw, plasma cutter, and acetylene torch outfit
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Howto_Mill.doc" alt="Howto-Mill.doc"> - More howto infor for the mill
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Quick_Start_Car_Lift.doc" alt="Quick_Start_-_Car_Lift.doc">
 
 == Electronics and Radio ==
-* <img src="https://www.bloominglabs.org/Special:FilePath/Radio_QA.doc" alt="Radio_QA.doc">
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Radio_QA.doc" alt="Radio_QA.doc">

@@ -7,12 +7,12 @@ Abbreviated rules: Only members may operate our car lift. However, members may o
 == Signage ==
 Signs about lift usage are also required to be posted in order to satisfy Bloominglabs having the car lift. These need to be posted on or near the lift.
 
-* <img src="https://www.bloominglabs.org/Special:FilePath/CAR_LIFT_WAIVER.doc" alt="CAR_LIFT_WAIVER.doc"> - Damage waiver every vehicle owner must sign before using the lift
-* <img src="https://www.bloominglabs.org/Special:FilePath/LiftRules-ratified.doc" alt="LiftRules-ratified.doc"> - Ratified lift rules
-* <img src="https://www.bloominglabs.org/Special:FilePath/Lift_Qualification_Process.doc" alt="Lift_Qualification_Process.doc"> - Qualification process which is taped to the back of the Vehicle liability waiver clip board
-* [https://www.bloominglabs.org/Special:FilePath/Fluids-in_fluids-out.pdf Fluids-in_fluids-out.pdf] - Fluids-In Fluids-Out signage
-* <img src="https://www.bloominglabs.org/Special:FilePath/Lift_-_low_overhead.doc" alt="Lift_-_low_overhead.doc"> - Safety stickers on the lift arms
-* <img src="https://www.bloominglabs.org/Special:FilePath/No_horse_play_when_lift_in_use.doc" alt="No_horse_play_when_lift_in_use.doc"> - Safety signage
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/CAR_LIFT_WAIVER.doc" alt="CAR_LIFT_WAIVER.doc"> - Damage waiver every vehicle owner must sign before using the lift
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/LiftRules_ratified.doc" alt="LiftRules-ratified.doc"> - Ratified lift rules
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Lift_Qualification_Process.doc" alt="Lift_Qualification_Process.doc"> - Qualification process which is taped to the back of the Vehicle liability waiver clip board
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Fluids_in_fluids_out.pdf Fluids-in_fluids-out.pdf] - Fluids-In Fluids-Out signage
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Lift_low_overhead.doc" alt="Lift_-_low_overhead.doc"> - Safety stickers on the lift arms
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/No_horse_play_when_lift_in_use.doc" alt="No_horse_play_when_lift_in_use.doc"> - Safety signage
 
 == Reference ==
 * [http://www.completehydraulic.com/pdfs/2-post-lifts-cj10000bp-manual.pdf Manufacturers install and operation manual] - A copy of this manual should always be attached to the lift as well.

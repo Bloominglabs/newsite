@@ -1,0 +1,52 @@
+---
+title: Bloominglabs Board Meeting
+created: 2024-05-07
+author: Kyle Dirrim
+---
+
+#### Start at 1900
+
+## I. Roll Call
+- Calob (President)
+- Kyle (Secretery)
+- Kevin
+- Apple
+
+## II. Old Business
+
+A. Continuances from last meeting
+	1. Sand Blasting Cabinet
+		a. postponed
+	2. Bike Rack
+		a. postponed
+	3. Tax Form 990N
+		a. Calob will look into it
+
+
+## III. New Business
+
+A. Vaultwarden access
+	1. Kyle and Apple now have access
+
+B. Social Media
+	1. Kevin will investigate and add to vaultwarden
+	2. Calob will introduce more organization to Bloominglabs' social media presence
+	
+C. Failed Fire Inspection
+	1. Kevin will investigate fire extuinguisher inspection
+		a. Mark Landlord is/was a fireman, maybe have Jimmy ask him
+	2. Ceiling Tile missing in Fab Lab
+	3. Ceiling junction boxes uncovered in Craft Room
+	
+D. Indiana Oxygen Bills
+	1. Valid?
+
+## IV. Open Floor
+
+A. Website - New Landing Page Design
+	1. www.dev.bloominglabs.org
+	2. has a github for developement/improvements
+
+## V. Adjournment
+
+A. at 1926

@@ -3,7 +3,7 @@ Meeting held on January 23rd from 5-9pm.
 == Meeting Agenda ==
 * Lets get an acceptable pizza order sorted out before we start
 
-* [https://www.bloominglabs.org/Special:FilePath/2015AnnualReport.pdf 2015AnnualReport.pdf] 
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2015AnnualReport.pdf 2015AnnualReport.pdf] 
 ** Includes a year-end Financial report, member count stats, workshop summary, and summary for the year.
 ** Where are we on our savings goal?
 ** When can dues funds start being used for space improvements?
@@ -28,9 +28,9 @@ Meeting held on January 23rd from 5-9pm.
 ** 501c3 status!
 ** Separation from School Factory
 ** Treasurer's Report
-*** [http://bloominglabs.org/images/3/30/Bloominglabs-2015-Statement-of-Activities.xls Statement of Activities]
-*** [http://bloominglabs.org/images/b/b9/Bloominglabs-2015-PayPal.pdf PayPal Revenue]
-*** [http://bloominglabs.org/images/8/82/Bloominglabs-2015-Square.xls Square Revenue]
+*** [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_2015_Statement_of_Activities.xls Statement of Activities]
+*** [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_2015_PayPal.pdf PayPal Revenue]
+*** [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_2015_Square.xls Square Revenue]
 <br>
 * Member exit survey responses
 * Low points

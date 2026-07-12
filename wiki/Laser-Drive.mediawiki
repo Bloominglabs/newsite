@@ -45,7 +45,7 @@ Since we are so close, I think we should get the New 40W CO2 hobby laser instead
 
 == Pledges ==
 
-Flyer is here: [https://www.bloominglabs.org/Special:FilePath/LaserCutter_Fund_Drive.pdf LaserCutter_Fund_Drive.pdf]
+Flyer is here: [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/LaserCutter_Fund_Drive.pdf LaserCutter_Fund_Drive.pdf]
 
 * $1200 - dosman (collected)
 * $2300 - Jay (collected)
@@ -70,7 +70,7 @@ We currently have $5320 pledged and need an additional $113 to make the laser ha
 
 The 10% is tricky to calculate as any additional money we put in to account for it gets 10% taken out too. This spreadsheet allows us to figure this out, the pledge for "Ghost" is how I am arriving at the remaining amount we need.
 </strike>
-<img src="https://www.bloominglabs.org/Special:FilePath/!Laser.xls.zip" alt="!Laser.xls.zip">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Laser_xls.zip" alt="!Laser.xls.zip">
 
 We have exceeded our pledge goal and have sent the funds to the School Factory! We have received our funds back and purchased the laser from Full Spectrum at this point.
 

@@ -18,7 +18,7 @@ Bloominglabs has one (1) 3D scanner.
 
 == How to setup Makerbot Digitizer hardware ==
 
-* The [https://www.bloominglabs.org/Special:FilePath/Makerbot_Digitizer_Manual.pdf User Manual] is good at providing all of the details needed to setup and prep the system. There is also a trouble-shooting guide that is helpful. The basics are duplicated here.
+* The [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Makerbot_Digitizer_Manual.pdf User Manual] is good at providing all of the details needed to setup and prep the system. There is also a trouble-shooting guide that is helpful. The basics are duplicated here.
 * Place Makerbot Digitizer on a flat surface. Place the Digitizer so the camera faces away from people walking in front of the camera. Make sure all four feet are firmly on a surface and the Makerbot Digitizer is not hanging over an edge.
 * Plug in USB cable into Mac or PC. Plug in power adapter cord. Turn on power switch on rear of the Makerbot Digitizer. There is a green LED on the rear of the Digitizer that indicates it is turned on.
 * Run the Makerware for Digitizer software from the Launchpad.

@@ -55,7 +55,7 @@ Throwing spear
 Laser cut plane schematics 
 
 [https://github.com/TheRobotStudio/SO-ARM100 SO-ARM100] 
-<img src="https://www.bloominglabs.org/Special:FilePath/20250927_092130_720.jpg" alt="20250927 092130 720.jpg"> 
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/20250927_092130_720.jpg" alt="20250927 092130 720.jpg"> 
 
 ==Abandoned==
 

@@ -37,7 +37,7 @@ EnviraCOM adapter wires:
 * 2 - To EnviraCOM(TM) network terminal 2 (24 Vac).
 * 3 - To EnviraCOM(TM) network terminal 3 (24 Vac).
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Honeywell_Enviracom_adapter.png" alt="Honeywell EnviraCOM Adapter">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Honeywell_Enviracom_adapter.png" alt="Honeywell EnviraCOM Adapter">
 
 Data link layer:
 * Peer-to-peer communications
@@ -78,4 +78,4 @@ So, this is all very interesting, maby an open source EnviraCOM USB adapter can 
 Someone named Patrick reached out to me to let me know that Aquanta has a device that interacts with the EnviraCOM bus now:
 * [https://portal.aquanta.io/images/install/Aquanta_Installation_Instruction.pdf Aquanta_Installation_Instruction.pdf]
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Aquanta_controller-enviracom.png" alt="Aquanta EnviraCOM Connection">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Aquanta_controller_enviracom.png" alt="Aquanta EnviraCOM Connection">

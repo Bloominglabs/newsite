@@ -2,7 +2,7 @@ With the termination of Amazon Smile (a charitable giving program that would don
 
 == Signup Details ==
 
-<img src="https://www.bloominglabs.org/Special:FilePath/QR_KrogerCommunityRewards.png" alt="Kroger Community Rewards URL">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/QR_KrogerCommunityRewards.png" alt="Kroger Community Rewards URL">
 * https://www.kroger.com/i/community/community-rewards
 
 * Create a Kroger account

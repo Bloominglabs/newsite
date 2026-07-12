@@ -29,7 +29,7 @@ Wednesdays are our public meetings from 7pm until 10pm and the space can get rat
 === Liability Waiver ===
 YOU NEED TO SIGN ONE BEFORE YOU ENTER THE SPACE! They are conveniently located in the hanging file next to the door to our room.
 
-[https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf RELEASE_AND_WAIVER_OF_LIABILITY.pdf]
+[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/RELEASE_AND_WAIVER_OF_LIABILITY.pdf RELEASE_AND_WAIVER_OF_LIABILITY.pdf]
 
 === Safety Third ===
 When filling out your membership application you will be required to fill out a liability waiver (if one is not already on file) as well as be shown the location of all building exits, fire extinguishers, and the first aid kit. It is your job to watch out for your own safety.

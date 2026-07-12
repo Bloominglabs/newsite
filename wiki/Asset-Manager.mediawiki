@@ -14,7 +14,7 @@ It's a standard PHP/MySQL application. While being focused on IT equipment, it w
 
 == Download ==
 4-02-13 - Updated eam.hackerspace.tgz package with a missing table structure for table `assets_hardware_monitor_size`. I had mistakenly removed it from the eam.sql install file while cleaning up pieces no longer used by the new code. This should resolve any errors relating to that issue. Thanks to the folks at Sector67 for reporting that.
-* <img src="https://www.bloominglabs.org/Special:FilePath/Eam.hackerspace.tgz" alt="Eam.hackerspace.tgz">
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Eam_hackerspace.tgz" alt="Eam.hackerspace.tgz">
 
 == Change log in our version ==
 * On the Asset Detail view added "Generate Asset Tag" and "Generate Small Asset Tag" under "Manage Record"

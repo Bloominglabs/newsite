@@ -14,17 +14,17 @@ Main page for the [[Gadget-Hamper]]
 
 * Also on short radios, watch for clearance for any buttons on the front side. 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Device_charger_channels03.jpg" alt="Cradle has clearance for the belt clip">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Device_charger_channels04.jpg" alt="Cradle has clearance for front-facing buttons">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Device_charger_channels03.jpg" alt="Cradle has clearance for the belt clip">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Device_charger_channels04.jpg" alt="Cradle has clearance for front-facing buttons">
 |}
 
 * Avoid excess friction inside the cradle, you want the most minimal contact with the battery/device as you can get away with. Otherwise removing the device from the cradle becomes a two-handed operation. Here is how to achieve this:
 ** Consider adding what I call "retaining channels" to the sides of your battery pack. This helps to hold your device exactly in place with the charging contacts. Note the ribs that extend into the retaining channel in the photo.
 ** Even if retaining channels are not used in the battery pack, ribs can still be used to provide minimal contact with the device to force it into place. Again, this keeps friction to a minimum.
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Device_charger_channels01.jpg" alt="Retaining channel">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Device_charger_channels02.jpg" alt="Retaining channel meets a rib in a charging cradle. Note that a pair of these ribs is all that holds this radio in place in the cradle.">
-| <img src="https://www.bloominglabs.org/Special:FilePath/BTC-70716-1_small.jpg" alt="Another example of ribs used in a commercial charger">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Device_charger_channels01.jpg" alt="Retaining channel">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Device_charger_channels02.jpg" alt="Retaining channel meets a rib in a charging cradle. Note that a pair of these ribs is all that holds this radio in place in the cradle.">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BTC_70716_1_small.jpg" alt="Another example of ribs used in a commercial charger">
 |}
 
 == Battery Contacts ==
@@ -33,16 +33,16 @@ Main page for the [[Gadget-Hamper]]
 ** Note that 18650 cells can vary in length from 65mm to around 70mm if the cell has a protection circuit included. Five millimeters of variance is a lot to overcome, if you wish to guarantee support for any 18650 cell coil springs may be the only solution. However if you can ensure a consistent brand and make of 18650 cell is used then you can simplify your model and keep the cost to reproduce as low as possible.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/18650_cell_holder_-_battery_tab_spring01.jpg" alt="Ni-chrome battery tab with a piece of wire insulation behind it used as a spring">
-| <img src="https://www.bloominglabs.org/Special:FilePath/18650_cell_holder_-_wire_contact.jpg" alt="Stripped wire used as battery contact">
-| <img src="https://www.bloominglabs.org/Special:FilePath/18650_cell_holder01.jpg" alt="Wire contacts inside a battery holder for an 18650 cell">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Printed_batterypack_wire_contacts.jpg" alt="Stripped wire used for contacts">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/18650_cell_holder_battery_tab_spring01.jpg" alt="Ni-chrome battery tab with a piece of wire insulation behind it used as a spring">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/18650_cell_holder_wire_contact.jpg" alt="Stripped wire used as battery contact">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/18650_cell_holder01.jpg" alt="Wire contacts inside a battery holder for an 18650 cell">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Printed_batterypack_wire_contacts.jpg" alt="Stripped wire used for contacts">
 |}
 
 Here we have some examples of using simple brass flat-stock to make two custom battery terminals for a commercial radio. Note: the washers and screws are part of the mounting mechanism and also provide the ground connection.
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Battery_contacts01.jpg" alt="Top side - brass battery terminal">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Battery_contacts02.jpg" alt="Under side - brass folded over to secure it in place and wire soldered on">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Battery_contacts01.jpg" alt="Top side - brass battery terminal">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Battery_contacts02.jpg" alt="Under side - brass folded over to secure it in place and wire soldered on">
 |}
 
 == To embed the Li-Ion charge controller in the battery or leave it in the charging cradle?==
@@ -65,7 +65,7 @@ Battery tabs are the cheapest option and can be formed into many shapes. Usually
 ==== Charging Boards ====
 Obviously there are boards that support many variety of battery cells. And of course, you can also build the Gadget Hamper to charge NiCD and NiMH batteries too.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Battery_wiring01.jpg" alt="Battery internal wiring">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Battery_wiring01.jpg" alt="Battery internal wiring">
 
 Firstly, I assume most folks will be interested in Li-Ion charging. You will need the right kind of charge controller for the right kind of battery pack.
 

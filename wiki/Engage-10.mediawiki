@@ -158,7 +158,7 @@ The two unused ports are available at R115-116 and R303-304.
 Removing R311 (near CN5 pin 1) and connecting pins 1 of the USB ports together provides power on the external port, suitable for a pi. 
 For higher current needs you might need to get +5v from a different source...
 
-<img src="https://www.bloominglabs.org/Special:FilePath/USB_hack.jpg" alt="USB_hack.jpg"> 
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/USB_hack.jpg" alt="USB_hack.jpg"> 
 
 Turning it into a downstream high speed USB port takes a bit more work. 
 * Remove R303 and R304

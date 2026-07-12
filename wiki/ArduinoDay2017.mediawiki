@@ -1,4 +1,4 @@
-<img src="https://www.bloominglabs.org/Special:FilePath/ArduinoDay2017_banners_02.jpg" alt="ArduinoDay2017_banners_02.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/ArduinoDay2017_banners_02.jpg" alt="ArduinoDay2017_banners_02.jpg">
 
 Join us April 1, 2017 from 12pm to 4pm for our Arduino Day Celebration. More details will be revealed as the date approaches, but we can guarantee:
 

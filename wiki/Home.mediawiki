@@ -16,7 +16,7 @@ A hackerspace is a physical location where people can share resources for their 
 
 = Location & Parking =
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabsaerial.png" alt="Bloominglabsaerial.png">
 
 = [[Public-hours|Public Hours]] =
 * Every Wednesday from 7pm until 10pm at our [[Location]]

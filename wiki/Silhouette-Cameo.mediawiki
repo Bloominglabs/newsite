@@ -1,4 +1,4 @@
-<img src="https://www.bloominglabs.org/Special:FilePath/Silhouette-cameo.jpeg" alt="Silhouette-cameo.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_cameo.jpeg" alt="Silhouette-cameo.jpeg">
 
 The Silhouette Cameo (1st generation) is a [[Availablegear#Automated-Manufacturing|CNC tool]] which takes in flat sheets of material and runs a tool left-right and up-down along it.
 It is capable of recreating intricate designs with either a knife or a writing utensil.
@@ -62,9 +62,9 @@ Too deep, and it will scour the rubber pad under the print head, prematurely dul
 
 To adjust the blade depth of the official (blue plastic) knife cartridge, insert it into the fixture on the front-left of the Cameo, align it until it drop in, and twist it until the arrow points at the desired depth.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Silhouette-adjusting-blade-depth.gif" alt="Silhouette-adjusting-blade-depth.gif">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_adjusting_blade_depth.gif" alt="Silhouette-adjusting-blade-depth.gif">
 
-The [http://bloominglabs.org/images/6/65/Silhouette_cameo_manual.pdf manual] has recommended depth settings for different materials.
+The [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_cameo_manual.pdf manual] has recommended depth settings for different materials.
 
 {| class="wikitable" style="margin:auto"
 |+ Recommended Cutting Depths for Official Blade
@@ -83,11 +83,11 @@ The [http://bloominglabs.org/images/6/65/Silhouette_cameo_manual.pdf manual] has
 The unofficial (aluminum) knife cartridge is adjusted by turning the knob on the top.
 It may be necessary to manually drag the blade across your material in order to determine whether it is adjusted properly.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Silhouette-adjusting-generic-blade-depth.gif" alt="Silhouette-adjusting-generic-blade-depth.gif">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_adjusting_generic_blade_depth.gif" alt="Silhouette-adjusting-generic-blade-depth.gif">
 
 === Insert Tool ===
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Silhouette-inserting-blade-cartridge.gif" alt="Silhouette-inserting-blade-cartridge.gif">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_inserting_blade_cartridge.gif" alt="Silhouette-inserting-blade-cartridge.gif">
 
 Tools drop in to the "print head" of the machine and lock in place by twisting the blue plastic knob clockwise.
 Be sure that the tool is seated all the way down, otherwise you way not cut all the way through, or even at all.
@@ -111,7 +111,7 @@ On the cutting machine, select the menu item "load cutting mat", and feed your c
 
 Materials that already have adhesive backing, like [https://smile.amazon.com/s/&field-keywords=adhesive%20vinyl%20sheets vinyl sheets], can be fed into the cutter directly.
 
-If your sheet is less than twelve inches wide, the [http://bloominglabs.org/images/6/65/Silhouette_cameo_manual.pdf manual] has instructions on adjusting the rollers for narrower sheets.
+If your sheet is less than twelve inches wide, the [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_cameo_manual.pdf manual] has instructions on adjusting the rollers for narrower sheets.
 
 Check that the blue knob on the right side of the cutter is pointing upward.
 
@@ -132,14 +132,14 @@ If you find the defaults unsatisfactory, and you are sure that the blade is shar
 |-
 | Ballpoint Pen (Bic Cristal) on Printer Paper || 1 || 30 || Pressure of 12 or higher can cause the pen to snag the paper.
 The ballpoint pen will not write well on the paper that the white rollers press on.
-| <img src="https://www.bloominglabs.org/Special:FilePath/Silhouette-ballpoint-pen-bic-cristal-printer-paper-p01-s30.jpg" alt="Silhouette-ballpoint-pen-bic-cristal-printer-paper-p01-s30.jpg">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_ballpoint_pen_bic_cristal_printer_paper_p01_s30.jpg" alt="Silhouette-ballpoint-pen-bic-cristal-printer-paper-p01-s30.jpg">
 |}
 
 Finally, click <code>Apply</code>. The cutter will do the stuff and make the thing.
 
 == Links ==
 
-User manual: [https://www.bloominglabs.org/Special:FilePath/Silhouette_cameo_manual.pdf Silhouette_cameo_manual.pdf]
+User manual: [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Silhouette_cameo_manual.pdf Silhouette_cameo_manual.pdf]
 
 User guide for inkscape-silhouette: [https://github.com/fablabnbg/inkscape-silhouette/blob/main/USERGUIDE.md]
 

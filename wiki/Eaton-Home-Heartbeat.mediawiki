@@ -139,7 +139,7 @@ ZigBee channel 9 is a 900MHz frequency (channels 1-10). However the RF chip bein
 The initial appearance after capturing some of of the wireless traffic it appears that it uses a ZigBee star topology. This makes sense in the way this system operates. As I have time to hack away at the wireless protocol I will post more info here.
 
 == Perl script for talking to the base station ==
-* <img src="https://www.bloominglabs.org/Special:FilePath/Hh.tgz" alt="Hh.tgz"> - hh.pl - digests the state table from a USB connected base station. It accepts flags for raw output, extended output, and can also generate an html file for easy viewing from a phone. Simply plug into cron using the correct flag and home status can be viewed any time via a home web server.
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Hh.tgz" alt="Hh.tgz"> - hh.pl - digests the state table from a USB connected base station. It accepts flags for raw output, extended output, and can also generate an html file for easy viewing from a phone. Simply plug into cron using the correct flag and home status can be viewed any time via a home web server.
 
 The default output only includes sensors, not other devices which are part of the network but do not change state. Example of default output:
 <pre>

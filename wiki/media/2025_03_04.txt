@@ -1,0 +1,52 @@
+```
+title: 2025-03-04 Bloominglabs Board Meeting Minutes  
+author: Kyle Dirrim  
+date: 2025-03-04  
+```
+
+2025-03-04
+Call to order 1913
+All board members present
+
+I.		Old Business
+	1. All board members have access to vaultwarden and contact@bloominglabs.org
+	2. Bank access doesn't need to change
+	3. Google Drive
+		a. needs to transfer from personal google account to business account
+		b. needs to be done manually
+		c. Kevin has point
+	4. only blabs' infrastructure not in our control in IRC server
+		a. will move in near future
+		b. signbot must live
+		c. discussion of blabs' digital infrastructure
+		
+II.		New Business
+	1. July - last rent increase in current lease
+	2. unofficial membership taget raised to 60
+	3. membership costs have risen less than inflation
+		a. 1 $20 hardship rate remains
+		b. 2 $40 grandfathered rates remains
+	4. last year blabs was in the red, slightly
+		a. 5 more full members per month to be in the black
+	5. workshops, charitable donations, swag
+		a. Adam's welding workshops
+			1. materials
+			2. costs
+		b. Kevin's police scanner workshop
+		c. Kevin's ADSB workshop
+		d. Jimmy's 3d printing workshop
+		e. workshops as space familiarization
+		f. semiconductor design
+		g. soldering class
+	6. access control system duplication
+	7. grant oppertunity
+		a. Jack Hopkins community service grant
+	8. Board meeting schedule
+		a. pairs well with Makevention board meetings
+		b. first wednesday of the month 1800-1900
+			1. 2025-04-02, April 02.
+
+III.	Discussion
+	1. report on internet usage is coming along well
+
+Adjourned @ 2000

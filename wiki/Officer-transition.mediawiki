@@ -35,11 +35,11 @@ This is a list of things that the new officer needs in order for them to do thei
 == Required reading for new officers ==
 
 # Skim over our Business Operations to see what processes we have documented for future reference:
-#*http://bloominglabs.org/index.php/Business_Operations
+#*[[Business-Operations]]
 # Need to read this doc (30 pages): IRS Compliance Guide for 501(c)(3) Charities.
 #*This gives clear advice on what activities we can and CAN'T engage in, also what reporting we are required to do:
 #*http://www.irs.gov/pub/irs-pdf/p4221pc.pdf
 # Should look through our official meeting minutes:
-#*http://bloominglabs.org/index.php/Meeting_Minutes
+#*[[Meeting-Minutes]]
 # Should look through the Bloominglabs Log:
-#*http://bloominglabs.org/index.php/Bloominglabs_Log
+#*[[Bloominglabs-Log]]

@@ -44,17 +44,17 @@ When: Sunday, November 10th from 1 to 4pm
 
 Who: Family friendly and all ages welcome. Under 12 need a parent or guardian.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Scribblebots.jpg" alt="Scribblebots.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Scribblebots.jpg" alt="Scribblebots.jpg">
 
 ----
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Boominglabs.jpg" alt="Boominglabs.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Boominglabs.jpg" alt="Boominglabs.jpg">
 
-[http://www.bloominglabs.org/index.php/Boo!minglabs_Halloween Boo!minglabs More information]
+[[Boo-minglabs-Halloween|Boo!minglabs More information]]
 
 '''Book Binding Workshop - Sunday 27th October 2019'''
 
-<img src="https://www.bloominglabs.org/Special:FilePath/BindExample1.jpeg" alt="BindExample1.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BindExample1.jpeg" alt="BindExample1.jpeg">
 
 Come learn how to create a hand-bound hard-cover journal, and take yours home! We will fold our pages, sew them, and make our own covers from just boards and decorative cover paper. Learn about the components of a book, how they hold together, and take away the skills to make many more on your own.
 
@@ -69,7 +69,7 @@ Location: Bloominglabs
 Registration required. Register here:
 [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=22ZWVXUS7KBKS Donate with PayPal]
 
-<img src="https://www.bloominglabs.org/Special:FilePath/BindExample0.jpeg" alt="BindExample0.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BindExample0.jpeg" alt="BindExample0.jpeg">
 
 '''Plant Tower Workshop - 9/29'''
 
@@ -80,7 +80,7 @@ Participants will build their own plant tower and compost tube from a recycled f
 Cost: $40 for members, $50 for non-members
 Time: 1pm - 4pm
 
-<img src="https://www.bloominglabs.org/Special:FilePath/plant_tower_small.jpg" alt="plant tower small.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_tower_small_f21ade58.jpg" alt="plant tower small.jpg">
 
 ----
 
@@ -101,7 +101,7 @@ Time: 2pm - 3pm<br>
 Description: Learn how to make your own essential oil body care products.
 
 Nabors Holistic (Jessica Nabors) will be leading a class where you learn the science behind how essential oils can support a healthy lifestyle. You will also learn how to make 3 of your own body care products, which can save you money in the future. This would also be an excellent opportunity to use what you learn to create awesome, non-toxic Christmas gifts. The cost is $15 for members and $20 for non-members. There are only 10 spots available for this workshop, so sign up quick as it will fill up fast!<br><br>
-<img src="https://www.bloominglabs.org/Special:FilePath/Essential_Oils.jpeg" alt="Essential_Oils.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Essential_Oils.jpeg" alt="Essential_Oils.jpeg">
 <br>
 
 <b>Halloween Workshop: Freaky Felting</b><br />
@@ -122,7 +122,7 @@ November 18th<br>
 Cost: $40 for members, $50 for non-members<br>
 Time: 1 pm - 4 pm<br>
 Description: Plant towers are a vertical garden that can house 50+ plants in 4 sq ft of space. Plant towers also contain a composting tube to allow users to easily return their vegetative waste back to their plants. Participants will build their own plant tower and compost tube within a 3 hour class.<br>
-<img src="https://www.bloominglabs.org/Special:FilePath/with_flowers.jpg" alt="with flowers.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/With_flowers_d6d1eb54.jpg" alt="with flowers.jpg">
 
 *'''Makevention!'''
 ** Our annual celebration of local makers
@@ -213,7 +213,7 @@ Description: Plant towers are a vertical garden that can house 50+ plants in 4 s
 *'''Cluster System Administration Class'''
 ** Tuesday evenings, 7:00pm-9:30pm, starting January 24th and ending March 7th
 ** Class will be hands-on
-** Syllabus can be found [http://bloominglabs.org/images/a/a3/Bloominglabs-ClusterSysAdmin-syllabus.pdf here]
+** Syllabus can be found [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_ClusterSysAdmin_syllabus.pdf here]
 ** Class website is at [[ClusterSysadminClass]]
 ** $50 for members/$125 for non-members
 
@@ -584,7 +584,7 @@ Our annual Holiday workshops are lots of fun. This year we're holding it on a Sa
 ** Questions?  Contact jsissom@bloominglabs.org
 
 *[[OpenHouse]] July 23rd from 10am-4pm at the new space! 3927 W. Roll Avenue. Tell your friends! See you there!
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-2011-open-house-individual-flyer.jpg‎" alt="Bloominglabs-2011-open-house-individual-flyer.jpg‎">
+[[Image:Bloominglabs-2011-open-house-individual-flyer.jpg‎]]
 
 *4th of July parade float
 ** Suggestions:
@@ -608,7 +608,7 @@ Participate in the discussion and contribute your ideas at the [[4th-Of-July-Pro
 ** March 25th, 26th, and 27th
 ** http://www.indianalinux.org
 
-*February 16 from 6pm to 11:00pm <img src="https://www.bloominglabs.org/Special:FilePath/BloomingLabs-ContactMicrophoneResize2_copy.jpg" alt="click to see huge version">‎
+*February 16 from 6pm to 11:00pm <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BloomingLabs_ContactMicrophoneResize2_copy.jpg" alt="click to see huge version">‎
 ** Contact Microphone Building Workshop with the DeKalb Hackerspace CMKT4
 ** CMKT4 will show you how to solder up a piezo-electric pickup and house it sturdily in a recycled bottle-cap housing.
 ** CMKT4's band will be performing after the workshop

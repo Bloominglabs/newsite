@@ -38,7 +38,7 @@ Please plan for clean-up time, both for students (sweeping, where tools belong, 
 
 2. Fill out the host survey. (see below)
 
-3. Send photo of receipts or invoice to treasurer with preferred method of reimbursement. Here is a blank invoice if you want to use this template: <img src="https://www.bloominglabs.org/Special:FilePath/Workshop_Invoice.docx" alt="Workshop_Invoice.docx">
+3. Send photo of receipts or invoice to treasurer with preferred method of reimbursement. Here is a blank invoice if you want to use this template: <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Workshop_Invoice.docx" alt="Workshop_Invoice.docx">
 
 == RSVP Management ==
 For workshops and classes which have limited seating, we STRONGLY recommend only holding seats for attendees who have paid ahead of time. Numerous times in the past we've ended up holding seats for no-shows while at the same time we had already turned away overflow attendees. This ends up with us having a partly empty class which is discouraging and costs us valuable time and funds. Non-refundable pre-payment of workshops ensures our time is not wasted in these scenarios.

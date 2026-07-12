@@ -7,7 +7,7 @@ This was for the South Rogers location.
 
 == City Zoning ==
 Map and definition, allowed activities:
-[https://www.bloominglabs.org/Special:FilePath/S.Rogers_zoning_permitted_uses.pdf S.Rogers_zoning_permitted_uses.pdf]
+[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/S_Rogers_zoning_permitted_uses.pdf S.Rogers_zoning_permitted_uses.pdf]
 
 Source of data:<br>
 * Zoning map: [http://bloomington.in.gov/documents/viewDocument.php?document_id=5518]

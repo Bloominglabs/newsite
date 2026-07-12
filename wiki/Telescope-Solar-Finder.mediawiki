@@ -2,15 +2,15 @@ This is a sun finder I designed for my telescope. I use a Telrad finder scope wh
 
 {|
 |-
-| <img src="https://www.bloominglabs.org/Special:FilePath/Sol_finder01.jpg" alt="Sol finder">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Sol_finder02.jpg" alt="Front end">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Sol_finder03.jpg" alt="Alignment target">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Sol_finder01.jpg" alt="Sol finder">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Sol_finder02.jpg" alt="Front end">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Sol_finder03.jpg" alt="Alignment target">
 |}
 
 Usage is straightforward: align the finder until the target is covered by the shadow from the front side. Align the white dot to the center of the target and Bob's your uncle.
 
 == Safety ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Sol_finder04.jpg" alt="Sol finder and sun filter">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Sol_finder04.jpg" alt="Sol finder and sun filter">
 Reminder: never point your telescope at the sun without a sun filter over it. You can permenantly blind yourself if you don't use a proper sun filter. Also, the heat from sun's light can damage your telescope without a sun filter filter. Don't forget to remove or cover any other finder scopes.
 
 == Vector File ==

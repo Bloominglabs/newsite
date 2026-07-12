@@ -67,4 +67,4 @@ PLA only:
 If you are ready to move forwards we have more information about 3D printing on our wiki:
 * [[3D-Printers]] (http://bloominglabs.org/index.php/3D_Printers)
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_3d-printering-quickstart.png" alt="Link to the latest version of this page on the wiki">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_3d_printering_quickstart.png" alt="Link to the latest version of this page on the wiki">

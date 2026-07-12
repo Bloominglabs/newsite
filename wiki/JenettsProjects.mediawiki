@@ -78,7 +78,7 @@ Catarina Mota from [http://www.openmaterials.org openMaterials] came and gave a 
 
 [[CatarinaTalk]] - my notes from the talk
 
-[http://bloominglabs.org/images/a/a6/SmartMaterialsforDIYProjects.ppt A copy of her slides]
+[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/SmartMaterialsforDIYProjects.ppt A copy of her slides]
 
 == IR Harp ==
 

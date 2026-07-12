@@ -29,7 +29,7 @@ Our bylaws describe the official duties of our officers: [[Bylaws#Article-V-The-
 * Make sure regular stuff is getting done - trash being taken out, junk accumulation is not out of control, workshop cleanups, etc. Not necessarily your job to do these things, delegate as needed. But make sure it’s getting done one way or another.
 
 ==Periodically through the year==
-http://bloominglabs.org/index.php/Business_Operations#Yearly_Dates_to_Remember
+[[Business-Operations]]#Yearly_Dates_to_Remember
 
 * Keeping the membership applications in order
 ** Periodically sort them and update the paperwork for members who left (put exit dates on applications)
@@ -88,5 +88,5 @@ It is completely up to the board to decide where and when to meet. Anyone is wel
 
 == QR code URL==
 If you are viewing hard-copy, the latest version of this document is always available online:
-<br>http://bloominglabs.org/index.php/Officers_Guide
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_Officers_Guide.jpg" alt="URL for this page">
+<br>[[Officers-Guide]]
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_Officers_Guide.jpg" alt="URL for this page">

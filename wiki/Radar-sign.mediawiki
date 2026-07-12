@@ -3,24 +3,24 @@ A few years ago I picked up a K55 dash-mount radar unit at a local hamfest. It's
 I have two ideas in mind for this project. First, I'd just like to silently log speed data of vehicles on my road. After that, I would be interested in adding a large-format display of some kind.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55.jpg" alt="K55 with 1 antenna and remote">
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-front.jpg" alt="K55 front panel">
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-rear.jpg" alt="K55 rear">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55.jpg" alt="K55 with 1 antenna and remote">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_front.jpg" alt="K55 front panel">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_rear.jpg" alt="K55 rear">
 |}
 
 == Research and Preliminary look inside ==
 Doing some googling I found [http://juliepalooza.8m.com/sl/k55radar.htm one guy] who had managed to read out speed data from an early model of this same unit with an AVR chip and send out RS-232 data. When we opened up my unit we found similar IC's inside as described by the previous link. Apparently the unit sends out BCD data to seven-segment display drivers so binary data can be siphoned off the board.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-underside.jpg" alt="K55 underside">
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-cb01.jpg" alt="PCB silk screen">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_underside.jpg" alt="K55 underside">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_cb01.jpg" alt="PCB silk screen">
 |}
 
 While I'm fine with adding a board to the main unit, I'd rather tap into the remote. If I could just make a module which plugs into the remote port and adds USB/serial out I would be very happy.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-remote-insides.jpg" alt="Remote internals">
-| <img src="https://www.bloominglabs.org/Special:FilePath/K55-remote-pinout.jpg" alt="Remote PCB silk screen">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_remote_insides.jpg" alt="Remote internals">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/K55_remote_pinout.jpg" alt="Remote PCB silk screen">
 |}
 
 == Build & Code ==

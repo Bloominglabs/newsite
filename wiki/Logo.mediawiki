@@ -1,50 +1,50 @@
 == Original Flowergear ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo-nobg.png" alt="Bloominglabs-logo-nobg.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_nobg.png" alt="Bloominglabs-logo-nobg.png">
 
 At some point, [[JoesProjects| Joe]] made our cool blooming-gear logo. You are looking at it now, on the right.
 If you want a really good SVG of the flowergear, maybe ask Joe.
 
 == Bloominglabs with Flowergear ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs.png" alt="Bloominglabs.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs.png" alt="Bloominglabs.png">
 
-If you want images like this, then just download and use that PNG. If you want a half-decent SVG I made of the flowergear, find it in <img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo.zip_this_zip_file" alt="Bloominglabs-logo.zip this zip file">.
+If you want images like this, then just download and use that PNG. If you want a half-decent SVG I made of the flowergear, find it in [[File-Bloominglabs-logo-zip-this-zip-file]].
 
 == With Final Frontier Font ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Futuristic-logo.png" alt="Futuristic-logo.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Futuristic_logo.png" alt="Futuristic-logo.png">
 
 Created by Jenett with the font "[http://www.fontspace.com/allen-r-walden/final-frontier Final Frontier]".
 
 === Banner ===
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-banner-300.png" alt="Bloominglabs-banner-300.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_banner_300.png" alt="Bloominglabs-banner-300.png">
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Export-banner.png" alt="The full-size image"> is very large because it is 9 feet long and 120dpi.
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Export_banner.png" alt="The full-size image"> is very large because it is 9 feet long and 120dpi.
 
 After ILF 2011, we have our first real banner.
 
 [[Daniel-s-Projects| DAKMH]] reworked the gears for use as physical objects, including badges for the first Makevention (2013) and revised the logo to include those.  The versions based on that are:
-*<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_revised_flat.svg" alt="flattened svg">
-*<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_revised.png" alt="300 DPI .png">
-*<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_revised.svg" alt="Inkscape SVG"> (for editing; requires Final Frontier font)
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_revised_flat.svg" alt="flattened svg">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_revised.png" alt="300 DPI .png">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_revised.svg" alt="Inkscape SVG"> (for editing; requires Final Frontier font)
 
 == Current BloomingGear ==
-<img src="https://www.bloominglabs.org/Special:FilePath/BloominglabsGearDeeperTeeth.png" alt="BloominglabsGearDeeperTeeth.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BloominglabsGearDeeperTeeth.png" alt="BloominglabsGearDeeperTeeth.png">
 
 Finally, DAKMH provided images of just the gear.
 
-*<img src="https://www.bloominglabs.org/Special:FilePath/BloominglabsGearDeeperTeeth.png" alt="as PNG">
-*<img src="https://www.bloominglabs.org/Special:FilePath/BloominglabsGearDeeperTeeth_purePaths_2a_alpha.png" alt="as PNG with alpha">
-*<img src="https://www.bloominglabs.org/Special:FilePath/BloominglabsGearDeeperTeeth_purePaths_2a.svg" alt="as SVG">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BloominglabsGearDeeperTeeth.png" alt="as PNG">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BloominglabsGearDeeperTeeth_purePaths_2a_alpha.png" alt="as PNG with alpha">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BloominglabsGearDeeperTeeth_purePaths_2a.svg" alt="as SVG">
 
 == New Shirt Logo ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_ShirtPrint_test1f_large.png" alt="Bloominglabs-logo_ShirtPrint_test1f_large.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_ShirtPrint_test1f_large.png" alt="Bloominglabs-logo_ShirtPrint_test1f_large.png">
 
 In 2016, DAKMH designed an updated logo for Bloominglabs t-shirts.
-*<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_ShirtPrint_test1f_large.png" alt="as PNG">
-*<img src="https://www.bloominglabs.org/Special:FilePath/Bloominglabs-logo_ShirtPrint_test1f.svg" alt="as SVG">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_ShirtPrint_test1f_large.png" alt="as PNG">
+*<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_logo_ShirtPrint_test1f.svg" alt="as SVG">
 
 == Animated Logo ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Animated-logo-10fps.gif" alt="Animated-logo-10fps.gif">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Animated_logo_10fps.gif" alt="Animated-logo-10fps.gif">
 
 Created by avh.on1 in the wee hours of the morning on 4 July 2017 from [[#New Shirt Logo | DAKMH's new t-shirt logo]].
 First, the gears in the logo were separated using [https://inkscape.org Inkscape].
@@ -54,11 +54,11 @@ The gif animation seen here was rendered in [http://anigen.org aniGen],
 stitched in [https://imagej.net/Welcome ImageJ],
 and optimized with [https://www.lcdf.org/gifsicle/ gifsicle].
 
-Here is the <img src="https://www.bloominglabs.org/Special:FilePath/Animated-logo-siml.svg" alt="original SVG file">.
+Here is the <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Animated_logo_siml.svg" alt="original SVG file">.
 
 Unfortunately, SIML may be killed off by Google in the future, so this may eventually need to be reimplemented using CSS or javascript.
 
 == 2022 Banner ==
-<img src="https://www.bloominglabs.org/Special:FilePath/2022_Bloominglabs_banner_(created_for_4th_of_July_parade)_reference_image.gif" alt="2022 Bloominglabs banner (created for 4th of July parade) reference image.gif">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2022_Bloominglabs_banner_created_for_4th_of_July_parade_reference_image.gif" alt="2022 Bloominglabs banner (created for 4th of July parade) reference image.gif">
 
-[https://www.bloominglabs.org/Special:FilePath/2022_Bloominglabs_banner_(created_for_4th_of_July_parade)_printable_small.pdf 2022 Bloominglabs banner (created for 4th of July parade) printable small.pdf]
+[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2022_Bloominglabs_banner_created_for_4th_of_July_parade_printable_small.pdf 2022 Bloominglabs banner (created for 4th of July parade) printable small.pdf]

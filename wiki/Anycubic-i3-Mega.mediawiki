@@ -2,7 +2,7 @@ Our Anycubic I3 Mega was donated by Ian Douglass around 2018 or so. As of 11-202
 
 Printer manual, firmware updates, etc: [https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s https://www.anycubic.com/blogs/news/all-you-need-to-know-about-i3-mega-m-s]
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Anycubic-I3-Mega.jpg" alt="Anycubic I3 Mega 3D printer">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Anycubic_I3_Mega.jpg" alt="Anycubic I3 Mega 3D printer">
 
 == Printer status ==
 As of 11-2020 this printer is fully functional. The firmware was updated to the latest available as of 11-2020. 
@@ -19,4 +19,4 @@ This printer has the following features:
 == Filament Runout Sensor ==
 This printer has a filament runout sensor below the bowden extruder motor. It is a funky looking thing which is held in place with a ball-bearing magnet which allows the sensor to flop around from whichever direction the filament spool is located. Just make sure you run the filament through the sensor following the direction of the arrow.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_anycubic-i3-mega.png" alt="Link to this page on the wiki (Anycubic I3 Mega)">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_anycubic_i3_mega.png" alt="Link to this page on the wiki (Anycubic I3 Mega)">

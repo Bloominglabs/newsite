@@ -19,7 +19,7 @@ Sign up is now closed.
 If you are a scout working on your [https://www.scouting.org/merit-badges/basketry/ basketry merit badge], show up early (at 9am) to get the safety lecture and basket identification activity you will need for your badge.  This workshop will cover basket identification, your round basket, and your square basket.  After that, you will only need to weave a camp stool to finish your badge.  Let us know if you are interested in the camp stool for a future workshop.
 
 === 9:30am--12:30pm: The Market Basket ===
-<img src="https://www.bloominglabs.org/Special:FilePath/Market-basket.jpg" alt="The market basket.">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Market_basket.jpg" alt="The market basket.">
 This basket is a great first basket for new weavers.  Its bottom is 10" by 10".  The sides of the basket are 8" high, and the basket is 14" tall including the handle.  It's a nice, sturdy basket to use when you go out to the farmer's market, the library, or to your back yard garden.
 
 Most people will finish this basket in three hours, but if you want some extra time, then bring a packed lunch and work during the lunch hour.
@@ -30,7 +30,7 @@ The cost for Bloominglabs members to make this basket is $50.  The cost for non-
 We'll have a one-hour lunch break between the morning and afternoon session.  '''Lunch is not provided''', so bring a packed lunch or plan to go out somewhere nearby.  If you bring a packed lunch, that gives you the option to work on your Market Basket longer should you need to.
 
 === 1:30pm--4:30pm: The Round Basket ===
-<img src="https://www.bloominglabs.org/Special:FilePath/Round-basket-closeup.jpg" alt="The round basket.">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Round_basket_closeup.jpg" alt="The round basket.">
 This round basket is a cute way to store your odds and ends on any desk or table.  Some people even drop in a pot and use it to show off their favorite house plant.  It's a little more complicated than the Market Basket, so if you are totally new to basket weaving, do the Market Basket first to learn some basics that will make this basket more approachable.  This basket is 5" high with a 7" diameter.
 
 The cost for Bloominglabs members to make this basket is $35.  The cost to non-members is $45.  All materials are included, and we provide the tools you'll need during the workshop.  You'll go home with a completed basket you can use and show off for years to come.

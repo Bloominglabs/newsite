@@ -39,7 +39,7 @@ Held 28 June 2025.
 * Format: In-Person
 * Pricing: $30, or $20 for members
 * Maximum Class Size: 6
-<img src="https://www.bloominglabs.org/Special:FilePath/arduinoworkshop.png" alt="x200px">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Arduinoworkshop.png" alt="x200px">
 The iconic Arduino is not just hardware, it’s also a software platform you can use to program a wide variety of microcontrollers to do anything from controlling lights to building robots to IoT (Internet of Things) applications in a very accessible, quick-start way. Arduino can be used to prototype a product idea, create art, or as a fun creative hobby.
 In this workshop we’ll dive right in and get you programming an Arduino to sense the world around it and interact with the world via lights and motors. You’ll be taught helpful tips to avoid traps beginners can fall into, and we’ll guide you to the best resources for next steps. 
 Laptops and hardware provided. If you want to bring your laptop, install the free Arduino software before the workshop: https://www.arduino.cc/en/software. You can bring an Arduino if you have one, but note we’ll be working with the standard Arduino Uno in this workshop.
@@ -89,7 +89,7 @@ During the summer months, lawns and gardens account for an average of 40% of hou
 
 ''' Plant Tower Workshop '''
 ''' Sunday, August 15th, 2021 -- 3:30 PM to 5:30 PM '''
-<img src="https://www.bloominglabs.org/Special:FilePath/Plant_tower.jpg" alt="x200px">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_Tower.jpg" alt="x200px">
 * Format: In-Person, outside
 * Cost: $50 for the public, or $40 for Bloominglabs members 
 * Maximum Class Size: 3 students
@@ -122,7 +122,7 @@ More information and Registration: [[Workshop-Build-a-P25-Digital-Scanner-with-a
 
 ''' Introduction to Welding '''
 ''' Sunday, July 11th, 2021 -- 1:00PM-4:30PM '''
-<img src="https://www.bloominglabs.org/Special:FilePath/July_11_welding.jpg" alt="July_11_welding.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/July_11_welding.jpg" alt="July_11_welding.jpg">
 * Format: In-Person
 * Cost: $50, or $40 for members
 * Maximum Class Size: 12 students
@@ -146,7 +146,7 @@ We will notify the waitlist for future sessions when opened, as well as if any s
 
 ''' Introduction to Soldering/Electronics '''
 ''' Sunday, June 27th, 2021 -- 1:00 PM to 3:00 PM '''
-<img src="https://www.bloominglabs.org/Special:FilePath/solderdice.png" alt="x150px">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Solderdice.png" alt="x150px">
 * Format: In-Person
 * Cost: $20, $15 for members
 * Maximum Class Size: 6
@@ -157,7 +157,7 @@ In partnership with Ivy Tech Bloomington's Electrical Engineering Department: Le
 
 ''' Plant Tower Workshop '''
 ''' Sunday, June 20th, 2021 -- 3:30 PM to 5:30 PM '''
-<img src="https://www.bloominglabs.org/Special:FilePath/Plant_tower.jpg" alt="x200px">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_Tower.jpg" alt="x200px">
 * Format: In-Person, outside
 * Cost: $50 for the public, or $40 for Bloominglabs members 
 * Maximum Class Size: 3 students
@@ -214,7 +214,7 @@ During the summer months, lawns and gardens account for an average of 40% of hou
 ''' Plant Tower Workshop '''
 
 ''' Saturday, May 15th, 2021 -- 3:30 PM to 5:30 PM '''
-<img src="https://www.bloominglabs.org/Special:FilePath/Plant_tower.jpg" alt="Plant_tower.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_Tower.jpg" alt="Plant_tower.jpg">
 * Format: In-Person, outside
 * Cost: $50 for the public, or $40 for Bloominglabs members 
 * Maximum Class Size: 3 students
@@ -233,8 +233,8 @@ Picking locks is a fun pastime and we’ll show you how it’s done in this virt
 * Format: Virtual, pick up kits
 * Cost: $25 ($10 for members), plus a lock picking kit
 * Kits:
-** <img src="https://www.bloominglabs.org/Special:FilePath/PRO-10_lockpick_Kit.png" alt="PRO-10 (10-piece kit with snap case)">: $35
-** <img src="https://www.bloominglabs.org/Special:FilePath/Basic_lockpick_Kit.jpg" alt="FOOLS Basic (6-piece basic kit with tube case)">: $25
+** <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/PRO_10_lockpick_Kit.png" alt="PRO-10 (10-piece kit with snap case)">: $35
+** <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Basic_lockpick_Kit.jpg" alt="FOOLS Basic (6-piece basic kit with tube case)">: $25
 ** Borrow-a-Kit Deposit: $10 
 * Maximum Class Size: 10 students (and up to 10 more at a future date)
 
@@ -293,7 +293,7 @@ Running your own email server can still be done and we’ll show you how in this
 
 ''' Introduction to Police Scanners '''
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Scanner.png" alt="Scanner.png">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Scanner.png" alt="Scanner.png">
 
 * Date: Tuesday March 23, 2021
 * Time: 7:00 PM to 9:00 PM
@@ -336,7 +336,7 @@ Saturday, January 16th, 2021
 
 '''Book Binding Workshop - Sunday 27th October 2019'''
 
-<img src="https://www.bloominglabs.org/Special:FilePath/BindExample1.jpeg" alt="BindExample1.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BindExample1.jpeg" alt="BindExample1.jpeg">
 
 Come learn how to create a hand-bound hard-cover journal, and take yours home! We will fold our pages, sew them, and make our own covers from just boards and decorative cover paper. Learn about the components of a book, how they hold together, and take away the skills to make many more on your own.
 
@@ -348,7 +348,7 @@ When: Sunday, 27th October 2019 1pm-4pm.
 
 Location: Bloominglabs
 
-<img src="https://www.bloominglabs.org/Special:FilePath/BindExample0.jpeg" alt="BindExample0.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BindExample0.jpeg" alt="BindExample0.jpeg">
 
 ———
 
@@ -361,10 +361,10 @@ Participants will build their own plant tower and compost tube from a recycled f
 Cost: $40 for members, $50 for non-members
 Time: 1pm - 4pm
 
-<img src="https://www.bloominglabs.org/Special:FilePath/plant_tower_small.jpg" alt="plant tower small.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Plant_tower_small_f21ade58.jpg" alt="plant tower small.jpg">
 
 == 2018 Workshops  ==
-<img src="https://www.bloominglabs.org/Special:FilePath/Workshops2018-spring-summer.png" alt="Workshop flyer">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Workshops2018_spring_summer.png" alt="Workshop flyer">
 
 == Workshops from Long Ago ==
 * [[AVR-Class]]

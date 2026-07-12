@@ -49,7 +49,7 @@ Some items that could improve capabilities or ease of use:
 * Leadscrews for Z-axis, along with shaft couplers, screw nuts, and possible anti-backlash nuts.
 * Swiss clips to hold glass bed to heater plate.
 * Some sort of enclosure, to help avoid breezes/cool surrounding air causing premature cooling and lifting with ABS or PETG prints.
-* The original <img src="https://www.bloominglabs.org/Special:FilePath/MakerfarmPegasusDirectDE.stl" alt="3D-printed extruder"> breaks easily, and has been reprinted and replaced several times. A stronger version would be much-appreciated.
+* The original <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/MakerfarmPegasusDirectDE.stl" alt="3D-printed extruder"> breaks easily, and has been reprinted and replaced several times. A stronger version would be much-appreciated.
 
 == Planned upgrades ==
 These are upgrades currently in progress, or planned for the near future.
@@ -71,10 +71,10 @@ These are completed upgrades for the printer.
 == Configuration settings ==
 
 === Firmware ===
-Our firmware had to be modified somewhat to fix X-axis mirroring issues, and for our DRV8825 stepper motor drivers. Find the files <img src="https://www.bloominglabs.org/Special:FilePath/Pegasus12.zip" alt="here">.
+Our firmware had to be modified somewhat to fix X-axis mirroring issues, and for our DRV8825 stepper motor drivers. Find the files <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Pegasus12.zip" alt="here">.
 
 === Slic3r config ===
-Find Gavin's current Slic3r config <img src="https://www.bloominglabs.org/Special:FilePath/gavin-fast8.txt" alt="here">. The wiki won't allow .ini files to be uploaded, so change the extension to .ini before using.
+Find Gavin's current Slic3r config <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Gavin_fast8.txt" alt="here">. The wiki won't allow .ini files to be uploaded, so change the extension to .ini before using.
 
 == Kit Contents ==
 The Makerfarm 12-inch Pegasus 3D printer kit was received on Thursday, the 20th of October, 2016. It was shipped in a 22-inch by 14.25-inch by 7-inch box weighing 26 pounds. Inside were 3 cardboard boxes, 1 styrofoam box, one paper package, the aluminum extrusions, a packing slip, a makerfarm sticker, and a gambody.com promotion code. There were also some packing peanuts and sheets of thin packing foam. The boxes were not labeled, and there wasn't anything saying what should have been in each box.
@@ -160,11 +160,11 @@ Last, there are 2 16.5-inch long 3/32-inch diameter threaded rods.
 
 === Instructions ===
 There are several manuals and sub-manuals. The URLs were all easy to find, but they are listed here for convenience:
-* [https://www.bloominglabs.org/Special:FilePath/12_Pegasus_Printer.pdf Makerfarm Pegasus 12-Inch Build Guide]
-* [https://www.bloominglabs.org/Special:FilePath/12_Pegasus_Frame_v2.pdf Makerfarm Pegasus 12-Inch Frame Kit Version 2 Build Guide]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/12_Pegasus_Printer.pdf Makerfarm Pegasus 12-Inch Build Guide]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/12_Pegasus_Frame_v2.pdf Makerfarm Pegasus 12-Inch Frame Kit Version 2 Build Guide]
 * [https://wiki.e3d-online.com/E3D-Lite6_Assembly E3D-Lite6 Assembly Instructions]
-* [https://www.bloominglabs.org/Special:FilePath/Pegasus_Single_Extruder.pdf Makerfarm Single Extruder Assembly Instructions]
-* [https://www.bloominglabs.org/Special:FilePath/Makerfarm_Firmware_Guide.pdf RAMPS/RUMBA Firmware Loading Directions]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Pegasus_Single_Extruder.pdf Makerfarm Single Extruder Assembly Instructions]
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Makerfarm_Firmware_Guide.pdf RAMPS/RUMBA Firmware Loading Directions]
 
 === General Assembly Notes ===
 

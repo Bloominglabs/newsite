@@ -1,0 +1,60 @@
+---
+title: Bloominglabs Board Meeting
+created: 2024-06-04
+author: Kyle Dirrim
+---
+
+#### Start at 1910
+
+## I. Roll Call
+- Calob
+- Kyle
+- Nathan
+- Apple
+- Kevin
+
+## II. Old Business
+
+A. Continuances from last meeting
+	1. Sand Blasting Cabinet
+		a. Ian is messaged
+		b. Ian "I don't know, man."
+	2. Bike Rack
+		a. Permission to install secured
+		b. Options are looked at
+	3. Fire safety report
+		a. extinguishers measured, wall plates installed, ceiling tiles fixed
+		b. scheduled for June 12
+B. Google for non-profits
+	1. set up, on dev system
+
+## III. New Business
+
+A. Social Media
+	1. Social media captain?
+	2. Better pictures of the space?
+	3. Board meeting on the calendar?
+B. Indiana Oxygen
+	1. New bill
+	2. Nathan will deal with this
+C. CISA warns about edge routers
+	1. Our router is aged, insecure
+	2. Kevin has replacement and plan
+	3. remember to make Mark aware
+D. Leaf guards for the gutters
+	1. Pete and Nathan have some
+E. Battelle donates $200!
+F. Cameras in the space
+	1. 3d printer monitoring?
+	2. Laser cutter monitoring?
+	3. Outdoor, no microphones?
+	4. Inside the space?
+		a. decisive no
+	5. motion detector, no camera, in the electronics lab
+	6. Get the toilet flush sensor running again?
+
+## IV. Open Floor
+
+
+
+## V. Adjournment @ 1952

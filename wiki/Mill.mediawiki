@@ -1,6 +1,6 @@
 Bloominglabs has acquired a new mill!
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Mill1.jpg" alt="Mill1.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Mill1.jpg" alt="Mill1.jpg">
 
 The Mill was bought in 2012 by Jenett, we are no longer soliciting funds for this.
 

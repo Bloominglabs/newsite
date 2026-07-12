@@ -2,40 +2,40 @@ This is an Atlas TH42 lathe made by the Atlas Press Company, made at the Kalamaz
 
 ==Original condition==
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0560.JPG" alt="Lathe as it was received">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0561.JPG" alt="Down the bed">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0563.JPG" alt="Boiler Plate">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0562.JPG" alt="Drive section - mounts behind the lathe">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0560.jpg" alt="Lathe as it was received">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0561.jpg" alt="Down the bed">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0563.jpg" alt="Boiler Plate">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0562.jpg" alt="Drive section - mounts behind the lathe">
 |}
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0565.JPG" alt="Drive pulleys">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0567.JPG" alt="An old repair">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0569.JPG" alt="Box of lathe tools">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0565.jpg" alt="Drive pulleys">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0567.jpg" alt="An old repair">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0569.jpg" alt="Box of lathe tools">
 |}
 
 ==Initial cleanup==
 A couple folks immediately took to the lathe with a wire brush and some 3-in-1 oil:
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0571.JPG" alt="Oil applied, debris cleared off">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0571.jpg" alt="Oil applied, debris cleared off">
 
 ==Electrolysis rust removal==
 In order to facilitate major rust removal, we built an [[Electrolysis-Rust-Removal-System]]. Simply leave the part in the bucket of solution for 24 hours with voltage applied and out comes clean parts. Amazing! Here are some of the early results, compare to the very first photo at the top of this page. Also notice the tailstock center, the rust is removed but the missing metal can't be helped - but you can read the indicators on the shaft now.
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Rust_03.jpg" alt="Rust gone from chuck">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0644.JPG" alt="Tailstock cleaned up">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0607.JPG" alt="Before: tailstock center, dial indicator, and thread counter">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_0642.JPG" alt="After: tailstock center">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Rust_03.jpg" alt="Rust gone from chuck">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0644.jpg" alt="Tailstock cleaned up">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0607.jpg" alt="Before: tailstock center, dial indicator, and thread counter">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0642.jpg" alt="After: tailstock center">
 |}
 
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_0701.JPG" alt="After: cross-slide components">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_0701.jpg" alt="After: cross-slide components">
 
 == Getting it running ==
 This project fell onto the back burner for a while but it has finally come to completion. I acquired a heavy duty WWII-era table off craigslist which is large enough to properly support the lathe. I picked up a Power-twist V-belt and an EPO switch from Amazon as finishing touches and we're up and running. 
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2281.JPG" alt="Getting bolted to the table">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2395.JPG" alt="Lathe in working order">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2388.JPG" alt="Turning aluminum">
-| <img src="https://www.bloominglabs.org/Special:FilePath/IMG_2396b.JPG" alt="Glory shot of the tools">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Thread_chart.jpg" alt="Thread Chart on Head stock cover">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_2281.jpg" alt="Getting bolted to the table">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_2395.jpg" alt="Lathe in working order">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_2388.jpg" alt="Turning aluminum">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_2396b.jpg" alt="Glory shot of the tools">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Thread_chart.jpg" alt="Thread Chart on Head stock cover">
 |}

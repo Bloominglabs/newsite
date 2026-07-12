@@ -1,4 +1,4 @@
-<img src="https://www.bloominglabs.org/Special:FilePath/Bransonic-12.jpeg" alt="Bransonic-12.jpeg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bransonic_12.jpeg" alt="Bransonic-12.jpeg">
 
 The Bransonic 12 is an ultrasonic cleaner with a 1.2-liter capacity. It is useful for cleaning small parts without supervision; it can clean parts that are tedious or difficult to clean by hand, or just save labor.
 

@@ -114,5 +114,5 @@ We require a brief [[Safety-qualifications]] walk through before using any power
 <!--
 Neal hasn't been a member since 2019 or so, but if you ask nicely he would probably still let you borrow his trailer  ;-)
 * 5' x 8-1/2' Utility Trailer: contact Neal
-<img src="https://www.bloominglabs.org/Special:FilePath/Utilty_trailer.JPG" alt="Neal's Trailer">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Utilty_trailer.jpg" alt="Neal's Trailer">
 -->

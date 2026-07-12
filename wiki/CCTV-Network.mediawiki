@@ -2,12 +2,12 @@ Edit: This info has become a little out of date after our move to a new building
 
 We have a closed circuit TV network in our space. We have several video sources which can deliver video to the network and hope to support multiple methods of output. The most practical use is to keep an eye on the laser cutter while it's running (fire kills lasers). A number of input sources are available which can deliver the content to all the other rooms in the space. Also the system can be used to play music throughout the space, as well as watch movies and other fun things.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Cctv_rack01.jpg" alt="A/V Rack">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Cctv_rack01.jpg" alt="A/V Rack">
 
 == Diagram ==
-[https://www.bloominglabs.org/Special:FilePath/BLabs_CCTV_Network_-_today.pdf BLabs_CCTV_Network_-_today.pdf]
+[https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/BLabs_CCTV_Network_today.pdf BLabs_CCTV_Network_-_today.pdf]
 
-<img src="https://www.bloominglabs.org/Special:FilePath/Blabs_CCTV_Network-today.png" alt="Network Diagram">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Blabs_CCTV_Network_today.png" alt="Network Diagram">
 
 == How to use the A/V rack ==
 # If it's not already on, turn on the power strip in the bottom of the rack, it is dark grey and may be somewhat buried - the cord and strip are labled, the cord runs into the front of the rack.

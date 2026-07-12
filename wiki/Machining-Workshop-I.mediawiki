@@ -8,8 +8,8 @@ We are presenting a machine tool workshop focusing on manual mill and lathe work
 Students taking this class will make an aluminum plumb-bob.
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/Machining01-plumbob01.jpg" alt="Plum bob">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Machining01-plumbob02.jpg" alt="Plum bob with cap removed">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Machining01_plumbob01.jpg" alt="Plum bob">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Machining01_plumbob02.jpg" alt="Plum bob with cap removed">
 |}
 
 == Time frame and class scheduling ==

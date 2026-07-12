@@ -31,7 +31,7 @@ This is a collection of descriptions and notes for how officers do their jobs. T
 === Yearly Dates to Remember ===
 * [https://www.google.com/calendar/render?mode=day&date=20170214T192231 Officer Google Calendar] should have all of these dates setup to help remind you.
 ** The Google account bloominglabs at gmail dot com owns this calendar and someone with current access should share this to new officers.
-* Schedule the [http://bloominglabs.org/index.php/Bylaws#Section_2:_Annual_Meetings Annual Meeting] by January 31st (may take place after this date) - [http://doodle.com http://doodle.com]
+* Schedule the [[Bylaws|Annual Meeting]] by January 31st (may take place after this date) - [http://doodle.com http://doodle.com]
 * Is it New Years day? That means it's time to start preparing the Annual Report for prior year, to be presented at the Annual Meeting
 ** Use the prior years report as a template [https://docs.google.com/document/d/1DSAlSh62ugImJFdxHUHtNj9LSu5LBAUCX1hhWlM5JbA/edit 2015 Bloominglabs Annual Report]
 * Yearly by January 31st: Indiana DoR sales tax filing. https://intime.dor.in.gov/
@@ -48,11 +48,11 @@ This is a collection of descriptions and notes for how officers do their jobs. T
 * Every two years (not sure dates, around mid May): File Property Taxes Form: Last filed 2017
 
 == Legal Documents ==
-* [https://www.bloominglabs.org/Special:FilePath/Bloominglabs_IRS_determination_letter.pdf Bloominglabs_IRS_determination_letter.pdf] - Federal IRS Determination Letter - this verifies we are a charitable non-profit
-* [https://www.bloominglabs.org/Special:FilePath/Bloominglabs-SalesTaxExemption.pdf Bloominglabs-SalesTaxExemption.pdf] - Indiana State Sales Tax Exemption
-* [https://www.bloominglabs.org/Special:FilePath/Bloominglabs-1023.pdf Bloominglabs-1023.pdf] - IRS 501c3 application, form 1023 (long form)
-* [https://www.bloominglabs.org/Special:FilePath/Bloominglabs-Articles-of-Inc.pdf Bloominglabs-Articles-of-Inc.pdf] - Articles of Incorporation
-* [https://www.bloominglabs.org/Special:FilePath/Bloominglabs-Certificate-of-Inc.pdf Bloominglabs-Certificate-of-Inc.pdf] - Certificate of Incorporation
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_IRS_determination_letter.pdf Bloominglabs_IRS_determination_letter.pdf] - Federal IRS Determination Letter - this verifies we are a charitable non-profit
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_SalesTaxExemption.pdf Bloominglabs-SalesTaxExemption.pdf] - Indiana State Sales Tax Exemption
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_1023.pdf Bloominglabs-1023.pdf] - IRS 501c3 application, form 1023 (long form)
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_Articles_of_Inc.pdf Bloominglabs-Articles-of-Inc.pdf] - Articles of Incorporation
+* [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_Certificate_of_Inc.pdf Bloominglabs-Certificate-of-Inc.pdf] - Certificate of Incorporation
 
 == Document Repository ==
 There are two Google Drive accounts which contains a lot of stuff like the Annual Reports, member surveys, and various spreadsheets. All officers should have the login's for these, new officers should be given access to this resource.
@@ -65,5 +65,5 @@ There are two Google Drive accounts which contains a lot of stuff like the Annua
 
 == QR code URL==
 If you are viewing hard-copy, the latest version of this document is always available online:
-<br>http://bloominglabs.org/index.php/Business_Operations
-<img src="https://www.bloominglabs.org/Special:FilePath/Qrcode_Business_Operations.png" alt="URL for this page">
+<br>[[Business-Operations]]
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Qrcode_Business_Operations.png" alt="URL for this page">

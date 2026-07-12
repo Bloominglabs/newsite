@@ -12,7 +12,7 @@ Date: Saturday Mar 1, 2025 from 10:00-14:00
 * Makevention status
 ** Establish first Makevention committee meeting of the year
 * Establish a future meeting date for a workshop planning session 
-* Kroger Community Rewards means FREE MONEY for Bloominglabs: https://bloominglabs.org/Kroger_Community_Rewards  ('''SIGN UP TODAY!!''')
+* Kroger Community Rewards means FREE MONEY for Bloominglabs: [[Kroger-Community-Rewards]]  ('''SIGN UP TODAY!!''')
 * Spring into Sustainability Challenge: chance to win money for Bloominglabs: https://bloomington.in.gov/news/2025/02/10/6171 
 * 2025 Social Media Campaign (Like, Subscribe, Follow, Review, etc)
 * Open meeting agenda items from the floor
@@ -43,6 +43,6 @@ Date: Saturday Mar 1, 2025 from 10:00-14:00
 ** Parking lot hasn't improved
 ** Posting signage on opposite building
 
-Report available [https://bloominglabs.org/images/c/ca/2024_Annual_Report.pdf here.]
+Report available [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2024_Annual_Report.pdf here.]
 
-Meeting Notes available [https://bloominglabs.org/images/d/d1/20250301.txt here.]
+Meeting Notes available [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/20250301.txt here.]

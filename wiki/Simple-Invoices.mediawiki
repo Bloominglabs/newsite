@@ -16,14 +16,14 @@ Extract Zend to this place inside the SI install directory:
 * /libraries/Zend
 
 This is a set of 4 customized files for version "stable-2012-1-CIS3000" which greatly enhances its usability out of the box, installation described below:
-* <img src="https://www.bloominglabs.org/Special:FilePath/Si_mods.tgz" alt="Si_mods.tgz">
+* <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Si_mods.tgz" alt="Si_mods.tgz">
 
 Edit /config/config.ini and input the database, database user, and password. Navigate to the website and follow the directions. Now you can complete the install. Once installed you will probably want to add the following customisations to it.
 
 ====Customizations which we applied to SI====
 We wanted the treasurer to have admin access and members to only be able to view their dues balances. You know, that's the first thing everyone asks you at that time of the month - how far behind am I? This will let you send them to a report which tells who is behind and by how much.
 
-Unpack <img src="https://www.bloominglabs.org/Special:FilePath/Si_mods.tgz" alt="Si_mods.tgz"> and put the files in these locations:
+Unpack <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Si_mods.tgz" alt="Si_mods.tgz"> and put the files in these locations:
 * acl.php         -> /include/acl.php		# Do this if you want members to have non-admin access (so they can see their outstanding dues balance)
 * index.php       -> /index.php			# This makes non-admin access easier - forwards them to a "reports" page rather than a "you cant view this" page upon login
 * index.tpl       -> /templates/default/index	# This customizes the Dashboard so only two reports are listed: Unpaid dues and total balances (for folks who pay ahead)

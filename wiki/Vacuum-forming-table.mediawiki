@@ -7,12 +7,12 @@ First you need to have a sheet of plastic prepared. It needs to be cut to 9"x11"
 We started by building a basic vacuum table box that sucks air down from under the heated plastic sheet. An old broken 19" rack-mount TV audio modulator was gutted so it could be used as an oven box. A charcoal heater was mounted inside. It has no thermostat which is ideal, but care should be taken to not leave it plugged in too long. The charcoal heater even had a flange used to prop the handle up which was perfect for mounting to the oven box. We drilled holes in it and the box and attached the two.
 {|
 |-
-| <img src="https://www.bloominglabs.org/Special:FilePath/Vacuum_table01.jpg" alt="Vacuum box">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Vacuum_table02.jpg" alt="Heater unit">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Vacuum_table01.jpg" alt="Vacuum box">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Vacuum_table02.jpg" alt="Heater unit">
 |}
 
 {|
 |-
-| <img src="https://www.bloominglabs.org/Special:FilePath/Vacuum_table03.jpg" alt="Vacuum box with heater supports">
-| <img src="https://www.bloominglabs.org/Special:FilePath/Vacuum_table04.jpg" alt="Completed vacuum forming table with heater sitting on top">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Vacuum_table03.jpg" alt="Vacuum box with heater supports">
+| <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Vacuum_table04.jpg" alt="Completed vacuum forming table with heater sitting on top">
 |}

@@ -22,14 +22,14 @@ Last but not least, some web browsers do not present/draw SVG's 100% correctly, 
 <br>
 * Single face shield file: 
 **Testing is still needed, but should take ~4.5 minutes at 30% speed for 1 face shield cut
-**"Full origami mask with retention tabs for high volume production": <img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-face_shield_v02.svg" alt="Shield_laser_template_v15-blabs-face_shield_v02.svg">
+**"Full origami mask with retention tabs for high volume production": <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Shield_laser_template_v15_blabs_face_shield_v02.svg" alt="Shield_laser_template_v15-blabs-face_shield_v02.svg">
 
 <br><br>
 * Batch of 10 headbands: 
 **Testing is still needed, but estimated at 21 minutes at 30% speed 
-**<img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg">
+**<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Shield_laser_template_v15_blabs_elastic_headband_v02_x10.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02-x10.svg">
 
 <br><br>
 * Single headband: 
 ** Testing is still needed, but estimated at 2 minutes at 30% speed 
-**<img src="https://www.bloominglabs.org/Special:FilePath/Shield_laser_template_v15-blabs-elastic_headband_v02.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02.svg">
+**<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Shield_laser_template_v15_blabs_elastic_headband_v02.svg" alt="Shield_laser_template_v15-blabs-elastic_headband_v02.svg">

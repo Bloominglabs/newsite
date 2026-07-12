@@ -18,7 +18,7 @@ In short, Space Rangers '''volunteer to make sure a public event goes smoothly''
 ## If a given item is blocked, provide a 1. safe, 2. clean, and 3. respectable workaround for guests until the item can be rectified.
 # During the event:
 ## Enthusiastically greet visitors and give complete tours of the space (or an overview of the venue, if off-site).
-## Ensure all newcomers have signed [https://www.bloominglabs.org/Special:FilePath/RELEASE_AND_WAIVER_OF_LIABILITY.pdf Liability Waivers] before they start wandering around the space and touching dangerous machinery. 
+## Ensure all newcomers have signed [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/RELEASE_AND_WAIVER_OF_LIABILITY.pdf Liability Waivers] before they start wandering around the space and touching dangerous machinery. 
 ## Be available to answer questions and provide guidance on how to use equipment.
 # After the event:
 ## Complete all [[Protocols]] relevant to rooms the event utilized.

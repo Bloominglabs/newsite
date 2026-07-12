@@ -4,8 +4,8 @@ My house does not have central air but instead has a couple of window AC units. 
 Initial build with an Arduino, SparkFun ProtoShield, Radio Shack IR receiver, IR emitter, and a cheap KLP style RF receiver (434MHz). The IR receiver was used to catch and decode signals from the remote using the IRemote library for Arduino. I was a little afraid of this process but the library made this the easiest part of the project. It automatically decodes several IR protocols and has a great set of example programs which did all the heavy lifting. Now all I have to do is go back and look at the library closer because I'd like to know how it works. But I'll settle for having a working project first ;-). I also use a library called RFDriver for the RF bits. Place the IR emitter somewhere in front of the AC unit and tape it down. 
 
 {|
-| <img src="https://www.bloominglabs.org/Special:FilePath/blah.jpg" alt="text">
-| <img src="https://www.bloominglabs.org/Special:FilePath/blah.jpg" alt="text">
+| [[Image:blah.jpg|none|thumb|200px|text]]
+| [[Image:blah.jpg|none|thumb|200px|text]]
 |}
 
 == IR Commands ==
@@ -29,7 +29,7 @@ If you are decoding the protocol for your own Friedrich AC remote, note that eac
 
 == Code ==
 I have a sketch written which compiles but I've not had time to actually run it, I'm sure it needs some debugging time yet.
-* My code (To Be Completed): <img src="https://www.bloominglabs.org/Special:FilePath/FriedrichACremote.pde" alt="FriedrichACremote.pde">
+* My code (To Be Completed): [[Image:FriedrichACremote.pde]]
 
 Libraries I used:
 * IRemote http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html

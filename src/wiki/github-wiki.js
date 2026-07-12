@@ -3,8 +3,11 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 
+const { buildMediaPathIndex } = require('./media-archive.js');
+
 const HOME_PAGE_TITLE = 'Main Page';
-const DEFAULT_MEDIA_BASE_URL = 'https://www.bloominglabs.org';
+const DEFAULT_WIKI_RAW_BASE = 'https://raw.githubusercontent.com/wiki/Bloominglabs/newsite';
+const BLOOMINGLABS_HOST_RE = /^https?:\/\/(?:www\.)?bloominglabs\.org/i;
 
 /**
  * GitHub wiki file names use hyphens instead of spaces. Keeping this separate
@@ -54,12 +57,44 @@ function escapeHtmlAttribute(value) {
 }
 
 /**
- * Bloominglabs still hosts the original MediaWiki uploads. Special:FilePath is a
- * stable redirect into the hashed /images/ tree without needing an API lookup.
+ * Resolve an archived media title or URL to a local media/ relative path.
  */
-function mediaFileUrl(fileName, mediaBaseUrl = DEFAULT_MEDIA_BASE_URL) {
-  const normalized = fileName.trim().replace(/ /g, '_');
-  return `${mediaBaseUrl.replace(/\/$/, '')}/Special:FilePath/${normalized}`;
+function resolveMediaLocalPath(fileNameOrUrl, mediaPathIndex) {
+  if (!mediaPathIndex || mediaPathIndex.size === 0) {
+    return null;
+  }
+
+  const raw = fileNameOrUrl.trim();
+  const candidates = [
+    raw,
+    raw.replace(/^File:/i, ''),
+    decodeURIComponent(raw.replace(/^File:/i, '')),
+    path.posix.basename(raw),
+  ];
+
+  for (const candidate of candidates) {
+    const key = candidate.toLowerCase();
+    if (mediaPathIndex.has(key)) {
+      return mediaPathIndex.get(key);
+    }
+    const underscored = candidate.replace(/ /g, '_').toLowerCase();
+    if (mediaPathIndex.has(underscored)) {
+      return mediaPathIndex.get(underscored);
+    }
+    const spaced = candidate.replace(/_/g, ' ').toLowerCase();
+    if (mediaPathIndex.has(spaced)) {
+      return mediaPathIndex.get(spaced);
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Public URL for a file stored inside the published GitHub wiki git repo.
+ */
+function wikiRawMediaUrl(localPath, wikiRawBase = DEFAULT_WIKI_RAW_BASE) {
+  return `${wikiRawBase.replace(/\/$/, '')}/${localPath.replace(/^\//, '')}`;
 }
 
 /**
@@ -83,8 +118,7 @@ function convertHtmlEmbeds(content) {
       return `[${ncpAction[1]} Donate with PayPal]`;
     }
 
-    const leftover = inner.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    return leftover;
+    return inner.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   });
 }
 
@@ -111,22 +145,89 @@ function captionFromFileOptions(options, fallback) {
 }
 
 /**
- * Rewrite File:/Image: links to absolute Bloominglabs media URLs. Images become
- * <img> tags (GitHub will not resolve local File: titles). PDFs become links.
+ * Rewrite File:/Image: links to archived media inside the wiki repo.
  */
-function convertFileLinks(content, mediaBaseUrl = DEFAULT_MEDIA_BASE_URL) {
+function convertFileLinks(
+  content,
+  { mediaPathIndex, wikiRawBase = DEFAULT_WIKI_RAW_BASE } = {}
+) {
   return content.replace(
     /\[\[:?\s*(?:File|Image)\s*:\s*([^|\]]+?)(?:\|([^\]]*))?\]\]/gi,
-    (_, rawName, options) => {
+    (match, rawName, options) => {
       const displayName = rawName.trim();
-      const url = mediaFileUrl(displayName, mediaBaseUrl);
+      const localPath = resolveMediaLocalPath(displayName, mediaPathIndex);
+
+      if (!localPath) {
+        return match;
+      }
+
+      const url = wikiRawMediaUrl(localPath, wikiRawBase);
       const caption = captionFromFileOptions(options, displayName);
 
-      if (/\.pdf$/i.test(displayName)) {
+      if (/\.pdf$/i.test(displayName) || /\.pdf$/i.test(localPath)) {
         return `[${url} ${caption}]`;
       }
 
       return `<img src="${url}" alt="${escapeHtmlAttribute(caption)}">`;
+    }
+  );
+}
+
+/**
+ * Rewrite absolute bloominglabs.org media URLs to archived wiki media.
+ */
+function convertBloominglabsMediaUrls(
+  content,
+  { mediaPathIndex, wikiRawBase = DEFAULT_WIKI_RAW_BASE } = {}
+) {
+  return content.replace(
+    /https?:\/\/(?:www\.)?bloominglabs\.org\/(?:Special:FilePath\/([^\s"'<>\]]+)|images\/[0-9a-f]\/[0-9a-f]{2}\/([^\s"'<>\]]+))/gi,
+    (match, filePathName, hashedName) => {
+      const name = decodeURIComponent(filePathName || hashedName || '');
+      const localPath =
+        resolveMediaLocalPath(name, mediaPathIndex) ||
+        resolveMediaLocalPath(match, mediaPathIndex);
+
+      if (!localPath) {
+        return match;
+      }
+
+      return wikiRawMediaUrl(localPath, wikiRawBase);
+    }
+  );
+}
+
+/**
+ * Turn bloominglabs.org article URLs into GitHub wiki links when archived.
+ */
+function convertBloominglabsPageUrls(content, titleMap) {
+  return content.replace(
+    /\[(https?:\/\/(?:www\.)?bloominglabs\.org\/(?:index\.php\/|wiki\/)?([^\]\s|#]+)(?:#[^\]\s]*)?)(?:\s+([^\]]+))?\]/gi,
+    (match, url, rawSlug, label) => {
+      if (/^(?:Special:|File:|Image:|api\.php)/i.test(rawSlug)) {
+        return match;
+      }
+
+      const title = decodeURIComponent(rawSlug.replace(/_/g, ' ')).replace(/\/$/, '');
+      const pageName = titleMap.get(normalizeWikiTitle(title));
+
+      if (!pageName) {
+        return match;
+      }
+
+      const text = label || title;
+      return `[[${pageName}|${text}]]`;
+    }
+  ).replace(
+    /https?:\/\/(?:www\.)?bloominglabs\.org\/(?:index\.php\/|wiki\/)?([A-Za-z0-9][^\s"'<>\]|#]*)/gi,
+    (match, rawSlug) => {
+      if (/^(?:Special:|File:|Image:|api\.php|images\/|mailman\/)/i.test(rawSlug)) {
+        return match;
+      }
+
+      const title = decodeURIComponent(rawSlug.replace(/_/g, ' ')).replace(/\/$/, '');
+      const pageName = titleMap.get(normalizeWikiTitle(title));
+      return pageName ? `[[${pageName}]]` : match;
     }
   );
 }
@@ -187,8 +288,7 @@ function resolveWikiPageName(title, titleMap) {
 }
 
 /**
- * Rewrite internal wikilinks to GitHub wiki page names while leaving already
- * converted media and external material alone.
+ * Rewrite internal wikilinks to GitHub wiki page names.
  */
 function convertWikiLinks(content, titleMap) {
   return content.replace(
@@ -274,32 +374,77 @@ function buildTitleMap(recordsByTitle) {
 /**
  * Convert one archived page record into GitHub wiki wikitext ready to write.
  */
-function convertArchivedPage(record, { pagesByTitle, titleMap, mediaBaseUrl = DEFAULT_MEDIA_BASE_URL }) {
+function convertArchivedPage(
+  record,
+  {
+    pagesByTitle,
+    titleMap,
+    mediaPathIndex = new Map(),
+    wikiRawBase = DEFAULT_WIKI_RAW_BASE,
+  }
+) {
   let content = record.revision?.content ?? '';
   content = expandTransclusions(content, pagesByTitle);
   content = convertHtmlEmbeds(content);
-  content = convertFileLinks(content, mediaBaseUrl);
+  content = convertFileLinks(content, { mediaPathIndex, wikiRawBase });
+  content = convertBloominglabsMediaUrls(content, { mediaPathIndex, wikiRawBase });
   content = convertBracketedExternalUrls(content);
   content = stripCategoryLinks(content);
   content = convertUserLinks(content);
   content = convertPresentationHtml(content);
   content = convertWikiLinks(content, titleMap);
+  content = convertBloominglabsPageUrls(content, titleMap);
   return content.trim();
+}
+
+/**
+ * Copy archived media binaries into the GitHub wiki export tree.
+ */
+async function copyArchivedMedia(archiveRoot, outputRoot, mediaManifest) {
+  const copied = [];
+
+  for (const entry of mediaManifest?.files || []) {
+    const source = path.join(archiveRoot, entry.localPath);
+    const destination = path.join(outputRoot, entry.localPath);
+    await fs.mkdir(path.dirname(destination), { recursive: true });
+    await fs.copyFile(source, destination);
+    copied.push(entry.localPath);
+  }
+
+  return copied;
 }
 
 /**
  * Generate the `wiki/` tree from a checked-in archive snapshot. The archive
  * remains the source of truth; this export is a publishable GitHub wiki view.
  */
-async function writeGitHubWikiTree({ archiveRoot, outputRoot, mediaBaseUrl = DEFAULT_MEDIA_BASE_URL }) {
+async function writeGitHubWikiTree({
+  archiveRoot,
+  outputRoot,
+  wikiRawBase = DEFAULT_WIKI_RAW_BASE,
+}) {
   const manifest = JSON.parse(await fs.readFile(path.join(archiveRoot, 'manifest.json'), 'utf8'));
   const { pagesByTitle, recordsByTitle } = await loadArchivedPages(archiveRoot);
   const titleMap = buildTitleMap(recordsByTitle);
 
+  let mediaManifest = { files: [] };
+  try {
+    mediaManifest = JSON.parse(
+      await fs.readFile(path.join(archiveRoot, 'media-manifest.json'), 'utf8')
+    );
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      throw error;
+    }
+  }
+
+  const mediaPathIndex = buildMediaPathIndex(mediaManifest);
+
   await fs.rm(outputRoot, { recursive: true, force: true });
   await fs.mkdir(outputRoot, { recursive: true });
 
-  const writtenFiles = new Set();
+  const mediaFiles = await copyArchivedMedia(archiveRoot, outputRoot, mediaManifest);
+  const writtenFiles = new Set(mediaFiles);
 
   for (const entry of manifest.pages) {
     const record = recordsByTitle.get(normalizeWikiTitle(entry.title));
@@ -308,7 +453,12 @@ async function writeGitHubWikiTree({ archiveRoot, outputRoot, mediaBaseUrl = DEF
       throw new Error(`Manifest entry "${entry.title}" has no archived page record`);
     }
 
-    const converted = convertArchivedPage(record, { pagesByTitle, titleMap, mediaBaseUrl });
+    const converted = convertArchivedPage(record, {
+      pagesByTitle,
+      titleMap,
+      mediaPathIndex,
+      wikiRawBase,
+    });
     const pageName =
       normalizeWikiTitle(record.title) === normalizeWikiTitle(HOME_PAGE_TITLE)
         ? 'Home'
@@ -322,6 +472,7 @@ async function writeGitHubWikiTree({ archiveRoot, outputRoot, mediaBaseUrl = DEF
   return {
     pageCount: manifest.pages.length,
     fileCount: writtenFiles.size,
+    mediaCount: mediaFiles.length,
     outputRoot,
   };
 }
@@ -330,9 +481,12 @@ module.exports = {
   titleToWikiFileStem,
   normalizeWikiTitle,
   extractTranscludableContent,
-  mediaFileUrl,
+  wikiRawMediaUrl,
+  resolveMediaLocalPath,
   convertHtmlEmbeds,
   convertFileLinks,
+  convertBloominglabsMediaUrls,
+  convertBloominglabsPageUrls,
   convertBracketedExternalUrls,
   stripCategoryLinks,
   convertUserLinks,
@@ -341,4 +495,6 @@ module.exports = {
   expandTransclusions,
   convertArchivedPage,
   writeGitHubWikiTree,
+  DEFAULT_WIKI_RAW_BASE,
+  BLOOMINGLABS_HOST_RE,
 };

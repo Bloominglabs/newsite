@@ -1,7 +1,7 @@
 We've had two primary business card designs:
 
 Business card aspect ratio:
-<img src="https://www.bloominglabs.org/Special:FilePath/bloominglabs-card-single-2018.jpg" alt="bloominglabs-card-single-2018.jpg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Bloominglabs_card_single_2018.jpg" alt="bloominglabs-card-single-2018.jpg">
 
 Square:
-<img src="https://www.bloominglabs.org/Special:FilePath/2018_BusCard_1e.svg" alt="2018_BusCard_1e.svg">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2018_BusCard_1e.svg" alt="2018_BusCard_1e.svg">

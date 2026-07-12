@@ -14,7 +14,7 @@ async function main() {
   const summary = await writeGitHubWikiTree({ archiveRoot, outputRoot });
 
   process.stdout.write(
-    `Generated ${summary.fileCount} GitHub wiki files from ${summary.pageCount} archived pages in ${outputRoot}\n`
+    `Generated ${summary.fileCount} GitHub wiki files (${summary.mediaCount} media) from ${summary.pageCount} archived pages in ${outputRoot}\n`
   );
 }
 

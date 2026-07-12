@@ -1,4 +1,4 @@
 Here are documents for the ET-3100: 
 
-* Manual: [https://www.bloominglabs.org/Special:FilePath/Et-3100-manual.pdf Et-3100-manual.pdf]
-* Schematic: [https://www.bloominglabs.org/Special:FilePath/Et-3100-schematic.pdf Et-3100-schematic.pdf]
+* Manual: [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Et_3100_manual.pdf Et-3100-manual.pdf]
+* Schematic: [https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/Et_3100_schematic.pdf Et-3100-schematic.pdf]

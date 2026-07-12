@@ -1,0 +1,131 @@
+```yaml
+title: Bloominglabs Annual Public Meeting  
+author: Kyle Dirrim  
+date: 2025-03-01  
+```
+
+Call to order @ 1000
+Quorom of voting members: Achieved
+Roll:
+- Kyle
+- Apple
+- Calob
+- Dosman
+- Kevin
+- Jimmy
+- Matt
+- Pete
+- Adam (nonvoting member)
+- LaserDan
+- Adam Nuwer
+- Joe
+- Jaxsom
+- Stora
+- Jennett
+
+Old Business:
+A. [Annual Report](https://docs.google.com/document/d/1brMmIRxvNMr-kL8PyKCVjM5uwHY1IwDJSevI1BqiGk0/edit?usp=sharing)
+	1. no change in Board membership
+	2. no change in $20 & $40 dues members
+	3. Laser minutes and Laser Materials not made distinct, no sales of laser materials
+		a. tracked at level of donation box
+	4. Amazon Smile is no more
+		a. Kroger Community Rewards(FREE MONEY) is
+	5. Approx. 3k less income
+	6. Hardware donations are not tracked unless a receipt is asked for
+	7. -$651 for the year
+	8. Makevention
+	9. No hardware donation receipts
+	10. year summary
+		a. digital assets now hosted on Blabs controlled services
+		b. Kroger community rewards(FREE MONEY) began
+		c. water intursion issues fixed
+		d. bathroom breaker fixed
+		e. fire extuingshers recertified
+		f. no fires
+		g. Bridgeport mill donated
+		h. PocketNC recieved
+		i. woodshop cleat system
+		j. arcade cabinet rehabilitated
+		k. bike rack installed
+		l. 3rd 3d printer acquired, FabLab established
+		m. Adam Nuwer has plans for the XCarve
+	11. No FISA Warrents
+B. Report accepted
+C. New Board Member Nominations
+	1. President - Calob
+	2. Treasurer - Jimmy
+	3. Secretary - Kyle
+	4. At Large - Kevin
+	5. At Large - Adam Nuwer
+D. New Board Election
+	1. voted as whole slate
+	2. Aye - 11
+	3. Nays - 0
+	4. Abstentions - 0
+
+New Business
+
+A. Makevention
+	1. Call for volunteers
+		a. Most work carries over from last year
+	2. Advanced media coverage to solicit more sponsers/vendors
+		b. make boilerplate appeal to distribute
+	3. September 27, 2025 - 1000 to 1600
+	4. ACTION ITEM-solicit volunteers
+	5. ACTION ITEM-advertising
+	6. Meeting - March 12, 2025 1800
+B. Workshops at low ebb
+	1. Events still happening
+	2. Workshop Coordinater possibility
+		a. no money in budget
+	3. ACTION ITEM-Solicit and encourage workshops from memberships
+		a. Holding workshops page on wiki
+		b. Board hand-holding a plus
+C. 5 minute recess
+	1. Next board meeting March 4, 2025 @ 1900
+D. Kroger Community Rewards means FREE MONEY for Bloominglabs!
+E. Spring Sustainability challenge
+	1. Chance to win money for bloominglabs
+F. 2025 Social Media Campaign (Like, Subscribe, Follow, Review, etc)
+	1. accounts were inactive since 2022
+	2. Facebook.com/Bloominglabs
+		a. ACTION ITEM-more reviews would increase our visibility
+	3. please run posts by the board in slack to help message focus
+
+Discussion
+
+A. Pictures of meeting: https://www.amazon.com/photos/shared/BcHTee-nR92tNe4qmthL1A.YE7nQq0-3uBqxSxudisuzV
+B. Reorganize utility closet
+	1. assists in woodshop organization
+	2. look into taking out cabinets
+C. Longer lease
+	1. currently 3 year
+	2. ends in 2026
+	3. proposed 10 year lease agreement
+	4. if current landlord dies, what happens to current lease w/r/t new owner?
+	5. If we move at end of current lease, unknown responibilities regarding condition
+	6. Clarify building networking responsibilities
+		a. current isp connection shared with rest of building
+		b. 1/2 bill taken off rent
+		c. future report by Kevin
+		d. potentially disentanglement from Mark
+	7. nominate point of contact for lease negotiations
+		a. nominee - Jimmy
+		b. aye - 9
+		c. nay - 0
+		d. abstained - 1
+	8. ACTION ITEM Parking lot
+		a. moved dumpster to help potholes
+		b. hasn't helped
+	9. ACTION ITEM outdoor signage
+		a. install sign on crossfit building
+	10. Quomments? write an email to the board to be considered
+D. Bloominglabs is always accepting donations, especially from wealthy benefactors
+	1. and you can put bloominglabs in your will!
+E. Tools lent to bloominglabs
+	1. as formal as neccasary
+		a. can write up an agreement if wanted
+	2. insurance doesn't cover possessions, just building & liability
+
+Adjourned at 1236

@@ -1,4 +1,4 @@
-<img src="https://www.bloominglabs.org/Special:FilePath/PrintrBot.jpg" alt="PrintrBot its cabinet">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/PrintrBot.jpg" alt="PrintrBot its cabinet">
 Bloominglabs has a PrintrBot Simple v1 (1310) [[3D-Printers|3D printer]], controlled with a [[Sunverge| donated ag150]].
 
 == Official Documentation ==

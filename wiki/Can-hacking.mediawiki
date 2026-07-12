@@ -137,8 +137,8 @@ DXSIR is a wheelchair with two driver wheels
 Perhaps the ''fastest'' way to get started with the CAN Bus is with an Arduino Shield. There's more than one way to lay out a board with the SPI based MCP2551 & MCP2515 chips.
 Access to a Microchip CAN BUS Analyzer tool is nice, but definitely not necessary. Each of these products has a different [[media:Db9-types.png|pinout on the DB9 port]], but that's not really necessary anyway. If you want to connect to your car, then maybe you will care. We are interested in wheelchair hacking, so the shield with the screw terminals may win right off the bat.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_20130408_234148.jpg" alt="The ''easiest'' way may be using the shield sold by sparkfun, which includes 2 LEDs, a little joystick, and some other goodies.">
-<img src="https://www.bloominglabs.org/Special:FilePath/IMG_20130410_103821.jpg" alt="The ''cheapest'' way is with the seeed studio shield, which has a nice screw terminal for the CAN bus physical layer connection.">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_20130408_234148.jpg" alt="The ''easiest'' way may be using the shield sold by sparkfun, which includes 2 LEDs, a little joystick, and some other goodies.">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/IMG_20130410_103821.jpg" alt="The ''cheapest'' way is with the seeed studio shield, which has a nice screw terminal for the CAN bus physical layer connection.">
 ;[[media:canjoy.pde|Code to generate and send CAN messages]]
 : Happens to use the joystick on the sparkfun shield
 ;[[media:canblink.pde|Code to receive CAN messages and display them over serial]]

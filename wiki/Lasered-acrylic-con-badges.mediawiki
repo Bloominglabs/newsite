@@ -1,6 +1,6 @@
 For Derbycon 4 I wanted to try to make some acrylic con badges for my lock picking village volunteers. I had yet to do any real vector based projects with our laser and this was a good excuse to learn. I started by working through a couple Inkscape tutorials and then looked up some specific help on bitmap conversions. I added holders for two batteries with LED's attached to make the badges glow.
 
-<img src="https://www.bloominglabs.org/Special:FilePath/2014_derbycon_acrylic_badges.jpg" alt="Laser cut acrylic badges">
+<img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2014_derbycon_acrylic_badges.jpg" alt="Laser cut acrylic badges">
 
 The battery holes fit CR3032 batteries and standard size LED's. 
 
@@ -10,7 +10,7 @@ I got lucky when I was making the battery holes. I just measured the batteries w
 == Downloads ==
 Here is my .svg file for the badges. Some browsers seem to not render the .svg format properly, it does render properly in Inkscape however. Note that you will need to manually adjust your lasers speed and power settings based on color - black and blue should be at 60% speed 100% power for 1/4" acrylic, and red should be at 14% speed and 100% power to cut completely through 1/4" acrylic.
 
- <img src="https://www.bloominglabs.org/Special:FilePath/2014_fools-derbycon_badge.svg" alt="2014_fools-derbycon_badge.svg">
+ <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2014_fools_derbycon_badge.svg" alt="2014_fools-derbycon_badge.svg">
 
 This is another badge I made for another group of friends that same weekend.
- <img src="https://www.bloominglabs.org/Special:FilePath/2014_infonomicon-derbycon_badge.svg" alt="2014_infonomicon-derbycon_badge.svg">
+ <img src="https://raw.githubusercontent.com/wiki/Bloominglabs/newsite/media/2014_infonomicon_derbycon_badge.svg" alt="2014_infonomicon-derbycon_badge.svg">
